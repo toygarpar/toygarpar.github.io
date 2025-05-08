@@ -1,0 +1,50 @@
+## Kevser Suresi 108-15
+
+( Bolluk, Bereket, Zenginlik, Servet)
+
+SEVGİ VE MERHAMETİ SONSUZ ALLAH’IN ADIYLA
+
+1. **Sana bolluk pınarını verdik**.
+
+Kevser, bolluğun en bereketlisi, iyiliğin en çoğu demek. Allah’ın Sevgili Elçisi’ne bahşettiği nimetlerin en büyüğü, en cömerti. Müdessir Suresi’nde “mal, mülk, zenginlik peşinde olma” diye buyuran Allah, burada da “biz sana bol bol verdik, nimetlerimizi sunduk” diyerek O’na lütuflarını hatırlatıyor.
+
+Ama iş burada bitmiyor. Bu nimetler sadece sahip olunacak, keyfi sürülecek şeyler değil. Allah ve din, hiçbir zaman kazanç kapısı, bir meta olarak görülmemeli. Din, ne ticaretin aracı, ne de zenginleşmenin yolu. Allah’ın lütfettiği sağlık, esenlik, akıl ve fikir, alın teriyle harmanlanarak hayra, güzel işlere dönüştürülmeli. Din, bir yaşam biçimi olmalı; hak ve hidayet, günlük hayatta yoldaşımız, her adımda rehberimiz olmalı.
+
+Dürüst bir insan, Allah’ın kendisine sunduğu bu nimetleri, inançla, sevgiyle, sabırla yoğurmalı. Din, bezirgan ellerde bozulmadan, haysiyetle taşınmalı. Çünkü İslam, sadece inanılan bir öğreti değil; her an yaşanan, her nefeste hissedilen bir tavır halidir, hayat yolunda yürüyenlere.
+
+2. **O halde Salat ederek ve Fedakarlık içinde/zorluklara direnerek yüzünü Rabbine çevir/Rabbine yönel.**
+
+Salat, sadece ibadet değil; aynı zamanda dua, yardımlaşma ve dayanışmanın da simgesidir. Bu dünyadaki nimetleri veren Allah’tır ve biz, yalnızca O’na tapmalı, O’na şükretmeli, O’nun için fedakârlık etmeliyiz.
+
+“Besili kurbanlık sığırlar ve develer, Allah’ın işaretlerinden biri. Hac yolculuğunun birer nişanı. Onlarda sizin için hayır var. Kesmeden önce, Allah’ın adını anın, ve yere düştüklerinde, canları çıktığında etlerinden yiyin. Açlıkla mücadele eden, dilenmeyen kanaatkârlarla, istemek zorunda kalan fakirlerle paylaşın. Allah, bu hayvanları sizin hizmetinize verdi ki, şükredesiniz,” diyor ayette (Hac 36).
+
+Kurban ritüeli, görünürde basit bir kesim değil, derin anlamlarla dolu. Kestiğiniz et açları doyurur, kurban ise kalbimizdeki fedakârlığın, Allah’a yakın olmanın, insanlığa hizmet etmenin bir simgesidir. Gönülden verilen bir parça, ruhun huzurudur, bir ihtiyacı olana el uzatmaktır.
+
+“Asla kurbanların etleri ve kanları Allah’a ulaşmayacaktır. Fakat ona sadece takvâ esaslarını-Kur’ân esaslarını benimseyerek hayata geçirmeniz, şirkten, insan kurban etme, katil ve kan dökme gibi büyük günahlardan korunmanız, kulluk ve sorumluluk şuuruyla, haklarına ve özgürlüklerine sahip çıkarak şahsiyetli davranma, dinî ve sosyal görevlerinin bilincinde olma gayretiniz ulaşır. Onları, bu şekilde sizin faydalanmanız için emrine boyun eğdirdi ki, size Kur’ân’da ve Rasulünün sünnetinde öğrettiği şekilde, şer’î mükellefiyetleri yerine getirerek Allah’ı sık sık tekbir ile yüceltesiniz. İyiliği, iyi niyetleri, dinin, ahlâkın ve kamu vicdanının emirlerini, devamlı davranışlarına, ilişkilerine, görevlerine, hayatlarına yansıtan, samimiyetle ibadet eden, aktif olarak iyiliğe, iyi uygulamaya, iyileştirmeye örnek olan, işlerinde mükemmellik, dürüstlük ve başarı için dikkat harcayan, hayırlı icraatlar, kalıcı hizmetler yapan müslümanlara, dünyada yardım, zafer ve devlet, âhirette cennet müjdesini ver.”: Hac 37
+
+3. **Senden nefret eden için , onlar Gelecek Ümidinden koparılacak.**
+
+Nefret ve kin, bu dünyanın geçici hayatında asla yapıcı olamaz, tersine yıkıcıdır. Bu iki duygu, hem bu dünyada hem de öbür dünyada geleceği olanların değil, geleceğini yitirenlerin yol arkadaşıdır. Kendi kendilerini karanlığa mahkûm edenler, nefretin ve kinin peşine düşenlerdir.
+
+Ebu Cehil ve onun putperest dostları, Peygamberimizin iki küçük oğlunun ölümünü alaya alarak, kinlerini açıktan açığa kusuyorlardı. O kara sözler, o zehirli diller, Peygamberimize saldırırken kendilerini zehirlediklerinin farkında değildiler. Peki, birkaç yıl sonra ne oldu? İlahi Nur gökleri delip geçerken, ışığı her zamankinden daha parlak bir şekilde parıldarken, o kinle dolu insanlar neredeydi?
+
+Onlar, işte bu dünyada da, öbür dünyada da tüm umutlarından koparılanlardı. Kendi kinlerinde boğulanlardı.
+
+“Ey iman edenler, Kur’ân’ı bilen ve tebliğ eden, çözüm getiren, güvenilir örnek önderler, adâletli konuşan şahitler olarak Allah adına sosyal, siyasî, ekonomik ve idarî düzeni yaşatanlar, ayakta tutanlar, sosyal adâleti, sosyal güvenliği sağlayanlar, refah payını artırarak dengeli dağıtanlar olun.  
+Bir kavme olan kininiz sizi adâletten ayrılmaya sevketmesin. Adâletli olun, çünkü adâlet takvâ esaslarını-Kur’ân esaslarını hayata geçirmenize daha yakındır. Allah’a sığının, emirlerine yapışın, günahlardan arınıp, azaptan korunun, kulluk ve sorumluluk şuuruyla, haklarınıza ve özgürlüklerinize sahip çıkarak şahsiyetli davranın, dinî ve sosyal görevlerinizin bilincinde olun. Allah işlediğiniz gizli-açık bütün amellerden haberdardır.” : Maide 8
+
+Siyasi, dini ve sosyal kökleri asla yeşermeyecek olanlar, Maide 8’de anlatılmıştır. Hakkı tutup doğru olmayı emreden bu ayete sırt çevirenler, ne bu dünyada ne de ahirette huzur bulacaklardır.
+
+Kimileri kim olduğunu över, malına, gücüne ve nüfuzuna güvenir. Ama milyarların, bir yetimin ardında nasıl yürüdüğünü göremeyenler, vakti geldiğinde toprak olur, soyları kurur gider. Para ve güç, sonsuz değildir; sonsuz olan, adalettir, merhamettir.
+
+Allah dilediğine bolluk yağdırır, dilediğinden ise keser. Rızık O’nun elindedir. Bu dünyada da, ahirette de adaletin sahibi O’dur. Malına, mülküne güvenenlerin sonu, yetime el uzatandan, yardımını esirgemeyenden tabii ki farklı olacaktır.
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjO_-RqGj46g4C6ZUkMDc8EcSIpwU0BfRWzKDjArZ7yhzwOJ1fG8m_kGaF-fV5sewhVrQHEompq7sP-9phEB5FZs3rGcEa2q_UfP2HS99UgRQ2-G65-Rf2WmL11SA0CupNjgxbfibCRjEOfCwh6cqKii_lekW2Q74C_6xtCilI7CDrnSG2XGjQW5BQiL6B3/s320/div9.png)](https://www.blogger.com/blog/post/edit/5724704568349331251/8618238419459625716#)
+
+Kauthar, or Abundance. 
+
+In the name of Allah, Most Gracious, Most Merciful.
+
+1. To thee have We granted the Fount (of Abundance).
+2. Therefore to thy Lord turn in Prayer and Sacrifice.
+3. For he who hateth thee, –he will be cut off (from Future Hope).

@@ -1,0 +1,276 @@
+
+## Maun Suresi 107-17
+
+( Komşu Yardımlaşması, Yardım Etmek, Temel ve Zaruri İhtiyaçlar) diğer namları Ereeyte Suresi, Din Suresi, Tekzib Suresi, Yetim Suresi
+
+SEVGİ VE MERHAMETİ SONSUZ ALLAH’IN ADIYLA
+
+1. **Gelecek Hükmü/Dini yalanlayanı görüyor musun?**
+
+Dini yalanlayanlar, yalnızca inançlarını inkâr edenler değildir. Asıl mesele, inancı yaşamında gösterip de esaslarını çiğneyenlerdir. Bunlar, dünyadaki sorumluluklarından kaçan, adaleti hiçe sayan, yetimi gözetmeyen, yoksulu küçümseyen ve yalnızca kendini düşünen kibirli insanlardır.
+
+Bu kişiler, görünüşte tüm dini ritüelleri yerine getiren, namaz kılan, dualar eden, ama içlerinde adaletsizlikle beslenenlerdir. Onlar, kendi çıkarları için başkalarının hakkını gasp eden, nimetlerini kimseyle paylaşmayan, Allah’ın hükmünü ve adaletini göz ardı edenlerdir.
+
+İnsanın dini yalanlaması, sadece sözde değil, amellerinde de olur. Yetimin hakkını çiğneyen, açın elini geri çeviren, dünyanın adaletini bozanlar; onlar, asıl dini yalanlayanlardır.
+
+“Andolsun ki, biz sana salatta tekrar tekrar okunan yedi âyeti, Fâtiha’yı, birbirini takviye eden yedi büyük sûreyi, tekrarlanarak anlatılan yedi konuyu, yedi şekilde ifade edilen âyetleri, yedi büyük lütfu ve yüce, azametli Kur’ân’ı verdik.” : Hicr 87
+
+Maun Suresi, Fatiha’dan sonraki 7 ayetli diğer suredir.
+
+“Allah sözün en güzelini, doğrusunu, birbirine benzeyen, biri diğerini te’yit eden, tefsir eden, coşkunluk içinde tekrar tekrar okunan, uyumlu, âhenkli bir kitap olarak Kur’ân’ı bölüm bölüm indirdi. Kur’an okunurken, saygı duyarak Rablerinden korkanların, tüyleri ürperir. Sonra nefisleri, kalpleri, gönülleri, akılları Allah’ı zikre, Allah’a şükre yatkın hale gelir, zikre, şükre dalar. İşte bu kitap, Allah’ın peygamberiyle size ulaştırdığı hidayet rehberidir. Sünnetine, düzeninin yasalarına uygun olarak, iradesinin tecellisine tâbi, akıllı ve sorumlu varlıkları bununla doğru yola iletme lütfunda bulunur. Kimin de hak yoldan uzaklaşmasına, dalâleti, bozuk düzeni, helâki tercihine özgürlük tanırsa onu kimse doğru yola iletemez.” : Zümer 23
+
+Tıpkı Fatiha suresi gibi, Maun suresi de ‘Seb’an Mine’l Mesani’dir. Bu iki yedili, insan hayatının iyiye, güzele, barışa ve mutluluğa nasıl ulaşacağını gösteren birer rehberdir.
+
+Maun suresi, riyaya ve kamu malını talan edenlere karşı en büyük darbeyi indirir. İlk ayet, kamu hakkını gasbedenleri, dışarıdan bakıldığında namaz kılan, dua eden, ibadet eden biri gibi görünseler bile, Kur’an nazarında imansız, inançsız ilan eder.
+
+Bu surede, ibadetin sadece şekille sınırlı kalmadığını, asıl olanın vicdan ve adalet olduğunu derin bir sesle anlatır. Kendi çıkarları uğruna halkın hakkına el uzatan, yoksulu gözetmeyen, kibirle yaşayan insanları hedef alır. Maun, hakikati gizleyen ve dini yalnızca bir gösteriş aracı haline getirenlere karşı inen güçlü bir tokattır.
+
+2. **İşte, yetimi sert bir tavırla kovan/iteleyen/geri çeviren/hor gören/itip kakan insan böyledir.**
+
+Maun, insanın temel ve zaruri ihtiyaçlarını simgeler. Toplumda yoksul, aç ve muhtaç insanlar dururken, elinde ihtiyaç fazlası mal bulunduranları Kur’an sert bir dille eleştirir. Gerçek inananlar bu sorumluluğun farkındadır; ancak dini kendi çıkarı için kullanan riyakarlar, bu gerçeği anlamak istemezler.
+
+Kur’an, vermeyi, paylaşmayı ve ihtiyaç sahiplerine yardım etmeyi emreder. Yardım ve dilemek sadece Allah’a yöneltilir; “Ancak sana ibadet eder ve yalnız senden yardım isteriz” dememizin özeti budur.
+
+Kur’an, kapitalizmin panzehiridir. Kapitalizm insanlıkla birlikte var oldu ve hep olacak, çünkü insanın hırsı ve arzuları bunu tetikler. Ancak bu, kapitalizmin dizginlenemez olduğu anlamına gelmez. Aşırı hırs, kibir, açgözlülük insanın tabiatında vardır; ama sosyal politikalarla, güvenlik ağlarıyla bu tehlikeler frenlenebilir. Paylaşımcı bir toplumun, adil bir devlet aracılığıyla orta yolu bulması mümkündür. Kur’an da sosyal adalet ve paylaşım kavramlarını güçlü bir şekilde vurgular.
+
+İnsanoğlu var oldukça hırs, kibir ve açgözlülük de sürecek. İnsan tabiatı zayıftır, bu yüzden haksız kazanç ve yolsuzluğa meyleder. Kendi çıkarı için başkalarının haklarını çiğner, adaleti hiçe sayar. Kapitalizmin getirdiği en büyük tehlike de burada yatar: Adaletin ve eşitliğin yozlaşması. Bu yozlaşma, toplumun taşlarını yerinden oynatır ve insanı her açıdan yoksullaştırır.
+
+Gurur, haset, oburluk, açgözlülük, şehvet, öfke, tembellik… Bu yedi büyük günahı unutmamak gerekir. Paylaşımcı bir toplum inşa etmek, adaleti tesis etmek için erdemin ışığında ortak aklı kullanarak sosyal politikalar geliştirmeliyiz. Kontrol mekanizmaları olmadan bir sistemin düzgün işlemesi imkansızdır.
+
+Toplum bireylerden oluşur ve Kur’an bireysel sorumluluğu sık sık hatırlatır. Çünkü her şey bireyde başlar. Birey, toplumun refahı, adaleti ve huzuru için çalışmalıdır. Eğer birey hem kendine hem de topluma fayda sağlamayı amaçlarsa, toplum ve devlet dengede olacak, herkes daha mutlu bir hayat sürecektir.
+
+Öksüzü hor görmeyin, yoksula sırt çevirmeyin. Eğer bencil çıkarlarınızdan başka bir şey düşünmüyorsanız, bu sure size açık bir uyarı, bir tehdit niteliğindedir.
+
+Kur’an’ın önerdiği devlet ve ekonomi sistemi, bireylerin temsil edildiği, sosyalist özellikler taşıyan karma bir yapıdır denebilir. Ancak bu yorumlara açıktır; Kur’an’ı derinlemesine idrak ederek okumak ve kendi sonuçlarınızı çıkarmak sizin görevinizdir.
+
+3. **Yoksulların/Muhtaçların beslenmesini de teşvik etmez.**
+
+Yoksulları, kendi benliğinden, kendi rahatından feragat ederek doyuran bir sevgi, erdemin en yüce halidir. Bu, merhametin ve insanlığın en asil biçimidir. Ancak, öyle insanlar vardır ki, başkalarının merhametini ya da nezaketini küçümser, acımasızlıkla başlarını dik tutarlar. Onların kalbi taştan, ruhları kaskatıdır; böylesi bir erdeme ulaşmak onların boyunu aşar.
+
+Kur’an, yetimi itilip kakmayı, ezmeyi, hor görmeyi dinin inkarı olarak sayar. Bir insan yetimin hakkını göz ardı ediyorsa, Kur’an nazarında o kişi sadece yetimi değil, inancını da kaybetmiştir. Yetime el uzatmayan, yoksulu gözetmeyen, vicdanını susturanlar, inançsızdır. Çünkü dinin özü, merhamet ve adalettir. Merhameti olmayanın, imanı da yoktur.
+
+“Şunda kuşkunuz olmasın ki, zulme başvurarak yetimlerin mallarını yiyenler karınlarına doldurmak üzere bir ateş yemekten başka bir şey yapmazlar. Ve onlar yakın bir zamanda, korkunç acdar veren bir azaba dalacaklardır.” : Nisa 10
+
+İniş sırasıyla 32. sure olan Secde suresi, cehennemin kimleri beklediğini gösterirken parmağını, mal ve parasıyla şımarıp herkesi küçük gören küstah kibirli nankör melunlara uzatmaktadır :
+
+“Arkadan çekiştiren/kaş göz işareti yapıp alay eden her kişiye lanet olsun! O ki, mal biriktirdi, onu saydı da saydı. Sanır ki, malı sonsuzlaştıracaktır kendisini. Hayır, iş, sandığı gibi değil! Yemin olsun ki fırlatılıp atılacaktır o kırıp geçirene, yalayıp yutana/Hutame’ye. Hutame’nin ne olduğunu sana öğreten nedir? Allah’ın, tutuşturulmuş ateşidir o, ki, tırmanıp işler yüreklere. O, onların üzerine kilitlenecektir. Uzatılmış sütunlar arasında.”
+
+“Paranın kulu-kölesi olanlar yüzükoyun yere çakılıp gebersin!” Bunu Peygamberimizin söylediği iddia edilir. Kişisel olarak Peygamberimizin sünnetini sadece Kur’an olarak gördüğümden bu sözün doğruluğuna dair bir yorumum yok. Ama demişse de ne güzel demiş!!!
+
+““Allah katında, bundan daha ağır cezaya uğrayacak olanı size haber vereyim mi? Allah’ın lânetlediği ve gazap ettiği, aralarından bazılarını maymunlar, domuzlar ve putlaştırılmış, zalim, azgın diktatörlere, idarelere, şeytanî güçlere, tağuta boyun eğip uşaklık edenler haline getirdiği kimseler, işte onlar yeri en kötü olanlar, doğru, dengeli bir yoldan, İslâmî hayat tarzından en uzak başlarına buyruk yaşayarak, dalâleti, bozuk düzeni, helâki tercih edenlerdir.” de.” : Maide 60
+
+“Size geldiklerinde ‘ İnandık!’ derler. Gerçekte ise küfürle girmişlerdi, yine onunla çıkmışlardır. Neler saklıyor olduklarını Allah daha iyi bilir. Onların birçoğunun günahta, düşmanlıkta, haram yemede yarıştıklarını görürsün. Ne kötüdür o yapmakta olduktarı! Ruhbanları ve hahamları onları, günah oluşturan sözlerinden, haram yemekten alıkoysalardı olmaz mıydı? Ne kötüdür onların sınaat/teknoloji olarak üretmekte olduktarı. Yahudiler dedi ki, ‘Allah’ın eli gulfile bulaşmıştır/ bağlıdır!’ O elleri bağlanasıcaların kendi elleri gulfile bulaşmıştır! Ve söylemiş oldukları yüzünden lanetlenmişlerdir. Söylediklerinin aksine, Allah’ın iki eli de alabildiğine açıktır; dilediği gibi bağışta bulunur. İnan olsun ki, Rabbinden sana indirilen, onlardan birçoğunun küfür ve azgınlığını elbette artıracaktır. Onların arasına, ta kıyamet gününe kadar düşmanlık ve nefret atmışızdır. Ne zaman savaş için bir ateş yaksalar, Allah onu söndürür de onlar yeryüzünde yine bozgunculuğa koşarlar. Ama Allah, bozguncuları sevmez.” :Maide, 61-64
+
+“Hırsızlara, kötülere, alçaklara acımak, zayıfları kırıp geçirmektir. Kendine gel, böyle durumda öc almaktan sakın vazgeçme. Bunu yaparken çekeceğin sıkıntı ve eziyete aldırış etme de kamunun düşeceği sıkıntıyı, eziyeti düşün … ” : Rumi
+
+Eğer bir toplumda Maun suresinin mesajı yankı bulmuyorsa, o toplumda Kur’an, kendine gerçek bir mümin bulamamış demektir. Maun, insanın en temel haklarını, açın doyurulmasını, yoksulun gözetilmesini emreder. Ama bu emirler işlevsiz kalıyorsa, o toplumda vicdan kurumuş, kalpler nasır tutmuş demektir.
+
+Nuh suresi de tıpkı Maun gibi, insanın inkarını sadece sözlerle değil, fiillerle ortaya koyar. Nuh kavmi, malları ve evlatlarıyla şımarıp azmış, kibirlenip başkalarını küçümsemiş, ellerindeki nimetlere nankörlük etmişlerdir. Bu kibir, onları felakete sürüklemiştir.
+
+Açların insan onuruna yaraşır şekilde doyurulması, sadece dini bir emir değil, tüm insan hakları belgelerinde de altı çizilen evrensel bir gerçektir. Bir toplum, bu hakikati görmezden geliyorsa, o toplumun adalet terazisi bozulmuş, vicdanı körelmiştir. Maun’un sesi, insanın kulağına ulaşmazsa, o toplumun kalbinde ne adalet vardır, ne de merhamet.
+
+“Biz istiyoruz ki, yeryüzünde ezilip horlananlara bağışta bulunalım, onları önderler yapalım, onları mirasçılar haline getirelim. Ve yeryüzünde onlara imkan ve kudret verelim. Firavun’a, Haman’a ve onların ordularına da korkmakta oldukları şeyleri gösterelim.” :Kasas 5-6
+
+4. **O halde vay haline/lanet olsun o ibadet/salat edenlere**  
+      
+    
+
+Kur’an, Maun suresinde, ibadeti bir maske gibi kullanarak halkı kandıranlara en sert darbeyi indirir. Namaz ya da ibadet kelimeleri sadece belli ritüelleri değil, tüm insanlığın, tüm varlıkların Yaratıcı’ya yönelişini temsil eder. Her toplumun, her ümmetin bir ibadet şekli vardır. Ancak bu ibadet, sadece dua etmekle sınırlı kalmaz; gerçek ibadet, kalbin ve aklın Allah’ın varlığını anlamaya çalışması, O’nun iradesini uygulama çabasıdır.
+
+Allah’ın adını anıp da dünyanın malına, servetine tutkuyla bağlananlar için bu sure bir tokat gibidir. Kur’an’ın verdiği en önemli mesajlardan biri olan “Allah ile aldatılmayın” buyruğu tam da bu noktada belirir. İnanç, sadece sözde ya da ibadette değil, başkalarının hakkına saygı duymakla ortaya çıkar. Din, insanların iddiaları ya da kimlikleriyle değil, adaletle ölçülür.
+
+Allah’ı aldatma aracı haline getirenler, namazı gösteriş için kılanlar, kamunun hakkını yiyenler, ibadet etseler dahi Kur’an nazarında imansız kabul edilir. İbadetle mal sevgisi bir araya geldiğinde, insanı şirk bataklığına iter. Kuran, mal ve mülk peşinde koşmayı, paraya kul olmayı en büyük zulüm ve şirk olarak tanımlar. Servet ve güçle gösteriş yapan bir namaz, ancak Ebu Cehil’in namazı olabilir.
+
+Bir insanın besmele çekip de haksızca elde ettiği malı yemesi, domuz eti yemek gibidir. Allah, domuz eti yiyen birini tövbesiyle bağışlayabilir; ama başkasının hakkını gasp edenin kurtuluş şansı yoktur. Böyle bir insanın namazı, orucu, besmelesi boştur.
+
+İmanın gerçek ölçüsünü sadece Allah bilir; yüzündeki seccade izine ya da dilindeki besmeleye bakarak yanılmayın. Bir insanın parasını nasıl kazandığına bakın. Maun suresini ihlal edenler, haramı besmeleyle yiyenlerdir.
+
+Bu insanlara, oturdukları sofrada yedikleri lokmaların haram olduğunu söylediğinizde, size sırt çevirirler. Bu, toplumun akıl sınavıdır. Bu sınavı geçemeyen bir halk, Allah’tan bela beklemeye razı bir hale gelmiştir. Türkiye’nin bugün geldiği yer bu yüzden acıdır. Zulüm ve servet peşinde koşan bir lidere destek vererek doğru yolda olduklarını zannederler. Oysa Kur’an, açıkça uyarır: Bu yolun sonu felakettir.
+
+Mal ve servet, insanı azdırır, şımartır, onu kibirli bir ruh haline sokar. Bu kibir, başkalarını küçümsemekle kalmaz, Allah’a kafa tutacak bir seviyeye ulaşır. Malına güvenenler, ahiretlerini de garanti altında sandıklarına inanır, ama sonları şirk bataklığına saplanmaktır. Mal ve servetle şımaranları ne bu dünya kurtarır ne de ahiret.
+
+Servet ve gücün, insanı azdıracak bir noktaya gelmemesi için her türlü tedbir alınmalıdır. Maun suresi, bu konuda hem öğüt hem de tehdit sunar. Allah’ı aldatma aracı yapanlar, halkı kandıran dinciler, kamu malını gasp etmekle kalmaz, kendi yaptıklarını başkalarına haram, kendilerine helal gören bir zihniyet taşır. Türkiye’nin asıl tehlikesi bölücülük değil, bu zihniyettir. Türkiye’nin geleceğe akıp giden zaman içinde en büyük huzursuzluk kaynağı, refah ve huzurunun önündeki en büyük bela, bölücülük değil, dinciliktir.
+
+Bir toplumda suçun, suç olduğunu bile bile işlenmesi derin yaralar açar; ama bu suçu ibadet kılıfına bürüyüp işlemek, o yaraları binlerce kat derinleştirir. Türkiye, işte böyle bir zihniyetin sebep olduğu sayısız yaranın acısıyla kıvranıyor. Her biri kapanmayan bu yaralar, toplumun ruhunu zedeliyor. Ve ne yapıyorlar? O acılarla kıvranan insanlara bol bol hac ve umre seferleri düzenleyip göz boyuyorlar. Ama gerçek, her türlü riyakâr oyunlarına rağmen gözler önünde: Türkiye’de cami ve minareler ne kadar çoğalıyorsa, ahlaksızlık ve yolsuzluk da o kadar artıyor.
+
+Ruhunu çürütmüş bu sistem, bir yandan ibadet adına göklere ulaşmaya çalışırken, öte yandan halkın vicdanını, namusunu yerle bir eden yolsuzluklarla el ele yürüyor. Cami kubbeleri yükseliyor ama yerin altına saklanan, üstünü örttükleri bu suçlar da büyüyor. Gösteriş ve riyakarlıkla dolu bir dünya kuruyorlar; ancak bu dünyanın temelleri adaletin, vicdanın, insanlık onurunun altını oyan karanlık suçlara dayanıyor.
+
+“Allah, gerçeği örten nankörleri rezil eder.” : Tevbe, 9
+
+“Şimdi, siz, kitabın bir kısmına inanıp bir kısmını inkar mı ediyorsunuz? İçinizden bunu yapanın cezası, dünya hayatında rezillikten başka bir şey değildir. Kıyamet gününde ise bunlar azabın en şiddetlisine itilir. Allah, yapmakta olduklarınızdan habersiz değildir.” :Bakara 85
+
+5. **Salatlarından gaflet içindedir onlar!**
+
+“Müslüman görünerek İslâm’a karşı gizli eylem planları ve eylem yapan münafıklar, Allah’ın hilelerini başlarına belâ ettiğini göre göre, Allah’ı aldatmaya çalışıyorlar.  
+Onlar namaza kalktıkları zaman üşenerek kalkarlar. İnsanlara gösteriş yaparlar. Allah’ı pek az zikrederler Allah’a pek az şükrederler, pek az ibadet ederler.” : Maide 142
+
+Salat, sadece namaz kılmak değil, bir insanın içten gelen duaları, yardımlaşma ve dayanışmayı ifade eder. Maun suresi, gösteriş için yapılan, sahte ibadetlerin tümünü, kim olursa olsun lanetler. Müslüman kimliği taşıyıp da ibadetlerini çıkarlarına alet edenler de bu lanetten nasibini alır. Çünkü Kur’an, yalnızca bir dönemin kitabı değil, bütün çağların, bütün insanlığın kitabıdır. Riyaya bulaşmış ibadet, hangi zaman diliminde olursa olsun, lanetlidir.
+
+İnsanlar kendilerini umutlara kaptırır, hayallerinin peşinden sürüklenir, ama bu hayaller çoğu zaman onları yanıltır. İnsanoğlu, kendi aldanışları içinde yolunu kaybeder, iyi işler yaptığını zannederek kötülüğe sürüklenir. Bu batışın en acı yanı ise, insanın Allah adı kullanılarak aldatılmasıdır. Kendini doğru yolda sanan, ibadet ettiğini düşünüp haksızlıkla, kibirle, riyayla yoğrulan insan, kendi yarattığı tuzağa düşer ve fark etmeden bataklığa saplanır. En büyük yıkım da buradadır: Allah’la kandırılmanın girdabında yok olmak.
+
+Şirk gökteki tanrıların çokluğu değil, yerde ki totemlerin çokluğudur.
+
+“İçlerinden kodamanlar kalkıp yürüdüler.  
+“Yürüyün, tanrılarınıza bağlılıkta direnin. Kesinlikle sizden istenen budur.” : Sad 6
+
+Mekke’nin Kureyşlileri, Allah’a inandıklarını iddia ediyor, ritüelleri yerine getiriyorlardı. Ancak işin derinine baktığınızda, şehirde hâkim olan müşrik düzenini sürdürüyorlardı. Peygamberimiz, işte bu sahte dindarlığa, bu göstermelik ibadetlere karşı bir savaş açtı. Bu Mekkeli tefeci din bezirganları, öksüzleri hor gören, fakirleri aşağılayan, yoksullara el uzatmayan, sahte bir dindarlığın piyonlarıydı. Maun suresi, tam da bu sahte dindarlığın maskesini indiriyor, bu ikiyüzlülerin iç yüzünü gözler önüne seriyor.
+
+Bugün de, dini çıkarları uğruna kullanan, kamu malını talan eden, haram lokmaya doymayanlar aynı sapkın yolu izliyor. İktidarı yücelten, faizi ilahlaştıran, şirketlerin, bankaların, devlet hazinesinin içini boşaltan bu kişiler, kendi sapkın yorumlarını halka dayatarak, insanların inançlarını sömürüyor. Amaçları sadece kendi çıkarlarını korumak, kendi lüks yaşamlarını sürdürmektir. Halkın gıda, eğitim, sağlık gibi temel ihtiyaçlarını karşılayıp karşılamadığını umursamıyorlar. Kamu parasını kendilerine ayırıp en lüks araçlara, saray yavrusu evlere, en iyi sağlık sigortalarına sahip olurlar. Halk açlıkla pençeleşirken, yoksulluk içinde kıvranırken, onlar altın varaklı odalarında, ipek seccadelerinde ibadet ederler.
+
+Komşuları açken tok yatmak onları rahatsız etmez. Sokaklarda çaresiz bir halk ağlarken, onlar halkın feryadını duymaz, sanki Allah’ın öfkesinden bihabermiş gibi davranırlar. Halka sabır ve şükür tavsiye ederler, ama kendileri şükretmekten acizdirler.
+
+Allah bu sahte dindarları, münafıklar ve müşriklerden ayırıp “murai” sınıfına sokmuştur. Allah bu riyakar, gösteriş için ibadet edenleri lanetlemiştir! Murai, din tüccarlarının en rezili, sahtekarlığın en üst noktasıdır. Onlar, ‘nitelikli müşrik’ diyebileceğimiz bir tiptir. Kur’an’da farklı insan tiplerinden bahsedilir: Mümin, kalbiyle inanıp diliyle de bunu ilan edendir. Kafir, inanmayan ve bunu açıkça söyleyendir. Münafık, kalbinde inanmayan ama diliyle inandığını söyleyen sahtekârdır. Müşrik, Allah’a inanan ama O’na ortak koşan kimsedir. Ve nihayet Murai; o da dincilik kisvesiyle gösterişe dayalı bir sahtekârlık örneğidir.
+
+“Neredeyse cehennem öfkesinden, hışmından çatlayacak. Sorumluluk derecelerine göre organize her gurubun cehenneme atılışında, cehennemin bekçileri onlara:  
+“Size, sorumluluğu, hesabı ve cezayı hatırlatan uyarıcı, peygamber gelmedi mi?” diye sorarlar.” : Mülk 8
+
+“İnsanların çoğu, ilâhlığında, otoritesinde, mülkünde, tasarruflarında Allah’a ortak koşarak gizli şirke düşüp başkalarını da otorite kabul ettikleri bir düzen içinde Allah’a sözde iman ediyorlar.” : Yusuf 106
+
+“Ey iman edenler! Mallarını insanlara gösteriş için harcayan, fakat Allah’a ve ahiret gününe inanmayanlar gibi, cömertliğinizi hatırlatarak veya inciterek sadakanızın hayrını hükümsüz kılmayın/boşa çıkarmayın. Onlar, üzerinde biraz toprak olan sert, çorak bir kaya gibidirler: Üzerine şiddetli bir yağmur yağar ve onu sadece çıplak bir taş bırakır. Kazandıkları şeylerle hiçbir şey yapamayacaklar. Ve Allah imanı/inancı reddedenlere hidayet etmez.” : Bakara 264
+
+“Bunlar, Allah’a, Allah’a imanın gerektirdiği esaslara ve âhiret gününe iman etmedikleri halde, insanlara gösteriş yapmak için mallarını, servetlerini harcayanlardır. Şeytan, şeytan tıynetli ahlâksız azgınlar, kimin arkadaşı olursa, bilsin ki o ne kötü bir arkadaştır.” : Nisa 38
+
+Tanrı’yla, dinin gerçeğiyle, hukukla, vicdanla yüzleşmek istemeyenler bu sureyi okumasınlar! Çünkü bu sure, gerçeklerle yüzleşmekten kaçanlarla . ‘Ilımlı Islam’ adlı sömürge dinini gerçek Islam zannedenlerin tüm dayanaklarını, şiddetli bir Kur’an vuruşuyla paramparça etmektedir.
+
+“Rabbinin sarsarak yakalayıp cezalandırması çok şiddetlidir.” : Buruç 12
+
+“Biz, büyük bir güçle, şiddetle sıkarak yakalayacağımız gün, kesinlikle lâyık olduğunuz cezayı veririz.” : Duhan 16
+
+“Andolsun ki, Lût, bizim, kendilerini şiddetle sarsarak yakalayıp, cezalandıracağımız konusunda uyarmıştı. Fakat sorumluluk, hesap ve ceza konusundaki uyarılara kuşku ile baktılar.” : Kamer 36
+
+Maun’da, toplumcu bir paylaşım sistemi, Kur’an dininin temel direklerinden biri olarak gösterilmiş, bu paylaşımı engelleyenlerin, namazlı-niyazlı olmalarına rağmen tevhitten koptuklarına vurgu yapılarak şirkin önüne bir büyük set daha çekilmiştir.
+
+6. **İnsanlara görülmek isterler/ gösteriş yaparlar/ riyaya saparlar.**
+
+Münafıklar, müşrikler, mürailer içi boş iyilik, bağlılık ve merhamet davranışları sergilerler.
+
+Kur’an, şunu açık olarak bildirmektedir: Allah’a varmak için ibadet etmek yetmez; sadece Allah’a ibadet etmek yani şirkten arınmış olmak lazımdır.
+
+“Rabbine kavuşmayı uman, barışa/hayra yönelik iş yapsın ve Rabbine ibadette hiç kimseyi O’na ortak koşmasın.” : Kehf 110
+
+“Kim sahip olduğundan verir ve sakınırsa ve güzelliği doğrularsa, biz ona, en kolay olanı kolaylayacağız. Ama kim cimriliğe sapar ve kendisini tüm ihtiyaçların üstünde görür ve güzelliği yalanlarsa, biz onu, en zor olana sevk edeceğiz. Çöküş noktasına geldiğinde malı onu kurtaramayacaktır. Şu bir gerçek ki, doğruya ve güzele kılavuzlamak sadece bizim işimizdir. Sonrası da öncesi de sadece bizimdir. Ben sizi, köpürerek yanan bir ateşe karşı uyardım. Şiddete çok düşkün bedbahttan başkası girmez ona. Yalanlamış, sırtını dönmüştü o. İyice sakınan da ondan uzak tutulur. O ki, temizlenip arınsın diye malını verir. Onun katında hiç kimsenin, karşılığı verilecek bir nimeti yoktur/hiç kimsenin ona, karşılık olarak verilecek bir nimeti yoktur.” : Leyl 5-21
+
+“Lanet olsun o namaz kılanlara/dua edenlere ki, namazlarından/dualarından gaflet içindedirler. Riyaya sapandır onlar/gösteriş yaparlar. Ve onlar, kamu hakkının yerine ulaşmasına engel olurlar.” Maun Suresi, 4-6
+
+Yapılan işin veya işlenen kötülüğün vehametine dikkat çekmek için Allah bu sureyi vahyetmiştir.
+
+“O andan itibaren kalpleriniz katılaştı: Kaya gibi oldular ve hatta sertlikte daha da beter oldu. Çünkü kayalar arasında içinden ırmaklar fışkıranlar vardır; başkaları da var ki, yarıldığında su fışkırır; ve bazıları vardır Allah’ın korkusundan batar. Ve Allah yaptıklarınızdan gafil/habersiz değildir.”: Bakara 74
+
+“Zulmedenler nasıl bir inkılapla başaşağı döneceklerini yakında bilecekler.” :Şuara 227
+
+“Bedeviler: “İman ettik.” dediler. De ki: “Siz iman etmediniz. Ancak “Müslüman olduk” deyin. İman sizin kalplerinize girmemiştir. Eğer Allah’a ve resulüne itaat ederseniz Allah, yapıp ettiklerinizden hiçbir şey eksiltmez. Çünkü Allah Gafûr’dur, Rahîm’dir.” : Hucurat 14
+
+Allah, iman-İslam ayrımına Zariyat suresi 35-36. ayetlerde de dikkat çekmiş, orada da müminle müslümanı ayırmıştır.
+
+“Bunun üzerine orada bulunan mü’minleri çıkardık.”  
+“Zaten orada, bir ev halkının dışında İslâm’ı yaşayan müslüman kimse bulamadık.” : Zariyat 35-36
+
+Maun Suresi’ndeki tehdit öyle bir tehdittir ki, insanı gün boyu titretir, sarsar, hizaya getirir; öylesine derin bir uyarıdır ki kıyamete dek başımızda sallanan bir kılıç gibi durur. Her birimizin tepesinde asılıdır, unutmayalım. Kur’an, sahtekarlığa, dalavereye asla geçit vermez. Yeter ki onu imanla, gönülden okuyun, maskeleri indirsin diye ona samimiyetle sığının. Kur’an, Allah’ın dünyadaki eli gibidir. O’na sığınanlar asla yenilmez.
+
+Allah’ın, servet hırsıyla yanıp tutuşan tağutlara karşı büyük bir öfkesi vardır; fakat ibadet etmeyenlere yalnızca bir sitemi olur. Allah’ın kin ve gazabının götürdüğü yer cehennemdir; ama siteminin sonunda O’nun affı ve merhameti yatar.
+
+Kur’an, mesela namaz kılmayanı lanetlemez. Fakat namazına riya karıştıranları, yani namazı halkı kandırmak için kullananları lanetlemiştir. Günahkar sadece hata yapmıştır, ama riyakar, Allah’ın düşmanıdır. Allah, günahkarı tövbe ederse bağışlar, ama riyakarı affetmez; çünkü o, şirkin en sinsi halidir. Riyakarlığın içine düşmüş ibadetler, Allah’ın gazabını çeker, lanete sebep olur. Bu ibadetleri yerine getirenler, her secdeye vardıklarında daha da dibe batıp rezil olurlar. İşte bu yüzden, riyakar dinciliğin egemen olduğu toplumlar, ne kadar çok cami inşa ederlerse Allah da onlara o kadar bela ve musibet yollar.
+
+Riyakarlıkla yapılan ibadet, insanı yüceltmez, batırır.
+
+Günahkarlar kurtulur ama riyakarlar asla kurtulamaz.
+
+“Allah, kendisine ortak koşulmasını affetmez ama bunun dışında kalanı/bundan az olanı dilediği kişi için affeder. Allah’a şirk koşan, dönüşü olmayan bir sapıklığa dalıp gitmiştir.” : Nisa 116
+
+Kur’an, şirkin, bütün üretimleri, ibadetleri işe yaramaz hale getireceğini bildirmektedir. İlke şöyle konmuştur:  
+“Eğer onlar şirke bulaşsalardı çalışıp ürettikleri kendilerine yararsız hale gelirdi. :En’am 88
+
+“Yemin olsun, sana da senden öncekilere de şu vahyedilmiştir: Eğer şirke saparsan eylemin/üretimin/ibadetin kesinlikle boşa çıkar ve mutlaka hüsrana düşenlerden olursun.” : Zümer 65
+
+“Yaptıkları her işin önüne geçmiş, onu un ufak hale getirip silmişizdir.” :Furkan 23
+
+Maun Suresi’nin apaçık mesajına göre riya, örtülü bir din inkarıdır, yani düpedüz dinsizliktir. İnsanı, kendi özünden koparıp Allah’ın nazarında nefret edilen bir varlık haline getiren bu zehirli kötülük, riyanın ta kendisidir.
+
+Tamlık kapısından Allah’a gitmek, hemen hemen hayal ve muhaldir. İnsana yakışan, eksiklik ve eziklik kapısından Hakk’a sığınmaktır. Çünkü bu ikinci kapı, gizli şirk olan riyaya asla geçit vermez. Ve gizli şirkin giremediği bir gönül, ne kadar yaralı, ne kadar yorgun olursa olsun, kurtuluşu er veya geç yakalar.
+
+7. **Fakat komşu ihtiyaçlarını/kamu hakkını/zekatı/zaruri ihtiyaçları bile karşılamayı reddederler./ Ama komşu ihtiyaçlarının/kamu hakkının/zekatın/zaruri ihtiyaçların/iyiliğin yerine ulaşmasına engel olurlar.**
+
+Maun Suresi’ni anlayan insan, küçük yardımların, günlük yaşamın binbir küçücük iyilik ve nezaketinin gerçek anlamını da kavrar. Zor zamanlarda halkın temel ihtiyaçlarını karşılamaktan imtina edenler, ellerinde zenginlik olsa bile insanlık sınavını geçemezler. İhlal, yalnızca malı çalmak, zimmetine geçirmek, haksızca sahiplenmek değildir; esas gasp, hak sahiplerinin eline ulaşması gereken yardımların yolunu tıkamaktır. Bu, Maun’un özüne yapılmış bir saldırıdır.
+
+Surenin son ayetindeki ifade, kelamın en büyük mucizelerinden biridir. “Kamu malını yiyenler” denmiyor, “hakların gitmesini engelleyenler” deniyor. İşte bu ayet dile gelse, insanoğluna şu çağrıyı yapardı: “Ey insan! Kendini nimetlerin sahibi sanma! Bu dünya ve içindekiler Allah’ındır, bütün insanlar Allah’ın ev halkıdır. Allah’ın nimetlerinin, halkına ulaşmasına engel olma! Eğer bunu yaparsan, Maun ihlalinin hesabı sorulur, hem de çok acı sorulur.”
+
+Kamu haklarını yerlerine ulaştırmazsan, yaptığın ibadetler neye yarar? O ibadetler seni yalnızca lanetle kuşatır. Kendine din yazdırmış olman, mabede abone olmuş olman, seni Allah’ın gözünden kurtaramaz. Kur’an, namaz kılmayanları değil, namazı gösteriş için kılanları lanetler. İşte bu, dinler tarihinin belki de insanlık tarihinin en büyük mucizelerinden biridir.
+
+Maun Suresi’nin derdi, teorik değil, fiili dinsizliktir. Teoride dine inandığını söyleyip pratikte onu boğanların maskesini düşürmektir. Teorik dinsizler zaten açık oynar, onları tanımak kolaydır. Ama asıl büyük tehlike, dine inanmış gibi görünüp fiilen onu ayaklar altına alanlardır. Ve işte Maun, bu ikiyüzlüleri tüm çıplaklığıyla ortaya serer.
+
+“Kitaplarında vasıfları belirtilen peygambere iman ettikleri halde, Muhammed’in Allah tarafından gönderilen hak peygamber olduğu bilgilerinin doğruluğunu göre göre, kendilerine apaçık âyetler deliller geldikten sonra, inkâr bataklığına giren kavimlere, yahudilere ve hristiyanlara Allah nasıl hidayeti, doğru yolu nasip eder? Allah küfrü imana tercih eden, Allah yoluna, Allah yolundaki faaliyetlere engel olan zâlim bir kavmi, bir toplumu doğru yola sevketme lütfunda bulunmayacak.” : Al-I İmran 86
+
+“Bu ceza, sizin, bir olan Allah’a davet edilirken inkâra, küfre sapmanız; ilâhlığında, otoritesinde, mülkünde, tasarruflarında O’na ortak koşulunca da, şirki tasdik etmeniz, kabullenmeniz sebebiyledir. Hükümranlık, yargı ve icra yüceler yücesi ve büyük olan Allah’ındır.” : Mumin 12
+
+“İman edip de imanlarını herhangi bir zulümle kirletmeyenler var ya, güvende olma/güvenilir olma işte onların hakkıdır; doğruyu ve güzeli yakalayanlar da onlardır.” : Enam 82
+
+“Onların çoğu, müşrikler durumuna düşmüş olma hali dışında Allah’a iman etmez.” : Yusuf, 101
+
+“Dikkat edin; aldatan, sizi Allah ile aldatmasın!”
+
+İnsan haklarını çiğneyenlerle Kur’an’ın münasebeti, onları lanetlemesinden ibarettir.
+
+Haksız servet artışıyla hak yiyenlere bir mesaj da Bakara 279. Ayettir:
+
+“Eğer ribadan geri kalanı bırakmazsanız, Allah ve resulünden bir harp ilanını duymuş olun. Tövbe ederseniz, mallarınızın esasları/ana paralanız sizindir; ne zulmeden olursunuz ne de zulme uğratılan.”
+
+Türk lirizminin erişilmez ustası Yunus Emre (ölm. 1320) bu inceliğe şu ölmez dizelerle tercüman olmuştur:
+
+“Mal sahibi, mülk sahibi Nerde bunun ilk sahibi? Mal da yalan, mülk de yalan; Var biraz da sen oyalan!”
+
+Malın temel gayeye varmak için kullanılmaması, bir imtihan aracının kötüye kullanılmasıdır.
+
+“Nuh dedi ki, ‘Rabbim! Onlar bana isyan ettiler de malı ve çocuğu kendisine hüsrandan başka bir artış getirmeyen kişiye uydular. Çok büyük hileler sergilediler/çok büyük tuzaklar kurdular.” : Nuh 21-22
+
+“Musa şöyle dedi: “Rabbimiz! Sen, Firavun ve kodamanlarına şu iğreti hayatta debdebe verdin, mallar verdin. Rabbimiz! Senin yolundan saptırsınlar diye mi? Rabbimiz! Onların mallarını sil-süpür, kalplerini şiddetle sık ki, acıklı azabı görünceye kadar inanmasınlar!” : Yunus 88
+
+“Bilin ki, mallarınız, servetleriniz ve evlatlarınız azgınlık, sıkıntı ve ihtilâf sebebidir, imtihan aracıdır. Büyük mükâfat Allah katındadır.” : Enfal 28
+
+“Servetleriniz ve evlâtlarınız bir azgınlık, bir sıkıntı, bir ihtilâf sebebidir, ağır bir imtihan aracıdır. Büyük mükâfat ise Allah katındadır.” : Tegabun 15
+
+“Andolsun ki sizi biraz korku ve açlıkla, biraz mallarda, canlarda veya emeklerinizin meyvelerinde biraz eksiltmekle imtihan edeceğiz; fakat sabredenlere müjdele,” : Bakara 155
+
+“Ey iman edenler, yahudi hahamları ile hristiyan rahiplerinin bir çoğu, insanların mallarını haksız yere yerler, insanları Allah yolundan, İslâm’a girmekten, İslâmî hayatı yaşamaktan alıkorlar, engelleyici tedbirler alırlar. Altın ve gümüşü biriktirip de, Allah yolunda, İslâm uğrunda, ferdî ve içtimaî yardımda bulunmazlar. Karşılık gözetmeden, gönüllü harcamazlar. Onlara, can yakıp inleten müthiş azâbı haber ver.”  
+“Biriktirilen, saklanan altın ve gümüşler, Cehennem ateşinde kızdırılıp, sahiplerinin alınlarının, yanlarının ve sırtlarının dağlanacağı gün:  
+“İşte bunlar dinî ve insanî yardımlardan esirgeyip de kendiniz için, birbiriniz için biriktirdiğiniz servettir. Artık yığmakta olduğunuz şeylerin azâbını tadın.” denir.”” : Tevbe 34-35
+
+Bu ayet bize şunu anlatıyor: Kamu hakkına doğrudan el sürmesen bile nasıl suçlu olursun, işte böyle: Hırsızlara destek verdin, onları seyirci kaldın, çaldıklarının göz ardı edilmesine göz yumdun. Hırsızların maskesini düşürmek için uğraşmadın, onları adalet önüne çıkarmak için çaba göstermedin. Onlardan bir fayda umduğun için sessiz kaldın, korkudan onlara dokunmadın. Maun Suresi’nin açık mesajını tanıtmak yerine, ona engel oldun ya da engel olanlara omuz verdin. Bu hakikatleri duyurmak için hiçbir gayretin olmadı, kılını kıpırdatmadın.
+
+Hırsızlık yapanla beraber hareket etmeyen de, onun suçunun bir parçasıdır. Sessizlik, en büyük ihanettir. Kur’an’ın en ağır uyarısı da işte bu sessizliğe, bu gaflete yapılmıştır. Toplumun çürümüşlüğüne ses çıkarmayan, çürümenin ta kendisidir. Maun, bunu haykırıyor: Ey insan, suça ortak olmak yalnızca elini uzatmakla olmaz, görüp de susmakla olur, bilir de ses etmemekle olur. Allah, bu sessizliği asla affetmez.
+
+“Biz bir ülkeyi/medeniyeti mahvetmek istediğimizde, onun servet ve refahla Firavunlaşmış kodamanlarına emirler yöneltiriz/onlan yöneticiler yaparız da onlar, orada bozuk gidişler sergilerler. Böylece o ülke/medeniyet aleyhine hüküm hak olur; biz de onun altını üstüne getiririz.” : Isra 16
+
+“Hainlere yandaş olma!” :Nisa 105
+
+“Zulmedenlere eğilim göstermeyin! Yoksa ateş sizi sarmalar. Allah’tan başka dostlarınız kalmaz, size yardım da edilmez.” : Hud 113
+
+“Bir peygamberin emanete hıyanet etmesi/kamu malından aşırması olacak şey değildir. Her kim hıyanet edip kamu malından bir şey aşınrsa, aşırdığını kıyamet günü yüklenip getirir. Sonra her benliğe; kazandığı tam olarak ödenir. Hiç birine zulmedilmez.” :Ali İmran 161
+
+Allah şöyle yakarmalıyız:  
+“Şöyle yakardılar: ‘Yalnız Allah’a dayandık. Rabbimiz! Bizleri, zulmedenler toplumu için bir imtihan aracı yapma!” :Yunus 85
+
+O yüzden:
+
+“Aklınızı başınıza toplayın ey akıl ve gönül sahipleri!” : Haşr 2
+
+“Allah, pisliği, aklını işletmeyenler üzerine bırakır.” Yunus, 100
+
+“Mal ve nimetler, sizden yalnız zengin olanlar arasında dönüp duran bir kudret aracı olmasın!” : Haşr 7
+
+“Şirk büyük bir zulümdür” : Lukman 13
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihrBVDztakaX0tg8iyq4GBM-sBX6kKWK2Z6qg2eOIiLGQf2tdDutPFQlW0BooHNh3TPVpNbiTP5zPcBWJ7zHBJ58b4erQoIO0i0cRvJRqN21Yt9vuJEUj21cSWxiinolgnqe-ziBneVrXwPSPhpEGktqepVtPggsC77uuSfsseFHCelT6hBHZukZi79i93/s320/div5.png)](https://www.blogger.com/blog/post/edit/5724704568349331251/2376051994446817015#)
+
+Maun, or Neighborly Needs. 
+
+In the name of Allah, Most Gracious, Most Merciful.
+
+1.  Seest thou one who denies the
+Judgment (to come)?
+2. Then such is the (man) who repulses the orphan (with
+harshness),
+3. And encourages not the feeding of the indigent.
+4. So woe to the worshippers
+5. Who are neglectful of their Prayers,
+6. Those who (want but) to be seen (of men),
+7. But refuse (to supply) (even) neighborly needs.
