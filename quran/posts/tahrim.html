@@ -1,55 +1,106 @@
 
 <!DOCTYPE html>
-<html lang='en'>
+<html lang='tr'>
 <head>
     <meta charset='UTF-8'>
     <title>Tahrim Suresi</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link href='https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css' rel='stylesheet'>
-    <style>
-        body {
-            background-color: #111827;
-            color: #f9fafb;
-        }
-        .prose {
-            color: #f9fafb;
-        }
-        .prose h1, .prose h2, .prose h3 {
-            color: #60a5fa;
-        }
-        pre code {
-            background-color: #1f2937;
-            color: #f9fafb;
-            display: block;
-            padding: 1em;
-            overflow-x: auto;
-            border-radius: 0.5rem;
-        }
-        code {
-            background-color: #374151;
-            padding: 0.2em 0.4em;
-            border-radius: 0.25rem;
-        }
-        a {
-            color: #93c5fd;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-         p {
-            margin-top: 1em;
-            margin-bottom: 1em;
-            line-height: 1.7;
-        }
-    </style>
+    
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
+
+    body {
+        background-color: #1A1714; /* Deep Obsidian */
+        color: #F2E8CF; /* Parchment Cream */
+        font-family: 'Lora', serif;
+    }
+
+    /* --- SAFFRON GLOW BOLD FONTS --- */
+    strong, b {
+        color: #FFC107;
+        font-weight: 700;
+        text-shadow: 0 0 8px rgba(255, 193, 7, 0.4);
+    }
+    
+    .surah-card {
+        background-color: #24201D;
+        border-left: 4px solid #BC9353; /* Ottoman Gold */
+        padding: 1.5rem;
+        border-radius: 0.25rem;
+        transition: transform 0.2s;
+        margin-bottom: 1.5rem;
+    }
+
+    .surah-card:hover {
+        transform: translateX(5px);
+        background-color: #2C2723;
+    }
+
+    h1, h2, h3 {
+        font-family: 'Playfair Display', serif;
+        color: #BC9353;
+    }
+
+    .prose {
+        color: #F2E8CF;
+        max-width: none;
+        line-height: 1.8;
+    }
+
+    .tag-ottoman {
+        background-color: #38A3A5; /* Iznik Turquoise */
+        color: #1A1714;
+        font-weight: 600;
+        font-size: 0.75rem;
+        padding: 0.2rem 0.6rem;
+        border-radius: 0.25rem;
+        margin-right: 0.5rem;
+        display: inline-block;
+    }
+
+    input#searchInput {
+        background-color: #24201D;
+        border: 1px solid #BC9353;
+        color: #F2E8CF;
+        width: 100%;
+        padding: 0.75rem;
+        border-radius: 0.5rem;
+        margin-bottom: 2rem;
+    }
+
+    input#searchInput::placeholder {
+        color: #8D8273;
+    }
+
+    a {
+        color: #BC9353;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    a:hover {
+        color: #F2E8CF;
+        text-decoration: underline;
+    }
+
+    hr {
+        border-color: #3D352E;
+        margin: 2rem 0;
+    }
+</style>
+
 </head>
-<body class='font-sans p-6'>
+<body class='p-6'>
     <div class='max-w-3xl mx-auto'>
-        <a href='../index.html' class='block mb-4'>← Sure Listesine Geri Dön</a>
-        <h1 class='text-3xl font-bold mt-4'>Tahrim Suresi</h1>
-        <p class='text-sm text-gray-400 mb-4'>2025-04-20</p>
-        <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>kuran</span> <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>quran</span> <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>furkan</span>
-        <div class='prose max-w-none mt-4'><h2>Tahrim Suresi 66-106</h2>
+        <a href='../index.html' style='color: #38A3A5;'>← Listeye Dön</a>
+        <header class='mt-8 mb-12'>
+            <h1 class='text-4xl font-bold'>Tahrim Suresi</h1>
+            <p style='color: #8D8273;' class='mt-2 text-sm'>2025-04-20</p>
+            <div class='mt-4'><span class='tag-ottoman'>kuran</span><span class='tag-ottoman'>quran</span><span class='tag-ottoman'>furkan</span></div>
+        </header>
+        <article class='prose'>
+            <h2>Tahrim Suresi 66-106</h2>
 <p>Tahrim Suresi 66-106 (Yasak, Yasaklama)</p>
 <p>SEVGİ VE MERHAMETİ SONSUZ ALLAH’IN ADIYLA</p>
 <ol>
@@ -81,52 +132,57 @@ He is Full of Knowledge and Wisdom.</li>
 <li>When the Prophet disclosed a matter in confidence to one of<br />
 his consorts, and she then divulged it (to another), and Allah<br />
 made it known to him, he confirmed part thereof and repudiated a<br />
-part. Then when he told her thereof, she said, &ldquo;Who told thee<br />
-this?&rdquo; He said, &ldquo;He told me Who knows and is well acquainted<br />
-(with all things.)&rdquo;</li>
+part. Then when he told her thereof, she said, "Who told thee<br />
+this?" He said, "He told me Who knows and is well acquainted<br />
+(with all things.)"</li>
 <li>If ye two turn in repentance to Him, your hearts are indeed<br />
 so inclined; but if ye back up each other against him, truly<br />
 Allah is his Protector, and Gabriel, and (every) righteous one<br />
-among those who believe, &ndash;and furthermore, the angels&ndash;will<br />
+among those who believe, --and furthermore, the angels--will<br />
 back (him) up.</li>
 <li>It may be, if he divorced you (all), that Allah will give him<br />
-in exchange Consorts better than you, &ndash;who submit (their<br />
+in exchange Consorts better than you, --who submit (their<br />
 wills), who believe, who are devout, who turn to Allah in<br />
 repentance, who worship (in humility), who travel (for Faith)<br />
-and fast, &ndash;previously married or virgins.</li>
+and fast, --previously married or virgins.</li>
 <li>O ye who believe! Save yourselves and your families from a<br />
 Fire whose fuel is Men and Stones, over which are (appointed)<br />
 angels stern (and) severe, who flinch not (from executing) the<br />
 Commands they receive fro Allah, but do (precisely) what they<br />
 are commanded.</li>
-<li>(They will say), &ldquo;O ye Unbelievers! Make no excused this Day!<br />
-Ye are being but requited for all that ye did!&rdquo;</li>
+<li>(They will say), "O ye Unbelievers! Make no excused this Day!<br />
+Ye are being but requited for all that ye did!"</li>
 <li>O ye who believe! Turn to Allah with sincere repentance: In<br />
 the hope that your Lord will remove from you your ills and admit<br />
-you to Gardens beneath which Rivers flow, &ndash;the Day that Allah<br />
+you to Gardens beneath which Rivers flow, --the Day that Allah<br />
 will not permit to be humiliated the Prophet and those who<br />
 believe with him. Their Light will run forward before them and<br />
-by their right hands, while they say, &ldquo;Our Lord! Perfect our<br />
+by their right hands, while they say, "Our Lord! Perfect our<br />
 Light for us, and grant us Forgiveness: For Thou hast power over<br />
-all things.&rdquo;</li>
+all things."</li>
 <li>O Prophet! Strive hard against the Unbelievers and the<br />
-Hypocrites, and be firm against them. Their abode is Hell&ndash;an<br />
+Hypocrites, and be firm against them. Their abode is Hell--an<br />
 evil refuge (indeed).</li>
 <li>Allah sets forth for an example to the Unbelievers, the wife<br />
 of Noah and the wife of Lut: They were (respectively) under two<br />
 of Our righteous servants, but they were false to their<br />
 (husbands), and they profited nothing before Allah on their<br />
-account, but were told: &ldquo;Enter ye the Fire along with (others)<br />
-that enter!&rdquo;</li>
+account, but were told: "Enter ye the Fire along with (others)<br />
+that enter!"</li>
 <li>And Allah sets forth, as an example to those who believe,<br />
-the wife of Pharaoh: Behold she said: &ldquo;O my Lord! Build for me,<br />
+the wife of Pharaoh: Behold she said: "O my Lord! Build for me,<br />
 in nearness to Thee, a mansion in the Garden, and save me from<br />
-Pharaoh and his doings, and save me from those that do wrong&rdquo;;</li>
+Pharaoh and his doings, and save me from those that do wrong";</li>
 <li>And Mary the daughter of Imran, who guarded her chastity;<br />
 and We breathed into (her body) of Our spirit; and she testified<br />
 to the truth of the words of her Lord and of his Revelations,<br />
 and was one of the devout (servants).</li>
-</ol></div>
+</ol>
+        </article>
+        <hr>
+        <footer class='pb-12 text-center'>
+            <p style='color: #8D8273;'>Toygar Par - Quran Project</p>
+        </footer>
     </div>
 </body>
 </html>

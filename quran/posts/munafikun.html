@@ -1,55 +1,106 @@
 
 <!DOCTYPE html>
-<html lang='en'>
+<html lang='tr'>
 <head>
     <meta charset='UTF-8'>
     <title>Münafikun Suresi</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link href='https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css' rel='stylesheet'>
-    <style>
-        body {
-            background-color: #111827;
-            color: #f9fafb;
-        }
-        .prose {
-            color: #f9fafb;
-        }
-        .prose h1, .prose h2, .prose h3 {
-            color: #60a5fa;
-        }
-        pre code {
-            background-color: #1f2937;
-            color: #f9fafb;
-            display: block;
-            padding: 1em;
-            overflow-x: auto;
-            border-radius: 0.5rem;
-        }
-        code {
-            background-color: #374151;
-            padding: 0.2em 0.4em;
-            border-radius: 0.25rem;
-        }
-        a {
-            color: #93c5fd;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-         p {
-            margin-top: 1em;
-            margin-bottom: 1em;
-            line-height: 1.7;
-        }
-    </style>
+    
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
+
+    body {
+        background-color: #1A1714; /* Deep Obsidian */
+        color: #F2E8CF; /* Parchment Cream */
+        font-family: 'Lora', serif;
+    }
+
+    /* --- SAFFRON GLOW BOLD FONTS --- */
+    strong, b {
+        color: #FFC107;
+        font-weight: 700;
+        text-shadow: 0 0 8px rgba(255, 193, 7, 0.4);
+    }
+    
+    .surah-card {
+        background-color: #24201D;
+        border-left: 4px solid #BC9353; /* Ottoman Gold */
+        padding: 1.5rem;
+        border-radius: 0.25rem;
+        transition: transform 0.2s;
+        margin-bottom: 1.5rem;
+    }
+
+    .surah-card:hover {
+        transform: translateX(5px);
+        background-color: #2C2723;
+    }
+
+    h1, h2, h3 {
+        font-family: 'Playfair Display', serif;
+        color: #BC9353;
+    }
+
+    .prose {
+        color: #F2E8CF;
+        max-width: none;
+        line-height: 1.8;
+    }
+
+    .tag-ottoman {
+        background-color: #38A3A5; /* Iznik Turquoise */
+        color: #1A1714;
+        font-weight: 600;
+        font-size: 0.75rem;
+        padding: 0.2rem 0.6rem;
+        border-radius: 0.25rem;
+        margin-right: 0.5rem;
+        display: inline-block;
+    }
+
+    input#searchInput {
+        background-color: #24201D;
+        border: 1px solid #BC9353;
+        color: #F2E8CF;
+        width: 100%;
+        padding: 0.75rem;
+        border-radius: 0.5rem;
+        margin-bottom: 2rem;
+    }
+
+    input#searchInput::placeholder {
+        color: #8D8273;
+    }
+
+    a {
+        color: #BC9353;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    a:hover {
+        color: #F2E8CF;
+        text-decoration: underline;
+    }
+
+    hr {
+        border-color: #3D352E;
+        margin: 2rem 0;
+    }
+</style>
+
 </head>
-<body class='font-sans p-6'>
+<body class='p-6'>
     <div class='max-w-3xl mx-auto'>
-        <a href='../index.html' class='block mb-4'>← Sure Listesine Geri Dön</a>
-        <h1 class='text-3xl font-bold mt-4'>Münafikun Suresi</h1>
-        <p class='text-sm text-gray-400 mb-4'>2025-04-20</p>
-        <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>kuran</span> <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>quran</span> <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>furkan</span>
-        <div class='prose max-w-none mt-4'><h2>Münafikun Suresi 63-103</h2>
+        <a href='../index.html' style='color: #38A3A5;'>← Listeye Dön</a>
+        <header class='mt-8 mb-12'>
+            <h1 class='text-4xl font-bold'>Münafikun Suresi</h1>
+            <p style='color: #8D8273;' class='mt-2 text-sm'>2025-04-20</p>
+            <div class='mt-4'><span class='tag-ottoman'>kuran</span><span class='tag-ottoman'>quran</span><span class='tag-ottoman'>furkan</span></div>
+        </header>
+        <article class='prose'>
+            <h2>Münafikun Suresi 63-103</h2>
 <p>Münafikun Suresi 63-103 (Münafıklar, Riyakarlar )</p>
 <p>SEVGİ VE MERHAMETİ SONSUZ ALLAH’IN ADIYLA</p>
 <ol>
@@ -70,8 +121,8 @@
 <p>In the name of Allah, Most Gracious, Most Merciful.</p>
 <ol>
 <li>When the Hypocrites come to thee,<br />
-they say, &ldquo;We bear witness that thou art indeed the Apostle of<br />
-Allah.&rdquo; Yea, Allah knoweth that thou art indeed His Apostle, and<br />
+they say, "We bear witness that thou art indeed the Apostle of<br />
+Allah." Yea, Allah knoweth that thou art indeed His Apostle, and<br />
 Allah beareth witness that the Hypocrites are indeed liars.</li>
 <li>They have made their oaths a screen (for their misdeeds):<br />
 Thus they obstruct (men) from the Path of Allah: Truly evil are<br />
@@ -84,18 +135,18 @@ when they speak, thou listenest to their words. They are as<br />
 stand on their own). They think that every cry is against them.<br />
 They are the enemies; so beware of them. The curse of Allah be<br />
 on them! How are they deluded (away from the Truth)!</li>
-<li>And when it is said to them, &ldquo;Come, the Apostle of Allah will<br />
-pray for your forgiveness&rdquo;, they turn aside their heads, and<br />
+<li>And when it is said to them, "Come, the Apostle of Allah will<br />
+pray for your forgiveness", they turn aside their heads, and<br />
 thou wouldst see them turning away their faces in arrogance.</li>
 <li>It is equal to them whether thou pray for their forgiveness<br />
 or not. Allah will not forgive them. Truly Allah guides not<br />
 rebellious transgressors.</li>
-<li>They are the ones who say, &ldquo;Spend nothing on those who are<br />
-with Allah&rsquo;s Apostle, to the end that they may disperse (and<br />
-quit Medina).&rdquo; But to Allah belong the treasures of the heavens<br />
+<li>They are the ones who say, "Spend nothing on those who are<br />
+with Allah's Apostle, to the end that they may disperse (and<br />
+quit Medina)." But to Allah belong the treasures of the heavens<br />
 and the earth; but the Hypocrites understand not.</li>
-<li>They say, &ldquo;If we return to Medina, surely the more honorable<br />
-(element) will expel therefrom the meaner&rdquo;. But honor belongs to<br />
+<li>They say, "If we return to Medina, surely the more honorable<br />
+(element) will expel therefrom the meaner". But honor belongs to<br />
 Allah and His Apostle, and to the Believers; but the Hypocrites<br />
 know not.</li>
 <li>O ye who believe! Let not your riches or your children divert<br />
@@ -103,13 +154,18 @@ you from the remembrance of Allah. If any act thus, the loss is<br />
 their own.</li>
 <li>And spend something (in charity) out of the substance which<br />
 We have bestowed on you, before Death should come to any of you<br />
-and he should say, &ldquo;O my Lord! Why didst Thou not give me<br />
+and he should say, "O my Lord! Why didst Thou not give me<br />
 respite for a little while? I should then have given (largely)<br />
-in charity, and I should have been one of the doers of good&rdquo;.</li>
+in charity, and I should have been one of the doers of good".</li>
 <li>But to no soul will Allah grant respite when the time<br />
 appointed (for it) has come; and Allah is well acquainted with<br />
 (all) that ye do.</li>
-</ol></div>
+</ol>
+        </article>
+        <hr>
+        <footer class='pb-12 text-center'>
+            <p style='color: #8D8273;'>Toygar Par - Quran Project</p>
+        </footer>
     </div>
 </body>
 </html>

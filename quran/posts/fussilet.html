@@ -1,55 +1,106 @@
 
 <!DOCTYPE html>
-<html lang='en'>
+<html lang='tr'>
 <head>
     <meta charset='UTF-8'>
     <title>Fussilet Suresi</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link href='https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css' rel='stylesheet'>
-    <style>
-        body {
-            background-color: #111827;
-            color: #f9fafb;
-        }
-        .prose {
-            color: #f9fafb;
-        }
-        .prose h1, .prose h2, .prose h3 {
-            color: #60a5fa;
-        }
-        pre code {
-            background-color: #1f2937;
-            color: #f9fafb;
-            display: block;
-            padding: 1em;
-            overflow-x: auto;
-            border-radius: 0.5rem;
-        }
-        code {
-            background-color: #374151;
-            padding: 0.2em 0.4em;
-            border-radius: 0.25rem;
-        }
-        a {
-            color: #93c5fd;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-         p {
-            margin-top: 1em;
-            margin-bottom: 1em;
-            line-height: 1.7;
-        }
-    </style>
+    
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
+
+    body {
+        background-color: #1A1714; /* Deep Obsidian */
+        color: #F2E8CF; /* Parchment Cream */
+        font-family: 'Lora', serif;
+    }
+
+    /* --- SAFFRON GLOW BOLD FONTS --- */
+    strong, b {
+        color: #FFC107;
+        font-weight: 700;
+        text-shadow: 0 0 8px rgba(255, 193, 7, 0.4);
+    }
+    
+    .surah-card {
+        background-color: #24201D;
+        border-left: 4px solid #BC9353; /* Ottoman Gold */
+        padding: 1.5rem;
+        border-radius: 0.25rem;
+        transition: transform 0.2s;
+        margin-bottom: 1.5rem;
+    }
+
+    .surah-card:hover {
+        transform: translateX(5px);
+        background-color: #2C2723;
+    }
+
+    h1, h2, h3 {
+        font-family: 'Playfair Display', serif;
+        color: #BC9353;
+    }
+
+    .prose {
+        color: #F2E8CF;
+        max-width: none;
+        line-height: 1.8;
+    }
+
+    .tag-ottoman {
+        background-color: #38A3A5; /* Iznik Turquoise */
+        color: #1A1714;
+        font-weight: 600;
+        font-size: 0.75rem;
+        padding: 0.2rem 0.6rem;
+        border-radius: 0.25rem;
+        margin-right: 0.5rem;
+        display: inline-block;
+    }
+
+    input#searchInput {
+        background-color: #24201D;
+        border: 1px solid #BC9353;
+        color: #F2E8CF;
+        width: 100%;
+        padding: 0.75rem;
+        border-radius: 0.5rem;
+        margin-bottom: 2rem;
+    }
+
+    input#searchInput::placeholder {
+        color: #8D8273;
+    }
+
+    a {
+        color: #BC9353;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    a:hover {
+        color: #F2E8CF;
+        text-decoration: underline;
+    }
+
+    hr {
+        border-color: #3D352E;
+        margin: 2rem 0;
+    }
+</style>
+
 </head>
-<body class='font-sans p-6'>
+<body class='p-6'>
     <div class='max-w-3xl mx-auto'>
-        <a href='../index.html' class='block mb-4'>← Sure Listesine Geri Dön</a>
-        <h1 class='text-3xl font-bold mt-4'>Fussilet Suresi</h1>
-        <p class='text-sm text-gray-400 mb-4'>2025-04-20</p>
-        <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>kuran</span> <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>quran</span> <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>furkan</span>
-        <div class='prose max-w-none mt-4'><h2>Fussilet Suresi 41-61</h2>
+        <a href='../index.html' style='color: #38A3A5;'>← Listeye Dön</a>
+        <header class='mt-8 mb-12'>
+            <h1 class='text-4xl font-bold'>Fussilet Suresi</h1>
+            <p style='color: #8D8273;' class='mt-2 text-sm'>2025-04-20</p>
+            <div class='mt-4'><span class='tag-ottoman'>kuran</span><span class='tag-ottoman'>quran</span><span class='tag-ottoman'>furkan</span></div>
+        </header>
+        <article class='prose'>
+            <h2>Fussilet Suresi 41-61</h2>
 <p>Fussilet Suresi 41-61 ( Açıklanmış, Detaylandırılmış )</p>
 <p>SEVGİ VE MERHAMETİ SONSUZ ALLAH’IN ADIYLA</p>
 <p><img alt="" src="https://toygarpar.wordpress.com/wp-content/uploads/2023/05/istanbul-hgg-reed.jpg?w=479" /></p>
@@ -130,158 +181,158 @@ Uzak bir ayrılık içinde olandan daha sapık kim olabilir?”</li>
 </li>
 </ol>
 <p>in Arabic, for people who understand; —</p>
-<ol start="4">
+<ol>
 <li>Giving Good News and Admonition: Yet most of them turn away,</li>
 </ol>
 <p>and so they hear not.</p>
-<ol start="5">
+<ol>
 <li>They say: “Our hearts are under veils, (concealed) from that</li>
 </ol>
 <p>to which thou dost invite us, and in our ears is a deafness, and</p>
 <p>between us and thee is a screen: So do thou (what thou wilt);</p>
 <p>for us, we shall do (what we will)!”</p>
-<ol start="6">
+<ol>
 <li>Say thou: “I am but a man like you: It is revealed to me by</li>
 </ol>
 <p>inspiration, that your God is One God: So stand true to Him, and</p>
 <p>ask for His forgiveness.” And woe to those who join gods with</p>
 <p>Allah, —</p>
-<ol start="7">
+<ol>
 <li>Those who practice not Regular Charity, and who even deny the</li>
 </ol>
 <p>Hereafter.</p>
-<ol start="8">
+<ol>
 <li>For those who believe and work deeds of righteousness is a</li>
 </ol>
 <p>reward that will never fail.</p>
-<ol start="9">
+<ol>
 <li>Say: “Is it that ye deny Him Who created the earth in two</li>
 </ol>
 <p>Days? And do ye join equals with Him? He is the Lord of (all)</p>
 <p>the Worlds.</p>
-<ol start="10">
+<ol>
 <li>He set on the (earth) mountains standing firm, high above</li>
 </ol>
 <p>it, and bestowed blessings on the earth, and measured therein</p>
 <p>all things to give them nourishment in due proportion, in four</p>
 <p>Days, in accordance with (the needs of) those who seek</p>
 <p>(sustenance).</p>
-<ol start="11">
+<ol>
 <li>Moreover He comprehended in His design the sky, and it had</li>
 </ol>
 <p>been (as) smoke: He said to it and to the earth: “Come ye</p>
 <p>together, willingly or unwillingly.” They said: “We do come</p>
 <p>(together), in willing obedience.”</p>
-<ol start="12">
+<ol>
 <li>So he completed them as seven firmaments in two Days, and He</li>
 </ol>
 <p>assigned to each heaven its duty and command. And We adorned the</p>
 <p>lower heaven with lights, and (provided it) with guard. Such is</p>
 <p>the Decree of (Him) the Exalted in Might, Full of Knowledge.</p>
-<ol start="13">
+<ol>
 <li>But if they turn away, say thou: “I have warned you of a</li>
 </ol>
 <p>stunning Punishment (as of thunder and lightning) like that</p>
 <p>which (overtook) the Ad and the Thamud!”</p>
-<ol start="14">
+<ol>
 <li>Behold, the apostles came to them, from before them and</li>
 </ol>
 <p>behind them, (preaching): “Serve none but Allah.” They said, “If</p>
 <p>our Lord had so pleased, He would certainly have sent down</p>
 <p>angels (to preach): Now we reject your mission (altogether).”</p>
-<ol start="15">
+<ol>
 <li>Now the Ad behaved arrogantly through the land, against</li>
 </ol>
 <p>(all) truth and reason, and said: “Who is superior to us in</p>
 <p>strength?” What! Did they not see that Allah, Who created them,</p>
 <p>was superior to them in strength? But they continued to reject</p>
 <p>Our Signs!</p>
-<ol start="16">
+<ol>
 <li>So We sent against them a furious Wind through days of</li>
 </ol>
 <p>disaster, that We might give them a taste of a Penalty of</p>
 <p>humiliation in this Life; but the Penalty of a Hereafter will be</p>
 <p>more humiliating still: And they will find no help.</p>
-<ol start="17">
+<ol>
 <li>As to the Thamud, We gave them guidance, but they preferred</li>
 </ol>
 <p>blindness (of heart) to Guidance: So the stunning Punishment of</p>
 <p>humiliation seized them, because of what they earned.</p>
-<ol start="18">
+<ol>
 <li>But We delivered those who believed and practiced</li>
 </ol>
 <p>righteousness.</p>
-<ol start="19">
+<ol>
 <li>On the Day that the enemies of Allah will be gathered</li>
 </ol>
 <p>together to the Fire, they will be marched in ranks.</p>
-<ol start="20">
+<ol>
 <li>At length, when they reach the (Fire), their hearing, their</li>
 </ol>
 <p>sight, and their skins will bear witness against them, as to</p>
 <p>(all) their deeds.</p>
-<ol start="21">
+<ol>
 <li>They will say to their skins: “Why bear ye witness against</li>
 </ol>
 <p>us?” They will say: “Allah hath given us speech, –(He) Who</p>
 <p>giveth speech to everything: He created you for the first time,</p>
 <p>and unto Him were ye to return.</p>
-<ol start="22">
+<ol>
 <li>“Ye did not seek to hide yourselves, lest your hearing, your</li>
 </ol>
 <p>sight, and your skins should bear witness against you! But ye</p>
 <p>did think that Allah knew not many of the things that ye used to</p>
 <p>do!</p>
-<ol start="23">
+<ol>
 <li>“But this thought of yours which ye did entertain concerning</li>
 </ol>
 <p>your Lord, hath brought you to destruction, and (now) have ye</p>
 <p>become of those utterly lost!”</p>
-<ol start="24">
+<ol>
 <li>If, then, they have patience, the Fire will be a Home for</li>
 </ol>
 <p>them! And if they beg to be received into favor, into favor will</p>
 <p>they not (then) be received.</p>
-<ol start="25">
+<ol>
 <li>And We have destined for them intimate companions (of like</li>
 </ol>
 <p>nature), who made alluring to them what was before them and</p>
 <p>behind them; and the sentence among the previous generations of</p>
 <p>Jinns and men, who have passed away, is proved against them; for</p>
 <p>they are utterly lost.</p>
-<ol start="26">
+<ol>
 <li>The Unbelievers say: “Listen not to this Koran, but talk at</li>
 </ol>
 <p>random in the midst of its (reading), that ye may gain the upper</p>
 <p>hand!”</p>
-<ol start="27">
+<ol>
 <li>But We will certainly give the Unbelievers a taste of a</li>
 </ol>
 <p>severe Penalty, and We will requite them for the worst of their</p>
 <p>deeds.</p>
-<ol start="28">
+<ol>
 <li>Such is the requital of the enemies of Allah, –the Fire:</li>
 </ol>
 <p>Therein will be for them the Eternal Home: A (fit) requital, for</p>
 <p>that they were wont to reject Our Signs.</p>
-<ol start="29">
+<ol>
 <li>And the Unbelievers will say: “Our Lord! Show us those,</li>
 </ol>
 <p>among Jinns and Men, who misled us: We shall crush them beneath</p>
 <p>our feet, so that they become the vilest (before all).”</p>
-<ol start="30">
+<ol>
 <li>In the case of those who say, “Our Lord is Allah”, and,</li>
 </ol>
 <p>further, stand straight and steadfast, the angels descend on</p>
 <p>them (from time to time): “Fear ye not!” (they suggest), “Nor</p>
 <p>grieve! But receive the Glad Tidings of the Garden (of Bliss),</p>
 <p>the which ye were promised!</p>
-<ol start="31">
+<ol>
 <li>“We are your protectors in this life and in the Hereafter:</li>
 </ol>
 <p>Therein shall ye have all that your souls shall desire; therein</p>
 <p>shall ye have all that ye ask for! —</p>
-<ol start="32">
+<ol>
 <li>
 <p>“A hospitable gift from One Oft-Forgiving, Most Merciful!”</p>
 </li>
@@ -290,59 +341,59 @@ Uzak bir ayrılık içinde olandan daha sapık kim olabilir?”</li>
 </li>
 </ol>
 <p>works righteousness and says, “I am of those who bow in Islam”?</p>
-<ol start="34">
+<ol>
 <li>Nor can Goodness and Evil be equal. Repel (Evil) with what</li>
 </ol>
 <p>is better: Then will he between whom and thee was hatred become</p>
 <p>as it were thy friend and intimate!</p>
-<ol start="35">
+<ol>
 <li>And no one will be granted such goodness except those who</li>
 </ol>
 <p>exercise patience and self-restraint, –none but persons of the</p>
 <p>greatest good fortune.</p>
-<ol start="36">
+<ol>
 <li>And if (at any time) an incitement to discord is made to</li>
 </ol>
 <p>thee by the Evil One, seek refuge in Allah. He is the One Who</p>
 <p>hears and knows all things.</p>
-<ol start="37">
+<ol>
 <li>Among His Signs are the Night and the Day, and the Sun and</li>
 </ol>
 <p>the Moon. Adore not the sun and the moon, but adore Allah, Who</p>
 <p>created them, If it is Him ye wish to serve.</p>
-<ol start="38">
+<ol>
 <li>But the (Unbelievers) are arrogant, (no matter): For in the</li>
 </ol>
 <p>presence of thy Lord are those who celebrate His praises by</p>
 <p>night and by day. And they never flag (nor feel themselves above</p>
 <p>it).</p>
-<ol start="39">
+<ol>
 <li>And among His Signs in this: Thou seest the earth barren and</li>
 </ol>
 <p>desolate; But when We send down rain to it, it is stirred to</p>
 <p>life and yields increase. Truly, He Who gives life to the (dead)</p>
 <p>earth can surely give life to (men) who are dead. For He has</p>
 <p>power over all things.</p>
-<ol start="40">
+<ol>
 <li>Those who pervert the Truth in Our Signs are not hidden from</li>
 </ol>
 <p>Us. Which is better? –He that is cast into a Fire, or he that</p>
 <p>comes safe through, on the Day of Judgment? Do what ye will:</p>
 <p>Verily He seeth (clearly) all that ye do.</p>
-<ol start="41">
+<ol>
 <li>Those who reject the Message when it comes to them (are not</li>
 </ol>
 <p>hidden from Us). And indeed it is a Book of exalted power.</p>
-<ol start="42">
+<ol>
 <li>No falsehood can approach it: It is sent down by One Full of</li>
 </ol>
 <p>Wisdom, Worthy of all Praise.</p>
-<ol start="43">
+<ol>
 <li>Nothing is said to thee that was not said to the apostles</li>
 </ol>
 <p>before thee: That thy Lord has at His command (all) Forgiveness</p>
 <p>as well as a most Grievous Penalty.</p>
-<ol start="44">
+<ol>
 <li>Had We sent this as a Koran (in a language) other than</li>
 </ol>
 <p>Arabic, they would have said: “Why are not its verses explained</p>
@@ -351,19 +402,19 @@ Uzak bir ayrılık içinde olandan daha sapık kim olabilir?”</li>
 <p>and for those who believe not, there is a deafness in their</p>
 <p>ears, and it is blindness in their (eyes): They are (as it were)</p>
 <p>being called from a place far distant!”</p>
-<ol start="45">
+<ol>
 <li>We certainly gave Moses the Book aforetime: But disputes</li>
 </ol>
 <p>arose therein. Had it not been for a Word that went forth before</p>
 <p>from thy Lord, (their differences) would have been settled</p>
 <p>between them: But they remained in suspicious disquieting doubt</p>
 <p>thereon.</p>
-<ol start="46">
+<ol>
 <li>Whoever works righteousness benefits his own soul; whoever</li>
 </ol>
 <p>works evil, it is against his own soul: Nor is thy Lord ever</p>
 <p>unjust (in the least) to His servants.</p>
-<ol start="47">
+<ol>
 <li>To Him is referred the Knowledge of the Hour (of Judgment:</li>
 </ol>
 <p>He knows all): No date fruit comes out of its sheath, nor does a</p>
@@ -371,16 +422,16 @@ Uzak bir ayrılık içinde olandan daha sapık kim olabilir?”</li>
 <p>by His Knowledge. The Day that (Allah) will propound to them the</p>
 <p>(question), “Where are the Partners (ye attributed) to Me?” They</p>
 <p>will say, “We do assure Thee not one of us can bear witness!”</p>
-<ol start="48">
+<ol>
 <li>The (deities) they used to invoke aforetime will leave them</li>
 </ol>
 <p>in the lurch, and they will perceive that they have no way of</p>
 <p>escape.</p>
-<ol start="49">
+<ol>
 <li>Man does not weary of asking for good (things), but if ill</li>
 </ol>
 <p>touches him, he gives up all hope (and) is lost in despair.</p>
-<ol start="50">
+<ol>
 <li>When We give him a taste of some mercy from Ourselves, after</li>
 </ol>
 <p>some adversity has touched him, he is sure to say, “This is due</p>
@@ -389,26 +440,31 @@ Uzak bir ayrılık içinde olandan daha sapık kim olabilir?”</li>
 <p>have (much) good (stored) in His sight!” But We will show the</p>
 <p>Unbelievers the truth of all that they did, and We shall give</p>
 <p>them the taste of a severe Penalty.</p>
-<ol start="51">
+<ol>
 <li>When We bestow favors on man, he turns away, and gets</li>
 </ol>
 <p>himself remote on his side (instead of coming to Us); and when</p>
 <p>Evil seizes him, (he comes) full of prolonged prayer!</p>
-<ol start="52">
+<ol>
 <li>Say: “See ye if the (Revelation) is (really) from Allah, and</li>
 </ol>
 <p>yet do ye reject it? Who is more astray than one who is in a</p>
 <p>schism far (from any purpose)?”</p>
-<ol start="53">
+<ol>
 <li>Soon will We show them Our Signs in the (furthest) regions</li>
 </ol>
 <p>(of the earth), and in their own souls, until it becomes</p>
 <p>manifest to them that this is the Truth. Is it not enough that</p>
 <p>thy Lord doth witness all things?</p>
-<ol start="54">
+<ol>
 <li>Ah indeed! Are they in doubt concerning the Meeting with</li>
 </ol>
-<p>their Lord? Ah indeed! It is He that doth encompass all things!</p></div>
+<p>their Lord? Ah indeed! It is He that doth encompass all things!</p>
+        </article>
+        <hr>
+        <footer class='pb-12 text-center'>
+            <p style='color: #8D8273;'>Toygar Par - Quran Project</p>
+        </footer>
     </div>
 </body>
 </html>

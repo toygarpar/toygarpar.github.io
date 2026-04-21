@@ -1,55 +1,106 @@
 
 <!DOCTYPE html>
-<html lang='en'>
+<html lang='tr'>
 <head>
     <meta charset='UTF-8'>
     <title>Casiye Suresi</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link href='https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css' rel='stylesheet'>
-    <style>
-        body {
-            background-color: #111827;
-            color: #f9fafb;
-        }
-        .prose {
-            color: #f9fafb;
-        }
-        .prose h1, .prose h2, .prose h3 {
-            color: #60a5fa;
-        }
-        pre code {
-            background-color: #1f2937;
-            color: #f9fafb;
-            display: block;
-            padding: 1em;
-            overflow-x: auto;
-            border-radius: 0.5rem;
-        }
-        code {
-            background-color: #374151;
-            padding: 0.2em 0.4em;
-            border-radius: 0.25rem;
-        }
-        a {
-            color: #93c5fd;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-         p {
-            margin-top: 1em;
-            margin-bottom: 1em;
-            line-height: 1.7;
-        }
-    </style>
+    
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
+
+    body {
+        background-color: #1A1714; /* Deep Obsidian */
+        color: #F2E8CF; /* Parchment Cream */
+        font-family: 'Lora', serif;
+    }
+
+    /* --- SAFFRON GLOW BOLD FONTS --- */
+    strong, b {
+        color: #FFC107;
+        font-weight: 700;
+        text-shadow: 0 0 8px rgba(255, 193, 7, 0.4);
+    }
+    
+    .surah-card {
+        background-color: #24201D;
+        border-left: 4px solid #BC9353; /* Ottoman Gold */
+        padding: 1.5rem;
+        border-radius: 0.25rem;
+        transition: transform 0.2s;
+        margin-bottom: 1.5rem;
+    }
+
+    .surah-card:hover {
+        transform: translateX(5px);
+        background-color: #2C2723;
+    }
+
+    h1, h2, h3 {
+        font-family: 'Playfair Display', serif;
+        color: #BC9353;
+    }
+
+    .prose {
+        color: #F2E8CF;
+        max-width: none;
+        line-height: 1.8;
+    }
+
+    .tag-ottoman {
+        background-color: #38A3A5; /* Iznik Turquoise */
+        color: #1A1714;
+        font-weight: 600;
+        font-size: 0.75rem;
+        padding: 0.2rem 0.6rem;
+        border-radius: 0.25rem;
+        margin-right: 0.5rem;
+        display: inline-block;
+    }
+
+    input#searchInput {
+        background-color: #24201D;
+        border: 1px solid #BC9353;
+        color: #F2E8CF;
+        width: 100%;
+        padding: 0.75rem;
+        border-radius: 0.5rem;
+        margin-bottom: 2rem;
+    }
+
+    input#searchInput::placeholder {
+        color: #8D8273;
+    }
+
+    a {
+        color: #BC9353;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    a:hover {
+        color: #F2E8CF;
+        text-decoration: underline;
+    }
+
+    hr {
+        border-color: #3D352E;
+        margin: 2rem 0;
+    }
+</style>
+
 </head>
-<body class='font-sans p-6'>
+<body class='p-6'>
     <div class='max-w-3xl mx-auto'>
-        <a href='../index.html' class='block mb-4'>← Sure Listesine Geri Dön</a>
-        <h1 class='text-3xl font-bold mt-4'>Casiye Suresi</h1>
-        <p class='text-sm text-gray-400 mb-4'>2025-04-20</p>
-        <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>kuran</span> <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>quran</span> <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>furkan</span>
-        <div class='prose max-w-none mt-4'><h2>Casiye Suresi 45-65</h2>
+        <a href='../index.html' style='color: #38A3A5;'>← Listeye Dön</a>
+        <header class='mt-8 mb-12'>
+            <h1 class='text-4xl font-bold'>Casiye Suresi</h1>
+            <p style='color: #8D8273;' class='mt-2 text-sm'>2025-04-20</p>
+            <div class='mt-4'><span class='tag-ottoman'>kuran</span><span class='tag-ottoman'>quran</span><span class='tag-ottoman'>furkan</span></div>
+        </header>
+        <article class='prose'>
+            <h2>Casiye Suresi 45-65</h2>
 <p>Casiye Suresi 45-65 (Diz Çökmüş)</p>
 <p>SEVGİ VE MERHAMETİ SONSUZ ALLAH’IN ADIYLA</p>
 <ol>
@@ -108,27 +159,27 @@
 </li>
 </ol>
 <p>Power, Full of Wisdom.</p>
-<ol start="3">
+<ol>
 <li>Verily in the heavens and the earth, are Signs for those who</li>
 </ol>
 <p>believe.</p>
-<ol start="4">
+<ol>
 <li>And in the creation of yourselves and the fact that animals</li>
 </ol>
 <p>are scattered (through the earth), are Signs for those of</p>
 <p>assured Faith.</p>
-<ol start="5">
+<ol>
 <li>And in the alternation of Night and Day, and the fact that</li>
 </ol>
 <p>Allah sends down Sustenance from the sky, and revives therewith</p>
 <p>the earth after its death, and in the change of the winds, –are</p>
 <p>Signs for those that are wise.</p>
-<ol start="6">
+<ol>
 <li>Such are the Signs of Allah, which We rehearse to thee in</li>
 </ol>
 <p>truth: Then in what exposition will they believe after</p>
 <p>(rejecting) Allah and His Signs?</p>
-<ol start="7">
+<ol>
 <li>
 <p>Woe to each sinful dealer in Falsehoods:</p>
 </li>
@@ -138,154 +189,159 @@
 </ol>
 <p>obstinate and lofty, as if he had not heard them: Then announce</p>
 <p>to him a Penalty Grievous!</p>
-<ol start="9">
+<ol>
 <li>And when he learns something of Our Signs, he takes them in</li>
 </ol>
 <p>jest: For such there will be a humiliating Penalty.</p>
-<ol start="10">
+<ol>
 <li>In front of them is Hell: And of no profit to them is</li>
 </ol>
 <p>anything they may have earned, nor any protectors they may have</p>
 <p>taken to themselves besides Allah: For them is a tremendous</p>
 <p>Penalty.</p>
-<ol start="11">
+<ol>
 <li>This is (true) Guidance: And for those who reject the Signs</li>
 </ol>
 <p>of their Lord, is a grievous Penalty of abomination.</p>
-<ol start="12">
+<ol>
 <li>It is Allah Who has subjected the sea to you, that ships may</li>
 </ol>
 <p>sail through it by His command, that ye may seek of His Bounty,</p>
 <p>and that ye may be grateful.</p>
-<ol start="13">
+<ol>
 <li>And He has subjected to you, as from Him, all that is in the</li>
 </ol>
 <p>heavens and on earth: Behold, in that are Signs indeed for those</p>
 <p>who reflect.</p>
-<ol start="14">
+<ol>
 <li>Tell those who believe, to forgive those who do not look</li>
 </ol>
 <p>forward to the Days of Allah: It is for Him to recompense (for</p>
 <p>good or ill) each People according to what they have earned.</p>
-<ol start="15">
+<ol>
 <li>If any one does a righteous deed, it is to his own benefit;</li>
 </ol>
 <p>if he does evil, it works against (his own soul). In the end</p>
 <p>will ye (all) be brought back to your Lord.</p>
-<ol start="16">
+<ol>
 <li>We did aforetime grant to the Children of Israel the Book,</li>
 </ol>
 <p>the Power of Command, and Prophethood; We gave them, for</p>
 <p>Sustenance, things good and pure; and We favored them above the</p>
 <p>nations.</p>
-<ol start="17">
+<ol>
 <li>And We granted them Clear Signs in affairs (of Religion): It</li>
 </ol>
 <p>was only after knowledge had been granted to them that they fell</p>
 <p>into schisms, through insolent envy among themselves. Verily thy</p>
 <p>Lord will judge between them on the Day of Judgment as to those</p>
 <p>matters in which they set up differences.</p>
-<ol start="18">
+<ol>
 <li>Then We put thee on the (right) Way of Religion: So follow</li>
 </ol>
 <p>thou that (Way), and follow not the desires of those who know</p>
 <p>not.</p>
-<ol start="19">
+<ol>
 <li>They will be of no use to thee in the sight of Allah: It is</li>
 </ol>
 <p>only wrongdoers (that stand as) protectors, one to another: But</p>
 <p>Allah is the protector of the Righteous.</p>
-<ol start="20">
+<ol>
 <li>These are clear evidences to men, and a Guidance and Mercy</li>
 </ol>
 <p>to those of assured Faith.</p>
-<ol start="21">
+<ol>
 <li>What! Do those who seek after evil ways think that We shall</li>
 </ol>
 <p>hold them equal with those believe and do Righteous deeds, —</p>
 <p>that equal will be their life and their death? Ill is the</p>
 <p>judgment that they make.</p>
-<ol start="22">
+<ol>
 <li>Allah created the heavens and the earth for just ends, and</li>
 </ol>
 <p>in order that each soul may find the recompense of what it has</p>
 <p>earned, and none of them be wronged.</p>
-<ol start="23">
+<ol>
 <li>Then seest thou such a one as takes as his god his own vain</li>
 </ol>
 <p>desire? Allah has, knowing (him as such), left him astray, and</p>
 <p>sealed his hearing and his heart (and understanding), and put a</p>
 <p>cover on his sight. Who, then, will guide him after Allah (has</p>
 <p>withdrawn Guidance)? Will ye not then receive admonition?</p>
-<ol start="24">
+<ol>
 <li>And they say: “What is there but our life in this world? We</li>
 </ol>
 <p>shall die and we live, and nothing but Time can destroy us.” But</p>
 <p>of that they have no knowledge: They merely conjecture:</p>
-<ol start="25">
+<ol>
 <li>And when Our Clear Signs are rehearsed to them, their</li>
 </ol>
 <p>argument is nothing but this: They say, “Bring (back) our</p>
 <p>forefathers, if what ye say is true!”</p>
-<ol start="26">
+<ol>
 <li>Say: “It is Allah Who gives you life, then gives you death;</li>
 </ol>
 <p>then He will gather you together for the Day of Judgment about</p>
 <p>which there is no doubt”: But most men do not understand.</p>
-<ol start="27">
+<ol>
 <li>To Allah belongs the dominion of the heavens and the earth,</li>
 </ol>
 <p>and the Day that the Hour of Judgment is established, –that Day</p>
 <p>will the dealers in Falsehood perish!</p>
-<ol start="28">
+<ol>
 <li>And thou wilt see every sect bowing the knee: Every sect</li>
 </ol>
 <p>will be called to its Record: “This Day shall ye be recompensed</p>
 <p>for all that ye did!</p>
-<ol start="29">
+<ol>
 <li>“This Our Record speaks about you with truth: For We were</li>
 </ol>
 <p>wont to put on record all that ye did.”</p>
-<ol start="30">
+<ol>
 <li>Then, as to those who believed and did righteous deeds,</li>
 </ol>
 <p>their Lord will admit them to His Mercy: That will be the</p>
 <p>Achievement for all to see.</p>
-<ol start="31">
+<ol>
 <li>But as to those who rejected Allah, (to them will be said):</li>
 </ol>
 <p>“Were not Our Signs rehearsed to you? But ye were arrogant, and</p>
 <p>were a people given to sin!</p>
-<ol start="32">
+<ol>
 <li>“And when it was said that the promise of Allah was true,</li>
 </ol>
 <p>and that the Hour–there was no doubt about its (coming), ye</p>
 <p>used to say, `We know not what is the Hour: We only think it is</p>
 <p>an idea, and we have no firm assurance. ‘”</p>
-<ol start="33">
+<ol>
 <li>Then will appear to them the evil (fruits) of what they did,</li>
 </ol>
 <p>and they will be completely encircled by that which they used to</p>
 <p>mock at!</p>
-<ol start="34">
+<ol>
 <li>It will also be said: “This Day We will forget you as ye</li>
 </ol>
 <p>forgot the meeting of this Day of yours! And your abode is the</p>
 <p>Fire, and no helpers have ye!</p>
-<ol start="35">
+<ol>
 <li>“This, because ye used to take the Signs of Allah in jest,</li>
 </ol>
 <p>and the life of the world deceived you:” (From) that Day,</p>
 <p>therefore, they shall not be taken out thence, nor shall they be</p>
 <p>received into Grace.</p>
-<ol start="36">
+<ol>
 <li>Then Praise be to Allah, Lord of the heavens and Lord of the</li>
 </ol>
 <p>earth, –Lord and Cherisher of all the worlds!</p>
-<ol start="37">
+<ol>
 <li>To Him be Glory throughout the heavens and the earth: And He</li>
 </ol>
-<p>is Exalted in Power, Full of Wisdom!</p></div>
+<p>is Exalted in Power, Full of Wisdom!</p>
+        </article>
+        <hr>
+        <footer class='pb-12 text-center'>
+            <p style='color: #8D8273;'>Toygar Par - Quran Project</p>
+        </footer>
     </div>
 </body>
 </html>

@@ -1,55 +1,106 @@
 
 <!DOCTYPE html>
-<html lang='en'>
+<html lang='tr'>
 <head>
     <meta charset='UTF-8'>
     <title>Nahl Suresi</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link href='https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css' rel='stylesheet'>
-    <style>
-        body {
-            background-color: #111827;
-            color: #f9fafb;
-        }
-        .prose {
-            color: #f9fafb;
-        }
-        .prose h1, .prose h2, .prose h3 {
-            color: #60a5fa;
-        }
-        pre code {
-            background-color: #1f2937;
-            color: #f9fafb;
-            display: block;
-            padding: 1em;
-            overflow-x: auto;
-            border-radius: 0.5rem;
-        }
-        code {
-            background-color: #374151;
-            padding: 0.2em 0.4em;
-            border-radius: 0.25rem;
-        }
-        a {
-            color: #93c5fd;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-         p {
-            margin-top: 1em;
-            margin-bottom: 1em;
-            line-height: 1.7;
-        }
-    </style>
+    
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
+
+    body {
+        background-color: #1A1714; /* Deep Obsidian */
+        color: #F2E8CF; /* Parchment Cream */
+        font-family: 'Lora', serif;
+    }
+
+    /* --- SAFFRON GLOW BOLD FONTS --- */
+    strong, b {
+        color: #FFC107;
+        font-weight: 700;
+        text-shadow: 0 0 8px rgba(255, 193, 7, 0.4);
+    }
+    
+    .surah-card {
+        background-color: #24201D;
+        border-left: 4px solid #BC9353; /* Ottoman Gold */
+        padding: 1.5rem;
+        border-radius: 0.25rem;
+        transition: transform 0.2s;
+        margin-bottom: 1.5rem;
+    }
+
+    .surah-card:hover {
+        transform: translateX(5px);
+        background-color: #2C2723;
+    }
+
+    h1, h2, h3 {
+        font-family: 'Playfair Display', serif;
+        color: #BC9353;
+    }
+
+    .prose {
+        color: #F2E8CF;
+        max-width: none;
+        line-height: 1.8;
+    }
+
+    .tag-ottoman {
+        background-color: #38A3A5; /* Iznik Turquoise */
+        color: #1A1714;
+        font-weight: 600;
+        font-size: 0.75rem;
+        padding: 0.2rem 0.6rem;
+        border-radius: 0.25rem;
+        margin-right: 0.5rem;
+        display: inline-block;
+    }
+
+    input#searchInput {
+        background-color: #24201D;
+        border: 1px solid #BC9353;
+        color: #F2E8CF;
+        width: 100%;
+        padding: 0.75rem;
+        border-radius: 0.5rem;
+        margin-bottom: 2rem;
+    }
+
+    input#searchInput::placeholder {
+        color: #8D8273;
+    }
+
+    a {
+        color: #BC9353;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    a:hover {
+        color: #F2E8CF;
+        text-decoration: underline;
+    }
+
+    hr {
+        border-color: #3D352E;
+        margin: 2rem 0;
+    }
+</style>
+
 </head>
-<body class='font-sans p-6'>
+<body class='p-6'>
     <div class='max-w-3xl mx-auto'>
-        <a href='../index.html' class='block mb-4'>← Sure Listesine Geri Dön</a>
-        <h1 class='text-3xl font-bold mt-4'>Nahl Suresi</h1>
-        <p class='text-sm text-gray-400 mb-4'>2025-04-20</p>
-        <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>kuran</span> <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>quran</span> <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>furkan</span>
-        <div class='prose max-w-none mt-4'><h2>Nahl Suresi 16-70</h2>
+        <a href='../index.html' style='color: #38A3A5;'>← Listeye Dön</a>
+        <header class='mt-8 mb-12'>
+            <h1 class='text-4xl font-bold'>Nahl Suresi</h1>
+            <p style='color: #8D8273;' class='mt-2 text-sm'>2025-04-20</p>
+            <div class='mt-4'><span class='tag-ottoman'>kuran</span><span class='tag-ottoman'>quran</span><span class='tag-ottoman'>furkan</span></div>
+        </header>
+        <article class='prose'>
+            <h2>Nahl Suresi 16-70</h2>
 <p>Nahl Suresi 16-70 ( Arı )</p>
 <p>SEVGİ VE MERHAMETİ SONSUZ ALLAH’IN ADIYLA</p>
 <ol>
@@ -191,88 +242,88 @@
 Seek ye not then to hasten it: Glory to Him,</li>
 </ol>
 <p>and far is He above having the partners they ascribe unto Him!</p>
-<ol start="2">
+<ol>
 <li>He doth send down His angels with inspiration of His Command,</li>
 </ol>
 <p>to such of His servants as He pleaseth, (saying): “Warn (Man)</p>
 <p>that there is no god but I: So do your duty unto Me.”</p>
-<ol start="3">
+<ol>
 <li>He has created the heavens and the earth for just ends: Far</li>
 </ol>
 <p>is He above having the partners they ascribe to Him!</p>
-<ol start="4">
+<ol>
 <li>He has created man from a sperm drop; and behold this same</li>
 </ol>
 <p>(man) becomes an open disputer!</p>
-<ol start="5">
+<ol>
 <li>And cattle He has created for you (men): From them ye derive</li>
 </ol>
 <p>warmth, and numerous benefits, and of their (meat) ye eat.</p>
-<ol start="6">
+<ol>
 <li>And ye have a sense of pride and beauty in them as ye drive</li>
 </ol>
 <p>them home in the evening, and as ye lead them forth to pasture</p>
 <p>in the morning.</p>
-<ol start="7">
+<ol>
 <li>And they carry your heavy loads to lands that ye could not</li>
 </ol>
 <p>(otherwise) reach except with souls distressed: For your Lord is</p>
 <p>indeed Most Kind, Most Merciful.</p>
-<ol start="8">
+<ol>
 <li>And (He has created) horses, mules, and donkeys, for you to</li>
 </ol>
 <p>ride and use for show; and He has created (other) things of</p>
 <p>which ye have no knowledge.</p>
-<ol start="9">
+<ol>
 <li>And unto Allah leads straight the Way, but there are ways</li>
 </ol>
 <p>that turn aside: If Allah had willed, He could have guided all</p>
 <p>of you.</p>
-<ol start="10">
+<ol>
 <li>It is He Who sends down rain from the sky: From it ye drink,</li>
 </ol>
 <p>and out of it (grows) the vegetation on which ye feed your</p>
 <p>cattle.</p>
-<ol start="11">
+<ol>
 <li>With it He produces for you corn, olives, date palms,</li>
 </ol>
 <p>grapes, and every kind of fruit: Verily in this is a Sign for</p>
 <p>those who give thought.</p>
-<ol start="12">
+<ol>
 <li>He has made subject to you the Night and the Day; the Sun</li>
 </ol>
 <p>and the Moon; and the Stars are in subjection by His Command:</p>
 <p>Verily in this are Signs for men who are wise.</p>
-<ol start="13">
+<ol>
 <li>And the things on this earth which He has multiplied in</li>
 </ol>
 <p>varying colors (and qualities): Verily in this is a Sign for men</p>
 <p>who celebrate the praises of Allah (in gratitude).</p>
-<ol start="14">
+<ol>
 <li>It is He Who has made the sea subject, that ye may eat</li>
 </ol>
 <p>thereof flesh that is fresh and tender, and that ye may extract</p>
 <p>therefrom ornaments to wear; and thou seest the ships therein</p>
 <p>that plough the waves, that ye may seek (thus) of the bounty of</p>
 <p>Allah and that ye may be grateful.</p>
-<ol start="15">
+<ol>
 <li>And He set up on the earth mountains standing firm, lest it</li>
 </ol>
 <p>should shake with you; and rivers and roads; that ye may guide</p>
 <p>yourselves;</p>
-<ol start="16">
+<ol>
 <li>And marks and signposts; and by the stars (men) guide</li>
 </ol>
 <p>themselves.</p>
-<ol start="17">
+<ol>
 <li>Is then He Who creates like one who creates not? Will ye not</li>
 </ol>
 <p>receive admonition?</p>
-<ol start="18">
+<ol>
 <li>If ye would count up the favors of Allah, never would ye be</li>
 </ol>
 <p>able to number them: For Allah is Oft-Forgiving, Most Merciful.</p>
-<ol start="19">
+<ol>
 <li>
 <p>And Allah doth know what ye conceal, and what ye reveal.</p>
 </li>
@@ -281,203 +332,203 @@ Seek ye not then to hasten it: Glory to Him,</li>
 </li>
 </ol>
 <p>themselves created.</p>
-<ol start="21">
+<ol>
 <li>(They are things) dead, lifeless: Nor do they know when they</li>
 </ol>
 <p>will be raised up.</p>
-<ol start="22">
+<ol>
 <li>Your God is One God: As to those who believe not in the</li>
 </ol>
 <p>Hereafter, their hearts refuse to know, and they are arrogant.</p>
-<ol start="23">
+<ol>
 <li>Undoubtedly Allah doth know what they conceal, and what they</li>
 </ol>
 <p>reveal: Verily He loveth not the arrogant.</p>
-<ol start="24">
+<ol>
 <li>When it is said to them, “What is it that your Lord has</li>
 </ol>
 <p>revealed?” They say, “Tales of the ancients!”</p>
-<ol start="25">
+<ol>
 <li>Let them bear, on the Day of Judgment, their own burdens in</li>
 </ol>
 <p>full, and also (something) of the burdens of those without</p>
 <p>knowledge, whom they misled. Alas, how grievous the burdens they</p>
 <p>will bear!</p>
-<ol start="27">
+<ol>
 <li>Then, on the Day of Judgment, He will cover them with shame,</li>
 </ol>
 <p>and say: “Where are My ‘partners’ concerning whom ye used to</p>
 <p>dispute (with the godly)?” Those endued with knowledge will say:</p>
 <p>“This Day, indeed, are the Unbelievers covered with Shame and</p>
 <p>Misery, —</p>
-<ol start="28">
+<ol>
 <li>“(Namely) those whose lives the angels take in a state of</li>
 </ol>
 <p>wrongdoing to their own souls.” Then would they offer submission</p>
 <p>(with the pretence), “We did no evil (knowingly).” (The angels</p>
 <p>will reply), “Nay, but verily Allah knoweth all that ye did;</p>
-<ol start="29">
+<ol>
 <li>“So enter the gates of Hell, to dwell therein. Thus evil</li>
 </ol>
 <p>indeed is the abode of the arrogant.”</p>
-<ol start="30">
+<ol>
 <li>To the righteous (when) it is said, “What is it that your</li>
 </ol>
 <p>Lord has revealed?” They say, “All that is good.” To those who</p>
 <p>do good, there is good in this world, and the Home of the</p>
 <p>Hereafter is even better and excellent indeed is the Home of the</p>
 <p>righteous, —</p>
-<ol start="31">
+<ol>
 <li>Gardens of Eternity which they will enter: Beneath them flow</li>
 </ol>
 <p>(pleasant) rivers: They will have therein all that they wish:</p>
 <p>Thus doth Allah reward the righteous, —</p>
-<ol start="32">
+<ol>
 <li>(Namely) those whose lives the angels take in a state of</li>
 </ol>
 <p>purity, saying (to them), “Peace be on you; enter ye the Garden,</p>
 <p>because of (the good) which ye did (in the world).”</p>
-<ol start="33">
+<ol>
 <li>Do the (ungodly) wait until the angels come to them, or</li>
 </ol>
 <p>there comes the Command of thy Lord (for their doom)? So did</p>
 <p>those who went before them. But Allah wronged them not: Nay,</p>
 <p>they wronged their own souls.</p>
-<ol start="34">
+<ol>
 <li>But the evil results of their deeds overtook them, and that</li>
 </ol>
 <p>very (Wrath) at which they had scoffed hemmed them in.</p>
-<ol start="35">
+<ol>
 <li>The worshippers of false gods say: “If Allah had so willed,</li>
 </ol>
 <p>we should not have worshipped aught but Him–neither we nor our</p>
 <p>fathers, –nor should we have prescribed prohibitions other than</p>
 <p>His.” So did those who went before them. But what is the mission</p>
 <p>of apostles but to preach the Clear Message?</p>
-<ol start="36">
+<ol>
 <li>For We assuredly sent amongst every People an apostle, (with</li>
 </ol>
 <p>the Command), “Serve Allah, and eschew Evil”: Of the people were</p>
 <p>some whom Allah guided, and some on whom Error became inevitably</p>
 <p>(established). So travel through the earth, and see what was the</p>
 <p>end of those who denied (the Truth).</p>
-<ol start="37">
+<ol>
 <li>If thou art anxious for their guidance, yet Allah guideth</li>
 </ol>
 <p>not such as He leaves to stray, and there is none to help them.</p>
-<ol start="38">
+<ol>
 <li>They swear their strongest oaths by Allah, that Allah will</li>
 </ol>
 <p>not raise up those who die: Nay, but it is a promise (binding)</p>
 <p>on Him in truth: But most among mankind realize it not.</p>
-<ol start="39">
+<ol>
 <li>(They must be raised up), in order that He may manifest to</li>
 </ol>
 <p>them the truth of that wherein they differ, and that the</p>
 <p>rejecters of Truth may realize that they had indeed (surrendered</p>
 <p>to) Falsehood.</p>
-<ol start="40">
+<ol>
 <li>For to anything which We have willed, We but say the Word,</li>
 </ol>
 <p>“Be”, and it is.</p>
-<ol start="41">
+<ol>
 <li>To those who leave their homes in the cause of Allah, after</li>
 </ol>
 <p>suffering oppression, –We will assuredly give a goodly home in</p>
 <p>this world; but truly the reward of the Hereafter will be</p>
 <p>greater. If they only realized (this)!</p>
-<ol start="42">
+<ol>
 <li>(They are) those who persevere in patience, and put their</li>
 </ol>
 <p>trust on their Lord.</p>
-<ol start="43">
+<ol>
 <li>And before thee also the apostles We sent were but men, to</li>
 </ol>
 <p>whom We granted inspiration: If ye realize this not, ask of</p>
 <p>those who possess the Message.</p>
-<ol start="44">
+<ol>
 <li>(We sent them) with Clear Signs and Books of dark</li>
 </ol>
 <p>prophecies; and We have sent down unto thee (also) the Message;</p>
 <p>that thou mayest explain clearly to men what is sent for them,</p>
 <p>and that they may give thought.</p>
-<ol start="45">
+<ol>
 <li>Do then those who devise evil (plots) feel secure that Allah</li>
 </ol>
 <p>will not cause the earth to swallow them up, or that the Wrath</p>
 <p>will not seize them from directions they little perceive? —</p>
-<ol start="46">
+<ol>
 <li>Or that He may not call them to account in the midst of</li>
 </ol>
 <p>their goings to and fro, without a chance of their frustrating</p>
 <p>Him? —</p>
-<ol start="47">
+<ol>
 <li>Or that He may not call them to account by a process of slow</li>
 </ol>
 <p>wastage–for thy Lord is indeed full of kindness and mercy.</p>
-<ol start="48">
+<ol>
 <li>Do they not look at Allah’s creation, (even) among</li>
 </ol>
 <p>(inanimate) things, –how their (very) shadows turn round, from</p>
 <p>the right and the left, prostrating themselves to Allah, and</p>
 <p>that in the humblest manner?</p>
-<ol start="49">
+<ol>
 <li>And to Allah doth obeisance all that is in the heavens and</li>
 </ol>
 <p>on earth, whether moving (living) creatures or the angels: For</p>
 <p>none are arrogant (before their Lord).</p>
-<ol start="50">
+<ol>
 <li>They all revere their Lord, high above them, and that they</li>
 </ol>
 <p>are commanded.</p>
-<ol start="51">
+<ol>
 <li>Allah has said: “Take not (for worship) two gods: For He is</li>
 </ol>
 <p>just One God: Then fear Me (and Me alone).”</p>
-<ol start="52">
+<ol>
 <li>To Him belongs whatever is in the heavens and on earth, and</li>
 </ol>
 <p>to Him is duty due always: Then will ye fear other than Allah?</p>
-<ol start="53">
+<ol>
 <li>And ye have no good thing but it is from Allah: And moreover</li>
 </ol>
 <p>when ye are touched by distress, unto Him ye cry with groans;</p>
-<ol start="54">
+<ol>
 <li>Yet, when He removes the distress from you, behold! Some of</li>
 </ol>
 <p>you turn to other gods to join with their Lord–</p>
-<ol start="55">
+<ol>
 <li>(As if) to show their ingratitude for the favors We have</li>
 </ol>
 <p>bestowed on them! Then enjoy (your brief day); but soon will ye</p>
 <p>know (your folly)!</p>
-<ol start="56">
+<ol>
 <li>And they (even) assign, to things they do not know, a</li>
 </ol>
 <p>portion out of that which We have bestowed for their sustenance!</p>
 <p>By Allah, ye shall certainly be called to account for your false</p>
 <p>inventions.</p>
-<ol start="57">
+<ol>
 <li>And they assign daughters for Allah! –Glory be to Him! —</li>
 </ol>
 <p>And for themselves (sons, –the issue) they desire!</p>
-<ol start="58">
+<ol>
 <li>When news is brought to one of them, of (the birth of) a</li>
 </ol>
 <p>female (child), his face darkens, and he is filled with inward</p>
 <p>grief!</p>
-<ol start="59">
+<ol>
 <li>With shame does he hide himself from his people, because of</li>
 </ol>
 <p>the bad news he has had! Shall he retain it on (sufferance and)</p>
 <p>contempt, or bury it in the dust? Ah! What an evil (choice) they</p>
 <p>decide on?</p>
-<ol start="60">
+<ol>
 <li>To those who believe not in the Hereafter, applies the</li>
 </ol>
 <p>similitude of evil: To Allah applies the highest similitude: For</p>
 <p>He is the Exalted in Power, Full of Wisdom.</p>
-<ol start="61">
+<ol>
 <li>If Allah were to punish men for their wrongdoing, He would</li>
 </ol>
 <p>not leave, on the (earth), a single living creature: But He</p>
@@ -485,80 +536,80 @@ Seek ye not then to hasten it: Glory to Him,</li>
 <p>they would not be able to delay (the punishment) for a single</p>
 <p>hour, just as they would not be able to anticipate it (for a</p>
 <p>single hour).</p>
-<ol start="62">
+<ol>
 <li>They attribute to Allah what they hate (for themselves), and</li>
 </ol>
 <p>their tongues assert the falsehood that all good things are for</p>
 <p>themselves: Without doubt for them is the Fire, and they will be</p>
 <p>the first to be hastened on into it!</p>
-<ol start="63">
+<ol>
 <li>By Allah, We (also) sent (Our apostles) to Peoples before</li>
 </ol>
 <p>thee: But Satan made, (to the wicked), their own acts seem</p>
 <p>alluring: He is also their patron today, but they shall have a</p>
 <p>most grievous penalty.</p>
-<ol start="64">
+<ol>
 <li>And We sent down the Book to thee for the express purpose,</li>
 </ol>
 <p>that thou shouldst make clear to them those things in which they</p>
 <p>differ, and that it should be a guide and a mercy to those who</p>
 <p>believe.</p>
-<ol start="65">
+<ol>
 <li>And Allah sends down rain from the skies, and gives</li>
 </ol>
 <p>therewith life to the earth after its death: Verily in this is a</p>
 <p>Sign for those who listen.</p>
-<ol start="66">
+<ol>
 <li>And verily in cattle (too) will ye find an instructive Sign.</li>
 </ol>
 <p>From what is within their bodies, between excretions and blood,</p>
 <p>We produce, for your drink, milk, pure and agreeable to those</p>
 <p>who drink it.</p>
-<ol start="67">
+<ol>
 <li>And from the fruit of the date palm and the vine ye get out</li>
 </ol>
 <p>wholesome drink and food: Behold, in this also is a Sign for</p>
 <p>those who are wise.</p>
-<ol start="68">
+<ol>
 <li>And thy Lord taught the Bee to build its cells in the hills,</li>
 </ol>
 <p>on trees, and in (men’s) habitations;</p>
-<ol start="69">
+<ol>
 <li>Then to eat all the produce (of the earth), and find with</li>
 </ol>
 <p>skill the spacious paths of its Lord: There issues from within</p>
 <p>their bodies a drink of varying colors, wherein is healing for</p>
 <p>men: Verily in this is a Sign for those who give thought.</p>
-<ol start="70">
+<ol>
 <li>It is Allah who creates you and takes your soul at death;</li>
 </ol>
 <p>and of you there are some who are sent back to a feeble age, so</p>
 <p>that they know nothing after having known (much): For Allah is</p>
 <p>All-Knowing, All-Powerful.</p>
-<ol start="71">
+<ol>
 <li>Allah has bestowed His gifts of sustenance more freely on</li>
 </ol>
 <p>some of you than on others: Those more favored are not going to</p>
 <p>throw back their gifts to those whom their right hands possess,</p>
 <p>so as to be equal in that respect. Will they then deny the</p>
 <p>favors of Allah?</p>
-<ol start="72">
+<ol>
 <li>And Allah has made for you mates (and Companions) of your</li>
 </ol>
 <p>own nature, and made for you, out of them, sons and daughters</p>
 <p>and grandchildren, and provided for you sustenance of the best:</p>
 <p>Will they then believe in vain things, and be ungrateful for</p>
 <p>Allah’s favors? —</p>
-<ol start="73">
+<ol>
 <li>And worship others than Allah, –such as have no power of</li>
 </ol>
 <p>providing them, for sustenance, with anything in heavens or</p>
 <p>earth, and cannot possibly have such power?</p>
-<ol start="74">
+<ol>
 <li>Invent not similitudes for Allah: For Allah knoweth, and ye</li>
 </ol>
 <p>know not.</p>
-<ol start="75">
+<ol>
 <li>Allah sets forth the Parable (of two men: One) a slave under</li>
 </ol>
 <p>the domination of another; he has no power of any sort; and (the</p>
@@ -566,31 +617,31 @@ Seek ye not then to hasten it: Glory to Him,</li>
 <p>Ourselves, and he spends thereof (freely), privately and</p>
 <p>publicly: Are the two equal? (By no means;) praise be to Allah.</p>
 <p>But most of them understand not.</p>
-<ol start="76">
+<ol>
 <li>Allah sets forth (another) Parable of two men: One of them</li>
 </ol>
 <p>dumb, with no power of any sort; a wearisome burden is he to his</p>
 <p>master; whichever way he directs him, he brings no good: Is such</p>
 <p>a man equal with one who commands justice, and is on a Straight</p>
 <p>Way?</p>
-<ol start="77">
+<ol>
 <li>To Allah belongeth the Mystery of the heavens and the earth.</li>
 </ol>
 <p>And the Decision of the Hour (of Judgment) is as the twinkling</p>
 <p>of an eye, or even quicker: For Allah hath power over all</p>
 <p>things.</p>
-<ol start="78">
+<ol>
 <li>It is He Who brought you forth from the wombs of your</li>
 </ol>
 <p>mothers when ye knew nothing; and He gave you hearing and sight</p>
 <p>and intelligence and affections: That ye may give thanks (to</p>
 <p>Allah).</p>
-<ol start="79">
+<ol>
 <li>Do they not look at the birds, held poised in the midst of</li>
 </ol>
 <p>(the air and) the sky? Nothing holds them up but (the power of)</p>
 <p>Allah. Verily in this are Signs for those who believe.</p>
-<ol start="80">
+<ol>
 <li>It is Allah Who made your habitations homes of rest and</li>
 </ol>
 <p>quiet for you; and made for you, out of the skins of animals,</p>
@@ -599,7 +650,7 @@ Seek ye not then to hasten it: Glory to Him,</li>
 <p>wool, and their soft fibers (between wool and hair), and their</p>
 <p>hair, rich stuff and articles of convenience (to serve you) for</p>
 <p>a time.</p>
-<ol start="81">
+<ol>
 <li>It is Allah Who made, out of the things He created, some</li>
 </ol>
 <p>thing to give you shade; of the hills He made some for your</p>
@@ -607,56 +658,56 @@ Seek ye not then to hasten it: Glory to Him,</li>
 <p>coats of mail to protect you from your (mutual) violence. Thus</p>
 <p>does He complete His favors on you, that ye may bow to His Will</p>
 <p>(in Islam).</p>
-<ol start="82">
+<ol>
 <li>But if they turn away, thy duty is only to preach the Clear</li>
 </ol>
 <p>Message.</p>
-<ol start="83">
+<ol>
 <li>They recognize the favors of Allah; then they deny them; and</li>
 </ol>
 <p>most of them are (creatures) ungrateful.</p>
-<ol start="84">
+<ol>
 <li>One Day We shall raise from all Peoples a Witness: Then will</li>
 </ol>
 <p>no excuse be accepted from Unbelievers, nor will they receive</p>
 <p>any favors.</p>
-<ol start="85">
+<ol>
 <li>When the wrongdoers (actually) see the Penalty, then will it</li>
 </ol>
 <p>in no way be mitigated, nor will they then receive respite.</p>
-<ol start="86">
+<ol>
 <li>When those who gave partners to Allah will see their</li>
 </ol>
 <p>“partners”, they will say: “Our Lord! These are our `partners’,</p>
 <p>those whom we used to invoke besides Thee.” But they will throw</p>
 <p>back their word at them (and say): “Indeed ye are liars!”</p>
-<ol start="87">
+<ol>
 <li>That day shall they (openly) show (their) submission to</li>
 </ol>
 <p>Allah; and all their inventions shall leave them in the lurch.</p>
-<ol start="88">
+<ol>
 <li>Those who reject Allah and hinder (men) from the Path of</li>
 </ol>
 <p>Allah–for them will We add Penalty to Penalty; for that they</p>
 <p>used to spread mischief.</p>
-<ol start="89">
+<ol>
 <li>One day We shall raise from all Peoples a witness against</li>
 </ol>
 <p>them, from amongst themselves: And We shall bring thee as a</p>
 <p>witness against these (thy people): And We have sent down to</p>
 <p>thee the Book explaining all things, a Guide, a Mercy, and Glad</p>
 <p>Tidings to Muslims.</p>
-<ol start="90">
+<ol>
 <li>Allah commands justice, the doing of good, and liberality to</li>
 </ol>
 <p>kith and kin, and He forbids all shameful deeds, and injustice</p>
 <p>and rebellion: He instructs you that ye may receive admonition.</p>
-<ol start="91">
+<ol>
 <li>Fulfill the Covenant of Allah when ye have entered into it,</li>
 </ol>
 <p>and break not your oaths after ye have confirmed them; indeed ye</p>
 <p>have made Allah your surety; for Allah knoweth all that ye do.</p>
-<ol start="92">
+<ol>
 <li>And be not like a woman who breaks into untwisted strands</li>
 </ol>
 <p>the yarn which she has spun, after it has become strong. Nor</p>
@@ -664,13 +715,13 @@ Seek ye not then to hasten it: Glory to Him,</li>
 <p>one party should be more numerous than another: For Allah will</p>
 <p>test you by this; and on the Day of Judgment He will certainly</p>
 <p>make clear to you (the truth of) that wherein ye disagree.</p>
-<ol start="93">
+<ol>
 <li>If Allah so willed, He could make you all one People: But He</li>
 </ol>
 <p>leaves straying whom He pleases, and He guides whom He pleases:</p>
 <p>But ye shall certainly be called to account for all your</p>
 <p>actions.</p>
-<ol start="94">
+<ol>
 <li>And take not your oaths, to practice deception between</li>
 </ol>
 <p>yourselves, with the result that someone’s foot may slip after</p>
@@ -679,67 +730,67 @@ Seek ye not then to hasten it: Glory to Him,</li>
 <p>and a mighty Wrath descend on you.</p>
 <p>95.Nor sell the Covenant of Allah for a miserable price: For</p>
 <p>with Allah is (a prize) far better for you, if ye only knew.</p>
-<ol start="96">
+<ol>
 <li>What is with you must vanish: What is with Allah will</li>
 </ol>
 <p>endure. And We will certainly bestow, on those who patiently</p>
 <p>persevere, their reward according to the best of their actions.</p>
-<ol start="97">
+<ol>
 <li>Whoever works righteousness, man or woman, and has Faith,</li>
 </ol>
 <p>verily, to him will We give a new Life, a life that is good and</p>
 <p>pure, and We will bestow on such their reward according to the</p>
 <p>best of their actions.</p>
-<ol start="98">
+<ol>
 <li>When thou dost read the Koran, seek Allah’s protection from</li>
 </ol>
 <p>Satan, the Rejected One.</p>
-<ol start="99">
+<ol>
 <li>No authority has he over those who believe and put their</li>
 </ol>
 <p>trust in their Lord.</p>
-<ol start="100">
+<ol>
 <li>His authority is over those only, who take him as patron</li>
 </ol>
 <p>and who join partners with Allah.</p>
-<ol start="101">
+<ol>
 <li>When We substitute one revelation for another, –and Allah</li>
 </ol>
 <p>knows best what He reveals (in stages), –They say, “Thou art</p>
 <p>but a forger”: But most of them understand not.</p>
-<ol start="102">
+<ol>
 <li>Say, “The Holy Spirit has brought the revelation from thy</li>
 </ol>
 <p>Lord in Truth, in order to strengthen those who believe, and as</p>
 <p>a Guide and Glad Tidings to Muslims.”</p>
-<ol start="103">
+<ol>
 <li>We know indeed that they say, “It is a man that teaches</li>
 </ol>
 <p>him.” The tongue of him they wickedly point to is notably</p>
 <p>foreign, while this is Arabic, pure and clear.</p>
-<ol start="104">
+<ol>
 <li>Those who believe not in the Signs of Allah, –Allah will</li>
 </ol>
 <p>not guide them and theirs will be a grievous Penalty.</p>
-<ol start="105">
+<ol>
 <li>It is those who believe not in the Signs of Allah, that</li>
 </ol>
 <p>forge falsehood: It is they who lie.</p>
-<ol start="106">
+<ol>
 <li>Any one who, after accepting Faith in Allah, utters</li>
 </ol>
 <p>Unbelief, –except under compulsion, his heart remaining firm in</p>
 <p>Faith–but such as open their breast to Unbelief, –on them is</p>
 <p>Wrath from Allah, and theirs will be a dreadful Penalty.</p>
-<ol start="107">
+<ol>
 <li>This because they love the life of this world better than</li>
 </ol>
 <p>the Hereafter: And Allah will not guide those who reject Faith.</p>
-<ol start="108">
+<ol>
 <li>Those are they whose hearts, ears, and eyes Allah has</li>
 </ol>
 <p>sealed up, and they take no heed.</p>
-<ol start="109">
+<ol>
 <li>
 <p>Without doubt, in the Hereafter they will perish.</p>
 </li>
@@ -750,12 +801,12 @@ Seek ye not then to hasten it: Glory to Him,</li>
 <p>trials and persecutions, –and who thereafter strive and fight</p>
 <p>for the Faith and patiently persevere, –thy Lord, after all</p>
 <p>this is Oft-Forgiving, Most Merciful.</p>
-<ol start="111">
+<ol>
 <li>One Day every soul will come up struggling for itself, and</li>
 </ol>
 <p>every soul will be recompensed (full) for all its actions, and</p>
 <p>none will be unjustly dealt with.</p>
-<ol start="112">
+<ol>
 <li>Allah sets forth a Parable: A city enjoying security and</li>
 </ol>
 <p>quiet, abundantly supplied with sustenance from every place: Yet</p>
@@ -763,86 +814,91 @@ Seek ye not then to hasten it: Glory to Him,</li>
 <p>taste of hunger and terror (in extremes) (closing in on it) like</p>
 <p>a garment (from every side), because of the (evil) which (its</p>
 <p>people) wrought.</p>
-<ol start="113">
+<ol>
 <li>And there came to them an Apostle from among themselves,</li>
 </ol>
 <p>but they falsely rejected him; so the Wrath seized them even in</p>
 <p>the midst of their iniquities.</p>
-<ol start="114">
+<ol>
 <li>So eat of the sustenance which Allah has provided for you,</li>
 </ol>
 <p>lawful and good; and be grateful for the favors of Allah, if it</p>
 <p>is He whom ye serve.</p>
-<ol start="115">
+<ol>
 <li>He has only forbidden you dead meat, and blood, and the</li>
 </ol>
 <p>flesh of swine, and any (food) over which the name of other than</p>
 <p>Allah has been invoked. But if one is forced by necessity,</p>
 <p>without willful disobedience, nor transgressing due limits, —</p>
 <p>then Allah is Oft-Forgiving, Most Merciful.</p>
-<ol start="116">
+<ol>
 <li>But say not–for any false that your tongues may put forth,</li>
 </ol>
 <p>–“This is lawful, and this is forbidden,” so as to ascribe</p>
 <p>false things to Allah. For those who ascribe false things to</p>
 <p>Allah, will never prosper.</p>
-<ol start="117">
+<ol>
 <li>(In such falsehood) is but a paltry profit; but they will</li>
 </ol>
 <p>have a most grievous Penalty.</p>
-<ol start="118">
+<ol>
 <li>To the Jews We prohibited such things as We have mentioned</li>
 </ol>
 <p>to thee before: We did them no wrong, but they were used to</p>
 <p>doing wrong to themselves.</p>
-<ol start="119">
+<ol>
 <li>But verily thy Lord, –to those who do wrong in ignorance,</li>
 </ol>
 <p>but who thereafter repent and make amends, –thy Lord, after all</p>
 <p>this, is Oft-Forgiving, Most Merciful.</p>
-<ol start="120">
+<ol>
 <li>Abraham was indeed a model, devoutly obedient to Allah,</li>
 </ol>
 <p>(and) true in faith, and he joined not gods with Allah:</p>
-<ol start="121">
+<ol>
 <li>He showed his gratitude for the favors of Allah, Who chose</li>
 </ol>
 <p>him, and guided him to a Straight Way.</p>
-<ol start="122">
+<ol>
 <li>And We gave him Good in this world, and he will be, in the</li>
 </ol>
 <p>Hereafter, in the ranks of the Righteous.</p>
 <p>198</p>
-<ol start="123">
+<ol>
 <li>So We have taught thee the inspired (message), “Follow the</li>
 </ol>
 <p>ways of Abraham the True in Faith, and he joined not gods with</p>
 <p>Allah.”</p>
-<ol start="124">
+<ol>
 <li>The Sabbath was only made (strict) for those who disagreed</li>
 </ol>
 <p>(as to its observance); but Allah will judge between them on the</p>
 <p>Day of Judgment, as to their differences.</p>
-<ol start="125">
+<ol>
 <li>Invite (all) to the Way of thy Lord with wisdom and</li>
 </ol>
 <p>beautiful preaching; and argue with them in ways that are best</p>
 <p>and most gracious: For thy Lord knowest best, who have strayed</p>
 <p>from His Path, and who receive guidance.</p>
-<ol start="126">
+<ol>
 <li>And if ye do catch them out, catch them out no worse than</li>
 </ol>
 <p>they catch you out: But if ye show patience, that is indeed the</p>
 <p>best (course) for those who are patient.</p>
-<ol start="127">
+<ol>
 <li>And do thou be patient, for thy patience is but from Allah;</li>
 </ol>
 <p>nor grieve over them: And distress not thyself because of their</p>
 <p>plots.</p>
-<ol start="128">
+<ol>
 <li>For Allah is with those who restrain themselves, and those</li>
 </ol>
-<p>who do good</p></div>
+<p>who do good</p>
+        </article>
+        <hr>
+        <footer class='pb-12 text-center'>
+            <p style='color: #8D8273;'>Toygar Par - Quran Project</p>
+        </footer>
     </div>
 </body>
 </html>

@@ -1,55 +1,106 @@
 
 <!DOCTYPE html>
-<html lang='en'>
+<html lang='tr'>
 <head>
     <meta charset='UTF-8'>
     <title>Tekasür Suresi</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link href='https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css' rel='stylesheet'>
-    <style>
-        body {
-            background-color: #111827;
-            color: #f9fafb;
-        }
-        .prose {
-            color: #f9fafb;
-        }
-        .prose h1, .prose h2, .prose h3 {
-            color: #60a5fa;
-        }
-        pre code {
-            background-color: #1f2937;
-            color: #f9fafb;
-            display: block;
-            padding: 1em;
-            overflow-x: auto;
-            border-radius: 0.5rem;
-        }
-        code {
-            background-color: #374151;
-            padding: 0.2em 0.4em;
-            border-radius: 0.25rem;
-        }
-        a {
-            color: #93c5fd;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-         p {
-            margin-top: 1em;
-            margin-bottom: 1em;
-            line-height: 1.7;
-        }
-    </style>
+    
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
+
+    body {
+        background-color: #1A1714; /* Deep Obsidian */
+        color: #F2E8CF; /* Parchment Cream */
+        font-family: 'Lora', serif;
+    }
+
+    /* --- SAFFRON GLOW BOLD FONTS --- */
+    strong, b {
+        color: #FFC107;
+        font-weight: 700;
+        text-shadow: 0 0 8px rgba(255, 193, 7, 0.4);
+    }
+    
+    .surah-card {
+        background-color: #24201D;
+        border-left: 4px solid #BC9353; /* Ottoman Gold */
+        padding: 1.5rem;
+        border-radius: 0.25rem;
+        transition: transform 0.2s;
+        margin-bottom: 1.5rem;
+    }
+
+    .surah-card:hover {
+        transform: translateX(5px);
+        background-color: #2C2723;
+    }
+
+    h1, h2, h3 {
+        font-family: 'Playfair Display', serif;
+        color: #BC9353;
+    }
+
+    .prose {
+        color: #F2E8CF;
+        max-width: none;
+        line-height: 1.8;
+    }
+
+    .tag-ottoman {
+        background-color: #38A3A5; /* Iznik Turquoise */
+        color: #1A1714;
+        font-weight: 600;
+        font-size: 0.75rem;
+        padding: 0.2rem 0.6rem;
+        border-radius: 0.25rem;
+        margin-right: 0.5rem;
+        display: inline-block;
+    }
+
+    input#searchInput {
+        background-color: #24201D;
+        border: 1px solid #BC9353;
+        color: #F2E8CF;
+        width: 100%;
+        padding: 0.75rem;
+        border-radius: 0.5rem;
+        margin-bottom: 2rem;
+    }
+
+    input#searchInput::placeholder {
+        color: #8D8273;
+    }
+
+    a {
+        color: #BC9353;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    a:hover {
+        color: #F2E8CF;
+        text-decoration: underline;
+    }
+
+    hr {
+        border-color: #3D352E;
+        margin: 2rem 0;
+    }
+</style>
+
 </head>
-<body class='font-sans p-6'>
+<body class='p-6'>
     <div class='max-w-3xl mx-auto'>
-        <a href='../index.html' class='block mb-4'>← Sure Listesine Geri Dön</a>
-        <h1 class='text-3xl font-bold mt-4'>Tekasür Suresi</h1>
-        <p class='text-sm text-gray-400 mb-4'>2025-04-20</p>
-        <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>kuran</span> <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>quran</span> <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>furkan</span>
-        <div class='prose max-w-none mt-4'><h2>Tekasur Suresi 102-16</h2>
+        <a href='../index.html' style='color: #38A3A5;'>← Listeye Dön</a>
+        <header class='mt-8 mb-12'>
+            <h1 class='text-4xl font-bold'>Tekasür Suresi</h1>
+            <p style='color: #8D8273;' class='mt-2 text-sm'>2025-04-20</p>
+            <div class='mt-4'><span class='tag-ottoman'>kuran</span><span class='tag-ottoman'>quran</span><span class='tag-ottoman'>furkan</span></div>
+        </header>
+        <article class='prose'>
+            <h2>Tekasur Suresi 102-16</h2>
 <p>( Yığmak, Üst Üste Koymak, Çoğaltmak)</p>
 <p>SEVGİ VE MERHAMETİ SONSUZ ALLAH’IN ADIYLA</p>
 <ol>
@@ -59,32 +110,32 @@
 <p>Elbette bir yere kadar, azim, hırs, istek insanın yolunu açar. Ama bir kere ipin ucu kaçtı mı, insanın gönlü ve aklı sadece bunlarla doldu mu, hayatta asıl önemli şeylere yer kalmaz. Maneviyat geri planda, ruh gıdasız aç kalır. Ölüm yaklaştığında insan dönüp arkasına bakar, ne görür? Boşa harcanmış bir ömür, büyük bir boşluk.</p>
 <p>Çoklukla, zenginlikle, şanla şöhretle oyalanıyoruz belki. Fakat bu yarışın sonunda ne var? Kazansak bile, ölüm gelip kapıyı çaldığında, bu dünyadan ne götüreceğiz yanımızda? Mal mı? Mülk mü? Yoksa ardımızda bıraktığımız iyilikler mi, insanlığa kattığımız değerler mi?</p>
 <p>Kendi kendimize sormamız gereken soru bu: Bu yarışın sonunda ne kalıyor geriye, ruhumuzun terazisinde?</p>
-<ol start="2">
+<ol>
 <li><strong>Ta ki kabirleri ziyaret edene kadar.</strong></li>
 </ol>
 <p>Yani bir gün gelecek, kabirde tek başınıza yatarken, bu dünyanın boş şatafatını geride bırakacaksınız. O an geldiğinde, hayatın gerçek yüzü karşınıza dikilecek. Şan, şöhret, mal, mülk… Hepsi silinip gidecek. O zaman anladığınızda iş işten geçmiş olacak. Peki, neden bu hayatta, daha vakit varken, Gerçeği biraz olsun anlamak için çabalamıyorsunuz?</p>
 <p>Neden hırsın, paranın, makamın peşinde koşarken asıl anlamı unutuyorsunuz? Toprak sizi çağırmadan, bu dünyanın geçici olduğunu fark etmek için neden uğraşmıyorsunuz? Gerçekliği, hayattayken, bu dünyada anlamaya çalışmak varken, neden bekliyorsunuz?</p>
 <p>Bir gün ölüm kapıyı çaldığında, bütün o koşturmanın, bütün o şatafatın hiçbir anlamı kalmadığını göreceksiniz. Ama o gün çok geç olabilir.</p>
-<ol start="3">
+<ol>
 <li><strong>Ama hayır iş öyle değil, yakında gerçeği bileceksiniz.</strong></li>
 </ol>
 <p>Bu bencillik, açgözlülük bizi aslında bir kaosa sürüklemekte, hayatı çekilmez hale getirmekte, cehenneme yuvarlamaktadır.</p>
-<ol start="4">
+<ol>
 <li><strong>Hayır, hayır!, yakında bileceksiniz!</strong></li>
 </ol>
 <p>O gün maddiyatın pek anlamı kalmayacak.</p>
-<ol start="5">
+<ol>
 <li><strong>Hayır, kesin olarak bilseydiniz, sakınırdınız!</strong></li>
 </ol>
 <p>“Kur’ân, şüphe götürmez doğru bilgiler içeren hak bir kitaptır.” : Hakka 51</p>
 <p>Hayatın derinliklerindeki anlamlara daha çok değer vermeli ve tüm zamanımızı gelip geçici şeylerle harcamamalıyız. Şimdi muhakeme yeteneğimizi kullanmazsak, günahlarımızın cezasını bizzat kendi gözlerimizle göreceğiz.</p>
-<ol start="6">
+<ol>
 <li><strong>Cehennem ateşini mutlaka göreceksiniz!</strong></li>
 </ol>
 <p>“Ey baskıcı zorba isyankarlar, içinizden oraya uğramayacak hiç kimse yoktur. Bu, Rabbinin icrası kesinleşmiş bir hükmüdür.”</p>
 <p>“Bir kez daha hatırlatalım:<br />
 Allah’a sığınıp, emirlerine yapışarak günahlardan arınıp, azaptan korunanları, kulluk ve sorumluluk şuuruyla, haklarına ve özgürlüklerine sahip çıkarak şahsiyetli davranan, dinî ve sosyal görevlerinin bilincinde olan mü’minleri kurtarırız. İnkâr ile isyan ile baskı, zulüm, işkence ile temel hak ve hürriyetleri, Allah yolunu, Allah yolundaki faaliyetleri engelleyen, Kur’ân aleyhindeki propagandaya devam eden güç ve iktidar sahibi zâlimleri, müşrikleri de dizüstü çökmüş vaziyette orada bırakırız.” : Meryem 71-72</p>
-<ol start="7">
+<ol>
 <li><strong>Yine andolsun, onu kesinlikle gözle göreceksiniz!</strong></li>
 <li><strong>Sonra O gün tattığınız hazdan sorguya çekileceksiniz!</strong></li>
 </ol>
@@ -109,7 +160,12 @@ beware!)</li>
 <li>Again, ye shall see it with certainty of sight!</li>
 <li>Then, shall ye be questioned that Day about joy (ye indulged<br />
 in!)</li>
-</ol></div>
+</ol>
+        </article>
+        <hr>
+        <footer class='pb-12 text-center'>
+            <p style='color: #8D8273;'>Toygar Par - Quran Project</p>
+        </footer>
     </div>
 </body>
 </html>

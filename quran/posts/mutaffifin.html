@@ -1,55 +1,106 @@
 
 <!DOCTYPE html>
-<html lang='en'>
+<html lang='tr'>
 <head>
     <meta charset='UTF-8'>
     <title>Mutaffifin Suresi</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link href='https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css' rel='stylesheet'>
-    <style>
-        body {
-            background-color: #111827;
-            color: #f9fafb;
-        }
-        .prose {
-            color: #f9fafb;
-        }
-        .prose h1, .prose h2, .prose h3 {
-            color: #60a5fa;
-        }
-        pre code {
-            background-color: #1f2937;
-            color: #f9fafb;
-            display: block;
-            padding: 1em;
-            overflow-x: auto;
-            border-radius: 0.5rem;
-        }
-        code {
-            background-color: #374151;
-            padding: 0.2em 0.4em;
-            border-radius: 0.25rem;
-        }
-        a {
-            color: #93c5fd;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-         p {
-            margin-top: 1em;
-            margin-bottom: 1em;
-            line-height: 1.7;
-        }
-    </style>
+    
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
+
+    body {
+        background-color: #1A1714; /* Deep Obsidian */
+        color: #F2E8CF; /* Parchment Cream */
+        font-family: 'Lora', serif;
+    }
+
+    /* --- SAFFRON GLOW BOLD FONTS --- */
+    strong, b {
+        color: #FFC107;
+        font-weight: 700;
+        text-shadow: 0 0 8px rgba(255, 193, 7, 0.4);
+    }
+    
+    .surah-card {
+        background-color: #24201D;
+        border-left: 4px solid #BC9353; /* Ottoman Gold */
+        padding: 1.5rem;
+        border-radius: 0.25rem;
+        transition: transform 0.2s;
+        margin-bottom: 1.5rem;
+    }
+
+    .surah-card:hover {
+        transform: translateX(5px);
+        background-color: #2C2723;
+    }
+
+    h1, h2, h3 {
+        font-family: 'Playfair Display', serif;
+        color: #BC9353;
+    }
+
+    .prose {
+        color: #F2E8CF;
+        max-width: none;
+        line-height: 1.8;
+    }
+
+    .tag-ottoman {
+        background-color: #38A3A5; /* Iznik Turquoise */
+        color: #1A1714;
+        font-weight: 600;
+        font-size: 0.75rem;
+        padding: 0.2rem 0.6rem;
+        border-radius: 0.25rem;
+        margin-right: 0.5rem;
+        display: inline-block;
+    }
+
+    input#searchInput {
+        background-color: #24201D;
+        border: 1px solid #BC9353;
+        color: #F2E8CF;
+        width: 100%;
+        padding: 0.75rem;
+        border-radius: 0.5rem;
+        margin-bottom: 2rem;
+    }
+
+    input#searchInput::placeholder {
+        color: #8D8273;
+    }
+
+    a {
+        color: #BC9353;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    a:hover {
+        color: #F2E8CF;
+        text-decoration: underline;
+    }
+
+    hr {
+        border-color: #3D352E;
+        margin: 2rem 0;
+    }
+</style>
+
 </head>
-<body class='font-sans p-6'>
+<body class='p-6'>
     <div class='max-w-3xl mx-auto'>
-        <a href='../index.html' class='block mb-4'>← Sure Listesine Geri Dön</a>
-        <h1 class='text-3xl font-bold mt-4'>Mutaffifin Suresi</h1>
-        <p class='text-sm text-gray-400 mb-4'>2025-04-20</p>
-        <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>kuran</span> <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>quran</span> <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>furkan</span>
-        <div class='prose max-w-none mt-4'><h2>Mutaffifin Suresi 83-86</h2>
+        <a href='../index.html' style='color: #38A3A5;'>← Listeye Dön</a>
+        <header class='mt-8 mb-12'>
+            <h1 class='text-4xl font-bold'>Mutaffifin Suresi</h1>
+            <p style='color: #8D8273;' class='mt-2 text-sm'>2025-04-20</p>
+            <div class='mt-4'><span class='tag-ottoman'>kuran</span><span class='tag-ottoman'>quran</span><span class='tag-ottoman'>furkan</span></div>
+        </header>
+        <article class='prose'>
+            <h2>Mutaffifin Suresi 83-86</h2>
 <p>Mutaffifin Suresi 83-86 (Dolandırıcılık, Sahtekarlık, Hilekarlık, Yolsuzlukla Uğraşanlar)</p>
 <p>SEVGİ VE MERHAMETİ SONSUZ ALLAH’IN ADIYLA</p>
 <ol>
@@ -104,11 +155,11 @@
 </li>
 </ol>
 <p>exact full measure,</p>
-<ol start="3">
+<ol>
 <li>But when they have to give by measure or weight to men, give</li>
 </ol>
 <p>less than due.</p>
-<ol start="4">
+<ol>
 <li>
 <p>Due they not think that they will be called to account? —</p>
 </li>
@@ -120,11 +171,11 @@
 </li>
 </ol>
 <p>Worlds?</p>
-<ol start="7">
+<ol>
 <li>Nay! Surely the Record of the Wicked is (preserved) in</li>
 </ol>
 <p>Sijjin.</p>
-<ol start="8">
+<ol>
 <li>
 <p>And what will explain to thee what Sijjin is?</p>
 </li>
@@ -133,7 +184,7 @@
 </li>
 </ol>
 <p>10.. Woe, that Day, to those that deny–</p>
-<ol start="11">
+<ol>
 <li>
 <p>Those that deny the Day of Judgment.</p>
 </li>
@@ -142,19 +193,19 @@
 </li>
 </ol>
 <p>Sinner!</p>
-<ol start="13">
+<ol>
 <li>When Our Signs are rehearsed to him, he says, “Tales of the</li>
 </ol>
 <p>Ancients!”</p>
-<ol start="14">
+<ol>
 <li>By no means! But on their hearts is the stain of the (ill)</li>
 </ol>
 <p>which they do!</p>
-<ol start="15">
+<ol>
 <li>Verily, from (the Light of) their Lord, that Day, will they</li>
 </ol>
 <p>be veiled.</p>
-<ol start="16">
+<ol>
 <li>
 <p>Further, they will enter the Fire of Hell.</p>
 </li>
@@ -163,11 +214,11 @@
 </li>
 </ol>
 <p>which ye rejected as false!</p>
-<ol start="18">
+<ol>
 <li>Nay, verily the Record of the Righteous is (preserved) in</li>
 </ol>
 <p>Illiyin.</p>
-<ol start="19">
+<ol>
 <li>
 <p>And what will explain to thee what Illiyin is?</p>
 </li>
@@ -185,11 +236,11 @@
 </li>
 </ol>
 <p>things):</p>
-<ol start="24">
+<ol>
 <li>Thou wilt recognize in their Faces the beaming brightness of</li>
 </ol>
 <p>Bliss.</p>
-<ol start="25">
+<ol>
 <li>
 <p>Their thirst will be slaked with Pure Wine sealed:</p>
 </li>
@@ -198,7 +249,7 @@
 </li>
 </ol>
 <p>aspire, who have aspirations:</p>
-<ol start="27">
+<ol>
 <li>
 <p>With it will be (given) a mixture of Tasnim:</p>
 </li>
@@ -207,7 +258,7 @@
 </li>
 </ol>
 <p>Allah.</p>
-<ol start="29">
+<ol>
 <li>
 <p>Those in sin used to laugh at those who believed,</p>
 </li>
@@ -217,15 +268,15 @@
 </ol>
 <p>(in mockery);</p>
 <p>462</p>
-<ol start="31">
+<ol>
 <li>And when they returned to their own people, the would return</li>
 </ol>
 <p>jesting;</p>
-<ol start="32">
+<ol>
 <li>And whenever they saw them, they would say, “Behold! These</li>
 </ol>
 <p>are the people truly astray!”</p>
-<ol start="33">
+<ol>
 <li>
 <p>But they had not been sent as Keepers over them!</p>
 </li>
@@ -237,10 +288,15 @@
 </li>
 </ol>
 <p>things).</p>
-<ol start="36">
+<ol>
 <li>Will not the Unbelievers have been paid back for what they</li>
 </ol>
-<p>did?</p></div>
+<p>did?</p>
+        </article>
+        <hr>
+        <footer class='pb-12 text-center'>
+            <p style='color: #8D8273;'>Toygar Par - Quran Project</p>
+        </footer>
     </div>
 </body>
 </html>

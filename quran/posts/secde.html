@@ -1,55 +1,106 @@
 
 <!DOCTYPE html>
-<html lang='en'>
+<html lang='tr'>
 <head>
     <meta charset='UTF-8'>
     <title>Secde Suresi</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link href='https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css' rel='stylesheet'>
-    <style>
-        body {
-            background-color: #111827;
-            color: #f9fafb;
-        }
-        .prose {
-            color: #f9fafb;
-        }
-        .prose h1, .prose h2, .prose h3 {
-            color: #60a5fa;
-        }
-        pre code {
-            background-color: #1f2937;
-            color: #f9fafb;
-            display: block;
-            padding: 1em;
-            overflow-x: auto;
-            border-radius: 0.5rem;
-        }
-        code {
-            background-color: #374151;
-            padding: 0.2em 0.4em;
-            border-radius: 0.25rem;
-        }
-        a {
-            color: #93c5fd;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-         p {
-            margin-top: 1em;
-            margin-bottom: 1em;
-            line-height: 1.7;
-        }
-    </style>
+    
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
+
+    body {
+        background-color: #1A1714; /* Deep Obsidian */
+        color: #F2E8CF; /* Parchment Cream */
+        font-family: 'Lora', serif;
+    }
+
+    /* --- SAFFRON GLOW BOLD FONTS --- */
+    strong, b {
+        color: #FFC107;
+        font-weight: 700;
+        text-shadow: 0 0 8px rgba(255, 193, 7, 0.4);
+    }
+    
+    .surah-card {
+        background-color: #24201D;
+        border-left: 4px solid #BC9353; /* Ottoman Gold */
+        padding: 1.5rem;
+        border-radius: 0.25rem;
+        transition: transform 0.2s;
+        margin-bottom: 1.5rem;
+    }
+
+    .surah-card:hover {
+        transform: translateX(5px);
+        background-color: #2C2723;
+    }
+
+    h1, h2, h3 {
+        font-family: 'Playfair Display', serif;
+        color: #BC9353;
+    }
+
+    .prose {
+        color: #F2E8CF;
+        max-width: none;
+        line-height: 1.8;
+    }
+
+    .tag-ottoman {
+        background-color: #38A3A5; /* Iznik Turquoise */
+        color: #1A1714;
+        font-weight: 600;
+        font-size: 0.75rem;
+        padding: 0.2rem 0.6rem;
+        border-radius: 0.25rem;
+        margin-right: 0.5rem;
+        display: inline-block;
+    }
+
+    input#searchInput {
+        background-color: #24201D;
+        border: 1px solid #BC9353;
+        color: #F2E8CF;
+        width: 100%;
+        padding: 0.75rem;
+        border-radius: 0.5rem;
+        margin-bottom: 2rem;
+    }
+
+    input#searchInput::placeholder {
+        color: #8D8273;
+    }
+
+    a {
+        color: #BC9353;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    a:hover {
+        color: #F2E8CF;
+        text-decoration: underline;
+    }
+
+    hr {
+        border-color: #3D352E;
+        margin: 2rem 0;
+    }
+</style>
+
 </head>
-<body class='font-sans p-6'>
+<body class='p-6'>
     <div class='max-w-3xl mx-auto'>
-        <a href='../index.html' class='block mb-4'>← Sure Listesine Geri Dön</a>
-        <h1 class='text-3xl font-bold mt-4'>Secde Suresi</h1>
-        <p class='text-sm text-gray-400 mb-4'>2025-04-20</p>
-        <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>kuran</span> <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>quran</span> <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>furkan</span>
-        <div class='prose max-w-none mt-4'><h2>Secde Suresi 32-75</h2>
+        <a href='../index.html' style='color: #38A3A5;'>← Listeye Dön</a>
+        <header class='mt-8 mb-12'>
+            <h1 class='text-4xl font-bold'>Secde Suresi</h1>
+            <p style='color: #8D8273;' class='mt-2 text-sm'>2025-04-20</p>
+            <div class='mt-4'><span class='tag-ottoman'>kuran</span><span class='tag-ottoman'>quran</span><span class='tag-ottoman'>furkan</span></div>
+        </header>
+        <article class='prose'>
+            <h2>Secde Suresi 32-75</h2>
 <p>Secde Suresi 32-75</p>
 <p>SEVGİ VE MERHAMETİ SONSUZ ALLAH’IN ADIYLA</p>
 <ol>
@@ -96,140 +147,145 @@
 </li>
 </ol>
 <p>doubt, –from the Lord of the Worlds.</p>
-<ol start="3">
+<ol>
 <li>Or do they say, “He has forged it”? Nay, it is the Truth from</li>
 </ol>
 <p>thy Lord, that thou mayest admonish a people to whom no warner</p>
 <p>has come before thee: In order that they may receive guidance.</p>
-<ol start="4">
+<ol>
 <li>It is Allah Who has created the heavens and the earth, and</li>
 </ol>
 <p>all between them, in six Days, and is firmly established on the</p>
 <p>Throne (of authority): Ye have none, besides Him, to protect or</p>
 <p>intercede (for you): Will ye not then receive admonition?</p>
-<ol start="5">
+<ol>
 <li>He rules (all) affairs from the heavens to the earth: In the</li>
 </ol>
 <p>end will (all affairs) go up to Him, on a Day, the space whereof</p>
 <p>will be (as) a thousand years of your reckoning.</p>
-<ol start="6">
+<ol>
 <li>Such is He, the Knower of all things, hidden and open, the</li>
 </ol>
 <p>Exalted (in power), the Merciful; —</p>
-<ol start="7">
+<ol>
 <li>He Who has made everything which He has created Most Good: He</li>
 </ol>
 <p>began the creation of man with (nothing more than) clay,</p>
-<ol start="8">
+<ol>
 <li>And made his progeny from a quintessence of the nature of a</li>
 </ol>
 <p>fluid despised:</p>
-<ol start="9">
+<ol>
 <li>But He fashioned him in due proportion, and breathed into him</li>
 </ol>
 <p>something of His spirit. And He gave you (the faculties of)</p>
 <p>hearing and sight and feeling (and understanding): Little thanks</p>
 <p>do ye give!</p>
-<ol start="10">
+<ol>
 <li>And they say: “What! When we lie, hidden and lost, in the</li>
 </ol>
 <p>earth, shall we indeed be in a Creation renewed? Nay, they deny</p>
 <p>the Meeting with their Lord!”</p>
-<ol start="11">
+<ol>
 <li>Say: “The Angel of Death, put in charge of you, will (duly)</li>
 </ol>
 <p>take your souls: Then shall ye be brought back to your Lord.”</p>
-<ol start="12">
+<ol>
 <li>If only thou couldst see when the guilty ones will bend low</li>
 </ol>
 <p>their heads before their Lord, (saying:) “Our Lord! We have seen</p>
 <p>and we have heard: Now then send us back (to the world): We will</p>
 <p>work righteousness: For we do indeed (now) believe.”</p>
-<ol start="13">
+<ol>
 <li>If We had so willed We could certainly have brought every</li>
 </ol>
 <p>soul its true guidance: But the Word from Me will come true, “I</p>
 <p>will fill Hell with Jinns and men all together.”</p>
-<ol start="14">
+<ol>
 <li>“Taste ye then–for ye forgot the Meeting of this Day of</li>
 </ol>
 <p>yours, and We too will forget you–taste ye the Penalty of</p>
 <p>Eternity for your (evil) deeds!”</p>
-<ol start="15">
+<ol>
 <li>Only those believe in Our Signs, who, when they are recited</li>
 </ol>
 <p>to them, fall down in adoration, and celebrate the praises of</p>
 <p>their Lord, nor are they (ever) puffed up with pride.</p>
-<ol start="16">
+<ol>
 <li>Their limbs do forsake their beds of sleep, the while they</li>
 </ol>
 <p>call on their Lord, in Fear and Hope: And they spend (in</p>
 <p>charity) out of the sustenance which We have bestowed on them.</p>
-<ol start="17">
+<ol>
 <li>Now no person knows what delights of the eye are kept hidden</li>
 </ol>
 <p>(in reserve) for them–as a reward for their (good) Deeds.</p>
-<ol start="18">
+<ol>
 <li>Is then the man who believes no better than the man who is</li>
 </ol>
 <p>rebellious and wicked? Not equal are they.</p>
-<ol start="19">
+<ol>
 <li>For those who believe and do righteous deeds, are Gardens as</li>
 </ol>
 <p>hospitable homes, for their (good) deeds.</p>
-<ol start="20">
+<ol>
 <li>As to those who are rebellious and wicked, their abode will</li>
 </ol>
 <p>be the Fire: Every time they wish to get away therefrom, they</p>
 <p>will be forced there into, and it will be said to them: “Taste</p>
 <p>ye the Penalty of the Fire, the which ye were wont to reject as</p>
 <p>false.”</p>
-<ol start="21">
+<ol>
 <li>And indeed We will make them taste of the Penalty of this</li>
 </ol>
 <p>(life) prior to the supreme Penalty, in order that they may</p>
 <p>(repent and) return.</p>
-<ol start="22">
+<ol>
 <li>And who does more wrong than one to whom are recited the</li>
 </ol>
 <p>Signs of his Lord, and who then turns away therefrom? Verily</p>
 <p>from those who transgress We shall exact (due) Retribution.</p>
-<ol start="23">
+<ol>
 <li>We did indeed aforetime give the Book to Moses: Be not then</li>
 </ol>
 <p>in doubt of its reaching (thee): And We made it a guide to the</p>
 <p>Children of Israel.</p>
-<ol start="24">
+<ol>
 <li>And We appointed, from among them, Leaders, giving them</li>
 </ol>
 <p>guidance under Our command, so long as they persevered with</p>
 <p>patience and continued to have faith in Our Signs.</p>
-<ol start="25">
+<ol>
 <li>Verily thy Lord will judge between them on the Day of</li>
 </ol>
 <p>Judgment, in the matters wherein they differ (among themselves).</p>
-<ol start="26">
+<ol>
 <li>Does it not teach them a lesson, how many generations We</li>
 </ol>
 <p>destroyed before them, in whose dwellings they (now) go to and</p>
 <p>fro? Verily in that are Signs: Do they not then listen?</p>
-<ol start="27">
+<ol>
 <li>And do they not see that We do drive Rain to parched soil</li>
 </ol>
 <p>(bare of herbage), and produce therewith crops, providing food</p>
 <p>for their cattle and themselves? Have they not the vision?</p>
-<ol start="28">
+<ol>
 <li>They say: “When will this Decision be, if ye are telling the</li>
 </ol>
 <p>truth?”</p>
-<ol start="29">
+<ol>
 <li>Say: “On the Day of Decision, no profit will it be to</li>
 </ol>
 <p>Unbelievers if they (then) believe! Nor will they be granted a</p>
 <p>respite.”</p>
-<ol start="30">
+<ol>
 <li>So turn away from them and wait: They too are waiting.</li>
-</ol></div>
+</ol>
+        </article>
+        <hr>
+        <footer class='pb-12 text-center'>
+            <p style='color: #8D8273;'>Toygar Par - Quran Project</p>
+        </footer>
     </div>
 </body>
 </html>

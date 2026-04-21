@@ -1,55 +1,106 @@
 
 <!DOCTYPE html>
-<html lang='en'>
+<html lang='tr'>
 <head>
     <meta charset='UTF-8'>
     <title>Duhan Suresi</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link href='https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css' rel='stylesheet'>
-    <style>
-        body {
-            background-color: #111827;
-            color: #f9fafb;
-        }
-        .prose {
-            color: #f9fafb;
-        }
-        .prose h1, .prose h2, .prose h3 {
-            color: #60a5fa;
-        }
-        pre code {
-            background-color: #1f2937;
-            color: #f9fafb;
-            display: block;
-            padding: 1em;
-            overflow-x: auto;
-            border-radius: 0.5rem;
-        }
-        code {
-            background-color: #374151;
-            padding: 0.2em 0.4em;
-            border-radius: 0.25rem;
-        }
-        a {
-            color: #93c5fd;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-         p {
-            margin-top: 1em;
-            margin-bottom: 1em;
-            line-height: 1.7;
-        }
-    </style>
+    
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
+
+    body {
+        background-color: #1A1714; /* Deep Obsidian */
+        color: #F2E8CF; /* Parchment Cream */
+        font-family: 'Lora', serif;
+    }
+
+    /* --- SAFFRON GLOW BOLD FONTS --- */
+    strong, b {
+        color: #FFC107;
+        font-weight: 700;
+        text-shadow: 0 0 8px rgba(255, 193, 7, 0.4);
+    }
+    
+    .surah-card {
+        background-color: #24201D;
+        border-left: 4px solid #BC9353; /* Ottoman Gold */
+        padding: 1.5rem;
+        border-radius: 0.25rem;
+        transition: transform 0.2s;
+        margin-bottom: 1.5rem;
+    }
+
+    .surah-card:hover {
+        transform: translateX(5px);
+        background-color: #2C2723;
+    }
+
+    h1, h2, h3 {
+        font-family: 'Playfair Display', serif;
+        color: #BC9353;
+    }
+
+    .prose {
+        color: #F2E8CF;
+        max-width: none;
+        line-height: 1.8;
+    }
+
+    .tag-ottoman {
+        background-color: #38A3A5; /* Iznik Turquoise */
+        color: #1A1714;
+        font-weight: 600;
+        font-size: 0.75rem;
+        padding: 0.2rem 0.6rem;
+        border-radius: 0.25rem;
+        margin-right: 0.5rem;
+        display: inline-block;
+    }
+
+    input#searchInput {
+        background-color: #24201D;
+        border: 1px solid #BC9353;
+        color: #F2E8CF;
+        width: 100%;
+        padding: 0.75rem;
+        border-radius: 0.5rem;
+        margin-bottom: 2rem;
+    }
+
+    input#searchInput::placeholder {
+        color: #8D8273;
+    }
+
+    a {
+        color: #BC9353;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    a:hover {
+        color: #F2E8CF;
+        text-decoration: underline;
+    }
+
+    hr {
+        border-color: #3D352E;
+        margin: 2rem 0;
+    }
+</style>
+
 </head>
-<body class='font-sans p-6'>
+<body class='p-6'>
     <div class='max-w-3xl mx-auto'>
-        <a href='../index.html' class='block mb-4'>← Sure Listesine Geri Dön</a>
-        <h1 class='text-3xl font-bold mt-4'>Duhan Suresi</h1>
-        <p class='text-sm text-gray-400 mb-4'>2025-04-20</p>
-        <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>kuran</span> <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>quran</span> <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>furkan</span>
-        <div class='prose max-w-none mt-4'><h2>Duhan Suresi 44-64</h2>
+        <a href='../index.html' style='color: #38A3A5;'>← Listeye Dön</a>
+        <header class='mt-8 mb-12'>
+            <h1 class='text-4xl font-bold'>Duhan Suresi</h1>
+            <p style='color: #8D8273;' class='mt-2 text-sm'>2025-04-20</p>
+            <div class='mt-4'><span class='tag-ottoman'>kuran</span><span class='tag-ottoman'>quran</span><span class='tag-ottoman'>furkan</span></div>
+        </header>
+        <article class='prose'>
+            <h2>Duhan Suresi 44-64</h2>
 <p>Duhan Suresi 44-64 (Duman)</p>
 <p>SEVGİ VE MERHAMETİ SONSUZ ALLAH’IN ADIYLA</p>
 <ol>
@@ -129,7 +180,7 @@
 </li>
 </ol>
 <p>warn (against Evil).</p>
-<ol start="4">
+<ol>
 <li>
 <p>In that (night) is made distinct every affair of wisdom,</p>
 </li>
@@ -138,20 +189,20 @@
 </li>
 </ol>
 <p>(revelations),</p>
-<ol start="6">
+<ol>
 <li>As a Mercy from thy Lord: For He hears and knows (all</li>
 </ol>
 <p>things);</p>
-<ol start="7">
+<ol>
 <li>The Lord of the heavens and the earth and all between them,</li>
 </ol>
 <p>if ye (but) have an assured faith.</p>
-<ol start="8">
+<ol>
 <li>There is no god but He: It is He Who gives life and gives</li>
 </ol>
 <p>death, –the Lord and Cherisher to you and your earliest</p>
 <p>ancestors.</p>
-<ol start="9">
+<ol>
 <li>
 <p>Yet they play about in doubt.</p>
 </li>
@@ -160,7 +211,7 @@
 </li>
 </ol>
 <p>kind of smoke (or mist) plainly visible,</p>
-<ol start="11">
+<ol>
 <li>
 <p>Enveloping the people: This will be a penalty Grievous.</p>
 </li>
@@ -169,56 +220,56 @@
 </li>
 </ol>
 <p>we do really believe!”</p>
-<ol start="13">
+<ol>
 <li>How shall the Message be (effectual) for them, seeing that</li>
 </ol>
 <p>an apostle explaining things clearly has (already) come to them,</p>
 <p>—</p>
-<ol start="14">
+<ol>
 <li>Yet they turn away from him and say: “Tutored (by others), a</li>
 </ol>
 <p>man possessed!”</p>
-<ol start="15">
+<ol>
 <li>We shall indeed remove the Penalty for a while, (but) truly</li>
 </ol>
 <p>ye will revert (to your ways).</p>
-<ol start="16">
+<ol>
 <li>One day We will seize you with a mighty onslaught: We will</li>
 </ol>
 <p>indeed (then) exact Retribution!</p>
-<ol start="17">
+<ol>
 <li>We did, before them, try the people of Pharaoh: There came</li>
 </ol>
 <p>to them an apostle most honorable,</p>
-<ol start="18">
+<ol>
 <li>Saying: “Restore to me the servants of Allah: I am to you an</li>
 </ol>
 <p>apostle worthy of all trust;</p>
-<ol start="19">
+<ol>
 <li>“And be not arrogant as against Allah: For I come to you</li>
 </ol>
 <p>with authority manifest.</p>
-<ol start="20">
+<ol>
 <li>“For me, I have sought safety with my Lord and your Lord,</li>
 </ol>
 <p>against your injuring me.</p>
-<ol start="21">
+<ol>
 <li>“If ye believe me not, at least keep yourselves away from</li>
 </ol>
 <p>me.”</p>
-<ol start="22">
+<ol>
 <li>(But they were aggressive:) Then he cried to his Lord:</li>
 </ol>
 <p>“These are indeed a people given to sin.”</p>
-<ol start="23">
+<ol>
 <li>(The reply came:) “March forth with my servants by night:</li>
 </ol>
 <p>For ye are sure to be pursued.</p>
-<ol start="24">
+<ol>
 <li>“And leave the sea as a furrow (divided): For they are a</li>
 </ol>
 <p>host (destined) to be drowned.”</p>
-<ol start="25">
+<ol>
 <li>
 <p>How many were the gardens and springs they left behind,</p>
 </li>
@@ -230,23 +281,23 @@
 </li>
 </ol>
 <p>taken such delight!</p>
-<ol start="28">
+<ol>
 <li>Thus (was their end)! And We made other people inherit</li>
 </ol>
 <p>(those things)!</p>
-<ol start="29">
+<ol>
 <li>And neither heaven nor earth shed a tear over them: Nor were</li>
 </ol>
 <p>they given a respite (again).</p>
-<ol start="30">
+<ol>
 <li>We did deliver aforetime the Children of Israel from</li>
 </ol>
 <p>humiliating Punishment,</p>
-<ol start="31">
+<ol>
 <li>Inflicted by Pharaoh, for he was arrogant (even) among</li>
 </ol>
 <p>inordinate transgressors.</p>
-<ol start="32">
+<ol>
 <li>
 <p>And We chose them aforetime above the nations, knowingly,</p>
 </li>
@@ -261,7 +312,7 @@
 </li>
 </ol>
 <p>again.</p>
-<ol start="36">
+<ol>
 <li>
 <p>“Then bring (back) our forefathers, if what ye say is true!”</p>
 </li>
@@ -271,27 +322,27 @@
 </ol>
 <p>were before them? We destroyed them because they were guilty of</p>
 <p>sin.</p>
-<ol start="38">
+<ol>
 <li>We created not the heavens, the earth, and all between them,</li>
 </ol>
 <p>merely in (idle) sport:</p>
-<ol start="39">
+<ol>
 <li>We created them not except for just ends: But most of them</li>
 </ol>
 <p>do not understand.</p>
-<ol start="40">
+<ol>
 <li>Verily the Day of Sorting Out is the time appointed for all</li>
 </ol>
 <p>of them, —</p>
-<ol start="41">
+<ol>
 <li>The Day when no protector can avail his client in aught, and</li>
 </ol>
 <p>no help can they receive,</p>
-<ol start="42">
+<ol>
 <li>Except such as receive Allah’s Mercy: For He is Exalted in</li>
 </ol>
 <p>Might, Most Merciful.</p>
-<ol start="43">
+<ol>
 <li>
 <p>Verily the tree of Zaqqum</p>
 </li>
@@ -309,7 +360,7 @@
 </li>
 </ol>
 <p>midst of the Blazing Fire!</p>
-<ol start="48">
+<ol>
 <li>
 <p>“Then pour over his head the Penalty of Boiling Water.</p>
 </li>
@@ -324,7 +375,7 @@
 </li>
 </ol>
 <p>Security,</p>
-<ol start="52">
+<ol>
 <li>
 <p>Among Gardens and Springs;</p>
 </li>
@@ -333,29 +384,34 @@
 </li>
 </ol>
 <p>each other;</p>
-<ol start="54">
+<ol>
 <li>So; and We shall join them to Companions with beautiful,</li>
 </ol>
 <p>big, and lustrous eyes.</p>
-<ol start="55">
+<ol>
 <li>There can they call for every kind of fruit in peace and</li>
 </ol>
 <p>security;</p>
-<ol start="56">
+<ol>
 <li>Nor will they there taste Death, except the first Death; and</li>
 </ol>
 <p>He will preserve them from the Penalty of the Blazing Fire, —</p>
-<ol start="57">
+<ol>
 <li>As a Bounty from thy Lord! That will be the supreme</li>
 </ol>
 <p>achievement!</p>
-<ol start="58">
+<ol>
 <li>Verily, We have made this (Koran) easy, in thy tongue, in</li>
 </ol>
 <p>order that they may give heed.</p>
-<ol start="59">
+<ol>
 <li>So wait thou and watch; for they (too) are waiting.</li>
-</ol></div>
+</ol>
+        </article>
+        <hr>
+        <footer class='pb-12 text-center'>
+            <p style='color: #8D8273;'>Toygar Par - Quran Project</p>
+        </footer>
     </div>
 </body>
 </html>

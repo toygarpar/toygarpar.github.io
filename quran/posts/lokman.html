@@ -1,55 +1,106 @@
 
 <!DOCTYPE html>
-<html lang='en'>
+<html lang='tr'>
 <head>
     <meta charset='UTF-8'>
     <title>Lokman Suresi</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link href='https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css' rel='stylesheet'>
-    <style>
-        body {
-            background-color: #111827;
-            color: #f9fafb;
-        }
-        .prose {
-            color: #f9fafb;
-        }
-        .prose h1, .prose h2, .prose h3 {
-            color: #60a5fa;
-        }
-        pre code {
-            background-color: #1f2937;
-            color: #f9fafb;
-            display: block;
-            padding: 1em;
-            overflow-x: auto;
-            border-radius: 0.5rem;
-        }
-        code {
-            background-color: #374151;
-            padding: 0.2em 0.4em;
-            border-radius: 0.25rem;
-        }
-        a {
-            color: #93c5fd;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-         p {
-            margin-top: 1em;
-            margin-bottom: 1em;
-            line-height: 1.7;
-        }
-    </style>
+    
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
+
+    body {
+        background-color: #1A1714; /* Deep Obsidian */
+        color: #F2E8CF; /* Parchment Cream */
+        font-family: 'Lora', serif;
+    }
+
+    /* --- SAFFRON GLOW BOLD FONTS --- */
+    strong, b {
+        color: #FFC107;
+        font-weight: 700;
+        text-shadow: 0 0 8px rgba(255, 193, 7, 0.4);
+    }
+    
+    .surah-card {
+        background-color: #24201D;
+        border-left: 4px solid #BC9353; /* Ottoman Gold */
+        padding: 1.5rem;
+        border-radius: 0.25rem;
+        transition: transform 0.2s;
+        margin-bottom: 1.5rem;
+    }
+
+    .surah-card:hover {
+        transform: translateX(5px);
+        background-color: #2C2723;
+    }
+
+    h1, h2, h3 {
+        font-family: 'Playfair Display', serif;
+        color: #BC9353;
+    }
+
+    .prose {
+        color: #F2E8CF;
+        max-width: none;
+        line-height: 1.8;
+    }
+
+    .tag-ottoman {
+        background-color: #38A3A5; /* Iznik Turquoise */
+        color: #1A1714;
+        font-weight: 600;
+        font-size: 0.75rem;
+        padding: 0.2rem 0.6rem;
+        border-radius: 0.25rem;
+        margin-right: 0.5rem;
+        display: inline-block;
+    }
+
+    input#searchInput {
+        background-color: #24201D;
+        border: 1px solid #BC9353;
+        color: #F2E8CF;
+        width: 100%;
+        padding: 0.75rem;
+        border-radius: 0.5rem;
+        margin-bottom: 2rem;
+    }
+
+    input#searchInput::placeholder {
+        color: #8D8273;
+    }
+
+    a {
+        color: #BC9353;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    a:hover {
+        color: #F2E8CF;
+        text-decoration: underline;
+    }
+
+    hr {
+        border-color: #3D352E;
+        margin: 2rem 0;
+    }
+</style>
+
 </head>
-<body class='font-sans p-6'>
+<body class='p-6'>
     <div class='max-w-3xl mx-auto'>
-        <a href='../index.html' class='block mb-4'>← Sure Listesine Geri Dön</a>
-        <h1 class='text-3xl font-bold mt-4'>Lokman Suresi</h1>
-        <p class='text-sm text-gray-400 mb-4'>2025-04-20</p>
-        <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>kuran</span> <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>quran</span> <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>furkan</span>
-        <div class='prose max-w-none mt-4'><h2>Lokman Suresi 31-57</h2>
+        <a href='../index.html' style='color: #38A3A5;'>← Listeye Dön</a>
+        <header class='mt-8 mb-12'>
+            <h1 class='text-4xl font-bold'>Lokman Suresi</h1>
+            <p style='color: #8D8273;' class='mt-2 text-sm'>2025-04-20</p>
+            <div class='mt-4'><span class='tag-ottoman'>kuran</span><span class='tag-ottoman'>quran</span><span class='tag-ottoman'>furkan</span></div>
+        </header>
+        <article class='prose'>
+            <h2>Lokman Suresi 31-57</h2>
 <p>Lokman Suresi 31-57</p>
 <p>SEVGİ VE MERHAMETİ SONSUZ ALLAH’IN ADIYLA</p>
 <ol>
@@ -145,59 +196,59 @@ Cennet yurduna ulaşmak için çabalayalım.</p>
 </li>
 </ol>
 <p>and have (in their hearts) the assurance of the Hereafter.</p>
-<ol start="5">
+<ol>
 <li>These are on (true) guidance from their Lord; and these are</li>
 </ol>
 <p>those ones who will prosper.</p>
-<ol start="6">
+<ol>
 <li>But there are, among men, those who purchase idle tales,</li>
 </ol>
 <p>without knowledge (or meaning), to mislead (men) from the Path</p>
 <p>of Allah and throw ridicule (on the Path): For such there will</p>
 <p>be a humiliating Penalty.</p>
-<ol start="7">
+<ol>
 <li>When Our Signs are rehearsed to such a one, he turns away in</li>
 </ol>
 <p>arrogance, as if he heard them not, as if there were deafness in</p>
 <p>both his ears: Announce to him a grievous Penalty.</p>
-<ol start="8">
+<ol>
 <li>For those who believe and work righteous deeds, there will be</li>
 </ol>
 <p>Gardens of Bliss, —</p>
-<ol start="9">
+<ol>
 <li>To dwell therein. The promise of Allah is true: And He is</li>
 </ol>
 <p>Exalted in power, Wise.</p>
-<ol start="10">
+<ol>
 <li>He created the heavens without any pillars that ye can see;</li>
 </ol>
 <p>He set on the earth mountains standing firm, lest it should</p>
 <p>shake with you; and He scattered through it beasts of all kinds.</p>
 <p>We send down rain from the sky, and produce on the earth every</p>
 <p>kind of noble creature, in pairs.</p>
-<ol start="11">
+<ol>
 <li>Such is the Creation of Allah: Now show Me what is there</li>
 </ol>
 <p>that others besides Him have created: Nay, but the Transgressors</p>
 <p>are in manifest error.</p>
-<ol start="12">
+<ol>
 <li>We bestowed (in the past) Wisdom on Luqman: “Show (thy)</li>
 </ol>
 <p>gratitude to Allah.” Any who is (so) grateful does so to the</p>
 <p>profit of his own soul: But if any is ungrateful, verily Allah</p>
 <p>is free of all wants, worthy of praise.</p>
-<ol start="13">
+<ol>
 <li>Behold, Luqman said to his son by way of instruction: “O my</li>
 </ol>
 <p>son! Join not in worship (others) with Allah: For false worship</p>
 <p>is indeed the highest wrongdoing.”</p>
-<ol start="14">
+<ol>
 <li>And We have enjoined on man (to be good) to his parents: In</li>
 </ol>
 <p>travail upon travail did his mother bear him, and in years twain</p>
 <p>was his weaning: (Hear the command), “Show gratitude to Me and</p>
 <p>to thy parents: To Me is (thy final) Goal.</p>
-<ol start="15">
+<ol>
 <li>“But if they strive to make thee join in worship with Me</li>
 </ol>
 <p>things of which thou hast no knowledge, obey them not; yet bear</p>
@@ -205,29 +256,29 @@ Cennet yurduna ulaşmak için çabalayalım.</p>
 <p>follow the way of those who turn to Me (in love): In the End the</p>
 <p>return of you all is to Me, and I will tell you the truth (and</p>
 <p>meaning) of all that ye did.”</p>
-<ol start="16">
+<ol>
 <li>“O my son!” (Said Luqman), “If there be (but) the weight of</li>
 </ol>
 <p>a mustard seed and it were (hidden) in a rock, or (anywhere) in</p>
 <p>the heavens or on earth, Allah will bring it forth: For Allah</p>
 <p>understands the finest mysteries, (and) is well-acquainted (with</p>
 <p>them).</p>
-<ol start="17">
+<ol>
 <li>“O my son! Establish regular prayer, enjoin what is just,</li>
 </ol>
 <p>and forbid what is wrong: and bear with patient constancy</p>
 <p>whatever betide thee; for this is firmness (of purpose) in (the</p>
 <p>conduct of) affairs.</p>
-<ol start="18">
+<ol>
 <li>“And swell not thy cheek (for pride) at men, nor walk in</li>
 </ol>
 <p>insolence through the earth; for Allah loveth not any arrogant</p>
 <p>boaster.</p>
-<ol start="19">
+<ol>
 <li>“And be moderate in thy pace, and lower thy voice; for the</li>
 </ol>
 <p>harshest of sounds without doubt is the braying of the ass.</p>
-<ol start="20">
+<ol>
 <li>Do ye not see that Allah has subjected to your (use) all</li>
 </ol>
 <p>things in the heavens and on earth, and has made His bounties</p>
@@ -235,84 +286,89 @@ Cennet yurduna ulaşmak için çabalayalım.</p>
 <p>there are among men those who dispute about Allah, without</p>
 <p>knowledge and without guidance, and without a Book to enlighten</p>
 <p>them!</p>
-<ol start="21">
+<ol>
 <li>When they are told to follow the (Revelation) that Allah has</li>
 </ol>
 <p>sent down, they say: “Nay, we shall follow the ways that we</p>
 <p>found our fathers (following).” What! Even if it is Satan</p>
 <p>beckoning them to the Penalty of the (Blazing) Fire?</p>
-<ol start="22">
+<ol>
 <li>Whoever submits his whole self to Allah, and is a doer of</li>
 </ol>
 <p>good, has grasped indeed the most trustworthy handhold: And with</p>
 <p>Allah rests the End and Decision of (all) affairs.</p>
-<ol start="23">
+<ol>
 <li>But if any reject Faith, let not his rejection grieve thee:</li>
 </ol>
 <p>To Us is their Return, and We shall tell them the truth of their</p>
 <p>deeds: For Allah knows well all that is in (men’s) hearts.</p>
-<ol start="24">
+<ol>
 <li>We grant them their pleasure for a little while: In the end</li>
 </ol>
 <p>shall We drive them to chastisement unrelenting.</p>
-<ol start="25">
+<ol>
 <li>If thou ask them, who it is that created the heavens and the</li>
 </ol>
 <p>earth. They will certainly say, “Allah”. Say: “Praise be to</p>
 <p>Allah!” But most of them understand not.</p>
-<ol start="26">
+<ol>
 <li>To Allah belongs all things in heaven and earth: Verily</li>
 </ol>
 <p>Allah is He (that is) free of all wants, worthy of all praise.</p>
-<ol start="27">
+<ol>
 <li>And if all the trees on earth were pens and the Ocean (were</li>
 </ol>
 <p>ink), with seven Oceans behind it to add to its (supply), yet</p>
 <p>would not the Words of Allah be exhausted (in the writing): For</p>
 <p>Allah is Exalted in power, Full of Wisdom.</p>
-<ol start="28">
+<ol>
 <li>And your creation or your resurrection is in no wise but as</li>
 </ol>
 <p>an individual soul: For Allah is He Who hears and sees (all</p>
 <p>things).</p>
-<ol start="29">
+<ol>
 <li>Seest thou not that Allah merges Night into Day and He</li>
 </ol>
 <p>merges Day into Night; that He has subjected the sun and the</p>
 <p>moon (to His Law), each running its course for a term appointed;</p>
 <p>and that Allah is well acquainted with all that ye do?</p>
-<ol start="30">
+<ol>
 <li>That is because Allah is the (only) Reality, and because</li>
 </ol>
 <p>whatever else they invoke besides Him is a Falsehood; and</p>
 <p>because Allah, –He is the Most High, Most Great.</p>
-<ol start="31">
+<ol>
 <li>Seest thou not that the ships sail through the Ocean by the</li>
 </ol>
 <p>grace of Allah? –That He may show you of His Signs? Verily in</p>
 <p>this are Signs for all who constantly persevere and give thanks.</p>
-<ol start="32">
+<ol>
 <li>When a wave covers them like the canopy (of clouds), they</li>
 </ol>
 <p>call to Allah, offering Him sincere devotion. But when He has</p>
 <p>delivered them safely to land, there are among them those that</p>
 <p>halt between (right and wrong). But none reject Our Signs except</p>
 <p>only a perfidious ungrateful (wretch)!</p>
-<ol start="33">
+<ol>
 <li>O mankind! Do your duty to your Lord, and fear (the coming</li>
 </ol>
 <p>of) a Day when no father can avail aught for his son, nor a son</p>
 <p>avail aught for his father. Verily, the promise of Allah is</p>
 <p>true: Let not then this present life deceive you, nor let the</p>
 <p>Chief Deceiver deceive you about Allah.</p>
-<ol start="34">
+<ol>
 <li>Verily the knowledge of the Hour is with Allah (alone). It</li>
 </ol>
 <p>is He Who sends down rain, and He Who knows what is in the</p>
 <p>wombs. Nor does anyone know what it is that he will earn on the</p>
 <p>morrow: Nor does anyone know in what land he is to die. Verily</p>
 <p>with Allah is full knowledge and He is acquainted (with all</p>
-<p>things).</p></div>
+<p>things).</p>
+        </article>
+        <hr>
+        <footer class='pb-12 text-center'>
+            <p style='color: #8D8273;'>Toygar Par - Quran Project</p>
+        </footer>
     </div>
 </body>
 </html>

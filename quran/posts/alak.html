@@ -1,55 +1,106 @@
 
 <!DOCTYPE html>
-<html lang='en'>
+<html lang='tr'>
 <head>
     <meta charset='UTF-8'>
     <title>Alak Suresi</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link href='https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css' rel='stylesheet'>
-    <style>
-        body {
-            background-color: #111827;
-            color: #f9fafb;
-        }
-        .prose {
-            color: #f9fafb;
-        }
-        .prose h1, .prose h2, .prose h3 {
-            color: #60a5fa;
-        }
-        pre code {
-            background-color: #1f2937;
-            color: #f9fafb;
-            display: block;
-            padding: 1em;
-            overflow-x: auto;
-            border-radius: 0.5rem;
-        }
-        code {
-            background-color: #374151;
-            padding: 0.2em 0.4em;
-            border-radius: 0.25rem;
-        }
-        a {
-            color: #93c5fd;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-         p {
-            margin-top: 1em;
-            margin-bottom: 1em;
-            line-height: 1.7;
-        }
-    </style>
+    
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
+
+    body {
+        background-color: #1A1714; /* Deep Obsidian */
+        color: #F2E8CF; /* Parchment Cream */
+        font-family: 'Lora', serif;
+    }
+
+    /* --- SAFFRON GLOW BOLD FONTS --- */
+    strong, b {
+        color: #FFC107;
+        font-weight: 700;
+        text-shadow: 0 0 8px rgba(255, 193, 7, 0.4);
+    }
+    
+    .surah-card {
+        background-color: #24201D;
+        border-left: 4px solid #BC9353; /* Ottoman Gold */
+        padding: 1.5rem;
+        border-radius: 0.25rem;
+        transition: transform 0.2s;
+        margin-bottom: 1.5rem;
+    }
+
+    .surah-card:hover {
+        transform: translateX(5px);
+        background-color: #2C2723;
+    }
+
+    h1, h2, h3 {
+        font-family: 'Playfair Display', serif;
+        color: #BC9353;
+    }
+
+    .prose {
+        color: #F2E8CF;
+        max-width: none;
+        line-height: 1.8;
+    }
+
+    .tag-ottoman {
+        background-color: #38A3A5; /* Iznik Turquoise */
+        color: #1A1714;
+        font-weight: 600;
+        font-size: 0.75rem;
+        padding: 0.2rem 0.6rem;
+        border-radius: 0.25rem;
+        margin-right: 0.5rem;
+        display: inline-block;
+    }
+
+    input#searchInput {
+        background-color: #24201D;
+        border: 1px solid #BC9353;
+        color: #F2E8CF;
+        width: 100%;
+        padding: 0.75rem;
+        border-radius: 0.5rem;
+        margin-bottom: 2rem;
+    }
+
+    input#searchInput::placeholder {
+        color: #8D8273;
+    }
+
+    a {
+        color: #BC9353;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    a:hover {
+        color: #F2E8CF;
+        text-decoration: underline;
+    }
+
+    hr {
+        border-color: #3D352E;
+        margin: 2rem 0;
+    }
+</style>
+
 </head>
-<body class='font-sans p-6'>
+<body class='p-6'>
     <div class='max-w-3xl mx-auto'>
-        <a href='../index.html' class='block mb-4'>← Sure Listesine Geri Dön</a>
-        <h1 class='text-3xl font-bold mt-4'>Alak Suresi</h1>
-        <p class='text-sm text-gray-400 mb-4'>2025-04-20</p>
-        <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>kuran</span> <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>quran</span> <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>furkan</span>
-        <div class='prose max-w-none mt-4'><h2>Alak Suresi 96-1</h2>
+        <a href='../index.html' style='color: #38A3A5;'>← Listeye Dön</a>
+        <header class='mt-8 mb-12'>
+            <h1 class='text-4xl font-bold'>Alak Suresi</h1>
+            <p style='color: #8D8273;' class='mt-2 text-sm'>2025-04-20</p>
+            <div class='mt-4'><span class='tag-ottoman'>kuran</span><span class='tag-ottoman'>quran</span><span class='tag-ottoman'>furkan</span></div>
+        </header>
+        <article class='prose'>
+            <h2>Alak Suresi 96-1</h2>
 <p>(Yapışan Pıhtı veya Oku)</p>
 <p>SEVGİ VE MERHAMETİ SONSUZ ALLAH’IN ADIYLA</p>
 <ol>
@@ -59,13 +110,13 @@
 <p>Kur’an, sadece bir kitap değil, yaşayan, nefes alan bir mesajdır. Onu anlamak, okumak ve hayata geçirmek insanın gerçek misyonudur. Vahyin ilk kelimesi olan “İkra,” bu misyonun ilk adımıdır. İnsanlara sorumluluk yükleyen, harekete geçiren bir uyanışın ifadesidir. Hz. Muhammed, bu çağrıya 23 yıl boyunca cevap verdi; her kelimeyi, her mesajı hayatın içine işleyerek insanlara aktardı. Kur’an, bu uzun yolculuğun sonunda bir araya geldi; ama bu, hatmedilesi bir kitap değil, sürekli üzerinde düşünülmesi, derinlemesine anlaşılması ve yaşanması gereken bir rehberdir.</p>
 <p>Kur’an sadece satır satır okunacak bir kitap değildir; onun içindeki mesajı anlamak için evrenin kitabını, yani doğayı ve kainatı okumak; insanın kitabını, yani kendi iç dünyamızı ve yaratılışımızı okumak da gerekir. Allah’ın adıyla başlayan bu okuma, her şeyin yaratıcısına dair bir bilinçle yapılır. Kur’an’ı okurken, aynı zamanda hayatı, evreni ve insanı da okumamız gerektiği, bu üç kitabın birbirini tamamlayan bir bütün olduğudur. Her bir ayet, yaratılışın bir parçası; her bir varlık, Allah’ın büyük kitabında bir kelimedir.</p>
 <p>Bu okumak, bir bilgi edinme değil, bir bilgelik yolculuğudur. Allah’ın adıyla başlamak, onunla yürümek, onunla anlamaktır.</p>
-<ol start="2">
+<ol>
 <li><strong>İnsanı sadece pıhtılaşmış kan pıhtısından/embriyodan/ilişip yapışan bir sudan/sevgi ve ilgiden yarattı:</strong></li>
 </ol>
 <p>İnsan, içindeki köklere bakınca toprağın, hayvanların, vahşi dünyanın izlerini taşır. Ama o, cömert Yaratan’ın ona bahşettiği bilgelikle, ahlaki ve manevi yüceliğe doğru yükselir. İnsandan ilim esirgenmez; aksine, Allah’ın lütfuyla ona özgürce verilen yetilerle, sınırlarını aşan bir ilim dairesine girer. Her öğrendiği, her kavradığı bilgi, insanoğlunu daha da ileriye götürür. O, hep daha derin anlamlar ve daha büyük hakikatler peşinde koşar.</p>
 <p>Allah’ın yarattığı evren, durmadan genişleyen, sürekli yeniden yaratılan bir dünya. Yaratmak, Allah’ın bitmeyen işidir. Bu yaratılış, geçmişe ya da bugüne hapsedilmiş değildir. Zaman, Allah’ın eyleminde ne sınırlayıcıdır ne de bir engel. O, her an yeni bir yaratılışla bize göz kırpar, kainatı yeniler, hayatı tazeler.</p>
 <p>İnsan, Allah’ın sevgiyle tarih sahnesine çıkardığı bir varlıktır. O’nun yarattığı her şeyde sevgi ve ilgi vardır. Allah, yarattıklarına merhametle bakar, onları sevgiyle sarar. Çünkü O, yarattığı her canlıya değer verir. Bu sevgi öyle derindir ki, varoluşun temelinde o sevgi yatar; her şey o sevgiden doğar, o sevgiyle ayakta durur. İnsan da, o sevginin izinde yürürken, içindeki ilahi özle yükselir, dünyada kendine verilmiş olan büyük kaderin peşinden koşar.</p>
-<ol start="3">
+<ol>
 <li><strong>Oku! Ve senin Rabbin çok kerem sahibidir/cömerttir,-</strong></li>
 </ol>
 <p>Oku, o özgürlüğün kaynağı olan, asaletin kaynağı olan Allah’ın adı ile oku!</p>
@@ -74,7 +125,7 @@
 <p>“Hiç şüphesiz o bir Kur’an’ı Kerim’dir.” : Vakia 77</p>
 <p>“Allah katında en keremliniz en takvalı olanınızdır.” : Hucurat 13</p>
 <p>Temel ibadet okumaktır. Okumak insanı geliştirecektir. Gelişen insan özgürleşir. İslam dünyası için Allah özgürlüklerin kaynağıdır. Onun bunun alınıp satılabilen kölesi olmayın.</p>
-<ol start="4">
+<ol>
 <li><strong>Kalemi kullanmayı öğreten, O’dur-</strong></li>
 </ol>
 <p>Bu “ilân etme” yahut “okuma,” yalnızca Allah’ın Peygamber’ine verdiği görev değildir. O, her kim bu kutsal mesajı duyar, okur ve anlar, ona da bir sorumluluk yükler. O Gerçek ki, sadece peygamberlerin sırtına konmuş bir yük değil, bütün insanlığın omuzlarına bırakılan bir emanettir.</p>
@@ -92,7 +143,7 @@
 <p>6. <strong>Hayır o iş öyle değil! Ama insan tüm sınırları aşar/gerçekten kudurasıya azar,</strong></p>
 <p>İnsanoğlu, sahip olduğu her türlü bilgi, beceri ve kapasiteyi Allah’ın bir lütfu olarak alır. Ancak bu lütuflar, insanoğlunun kalbine kibir ve küstahlık tohumları ektiğinde, gaflet başlar. Güç, güzellik, zenginlik, mevki ya da bilgi ve yetenek gibi nimetler, insanın gözünde kendi zaferlerinin nişanesi olarak şekillenir. İnsan, Allah’ın bahşettiği bu armağanları unutur, onları sadece kendi emeğinin ve zekâsının ürünü sanır. Kendini kimseye muhtaç olmayacak kadar güçlü, ama başkalarını kendisine hep muhtaç görecek kadar büyük zannetmeye başlar. Bu kibir, onu küçümsemeye ve insanları hor görmeye iter. Ve o sefil duygular insanı azdırır, yolundan çıkarır.</p>
 <p>Kur’an, zulmedenleri “tağut” diye anar. İnsan, tağutlaştıkça, kudurasıya azar, kendini dev aynasında görür. Niye? Çünkü insan, kendisini yaratılışının gerçekliğinden kopardığında, Allah’ın lütuflarını bir imtihan değil de hak edilmiş birer paye olarak görmeye başladığında, gerçek yolundan sapar. Lütufları, kendini üstün kılacak birer araç sanır. İşte o zaman zulüm başlar; insan hem kendine hem de başkalarına karşı zalimleşir. Çünkü artık kendini Allah’tan kopmuş, sadece kendi gücüne dayanan bir varlık sanmaktadır. Oysa insan, varlığını unuttukça, kudreti zayıflar, içindeki boşluk büyür. Allah’tan uzaklaştıkça, kendini ne kadar büyük sanırsa sansın, aslında o kadar küçülür.</p>
-<ol start="7">
+<ol>
 <li><strong>Bu bakımdan kendini kendine yeterli görür.</strong></li>
 </ol>
 <p>İnsan, eline geçen serveti kendine yeter sanır. Bir avuç altına yaslanır, bu dünya malını siper eder, onun arkasına saklanıp büyüklük taslar. Servet arttıkça kalbindeki kibir de katlanır, nefsine gem vuramaz. Para, onu hem azdırır hem de zalim eder; elindeki malı mülkü koruma adına insanlara zulmetmekten geri durmaz. Varlık, onu şirke düşürür, parayı taparcasına sever. Çünkü servet gözünü bürüdüğünde Allah’ın kullarına hükmetmek ister, kendini bir efendi sanır, başkalarının özgürlüğünü hiçe sayar. Onun gönlü, zenginliğiyle kabarır; kendini yüceltir, yoksulun halini unutur, ihtiyaç sahibini hor görür. Malına güvenerek Hakk’ı inkâr eder. Ne yardıma muhtaç bir canı görür ne de Allah’ın adaletini. Oysa servet, insanı yükseğe değil, felakete sürükler eğer kalpte sevgi, merhamet ve Allah korkusu yoksa.</p>
@@ -102,17 +153,17 @@
 <p>8. <strong>Doğrusu, hepsinin dönüşü Rabbinedir.</strong></p>
 <p>İnsan, ne bireysel ne de toplumsal gücüyle kendi kendine yetebilecek bir varlık değildir. Eğer Allah’ın ona lütfettiği nimetleri hor görüyorsa, kendisine dönüp bakmalıdır; nereden geldiğini, nasıl bir kan pıhtısından, basit bir maddeden yaratıldığını hatırlamalıdır. O küçücük kökenini unutursa, kendini büyük görmeye başlar; oysa ki bu, sadece Allah’ın ona verdiği nimetlerin eseridir.</p>
 <p>İleriye dönük baktığında ise, asıl sorumluluğuyla yüzleşmelidir: Sonunda her yol Allah’a çıkar. Her adımın, her nefesin bir hesabı vardır ve insan, nihayetinde bu dünyadaki yolculuğunu tamamlayıp Allah’a dönecektir. Unutmak, kibire kapılmak, kendi gücüne fazlasıyla güvenmek, insanı uçuruma sürükler. Ama her şeyin sahibinin O olduğunu bilen, hem kökünü hem de varacağı yeri hatırlayan insan, hakikati bulur. Allah’ın rahmetiyle yürüyen, ne kibirlenir ne de nimetleri küçümser; sadece şükreder, sadece sorumluluğunu bilir.</p>
-<ol start="9">
+<ol>
 <li><strong>Sen yasaklayanı gördün mü-</strong></li>
 </ol>
 <p>Ayet, sadece Allah’ın kanunlarını hiçe sayanları değil, aynı zamanda başkalarının da bu yoldan gitmelerini engellemeye çalışanları da hedef alır. Bu sapkınlık içindeki insanlığa güçlü bir uyarıdır. İslam’ın ilk yıllarında, Peygamber’in adım adım yayılan mesajına karşı çıkan, ona ve inananlara hakaret eden, onları hor gören Ebu Cehil’den bahsedilir. Ebu Cehil, sadece kendi kalbinde Allah’ın nuruna yer vermemekle kalmadı, aynı zamanda başkalarının da bu nura kavuşmasına mani olmak için elinden geleni yaptı. Peygamber’i ibadete gitmekten alıkoymaya çalıştı, Kabe’de secdeye kapanan Müslümanların yollarına taşlar döşedi.</p>
 <p>Küstah ve kibir doluydu; gücünü, servetini, mevkiini Allah’a karşı diklenmekte kullandı. Ancak hakikat bir gün onu da buldu. Onun yolu Bedir’in karanlığında sona erdi; kibri ve zulmü, Allah’ın adaletinden kaçamadı. Ebu Cehil’in sonu, zulüm ve inkârın insanı hangi uçurumlara sürüklediğinin en açık göstergesidir. Allah’ın kanunlarına karşı duranların sonu, er ya da geç, hüsrandır.</p>
-<ol start="10">
+<ol>
 <li><strong>Kulu dua etmek için döndüğünde?</strong></li>
 <li><strong>Ya O hidayet yolundaysa, görüyor musun?</strong></li>
 </ol>
 <p>İnsanın küstahlığı iki sonuca yol açar: (1) kendini yanlış yönlendirme yoluyla kendi kendini yok etmek; (2) başkalarına yanlış bir örnek oluşturmak veya yanlış rehberlik yapmak.</p>
-<ol start="12">
+<ol>
 <li>
 <p><strong>Ya o doğruluğa çağırıyorsa?</strong></p>
 </li>
@@ -121,7 +172,7 @@
 </li>
 </ol>
 <p>Şirke düşmüşlerin olağan hilesi, Gerçekle yüzleşmeyi reddetmektir. Bir köşeye sıkışırlarsa, aklı başında insanlara apaçık olanı inkar ederler ve sırtlarını dönerler.</p>
-<ol start="14">
+<ol>
 <li>
 <p><strong>Allah’ın gördüğünü bilmiyor mu?/O, Allah’ın, yaptıklarını, her şeyi gördüğünü bilmiyor mu?</strong></p>
 </li>
@@ -130,7 +181,7 @@
 </li>
 </ol>
 <p>Bütün yalancı, günahkâr, âsi liderlerin, ileri gelenlerin hepsinin perçeminden yakalar cehenneme sürükleriz.</p>
-<ol start="16">
+<ol>
 <li>
 <p><strong>Yalancı, günahkar perçeminden/alnından!</strong></p>
 </li>
@@ -139,11 +190,11 @@
 </li>
 </ol>
 <p>Kureyş cuntası Hakk’ın gerçekleşmemesi ellerinden geleni yaptılar ama gayretleri nafileydi.</p>
-<ol start="18">
+<ol>
 <li><strong>Onunla uğraşmaları için azap meleklerini çağıracağız!</strong></li>
 </ol>
 <p>Bütün güç ellerinde bile olsa ve bir süre için başarılı gözükseler de, kötülüğün bütün güçleri karşısında ki pek çetin Cevizdir.</p>
-<ol start="19">
+<ol>
 <li><strong>Hayır olmaz! Ona kulak asma/aldırma: Ama Allah’a hayranlıkla ruku et/eğil, ve O’na daha da yakınlaş!</strong></li>
 </ol>
 <p>Salih adamın korkusu yoktur. Kendisine karşı getirilen tüm kötülüğün güçlerini göz ardı edebilir. Ama alçakgönüllülüğü öğrenmelidir: bu onun savunmasıdır. Allah’a tövbe ederek secde eder. Kendini Allah’a yaklaştıracak iradeye sahip olmalıdır. Allah ona yakındır, hatta şah damarından bile yakındır. İnsanın alçakgönüllülüğü ve Allah’a olan hayranlığı, onu bir yandan küstah bir asi olmaktan uzaklaştırırken, diğer yandan da Allah’a yakınlığını idrak etmeye iradesini hazırlar.</p>
@@ -170,7 +221,12 @@ In the name of Allah, Most Gracious, Most Merciful.</p>
 <li>Then, let him call (for help) to his council (of comrades):</li>
 <li>We will call on the angels of punishment (to deal with him)!</li>
 <li>Nay, heed him not: But bow down in adoration, and bring thyself the closer (to Allah)!</li>
-</ol></div>
+</ol>
+        </article>
+        <hr>
+        <footer class='pb-12 text-center'>
+            <p style='color: #8D8273;'>Toygar Par - Quran Project</p>
+        </footer>
     </div>
 </body>
 </html>

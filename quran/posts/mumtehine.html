@@ -1,55 +1,106 @@
 
 <!DOCTYPE html>
-<html lang='en'>
+<html lang='tr'>
 <head>
     <meta charset='UTF-8'>
     <title>Mümtehine Suresi</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link href='https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css' rel='stylesheet'>
-    <style>
-        body {
-            background-color: #111827;
-            color: #f9fafb;
-        }
-        .prose {
-            color: #f9fafb;
-        }
-        .prose h1, .prose h2, .prose h3 {
-            color: #60a5fa;
-        }
-        pre code {
-            background-color: #1f2937;
-            color: #f9fafb;
-            display: block;
-            padding: 1em;
-            overflow-x: auto;
-            border-radius: 0.5rem;
-        }
-        code {
-            background-color: #374151;
-            padding: 0.2em 0.4em;
-            border-radius: 0.25rem;
-        }
-        a {
-            color: #93c5fd;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-         p {
-            margin-top: 1em;
-            margin-bottom: 1em;
-            line-height: 1.7;
-        }
-    </style>
+    
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
+
+    body {
+        background-color: #1A1714; /* Deep Obsidian */
+        color: #F2E8CF; /* Parchment Cream */
+        font-family: 'Lora', serif;
+    }
+
+    /* --- SAFFRON GLOW BOLD FONTS --- */
+    strong, b {
+        color: #FFC107;
+        font-weight: 700;
+        text-shadow: 0 0 8px rgba(255, 193, 7, 0.4);
+    }
+    
+    .surah-card {
+        background-color: #24201D;
+        border-left: 4px solid #BC9353; /* Ottoman Gold */
+        padding: 1.5rem;
+        border-radius: 0.25rem;
+        transition: transform 0.2s;
+        margin-bottom: 1.5rem;
+    }
+
+    .surah-card:hover {
+        transform: translateX(5px);
+        background-color: #2C2723;
+    }
+
+    h1, h2, h3 {
+        font-family: 'Playfair Display', serif;
+        color: #BC9353;
+    }
+
+    .prose {
+        color: #F2E8CF;
+        max-width: none;
+        line-height: 1.8;
+    }
+
+    .tag-ottoman {
+        background-color: #38A3A5; /* Iznik Turquoise */
+        color: #1A1714;
+        font-weight: 600;
+        font-size: 0.75rem;
+        padding: 0.2rem 0.6rem;
+        border-radius: 0.25rem;
+        margin-right: 0.5rem;
+        display: inline-block;
+    }
+
+    input#searchInput {
+        background-color: #24201D;
+        border: 1px solid #BC9353;
+        color: #F2E8CF;
+        width: 100%;
+        padding: 0.75rem;
+        border-radius: 0.5rem;
+        margin-bottom: 2rem;
+    }
+
+    input#searchInput::placeholder {
+        color: #8D8273;
+    }
+
+    a {
+        color: #BC9353;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    a:hover {
+        color: #F2E8CF;
+        text-decoration: underline;
+    }
+
+    hr {
+        border-color: #3D352E;
+        margin: 2rem 0;
+    }
+</style>
+
 </head>
-<body class='font-sans p-6'>
+<body class='p-6'>
     <div class='max-w-3xl mx-auto'>
-        <a href='../index.html' class='block mb-4'>← Sure Listesine Geri Dön</a>
-        <h1 class='text-3xl font-bold mt-4'>Mümtehine Suresi</h1>
-        <p class='text-sm text-gray-400 mb-4'>2025-04-20</p>
-        <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>kuran</span> <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>quran</span> <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>furkan</span>
-        <div class='prose max-w-none mt-4'><h2>Mümtehine Suresi 60-111</h2>
+        <a href='../index.html' style='color: #38A3A5;'>← Listeye Dön</a>
+        <header class='mt-8 mb-12'>
+            <h1 class='text-4xl font-bold'>Mümtehine Suresi</h1>
+            <p style='color: #8D8273;' class='mt-2 text-sm'>2025-04-20</p>
+            <div class='mt-4'><span class='tag-ottoman'>kuran</span><span class='tag-ottoman'>quran</span><span class='tag-ottoman'>furkan</span></div>
+        </header>
+        <article class='prose'>
+            <h2>Mümtehine Suresi 60-111</h2>
 <p>Mümtehine Suresi 60-111 ( İnceleyen, İmtihan Eden )</p>
 <p>SEVGİ VE MERHAMETİ SONSUZ ALLAH’IN ADIYLA</p>
 <ol>
@@ -72,7 +123,7 @@
 <p>In the name of Allah, Most Gracious, Most Merciful. </p>
 <ol>
 <li>O ye who believe! Take<br />
-not My enemies and yours as friends (or protectors), &ndash;offering<br />
+not My enemies and yours as friends (or protectors), --offering<br />
 them (your) love, even though they have rejected the Truth that<br />
 has come to you, and have (on the contrary) driven out the<br />
 Prophet and yourselves (from your homes), (simply) because ye<br />
@@ -89,20 +140,20 @@ Truth.</li>
 on the Day of Judgment: He will judge between you: For Allah<br />
 sees well all that ye do.</li>
 <li>There is for you an excellent example (to follow) in Abraham<br />
-and those with him, when they said to their people: &ldquo;We are<br />
+and those with him, when they said to their people: "We are<br />
 clear of you and of whatever ye worship besides Allah: We have<br />
 rejected you, and there has arisen, between us and you, enmity<br />
-and hatred forever, &ndash;unless ye believe in Allah and Him alone&rdquo;:<br />
-But not when Abraham said to his father: &ldquo;I will pray for<br />
+and hatred forever, --unless ye believe in Allah and Him alone":<br />
+But not when Abraham said to his father: "I will pray for<br />
 forgiveness for thee, though I have no power (to get) aught on<br />
-thy behalf from Allah.&rdquo; (They prayed): &ldquo;Our Lord! In Thee do we<br />
+thy behalf from Allah." (They prayed): "Our Lord! In Thee do we<br />
 trust, and to Thee do we turn in repentance: To Thee is (our)<br />
 final Goal.</li>
-<li>&ldquo;Our Lord! Make us not a (test and) trial for the<br />
+<li>"Our Lord! Make us not a (test and) trial for the<br />
 Unbelievers, but forgive us, our Lord! For Thou art the Exalted<br />
-in Might, the Wise.&rdquo;</li>
+in Might, the Wise."</li>
 <li>There was indeed in them an excellent example for you to<br />
-follow, &ndash;for those whose hope is in Allah and in the Last Day.<br />
+follow, --for those whose hope is in Allah and in the Last Day.<br />
 But if any turn away, Truly Allah is Free of all wants, Worthy<br />
 of all Praise.</li>
 <li>It may be that Allah will grant love (and friendship) between<br />
@@ -141,14 +192,19 @@ oath of fealty to thee, that they will not associate in worship<br />
 that they will not commit adultery (or fornication), that they<br />
 will not kill their children, that they will not utter slander,<br />
 intentionally forging falsehood, and that they will not disobey<br />
-thee in any just matter, &ndash;then do thou receive their fealty,<br />
+thee in any just matter, --then do thou receive their fealty,<br />
 and pray to Allah for the forgiveness (of their sins): For Allah<br />
 is Oft-Forgiving, Most Merciful.</li>
 <li>O ye who believe! Turn not (for friendship) to people on<br />
 whom is the Wrath of Allah. Of the Hereafter they are already in<br />
 despair, just as the Unbelievers are in despair about those<br />
 (buried) in graves.</li>
-</ol></div>
+</ol>
+        </article>
+        <hr>
+        <footer class='pb-12 text-center'>
+            <p style='color: #8D8273;'>Toygar Par - Quran Project</p>
+        </footer>
     </div>
 </body>
 </html>

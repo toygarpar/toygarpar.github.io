@@ -1,55 +1,106 @@
 
 <!DOCTYPE html>
-<html lang='en'>
+<html lang='tr'>
 <head>
     <meta charset='UTF-8'>
     <title>Kasas Suresi</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link href='https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css' rel='stylesheet'>
-    <style>
-        body {
-            background-color: #111827;
-            color: #f9fafb;
-        }
-        .prose {
-            color: #f9fafb;
-        }
-        .prose h1, .prose h2, .prose h3 {
-            color: #60a5fa;
-        }
-        pre code {
-            background-color: #1f2937;
-            color: #f9fafb;
-            display: block;
-            padding: 1em;
-            overflow-x: auto;
-            border-radius: 0.5rem;
-        }
-        code {
-            background-color: #374151;
-            padding: 0.2em 0.4em;
-            border-radius: 0.25rem;
-        }
-        a {
-            color: #93c5fd;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-         p {
-            margin-top: 1em;
-            margin-bottom: 1em;
-            line-height: 1.7;
-        }
-    </style>
+    
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
+
+    body {
+        background-color: #1A1714; /* Deep Obsidian */
+        color: #F2E8CF; /* Parchment Cream */
+        font-family: 'Lora', serif;
+    }
+
+    /* --- SAFFRON GLOW BOLD FONTS --- */
+    strong, b {
+        color: #FFC107;
+        font-weight: 700;
+        text-shadow: 0 0 8px rgba(255, 193, 7, 0.4);
+    }
+    
+    .surah-card {
+        background-color: #24201D;
+        border-left: 4px solid #BC9353; /* Ottoman Gold */
+        padding: 1.5rem;
+        border-radius: 0.25rem;
+        transition: transform 0.2s;
+        margin-bottom: 1.5rem;
+    }
+
+    .surah-card:hover {
+        transform: translateX(5px);
+        background-color: #2C2723;
+    }
+
+    h1, h2, h3 {
+        font-family: 'Playfair Display', serif;
+        color: #BC9353;
+    }
+
+    .prose {
+        color: #F2E8CF;
+        max-width: none;
+        line-height: 1.8;
+    }
+
+    .tag-ottoman {
+        background-color: #38A3A5; /* Iznik Turquoise */
+        color: #1A1714;
+        font-weight: 600;
+        font-size: 0.75rem;
+        padding: 0.2rem 0.6rem;
+        border-radius: 0.25rem;
+        margin-right: 0.5rem;
+        display: inline-block;
+    }
+
+    input#searchInput {
+        background-color: #24201D;
+        border: 1px solid #BC9353;
+        color: #F2E8CF;
+        width: 100%;
+        padding: 0.75rem;
+        border-radius: 0.5rem;
+        margin-bottom: 2rem;
+    }
+
+    input#searchInput::placeholder {
+        color: #8D8273;
+    }
+
+    a {
+        color: #BC9353;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    a:hover {
+        color: #F2E8CF;
+        text-decoration: underline;
+    }
+
+    hr {
+        border-color: #3D352E;
+        margin: 2rem 0;
+    }
+</style>
+
 </head>
-<body class='font-sans p-6'>
+<body class='p-6'>
     <div class='max-w-3xl mx-auto'>
-        <a href='../index.html' class='block mb-4'>← Sure Listesine Geri Dön</a>
-        <h1 class='text-3xl font-bold mt-4'>Kasas Suresi</h1>
-        <p class='text-sm text-gray-400 mb-4'>2025-04-20</p>
-        <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>kuran</span> <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>quran</span> <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>furkan</span>
-        <div class='prose max-w-none mt-4'><h2>Kasas Suresi 28-49</h2>
+        <a href='../index.html' style='color: #38A3A5;'>← Listeye Dön</a>
+        <header class='mt-8 mb-12'>
+            <h1 class='text-4xl font-bold'>Kasas Suresi</h1>
+            <p style='color: #8D8273;' class='mt-2 text-sm'>2025-04-20</p>
+            <div class='mt-4'><span class='tag-ottoman'>kuran</span><span class='tag-ottoman'>quran</span><span class='tag-ottoman'>furkan</span></div>
+        </header>
+        <article class='prose'>
+            <h2>Kasas Suresi 28-49</h2>
 <p>Kasas Suresi 28-49 (Anlatılar)</p>
 <p>SEVGİ VE MERHAMETİ SONSUZ ALLAH’IN ADIYLA</p>
 <ol>
@@ -160,69 +211,69 @@
 </li>
 </ol>
 <p>Truth, for people who believe.</p>
-<ol start="4">
+<ol>
 <li>Truly Pharaoh elated himself in the land and broke up its</li>
 </ol>
 <p>people into sections, depressing a small group among them: Their</p>
 <p>sons he slew, but he kept alive their females: For he was indeed</p>
 <p>a maker of mischief.</p>
-<ol start="5">
+<ol>
 <li>And We wished to be gracious to those who were being</li>
 </ol>
 <p>depressed in the land, to make them leaders (in faith) and make</p>
 <p>them heirs,</p>
-<ol start="6">
+<ol>
 <li>To establish a firm place for them in the land, and to show</li>
 </ol>
 <p>Pharaoh, Haman, and their hosts, at their hands, the very thing</p>
 <p>against which they were taking precautions.</p>
-<ol start="7">
+<ol>
 <li>So We sent this inspiration to the mother of Moses: “Suckle</li>
 </ol>
 <p>(thy child), but when thou hast fears about him, cast him into</p>
 <p>the river, but fear not nor grieve: For We shall restore him to</p>
 <p>thee, and We shall make him one of Our apostles.”</p>
-<ol start="8">
+<ol>
 <li>Then the people of Pharaoh picked him up (from the river).</li>
 </ol>
 <p>(It was intended) that (Moses) should be to them an adversary</p>
 <p>and a cause of sorrow: For Pharaoh and Haman and (all) their</p>
 <p>hosts were men of sin.</p>
-<ol start="9">
+<ol>
 <li>The wife of Pharaoh said: “(Here is) a joy of the eye, for me</li>
 </ol>
 <p>and for thee: Slay him not. It may be that he will be of use to</p>
 <p>us, or we may adopt him as a son.” And they perceived not (what</p>
 <p>they were doing)!</p>
-<ol start="10">
+<ol>
 <li>But there came to be a void in the heart of the mother of</li>
 </ol>
 <p>Moses: She was going almost to disclose his (case), had We not</p>
 <p>strengthened her heart (with faith), so that she might remain a</p>
 <p>(firm) believer.</p>
-<ol start="11">
+<ol>
 <li>And she said to the sister of (Moses), “Follow him”. So she</li>
 </ol>
 <p>(the sister) watched him in the character of a stranger. And</p>
 <p>they knew not.</p>
-<ol start="12">
+<ol>
 <li>And We ordained that he refused suck at first, until (his</li>
 </ol>
 <p>sister came up and) said: “Shall I point out to you the people</p>
 <p>of a house that will nourish and bring him up for you and be</p>
 <p>sincerely attached to him?”…</p>
-<ol start="13">
+<ol>
 <li>Thus did We restore him to his mother, that her eye might be</li>
 </ol>
 <p>comforted, that she might not grieve, and that she might know</p>
 <p>that the promise of Allah is true: But most of them do not</p>
 <p>understand.</p>
-<ol start="14">
+<ol>
 <li>When he reached full age, and was firmly established (in</li>
 </ol>
 <p>life), We bestowed on him wisdom and knowledge: For thus do We</p>
 <p>reward those who do good.</p>
-<ol start="15">
+<ol>
 <li>And he entered the City at a time when its people were not</li>
 </ol>
 <p>watching: And he found there two men fighting, –one of his own</p>
@@ -230,45 +281,45 @@
 <p>religion appealed to him against his foe, and Moses struck him</p>
 <p>with his fist and made an end of him. He said: “This is a work</p>
 <p>of Evil (Satan): For he is an enemy that manifestly misleads!”</p>
-<ol start="16">
+<ol>
 <li>He prayed: “O my Lord! I have indeed wronged my soul! Do</li>
 </ol>
 <p>Thou then forgive me!” So (Allah) forgave him: For He is the</p>
 <p>Oft-Forgiving, Most Merciful.</p>
-<ol start="17">
+<ol>
 <li>He said: “O my Lord! For that Thou hast bestowed Thy Grace</li>
 </ol>
 <p>on me, never shall I be a help to those who sin!”</p>
-<ol start="18">
+<ol>
 <li>So he saw the morning in the City, looking about, in a state</li>
 </ol>
 <p>of fear, when behold, the man who had, the day before, sought</p>
 <p>his help called aloud for his help (again). Moses said to him:</p>
 <p>“Thou art truly, it is clear, a quarrelsome fellow!”</p>
-<ol start="19">
+<ol>
 <li>Then, when he decided to lay hold of the man who was an</li>
 </ol>
 <p>enemy to both of them, that man said: “O Moses! Is it thy</p>
 <p>intention to slay me as thou slewest a man yesterday? Thy</p>
 <p>intention is none other than to become a powerful violent man in</p>
 <p>the land, and not to be one who sets things right!”</p>
-<ol start="20">
+<ol>
 <li>And there came a man, running, from the furthest end of the</li>
 </ol>
 <p>City. He said: “O Moses! The Chiefs are taking counsel together</p>
 <p>about thee, to slay thee: So get thee away, for I do give thee</p>
 <p>sincere advice.”</p>
-<ol start="21">
+<ol>
 <li>He therefore got away therefrom, looking about, in a state</li>
 </ol>
 <p>of fear. He prayed: “O my Lord! Save me from people given to</p>
 <p>wrongdoing.”</p>
-<ol start="22">
+<ol>
 <li>Then, when he turned his face towards (the land of) Madyan,</li>
 </ol>
 <p>he said: “I do hope that my Lord will show me the smooth and</p>
 <p>straight Path.”</p>
-<ol start="23">
+<ol>
 <li>And when he arrived at the watering (place) in Madyan, he</li>
 </ol>
 <p>found there a group of men watering (their flocks), and beside</p>
@@ -276,138 +327,138 @@
 <p>said: “What is the matter with you?” They said: “We cannot water</p>
 <p>(our flocks) until the shepherds take back (their flocks): And</p>
 <p>our father is a very old man.”</p>
-<ol start="24">
+<ol>
 <li>So he watered (their flocks) for them; then he turned back</li>
 </ol>
 <p>to the shade, and said: “O my Lord! Truly am I in (desperate</p>
 <p>need of any good that Thou dost send me!”…</p>
-<ol start="25">
+<ol>
 <li>Afterwards one of the (damsels) came (back) to him, walking</li>
 </ol>
 <p>bashfully. She said: “My father invites thee that he may reward</p>
 <p>thee for having watered (our flocks) for us.” So when he came to</p>
 <p>him and narrated the story, he said: “Fear thou not: (Well) hast</p>
 <p>thou escaped from unjust people.”</p>
-<ol start="26">
+<ol>
 <li>Said one of the (damsels): “O my (dear) father! Engage him</li>
 </ol>
 <p>on wages: Truly the best of men for thee to employ is the (man)</p>
 <p>who is strong and trusty”…</p>
-<ol start="27">
+<ol>
 <li>He said: “I intend to wed one of these my daughters to thee,</li>
 </ol>
 <p>on condition that thou serve me for eight years; but if thou</p>
 <p>complete ten years, it will be (grace) from thee. But I intend</p>
 <p>not to place thee under a difficulty: Thou wilt find me, indeed</p>
 <p>if Allah wills, one of the righteous.”</p>
-<ol start="28">
+<ol>
 <li>He said: “Be that (the agreement) between me and thee:</li>
 </ol>
 <p>Whichever of the two terms I fulfill, let there be no ill will</p>
 <p>to me. Be Allah a witness to what we say.”</p>
-<ol start="29">
+<ol>
 <li>Now when Moses had fulfilled the term, and was traveling</li>
 </ol>
 <p>with his family, he perceived a fire in the direction of Mount</p>
 <p>Tur. He said to his family: “Tarry ye; I perceive a fire; I hope</p>
 <p>to bring you from there some information, or a burning</p>
 <p>firebrand, that ye may warm yourselves.”</p>
-<ol start="30">
+<ol>
 <li>But when he came to the (Fire), a voice was heard from the</li>
 </ol>
 <p>right bank of the valley, from a tree in hallowed ground: “O</p>
 <p>Moses! Verily I am Allah, the Lord of the Worlds…</p>
-<ol start="31">
+<ol>
 <li>“Now do thou throw thy rod!” But when he saw it moving (of</li>
 </ol>
 <p>its own accord) as if it had been a snake, he turned back in</p>
 <p>retreat, and retraced not his steps: “O Moses!” (It was said),</p>
 <p>“Draw near, and fear not: For thou art of those who are secure.</p>
-<ol start="32">
+<ol>
 <li>“Move thy hand into thy bosom, and it will come forth white</li>
 </ol>
 <p>without stain (or harm), and draw thy hand close to thy side (to</p>
 <p>guard) against fear. Those are the two credentials from thy Lord</p>
 <p>to Pharaoh and his Chiefs: For truly they are a people</p>
 <p>rebellious and wicked.”</p>
-<ol start="33">
+<ol>
 <li>He said: “O my Lord! I have slain a man among them, and I</li>
 </ol>
 <p>fear lest they slay me.</p>
-<ol start="34">
+<ol>
 <li>And my brother Aaron–he is more eloquent in speech than I:</li>
 </ol>
 <p>So send him with me as a helper, to confirm (and strengthen) me:</p>
 <p>For I fear that they may accuse me of falsehood.”</p>
-<ol start="35">
+<ol>
 <li>He said: “We will certainly strengthen thy arm through thy</li>
 </ol>
 <p>brother, and invest you both with authority, so they shall not</p>
 <p>be able to touch you: With Our Signs shall ye triumph, –you two</p>
 <p>as well as those who follow you.”</p>
-<ol start="36">
+<ol>
 <li>When Moses came to them with Our Clear Signs, they said:</li>
 </ol>
 <p>“This is nothing but sorcery faked up: Never did we hear the</p>
 <p>like among our fathers of old!”</p>
-<ol start="37">
+<ol>
 <li>Moses said: “My Lord knows best who it is that comes with</li>
 </ol>
 <p>guidance from Him and whose End will be best in the Hereafter:</p>
 <p>Certain it is that the wrongdoers will not prosper.”</p>
-<ol start="38">
+<ol>
 <li>Pharaoh said: “O Chiefs! No god do I know for you but</li>
 </ol>
 <p>myself: Therefore, O Haman! Light me a (kiln to bake bricks) out</p>
 <p>of clay, and build me a lofty palace, that I may mount up to the</p>
 <p>god of Moses: But as far as I am concerned, I think (Moses) is a</p>
 <p>liar!”</p>
-<ol start="39">
+<ol>
 <li>And he was arrogant and insolent in the land, beyond reason,</li>
 </ol>
 <p>–he and his hosts: They thought that they would not have to</p>
 <p>return to Us!</p>
-<ol start="40">
+<ol>
 <li>So We seized him and his hosts, and We flung them into the</li>
 </ol>
 <p>sea: Now behold what was the End of those who did wrong!</p>
-<ol start="41">
+<ol>
 <li>And We made them (but) leaders inviting to the Fire; and on</li>
 </ol>
 <p>the Day of Judgment no help shall they find.</p>
-<ol start="42">
+<ol>
 <li>In this world We made a Curse to follow them: And on the Day</li>
 </ol>
 <p>of Judgment they will be among the loathed (and despised).</p>
-<ol start="43">
+<ol>
 <li>We did reveal to Moses the Book after We had destroyed the</li>
 </ol>
 <p>earlier generations, (to give) Insight to men, and Guidance and</p>
 <p>Mercy, that they might receive admonition.</p>
-<ol start="44">
+<ol>
 <li>Thou wast not on the Western side when We decreed the</li>
 </ol>
 <p>Commission to Moses, nor wast thou a witness (of those events).</p>
-<ol start="45">
+<ol>
 <li>But We raised up (new) generations, and long were the ages</li>
 </ol>
 <p>that passed over them; but thou wast not a dweller among the</p>
 <p>people of Madyan, rehearsing Our Signs to them; but it is We Who</p>
 <p>send apostles (with inspiration).</p>
-<ol start="46">
+<ol>
 <li>Nor wast thou at the side of (the Mountain of) Tur when We</li>
 </ol>
 <p>called (to Moses). Yet (art thou sent) as a Mercy from thy Lord,</p>
 <p>to give warning to a people to whom no warner had come before</p>
 <p>thee: In order that they may receive admonition.</p>
-<ol start="47">
+<ol>
 <li>If (We had) not (sent thee to the Quraish), –in case a</li>
 </ol>
 <p>calamity should seize them for (the deeds) that their hands have</p>
 <p>sent forth, they might say: “Our Lord! Why didst Thou not send</p>
 <p>us an apostle? We should then have followed Thy Signs and been</p>
 <p>amongst those who believe!”</p>
-<ol start="48">
+<ol>
 <li>But (now), when the Truth has come to them from Ourselves,</li>
 </ol>
 <p>they say, “Why are not (Signs) sent to him, like those which</p>
@@ -415,162 +466,162 @@
 <p>were formerly sent to Moses? They say: “Two kinds of sorcery,</p>
 <p>each assisting the other!” And they say: “For us, we reject all</p>
 <p>(such things)!”</p>
-<ol start="49">
+<ol>
 <li>Say: “Then bring ye a Book from Allah, which is a better</li>
 </ol>
 <p>Guide than either of them, that I may follow it! (Do), if ye are</p>
 <p>truthful!”</p>
-<ol start="50">
+<ol>
 <li>But if they hearken not to thee, know that they only follow</li>
 </ol>
 <p>their own lusts: and who is more astray than one who follows his</p>
 <p>own lusts, devoid of guidance from Allah? For Allah guides not</p>
 <p>people given to wrongdoing.</p>
-<ol start="51">
+<ol>
 <li>Now have We caused the Word to reach them themselves, in</li>
 </ol>
 <p>order that they may receive admonition.</p>
-<ol start="52">
+<ol>
 <li>Those to whom We sent the Book before this, –they do</li>
 </ol>
 <p>believe in this (Revelation);</p>
-<ol start="53">
+<ol>
 <li>And when it is recited to them, they say: “We believe</li>
 </ol>
 <p>therein, for it is the Truth from our Lord: Indeed we have been</p>
 <p>Muslims (bowing to Allah’s Will) from before this.</p>
-<ol start="54">
+<ol>
 <li>Twice will they be given their reward, for that they have</li>
 </ol>
 <p>persevered, that they avert Evil with Good, and that they spend</p>
 <p>(in charity) out of what We have given them.</p>
-<ol start="55">
+<ol>
 <li>And when they hear vain talk, they turn away therefrom and</li>
 </ol>
 <p>say: “To us our deeds, and to you yours; Peace be to you: We</p>
 <p>seek not the ignorant.”</p>
-<ol start="56">
+<ol>
 <li>It is true thou wilt not be able to guide every one whom</li>
 </ol>
 <p>thou lovest; but Allah guides those whom He will. And He knows</p>
 <p>best those who receive guidance.</p>
-<ol start="57">
+<ol>
 <li>They say: “If we were to follow the guidance with thee, we</li>
 </ol>
 <p>should be snatched away from our land.” Have We not established</p>
 <p>for them a secure sanctuary, to which are brought as tribute</p>
 <p>fruits of all kinds, –a provision from Ourselves? But most of</p>
 <p>them understand not.</p>
-<ol start="58">
+<ol>
 <li>And how many populations We destroyed, which exulted in</li>
 </ol>
 <p>their life (of ease and plenty)! Now those habitations of</p>
 <p>theirs, after them, are deserted, –all but a (miserable) few!</p>
 <p>And We are their heirs!</p>
-<ol start="59">
+<ol>
 <li>Nor was thy Lord the one to destroy a population until He</li>
 </ol>
 <p>had sent to its Center an apostle, rehearsing to them Our Signs;</p>
 <p>nor are We going to destroy a population except when its members</p>
 <p>practice iniquity.</p>
-<ol start="60">
+<ol>
 <li>The (material) things which ye are given are but the</li>
 </ol>
 <p>conveniences of this life and the glitter thereof; but that</p>
 <p>which is with Allah is better and more enduring: Will ye not</p>
 <p>then be wise?</p>
-<ol start="61">
+<ol>
 <li>Are (these two) alike? –One to whom We have made a goodly</li>
 </ol>
 <p>promise, and who is going to reach its (fulfillment), and one to</p>
 <p>whom We have given the good things of this life, but who, on the</p>
 <p>Day of Judgment, is to be among those brought up for</p>
 <p>(punishment)?</p>
-<ol start="62">
+<ol>
 <li>That Day (Allah) will call to them, and say: “Where are My</li>
 </ol>
 <p>`partners’? –Whom ye imagined (to be such)?”</p>
-<ol start="63">
+<ol>
 <li>Those against whom the charge will be proved, will say: “Our</li>
 </ol>
 <p>Lord! These are the ones whom we led astray: We led them astray,</p>
 <p>as we were astray ourselves: We free ourselves (from them) in</p>
 <p>Thy presence: It was not us they worshipped.”</p>
-<ol start="64">
+<ol>
 <li>It will be said (to them): “Call upon your `partners’ (for</li>
 </ol>
 <p>help)”: They will call upon them, but they will not listen to</p>
 <p>them; and they will see the Penalty (before them); (how they</p>
 <p>will wish) `If only they had been open to guidance!’</p>
-<ol start="65">
+<ol>
 <li>That Day (Allah) will call to them, and say: “What was the</li>
 </ol>
 <p>answer ye gave the apostles?”</p>
-<ol start="66">
+<ol>
 <li>Then the (whole) story that day will seem obscure to them</li>
 </ol>
 <p>(like light to the blind) and they will not be able (even) to</p>
 <p>question each other.</p>
-<ol start="67">
+<ol>
 <li>But any that (in this life) had repented, believed, and</li>
 </ol>
 <p>worked righteousness, will have hopes to be among those who</p>
 <p>achieve salvation.</p>
-<ol start="68">
+<ol>
 <li>Thy Lord does create and choose as He pleases: No choice</li>
 </ol>
 <p>have they (in the matter): Glory be to Allah! And far is He</p>
 <p>above the partners they ascribe (to Him)!</p>
-<ol start="69">
+<ol>
 <li>And thy Lord knows all that their hearts conceal and all</li>
 </ol>
 <p>that they reveal.</p>
-<ol start="70">
+<ol>
 <li>And He is Allah: There is no god but He. To Him be praise,</li>
 </ol>
 <p>at the first and at the last: For Him is the Command, and to Him</p>
 <p>shall ye (all) be brought back.</p>
-<ol start="71">
+<ol>
 <li>Say: See ye? If Allah were to make the Night perpetual over</li>
 </ol>
 <p>you to the Day of Judgment, what god is there other than Allah,</p>
 <p>who can give you enlightenment? Will ye not then hearken?</p>
-<ol start="72">
+<ol>
 <li>Say: See ye? If Allah were to make the Day perpetual over</li>
 </ol>
 <p>you to the Day of Judgment, what god is there other than Allah,</p>
 <p>who can give you a Night in which ye can rest? Will ye not then</p>
 <p>see?</p>
-<ol start="73">
+<ol>
 <li>It is out of His Mercy that He has made for you Night and</li>
 </ol>
 <p>Day, –that ye may rest therein, and that ye may seek of His</p>
 <p>Grace; –and in order that ye may be grateful.</p>
-<ol start="74">
+<ol>
 <li>The Day that He will call on them, He will say: “Where are</li>
 </ol>
 <p>My `partners’? –Whom ye imagined (to be such)?”</p>
-<ol start="75">
+<ol>
 <li>And from each people shall We draw a witness, and We shall</li>
 </ol>
 <p>say: “Produce your Proof”: Then shall they know that the Truth</p>
 <p>is in Allah (alone), and the (lies) which they invented will</p>
 <p>leave them in the lurch.</p>
-<ol start="76">
+<ol>
 <li>Qarun was doubtless, of the people of Moses; but he acted</li>
 </ol>
 <p>insolently towards them: Such were the treasures We had bestowed</p>
 <p>on him, that their very keys would have been a burden to a body</p>
 <p>of strong men. Behold, his people said to him: “Exult not, for</p>
 <p>Allah loveth not those who exult (in riches).</p>
-<ol start="77">
+<ol>
 <li>“But seek, with the (wealth) which Allah has bestowed on</li>
 </ol>
 <p>thee, the Home of the Hereafter, nor forget thy portion in this</p>
 <p>world: But do thou good, as Allah has been good to thee, and</p>
 <p>seek not (occasions for) mischief in the land: For Allah loves</p>
 <p>not those who do mischief.”</p>
-<ol start="78">
+<ol>
 <li>He said: “This has been given to me because of a certain</li>
 </ol>
 <p>knowledge which I have.” Did he not know that Allah had</p>
@@ -578,24 +629,24 @@
 <p>superior to him in strength and greater in the amount (of</p>
 <p>riches) they had collected? But the wicked are not called</p>
 <p>(immediately) to account for their sins.</p>
-<ol start="79">
+<ol>
 <li>So he went forth among his people in the (pride of his</li>
 </ol>
 <p>worldly) glitter. Said those whose aim is the Life of this</p>
 <p>World: “Oh! That we had the like of what Qarun has got! For he</p>
 <p>is truly a lord of mighty good fortune!”</p>
-<ol start="80">
+<ol>
 <li>But those who had been granted (true) knowledge said: “Alas</li>
 </ol>
 <p>for you! The reward of Allah (in the Hereafter) is best for</p>
 <p>those who believe and work righteousness: But this none shall</p>
 <p>attain, save those who steadfastly persevere (in good).”</p>
-<ol start="81">
+<ol>
 <li>Then We caused the earth to swallow him up and his house;</li>
 </ol>
 <p>and he had not (the least little) party to help him against</p>
 <p>Allah, nor could he defend himself.</p>
-<ol start="82">
+<ol>
 <li>And those who had envied his position the day before began</li>
 </ol>
 <p>to say on the morrow: “Ah! It is indeed Allah Who enlarges the</p>
@@ -603,37 +654,42 @@
 <p>Had it not been that Allah was gracious to us, He could have</p>
 <p>caused the earth to swallow us up! Ah! Those who reject Allah</p>
 <p>will assuredly never prosper.”</p>
-<ol start="83">
+<ol>
 <li>That Home of the Hereafter We shall give to those who intend</li>
 </ol>
 <p>not highhandedness or mischief on earth: And the End is (best)</p>
 <p>for the righteous.</p>
-<ol start="84">
+<ol>
 <li>If any does good, the reward to him is better than his deed;</li>
 </ol>
 <p>but if any does evil, the doers of evil are only punished (to</p>
 <p>the extent) of their deeds.</p>
-<ol start="85">
+<ol>
 <li>Verily He Who ordained the Koran for thee, will bring thee</li>
 </ol>
 <p>back to the Place of Return. Say: “My Lord knows best who it is</p>
 <p>that brings true guidance, and who is in manifest error.”</p>
-<ol start="86">
+<ol>
 <li>And thou hast not expected that the Book would be sent to</li>
 </ol>
 <p>the except as a Mercy from thy Lord: Therefore lend not thou</p>
 <p>support in any way to those who reject (Allah’s Message).</p>
-<ol start="87">
+<ol>
 <li>And let nothing keep thee back from the Signs of Allah after</li>
 </ol>
 <p>they have been revealed to thee: And invite (men) to thy Lord,</p>
 <p>and be not of the company of those who join gods with Allah.</p>
-<ol start="88">
+<ol>
 <li>And call not, besides Allah, on another god. There is no god</li>
 </ol>
 <p>but He. Everything (that exists) will perish except His own</p>
 <p>Face. To Him belongs the Command, and to Him will ye (all) be</p>
-<p>brought</p></div>
+<p>brought</p>
+        </article>
+        <hr>
+        <footer class='pb-12 text-center'>
+            <p style='color: #8D8273;'>Toygar Par - Quran Project</p>
+        </footer>
     </div>
 </body>
 </html>

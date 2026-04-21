@@ -1,55 +1,106 @@
 
 <!DOCTYPE html>
-<html lang='en'>
+<html lang='tr'>
 <head>
     <meta charset='UTF-8'>
     <title>Hadid Suresi</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link href='https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css' rel='stylesheet'>
-    <style>
-        body {
-            background-color: #111827;
-            color: #f9fafb;
-        }
-        .prose {
-            color: #f9fafb;
-        }
-        .prose h1, .prose h2, .prose h3 {
-            color: #60a5fa;
-        }
-        pre code {
-            background-color: #1f2937;
-            color: #f9fafb;
-            display: block;
-            padding: 1em;
-            overflow-x: auto;
-            border-radius: 0.5rem;
-        }
-        code {
-            background-color: #374151;
-            padding: 0.2em 0.4em;
-            border-radius: 0.25rem;
-        }
-        a {
-            color: #93c5fd;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-         p {
-            margin-top: 1em;
-            margin-bottom: 1em;
-            line-height: 1.7;
-        }
-    </style>
+    
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
+
+    body {
+        background-color: #1A1714; /* Deep Obsidian */
+        color: #F2E8CF; /* Parchment Cream */
+        font-family: 'Lora', serif;
+    }
+
+    /* --- SAFFRON GLOW BOLD FONTS --- */
+    strong, b {
+        color: #FFC107;
+        font-weight: 700;
+        text-shadow: 0 0 8px rgba(255, 193, 7, 0.4);
+    }
+    
+    .surah-card {
+        background-color: #24201D;
+        border-left: 4px solid #BC9353; /* Ottoman Gold */
+        padding: 1.5rem;
+        border-radius: 0.25rem;
+        transition: transform 0.2s;
+        margin-bottom: 1.5rem;
+    }
+
+    .surah-card:hover {
+        transform: translateX(5px);
+        background-color: #2C2723;
+    }
+
+    h1, h2, h3 {
+        font-family: 'Playfair Display', serif;
+        color: #BC9353;
+    }
+
+    .prose {
+        color: #F2E8CF;
+        max-width: none;
+        line-height: 1.8;
+    }
+
+    .tag-ottoman {
+        background-color: #38A3A5; /* Iznik Turquoise */
+        color: #1A1714;
+        font-weight: 600;
+        font-size: 0.75rem;
+        padding: 0.2rem 0.6rem;
+        border-radius: 0.25rem;
+        margin-right: 0.5rem;
+        display: inline-block;
+    }
+
+    input#searchInput {
+        background-color: #24201D;
+        border: 1px solid #BC9353;
+        color: #F2E8CF;
+        width: 100%;
+        padding: 0.75rem;
+        border-radius: 0.5rem;
+        margin-bottom: 2rem;
+    }
+
+    input#searchInput::placeholder {
+        color: #8D8273;
+    }
+
+    a {
+        color: #BC9353;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    a:hover {
+        color: #F2E8CF;
+        text-decoration: underline;
+    }
+
+    hr {
+        border-color: #3D352E;
+        margin: 2rem 0;
+    }
+</style>
+
 </head>
-<body class='font-sans p-6'>
+<body class='p-6'>
     <div class='max-w-3xl mx-auto'>
-        <a href='../index.html' class='block mb-4'>← Sure Listesine Geri Dön</a>
-        <h1 class='text-3xl font-bold mt-4'>Hadid Suresi</h1>
-        <p class='text-sm text-gray-400 mb-4'>2025-04-20</p>
-        <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>kuran</span> <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>quran</span> <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>furkan</span>
-        <div class='prose max-w-none mt-4'><h2>Hadid Suresi 57-112</h2>
+        <a href='../index.html' style='color: #38A3A5;'>← Listeye Dön</a>
+        <header class='mt-8 mb-12'>
+            <h1 class='text-4xl font-bold'>Hadid Suresi</h1>
+            <p style='color: #8D8273;' class='mt-2 text-sm'>2025-04-20</p>
+            <div class='mt-4'><span class='tag-ottoman'>kuran</span><span class='tag-ottoman'>quran</span><span class='tag-ottoman'>furkan</span></div>
+        </header>
+        <article class='prose'>
+            <h2>Hadid Suresi 57-112</h2>
 <p>Hadid Suresi 57-112 (Demir)</p>
 <p>SEVGİ VE MERHAMETİ SONSUZ ALLAH’IN ADIYLA</p>
 <ol>
@@ -87,7 +138,7 @@
 <p><strong>Hadid, or Iron.</strong></p>
 <p>In the name of Allah, Most Gracious, Most Merciful. </p>
 <ol>
-<li>Whatever is in the heavens and on earth, &ndash;let it<br />
+<li>Whatever is in the heavens and on earth, --let it<br />
 declare the Praises and Glory of Allah; for He is the Exalted in<br />
 Might, the Wise.</li>
 <li>To Him belongs the dominion of the heavens and the earth: It<br />
@@ -107,7 +158,7 @@ all affairs are referred back to Allah.</li>
 He has full knowledge of the secrets of (all) hearts.</li>
 <li>Believe in Allah and His Apostle, and spend (in charity) out<br />
 of the (substance) whereof He has made you heirs. For, those of<br />
-you who believe and spend (in charity), &ndash;for them is a great<br />
+you who believe and spend (in charity), --for them is a great<br />
 Reward.</li>
 <li>What cause have ye why ye should not believe in Allah? –And<br />
 the Apostle invites you to believe in your Lord, and has indeed<br />
@@ -116,7 +167,7 @@ taken your Covenant, if ye are men of faith.</li>
 He may lead you from the depths of Darkness into the Light. And<br />
 verily Allah is to you most kind and Merciful.</li>
 <li>And what cause have ye why ye should not spend in the cause<br />
-of Allah? &ndash;For to Allah belongs the heritage of the heavens and<br />
+of Allah? --For to Allah belongs the heritage of the heavens and<br />
 the earth. Not equal among you are those who spent (freely) and<br />
 fought, before the Victory, (with those who did so later). Those<br />
 are higher in rank than those who spent (freely) and fought<br />
@@ -125,25 +176,25 @@ Allah is well acquainted with all that ye do.11. Who is he that <br />
 will loan to Allah a beautiful loan? For (Allah) will increase <br />
 it manifold to his credit, and he will have (besides) a liberal reward.</li>
 <li>One Day shalt thou see the believing men and the believing<br />
-women&ndash;how their Light runs forward before them and by their<br />
-right hands: (Their greeting will be): &ldquo;Good News for you this<br />
+women--how their Light runs forward before them and by their<br />
+right hands: (Their greeting will be): "Good News for you this<br />
 Day! Gardens beneath which flow rivers! To dwell therein for<br />
-aye! This is indeed the highest Achievement!&rdquo;</li>
-<li>One Day will the Hypocrites&ndash;men and women&ndash;say to the<br />
-Believers: &ldquo;Wait for us! Let us borrow (a light) from your<br />
-Light!&rdquo; It will be said: &ldquo;Turn ye back to your rear! Then seek a<br />
-light (where ye can)!&rdquo; So a wall will be put up betwixt them,<br />
+aye! This is indeed the highest Achievement!"</li>
+<li>One Day will the Hypocrites--men and women--say to the<br />
+Believers: "Wait for us! Let us borrow (a light) from your<br />
+Light!" It will be said: "Turn ye back to your rear! Then seek a<br />
+light (where ye can)!" So a wall will be put up betwixt them,<br />
 with a gate therein. Within it will be Mercy throughout, and<br />
 without it, all alongside, will be (Wrath and) Punishment!</li>
-<li>(Those without) will call out, &ldquo;Were we not with you?&rdquo; (The<br />
-others) will reply, &ldquo;True! But ye led yourselves into<br />
-temptation; ye looked forward (to our ruin); ye doubted (Allah&rsquo;s<br />
+<li>(Those without) will call out, "Were we not with you?" (The<br />
+others) will reply, "True! But ye led yourselves into<br />
+temptation; ye looked forward (to our ruin); ye doubted (Allah's<br />
 Promise); and (your false) desires deceived you; until there<br />
 issued the Command of Allah. And the Deceiver deceived you in<br />
 respect of Allah.</li>
-<li>&ldquo;This Day shall no ransom be accepted of you, nor of those<br />
+<li>"This Day shall no ransom be accepted of you, nor of those<br />
 who reject Allah. Your abode is the Fire: That is the proper<br />
-place to claim you: And an evil refuge it is!&rdquo;</li>
+place to claim you: And an evil refuge it is!"</li>
 <li>Has not the time arrived for the Believers that their hearts<br />
 in all humility should engage in the remembrance of Allah and of<br />
 the Truth which has been revealed (to them), and that they<br />
@@ -156,10 +207,10 @@ may learn wisdom.</li>
 <li>For those who give in Charity, men and women, and loan to<br />
 Allah a Beautiful Loan, it shall be increased manifold (to their<br />
 credit), and they shall have (besides) a liberal reward.</li>
-<li>And those who believe in Allah and His apostles&ndash;they are<br />
+<li>And those who believe in Allah and His apostles--they are<br />
 the Sincere (Lovers of Truth), and the Witnesses (who testify),<br />
 in the eyes of their Lord: They shall have their Reward and<br />
-their Light. But those who reject Allah and deny Our Signs, &ndash;<br />
+their Light. But those who reject Allah and deny Our Signs, --<br />
 they are the Companions of Hellfire.</li>
 <li>Know ye (all), that the life of this world is but play and<br />
 amusement, pomp and mutual boasting and multiplying, (in<br />
@@ -181,9 +232,9 @@ recorded in a decree before We bring it into existence: That is<br />
 truly easy for Allah:</li>
 <li>In order that ye may not despair over matters that pass you<br />
 by, nor exult over favors bestowed upon you. For Allah loveth<br />
-not any vainglorious boaster, &ndash;</li>
+not any vainglorious boaster, --</li>
 <li>Such persons as are covetous and commend covetousness to<br />
-men. And if any turn back (from Allah&rsquo;s Way), verily Allah is<br />
+men. And if any turn back (from Allah's Way), verily Allah is<br />
 free of all needs, Worthy of all praise.</li>
 <li>We sent aforetime Our apostles with Clear signs and sent<br />
 down with them the Book and the Balance (of Right and wrong),<br />
@@ -213,7 +264,12 @@ Forgiving, Most Merciful:</li>
 whatever over the Grace of Allah, that (His) Grace is (entirely)<br />
 in His hand, to bestow it on whomsoever He Wills. <br />
 For Allah is the Lord of Grace abounding.</li>
-</ol></div>
+</ol>
+        </article>
+        <hr>
+        <footer class='pb-12 text-center'>
+            <p style='color: #8D8273;'>Toygar Par - Quran Project</p>
+        </footer>
     </div>
 </body>
 </html>

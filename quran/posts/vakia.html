@@ -1,55 +1,106 @@
 
 <!DOCTYPE html>
-<html lang='en'>
+<html lang='tr'>
 <head>
     <meta charset='UTF-8'>
     <title>Vakıa Suresi</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link href='https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css' rel='stylesheet'>
-    <style>
-        body {
-            background-color: #111827;
-            color: #f9fafb;
-        }
-        .prose {
-            color: #f9fafb;
-        }
-        .prose h1, .prose h2, .prose h3 {
-            color: #60a5fa;
-        }
-        pre code {
-            background-color: #1f2937;
-            color: #f9fafb;
-            display: block;
-            padding: 1em;
-            overflow-x: auto;
-            border-radius: 0.5rem;
-        }
-        code {
-            background-color: #374151;
-            padding: 0.2em 0.4em;
-            border-radius: 0.25rem;
-        }
-        a {
-            color: #93c5fd;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-         p {
-            margin-top: 1em;
-            margin-bottom: 1em;
-            line-height: 1.7;
-        }
-    </style>
+    
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
+
+    body {
+        background-color: #1A1714; /* Deep Obsidian */
+        color: #F2E8CF; /* Parchment Cream */
+        font-family: 'Lora', serif;
+    }
+
+    /* --- SAFFRON GLOW BOLD FONTS --- */
+    strong, b {
+        color: #FFC107;
+        font-weight: 700;
+        text-shadow: 0 0 8px rgba(255, 193, 7, 0.4);
+    }
+    
+    .surah-card {
+        background-color: #24201D;
+        border-left: 4px solid #BC9353; /* Ottoman Gold */
+        padding: 1.5rem;
+        border-radius: 0.25rem;
+        transition: transform 0.2s;
+        margin-bottom: 1.5rem;
+    }
+
+    .surah-card:hover {
+        transform: translateX(5px);
+        background-color: #2C2723;
+    }
+
+    h1, h2, h3 {
+        font-family: 'Playfair Display', serif;
+        color: #BC9353;
+    }
+
+    .prose {
+        color: #F2E8CF;
+        max-width: none;
+        line-height: 1.8;
+    }
+
+    .tag-ottoman {
+        background-color: #38A3A5; /* Iznik Turquoise */
+        color: #1A1714;
+        font-weight: 600;
+        font-size: 0.75rem;
+        padding: 0.2rem 0.6rem;
+        border-radius: 0.25rem;
+        margin-right: 0.5rem;
+        display: inline-block;
+    }
+
+    input#searchInput {
+        background-color: #24201D;
+        border: 1px solid #BC9353;
+        color: #F2E8CF;
+        width: 100%;
+        padding: 0.75rem;
+        border-radius: 0.5rem;
+        margin-bottom: 2rem;
+    }
+
+    input#searchInput::placeholder {
+        color: #8D8273;
+    }
+
+    a {
+        color: #BC9353;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    a:hover {
+        color: #F2E8CF;
+        text-decoration: underline;
+    }
+
+    hr {
+        border-color: #3D352E;
+        margin: 2rem 0;
+    }
+</style>
+
 </head>
-<body class='font-sans p-6'>
+<body class='p-6'>
     <div class='max-w-3xl mx-auto'>
-        <a href='../index.html' class='block mb-4'>← Sure Listesine Geri Dön</a>
-        <h1 class='text-3xl font-bold mt-4'>Vakıa Suresi</h1>
-        <p class='text-sm text-gray-400 mb-4'>2025-04-20</p>
-        <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>kuran</span> <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>quran</span> <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>furkan</span>
-        <div class='prose max-w-none mt-4'><h2>Vakia Suresi 56-46</h2>
+        <a href='../index.html' style='color: #38A3A5;'>← Listeye Dön</a>
+        <header class='mt-8 mb-12'>
+            <h1 class='text-4xl font-bold'>Vakıa Suresi</h1>
+            <p style='color: #8D8273;' class='mt-2 text-sm'>2025-04-20</p>
+            <div class='mt-4'><span class='tag-ottoman'>kuran</span><span class='tag-ottoman'>quran</span><span class='tag-ottoman'>furkan</span></div>
+        </header>
+        <article class='prose'>
+            <h2>Vakia Suresi 56-46</h2>
 <p>Vakia Suresi 56-46 (Kaçınılmaz)</p>
 <p>SEVGİ VE MERHAMETİ SONSUZ ALLAH’IN ADIYLA</p>
 <ol>
@@ -162,7 +213,7 @@
 </li>
 </ol>
 <p>coming.</p>
-<ol start="3">
+<ol>
 <li>
 <p>(Many will it bring low, (many) will it exalt;</p>
 </li>
@@ -183,15 +234,15 @@
 </li>
 </ol>
 <p>will be the Companions of the Right Hand?</p>
-<ol start="9">
+<ol>
 <li>And the Companions of the Left Hand, –What will be the</li>
 </ol>
 <p>Companions of the Left Hand?</p>
-<ol start="10">
+<ol>
 <li>And those Foremost (in Faith) will be Foremost (in the</li>
 </ol>
 <p>Hereafter).</p>
-<ol start="11">
+<ol>
 <li>
 <p>These will be those Nearest to Allah:</p>
 </li>
@@ -209,7 +260,7 @@
 </li>
 </ol>
 <p>stones),</p>
-<ol start="16">
+<ol>
 <li>
 <p>Reclining on them, facing each other.</p>
 </li>
@@ -218,15 +269,15 @@
 </li>
 </ol>
 <p>(freshness),</p>
-<ol start="18">
+<ol>
 <li>With goblets, (shining) beakers, and cups (filled) out of</li>
 </ol>
 <p>clear flowing fountains:</p>
-<ol start="19">
+<ol>
 <li>No after ache will they receive therefrom, nor will they</li>
 </ol>
 <p>suffer intoxication:</p>
-<ol start="20">
+<ol>
 <li>
 <p>And with fruits, any that they may select;</p>
 </li>
@@ -238,7 +289,7 @@
 </li>
 </ol>
 <p>lustrous eyes, —</p>
-<ol start="23">
+<ol>
 <li>
 <p>Like unto Pearls well-guarded.</p>
 </li>
@@ -250,7 +301,7 @@
 </li>
 </ol>
 <p>–</p>
-<ol start="26">
+<ol>
 <li>
 <p>Only the saying, “Peace! Peace”.</p>
 </li>
@@ -259,7 +310,7 @@
 </li>
 </ol>
 <p>Companions of the Right Hand?</p>
-<ol start="28">
+<ol>
 <li>
 <p>(They will be) among Lote trees without thorns,</p>
 </li>
@@ -268,7 +319,7 @@
 </li>
 </ol>
 <p>another, —</p>
-<ol start="30">
+<ol>
 <li>
 <p>In shade long extended,</p>
 </li>
@@ -286,7 +337,7 @@
 </li>
 </ol>
 <p>35.. We have created (their Companions) of special creation.</p>
-<ol start="36">
+<ol>
 <li>
 <p>And made them virgin pure (and undefiled), —</p>
 </li>
@@ -307,11 +358,11 @@
 </li>
 </ol>
 <p>Companions of the Left Hand?</p>
-<ol start="42">
+<ol>
 <li>(They will be) in the midst of a fierce Blast of Fire and in</li>
 </ol>
 <p>Boiling Water,</p>
-<ol start="43">
+<ol>
 <li>
 <p>And in the shades of Black Smoke:</p>
 </li>
@@ -323,7 +374,7 @@
 </li>
 </ol>
 <p>wealth (and luxury),</p>
-<ol start="46">
+<ol>
 <li>
 <p>And persisted obstinately in wickedness supreme!</p>
 </li>
@@ -332,7 +383,7 @@
 </li>
 </ol>
 <p>bones, shall we then indeed be raised up again? —</p>
-<ol start="48">
+<ol>
 <li>
 <p>“(We) and our fathers of old?”</p>
 </li>
@@ -344,11 +395,11 @@
 </li>
 </ol>
 <p>appointed for a Day well known.</p>
-<ol start="51">
+<ol>
 <li>“Then will ye truly, –O ye that go wrong, and treat (Truth)</li>
 </ol>
 <p>as Falsehood! —</p>
-<ol start="52">
+<ol>
 <li>
 <p>“Ye will surely taste of the Tree of Zaqqum.</p>
 </li>
@@ -363,7 +414,7 @@
 </li>
 </ol>
 <p>thirst!”</p>
-<ol start="56">
+<ol>
 <li>
 <p>Such will be their entertainment on the Day of Requital!</p>
 </li>
@@ -372,7 +423,7 @@
 </li>
 </ol>
 <p>Truth?</p>
-<ol start="58">
+<ol>
 <li>
 <p>Do ye then see? –The (human Seed) that ye throw out, —</p>
 </li>
@@ -384,16 +435,16 @@
 </li>
 </ol>
 <p>to be frustrated</p>
-<ol start="61">
+<ol>
 <li>From changing your Forms and creating you (again) in (Forms)</li>
 </ol>
 <p>that ye know not.</p>
-<ol start="62">
+<ol>
 <li>And ye certainly know already the first form of creation:</li>
 </ol>
 <p>Why then do ye not celebrate His praises?</p>
 <p>63.. See ye the seed that ye sow in the ground?</p>
-<ol start="64">
+<ol>
 <li>
 <p>Is it ye that causes it to grow, or are We the Cause?</p>
 </li>
@@ -402,7 +453,7 @@
 </li>
 </ol>
 <p>would be left in wonderment,</p>
-<ol start="66">
+<ol>
 <li>
 <p>(Saying), “We are indeed left with debts (for nothing):</p>
 </li>
@@ -420,7 +471,7 @@
 </li>
 </ol>
 <p>Then why do ye not give thanks?</p>
-<ol start="71">
+<ol>
 <li>
 <p>See ye the Fire which ye kindle?</p>
 </li>
@@ -429,15 +480,15 @@
 </li>
 </ol>
 <p>grow it?</p>
-<ol start="73">
+<ol>
 <li>We have made it a memorial (of Our handiwork), and an</li>
 </ol>
 <p>article of comfort and convenience for the denizens of deserts.</p>
-<ol start="74">
+<ol>
 <li>Then celebrate with praises the name of thy Lord, the</li>
 </ol>
 <p>Supreme!</p>
-<ol start="75">
+<ol>
 <li>
 <p>Furthermore I call to witness the setting of the Stars, —</p>
 </li>
@@ -464,11 +515,11 @@
 </li>
 </ol>
 <p>it false?</p>
-<ol start="83">
+<ol>
 <li>Then why do ye not (intervene) when (the soul of the dying</li>
 </ol>
 <p>man) reaches the throat, —</p>
-<ol start="84">
+<ol>
 <li>
 <p>And ye the while (sit) looking on, —</p>
 </li>
@@ -480,11 +531,11 @@
 </li>
 </ol>
 <p>account, —</p>
-<ol start="87">
+<ol>
 <li>Call back the soul, if ye are true (in your claim of</li>
 </ol>
 <p>Independence)?</p>
-<ol start="88">
+<ol>
 <li>
 <p>Thus, then, if he be of those Nearest to Allah,</p>
 </li>
@@ -493,7 +544,7 @@
 </li>
 </ol>
 <p>Delights.</p>
-<ol start="90">
+<ol>
 <li>
 <p>And if he be of the Companions of the Right Hand,</p>
 </li>
@@ -502,11 +553,11 @@
 </li>
 </ol>
 <p>Companions of the Right Hand.</p>
-<ol start="92">
+<ol>
 <li>And if he be of those who treat (Truth) as Falsehood, who go</li>
 </ol>
 <p>wrong,</p>
-<ol start="93">
+<ol>
 <li>
 <p>For him is Entertainment with Boiling Water,</p>
 </li>
@@ -519,7 +570,12 @@
 <li>
 <p>So celebrate with praises the name of thy Lord, the Supreme.</p>
 </li>
-</ol></div>
+</ol>
+        </article>
+        <hr>
+        <footer class='pb-12 text-center'>
+            <p style='color: #8D8273;'>Toygar Par - Quran Project</p>
+        </footer>
     </div>
 </body>
 </html>

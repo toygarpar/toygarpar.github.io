@@ -1,55 +1,106 @@
 
 <!DOCTYPE html>
-<html lang='en'>
+<html lang='tr'>
 <head>
     <meta charset='UTF-8'>
     <title>Zariyat Suresi</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link href='https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css' rel='stylesheet'>
-    <style>
-        body {
-            background-color: #111827;
-            color: #f9fafb;
-        }
-        .prose {
-            color: #f9fafb;
-        }
-        .prose h1, .prose h2, .prose h3 {
-            color: #60a5fa;
-        }
-        pre code {
-            background-color: #1f2937;
-            color: #f9fafb;
-            display: block;
-            padding: 1em;
-            overflow-x: auto;
-            border-radius: 0.5rem;
-        }
-        code {
-            background-color: #374151;
-            padding: 0.2em 0.4em;
-            border-radius: 0.25rem;
-        }
-        a {
-            color: #93c5fd;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-         p {
-            margin-top: 1em;
-            margin-bottom: 1em;
-            line-height: 1.7;
-        }
-    </style>
+    
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
+
+    body {
+        background-color: #1A1714; /* Deep Obsidian */
+        color: #F2E8CF; /* Parchment Cream */
+        font-family: 'Lora', serif;
+    }
+
+    /* --- SAFFRON GLOW BOLD FONTS --- */
+    strong, b {
+        color: #FFC107;
+        font-weight: 700;
+        text-shadow: 0 0 8px rgba(255, 193, 7, 0.4);
+    }
+    
+    .surah-card {
+        background-color: #24201D;
+        border-left: 4px solid #BC9353; /* Ottoman Gold */
+        padding: 1.5rem;
+        border-radius: 0.25rem;
+        transition: transform 0.2s;
+        margin-bottom: 1.5rem;
+    }
+
+    .surah-card:hover {
+        transform: translateX(5px);
+        background-color: #2C2723;
+    }
+
+    h1, h2, h3 {
+        font-family: 'Playfair Display', serif;
+        color: #BC9353;
+    }
+
+    .prose {
+        color: #F2E8CF;
+        max-width: none;
+        line-height: 1.8;
+    }
+
+    .tag-ottoman {
+        background-color: #38A3A5; /* Iznik Turquoise */
+        color: #1A1714;
+        font-weight: 600;
+        font-size: 0.75rem;
+        padding: 0.2rem 0.6rem;
+        border-radius: 0.25rem;
+        margin-right: 0.5rem;
+        display: inline-block;
+    }
+
+    input#searchInput {
+        background-color: #24201D;
+        border: 1px solid #BC9353;
+        color: #F2E8CF;
+        width: 100%;
+        padding: 0.75rem;
+        border-radius: 0.5rem;
+        margin-bottom: 2rem;
+    }
+
+    input#searchInput::placeholder {
+        color: #8D8273;
+    }
+
+    a {
+        color: #BC9353;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    a:hover {
+        color: #F2E8CF;
+        text-decoration: underline;
+    }
+
+    hr {
+        border-color: #3D352E;
+        margin: 2rem 0;
+    }
+</style>
+
 </head>
-<body class='font-sans p-6'>
+<body class='p-6'>
     <div class='max-w-3xl mx-auto'>
-        <a href='../index.html' class='block mb-4'>← Sure Listesine Geri Dön</a>
-        <h1 class='text-3xl font-bold mt-4'>Zariyat Suresi</h1>
-        <p class='text-sm text-gray-400 mb-4'>2025-04-20</p>
-        <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>kuran</span> <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>quran</span> <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>furkan</span>
-        <div class='prose max-w-none mt-4'><h2>Zariyat Suresi 51-67</h2>
+        <a href='../index.html' style='color: #38A3A5;'>← Listeye Dön</a>
+        <header class='mt-8 mb-12'>
+            <h1 class='text-4xl font-bold'>Zariyat Suresi</h1>
+            <p style='color: #8D8273;' class='mt-2 text-sm'>2025-04-20</p>
+            <div class='mt-4'><span class='tag-ottoman'>kuran</span><span class='tag-ottoman'>quran</span><span class='tag-ottoman'>furkan</span></div>
+        </header>
+        <article class='prose'>
+            <h2>Zariyat Suresi 51-67</h2>
 <p>Zariyat Suresi 51-67 (Dağılan/Dağıtan/Yayan Rüzgarlar)</p>
 <p>SEVGİ VE MERHAMETİ SONSUZ ALLAH’IN ADIYLA</p>
 <ol>
@@ -147,7 +198,7 @@
 </li>
 </ol>
 <p>be deluded.</p>
-<ol start="10">
+<ol>
 <li>
 <p>Woe to the falsehood mongers,</p>
 </li>
@@ -162,19 +213,19 @@
 </li>
 </ol>
 <p>the Fire!</p>
-<ol start="14">
+<ol>
 <li>“Taste ye your trial! This is what ye used to ask to be</li>
 </ol>
 <p>hastened!”</p>
-<ol start="15">
+<ol>
 <li>As to the Righteous, they will be in the midst of Gardens</li>
 </ol>
 <p>and Springs,</p>
-<ol start="16">
+<ol>
 <li>Taking joy in the things which their Lord gives them,</li>
 </ol>
 <p>because, before then, they lived a good life.</p>
-<ol start="17">
+<ol>
 <li>
 <p>They were in the habit of sleeping but little by night,</p>
 </li>
@@ -183,12 +234,12 @@
 </li>
 </ol>
 <p>for Forgiveness;</p>
-<ol start="19">
+<ol>
 <li>And in their wealth and possessions (was remembered) the</li>
 </ol>
 <p>right of the (needy,) him who asked, and him who (for some</p>
 <p>reason) was prevented (from asking).</p>
-<ol start="20">
+<ol>
 <li>
 <p>On the earth are Signs for those of assured Faith,</p>
 </li>
@@ -200,24 +251,24 @@
 </li>
 </ol>
 <p>are promised.</p>
-<ol start="23">
+<ol>
 <li>Then, by the Lord of heaven and earth, this is the very</li>
 </ol>
 <p>Truth, as much as the fact that ye can speak intelligently to</p>
 <p>each other.</p>
-<ol start="24">
+<ol>
 <li>Has the story reached thee, of the honored guests of</li>
 </ol>
 <p>Abraham?</p>
-<ol start="25">
+<ol>
 <li>Behold, they entered his presence, and said: “Peace!” He</li>
 </ol>
 <p>said, “Peace!” (And thought, “These seem) unusual people.”</p>
-<ol start="26">
+<ol>
 <li>Then he turned quickly to his household, brought out a</li>
 </ol>
 <p>fatted calf,</p>
-<ol start="27">
+<ol>
 <li>
 <p>And placed it before them. ..He said, “Will ye not eat?”</p>
 </li>
@@ -227,19 +278,19 @@
 </ol>
 <p>said, “Fear not,” and they gave him glad tidings of a son</p>
 <p>endowed with knowledge.</p>
-<ol start="29">
+<ol>
 <li>But his wife came forward (laughing) aloud: She smote her</li>
 </ol>
 <p>forehead and said: “A barren old woman!”</p>
-<ol start="30">
+<ol>
 <li>They said, “Even so has thy Lord spoken: And He is full of</li>
 </ol>
 <p>Wisdom and Knowledge.”</p>
-<ol start="31">
+<ol>
 <li>(Abraham) said: “And what, O ye Messengers, is your errand</li>
 </ol>
 <p>(now)?”</p>
-<ol start="32">
+<ol>
 <li>
 <p>They said, “We have been sent to a people (deep) in sin; —</p>
 </li>
@@ -248,11 +299,11 @@
 </li>
 </ol>
 <p>(brimstone),</p>
-<ol start="34">
+<ol>
 <li>“Marked as from thy Lord for those who trespass beyond</li>
 </ol>
 <p>bounds.”</p>
-<ol start="35">
+<ol>
 <li>
 <p>Then We evacuated those of the Believers who were there,</p>
 </li>
@@ -261,77 +312,77 @@
 </li>
 </ol>
 <p>one house:</p>
-<ol start="37">
+<ol>
 <li>And We left there a Sign for such as fear the Grievous</li>
 </ol>
 <p>Penalty.</p>
-<ol start="38">
+<ol>
 <li>And in Moses (was another Sign): Behold, We sent him to</li>
 </ol>
 <p>Pharaoh, with authority manifest.</p>
-<ol start="39">
+<ol>
 <li>But (Pharaoh) turned back with his Chiefs, and said, “A</li>
 </ol>
 <p>sorcerer, or one possessed!”</p>
-<ol start="40">
+<ol>
 <li>So We took him and his forces, and threw them into the sea;</li>
 </ol>
 <p>and his was the blame.</p>
-<ol start="41">
+<ol>
 <li>And in the Ad (people) (was another Sign): Behold, We sent</li>
 </ol>
 <p>against them the devastating Wind:</p>
-<ol start="42">
+<ol>
 <li>It left nothing whatever that it came against. But reduced</li>
 </ol>
 <p>it to ruin and rottenness.</p>
-<ol start="43">
+<ol>
 <li>And in the Thamud (was another Sign): Behold, they were</li>
 </ol>
 <p>told, “Enjoy (your brief day) for a little while!”</p>
-<ol start="44">
+<ol>
 <li>But they insolently defied the Command of their Lord: So the</li>
 </ol>
 <p>stunning noise (of an earthquake) seized them, even while they</p>
 <p>were looking on.</p>
-<ol start="45">
+<ol>
 <li>Then they could not even stand (on their feet), nor could</li>
 </ol>
 <p>they help themselves.</p>
-<ol start="46">
+<ol>
 <li>So were the People of Noah before them: For they wickedly</li>
 </ol>
 <p>transgressed.</p>
-<ol start="47">
+<ol>
 <li>With power and skill did We construct the Firmament: For it</li>
 </ol>
 <p>is We Who create the vastness of Space.</p>
-<ol start="48">
+<ol>
 <li>And We have spread out the (spacious) earth: How excellently</li>
 </ol>
 <p>We do spread out!</p>
-<ol start="49">
+<ol>
 <li>And of every thing We have created pairs: That ye may</li>
 </ol>
 <p>receive instruction.</p>
-<ol start="50">
+<ol>
 <li>Hasten ye then (at once) to Allah: I am from Him a Warner to</li>
 </ol>
 <p>you, clear and open!</p>
-<ol start="51">
+<ol>
 <li>And make not another an object of worship with Allah: I am</li>
 </ol>
 <p>from Him a Warner to you, clear and open!</p>
-<ol start="52">
+<ol>
 <li>Similarly, no apostle came to the Peoples before them, but</li>
 </ol>
 <p>they said (of him) in a like manner, “A sorcerer, or one</p>
 <p>possessed”!</p>
-<ol start="53">
+<ol>
 <li>Is this the legacy they have transmitted, one to another?</li>
 </ol>
 <p>Nay, they are themselves a people transgressing beyond bounds!</p>
-<ol start="54">
+<ol>
 <li>
 <p>So turn away from them: Not thine is the blame.</p>
 </li>
@@ -340,7 +391,7 @@
 </li>
 </ol>
 <p>Believers.</p>
-<ol start="56">
+<ol>
 <li>
 <p>I have only created Jinns and men, that they may serve Me.</p>
 </li>
@@ -349,19 +400,24 @@
 </li>
 </ol>
 <p>they should feed Me.</p>
-<ol start="58">
+<ol>
 <li>For Allah is He Who gives (all) Sustenance, –Lord of Power,</li>
 </ol>
 <p>–Steadfast (forever).</p>
-<ol start="59">
+<ol>
 <li>For the wrongdoers, their portion is like unto the portion</li>
 </ol>
 <p>of their fellows (of earlier generations): The let them not ask</p>
 <p>Me to hasten (that portion)!</p>
-<ol start="60">
+<ol>
 <li>Woe, then, to the Unbelievers, on account of that Day of</li>
 </ol>
-<p>theirs which they have been promised!</p></div>
+<p>theirs which they have been promised!</p>
+        </article>
+        <hr>
+        <footer class='pb-12 text-center'>
+            <p style='color: #8D8273;'>Toygar Par - Quran Project</p>
+        </footer>
     </div>
 </body>
 </html>

@@ -1,55 +1,106 @@
 
 <!DOCTYPE html>
-<html lang='en'>
+<html lang='tr'>
 <head>
     <meta charset='UTF-8'>
     <title>Saffat Suresi</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link href='https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css' rel='stylesheet'>
-    <style>
-        body {
-            background-color: #111827;
-            color: #f9fafb;
-        }
-        .prose {
-            color: #f9fafb;
-        }
-        .prose h1, .prose h2, .prose h3 {
-            color: #60a5fa;
-        }
-        pre code {
-            background-color: #1f2937;
-            color: #f9fafb;
-            display: block;
-            padding: 1em;
-            overflow-x: auto;
-            border-radius: 0.5rem;
-        }
-        code {
-            background-color: #374151;
-            padding: 0.2em 0.4em;
-            border-radius: 0.25rem;
-        }
-        a {
-            color: #93c5fd;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-         p {
-            margin-top: 1em;
-            margin-bottom: 1em;
-            line-height: 1.7;
-        }
-    </style>
+    
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
+
+    body {
+        background-color: #1A1714; /* Deep Obsidian */
+        color: #F2E8CF; /* Parchment Cream */
+        font-family: 'Lora', serif;
+    }
+
+    /* --- SAFFRON GLOW BOLD FONTS --- */
+    strong, b {
+        color: #FFC107;
+        font-weight: 700;
+        text-shadow: 0 0 8px rgba(255, 193, 7, 0.4);
+    }
+    
+    .surah-card {
+        background-color: #24201D;
+        border-left: 4px solid #BC9353; /* Ottoman Gold */
+        padding: 1.5rem;
+        border-radius: 0.25rem;
+        transition: transform 0.2s;
+        margin-bottom: 1.5rem;
+    }
+
+    .surah-card:hover {
+        transform: translateX(5px);
+        background-color: #2C2723;
+    }
+
+    h1, h2, h3 {
+        font-family: 'Playfair Display', serif;
+        color: #BC9353;
+    }
+
+    .prose {
+        color: #F2E8CF;
+        max-width: none;
+        line-height: 1.8;
+    }
+
+    .tag-ottoman {
+        background-color: #38A3A5; /* Iznik Turquoise */
+        color: #1A1714;
+        font-weight: 600;
+        font-size: 0.75rem;
+        padding: 0.2rem 0.6rem;
+        border-radius: 0.25rem;
+        margin-right: 0.5rem;
+        display: inline-block;
+    }
+
+    input#searchInput {
+        background-color: #24201D;
+        border: 1px solid #BC9353;
+        color: #F2E8CF;
+        width: 100%;
+        padding: 0.75rem;
+        border-radius: 0.5rem;
+        margin-bottom: 2rem;
+    }
+
+    input#searchInput::placeholder {
+        color: #8D8273;
+    }
+
+    a {
+        color: #BC9353;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    a:hover {
+        color: #F2E8CF;
+        text-decoration: underline;
+    }
+
+    hr {
+        border-color: #3D352E;
+        margin: 2rem 0;
+    }
+</style>
+
 </head>
-<body class='font-sans p-6'>
+<body class='p-6'>
     <div class='max-w-3xl mx-auto'>
-        <a href='../index.html' class='block mb-4'>← Sure Listesine Geri Dön</a>
-        <h1 class='text-3xl font-bold mt-4'>Saffat Suresi</h1>
-        <p class='text-sm text-gray-400 mb-4'>2025-04-20</p>
-        <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>kuran</span> <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>quran</span> <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>furkan</span>
-        <div class='prose max-w-none mt-4'><h2>Saffat Suresi 37-56</h2>
+        <a href='../index.html' style='color: #38A3A5;'>← Listeye Dön</a>
+        <header class='mt-8 mb-12'>
+            <h1 class='text-4xl font-bold'>Saffat Suresi</h1>
+            <p style='color: #8D8273;' class='mt-2 text-sm'>2025-04-20</p>
+            <div class='mt-4'><span class='tag-ottoman'>kuran</span><span class='tag-ottoman'>quran</span><span class='tag-ottoman'>furkan</span></div>
+        </header>
+        <article class='prose'>
+            <h2>Saffat Suresi 37-56</h2>
 <p>Saffat Suresi 37-56 ( Rütbelerle Sıralananlar, Rütbe Sıralarında Olanlar, Saf Saf Olanlar, Sıra Sıra Olanlar)</p>
 <p>SEVGİ VE MERHAMETİ SONSUZ ALLAH’IN ADIYLA</p>
 <ol>
@@ -256,19 +307,19 @@
 </li>
 </ol>
 <p>And Lord of every point at the rising of the sun!</p>
-<ol start="6">
+<ol>
 <li>We have indeed decked the lower heaven with beauty (in) the</li>
 </ol>
 <p>stars, —</p>
-<ol start="7">
+<ol>
 <li>(For beauty) and for guard against all obstinate rebellious</li>
 </ol>
 <p>evil spirits,</p>
-<ol start="8">
+<ol>
 <li>(So) they should not strain their ears in the direction of</li>
 </ol>
 <p>the Exalted Assembly but be cast away from every side,</p>
-<ol start="9">
+<ol>
 <li>
 <p>Repulsed, for they are under a perpetual penalty,</p>
 </li>
@@ -278,12 +329,12 @@
 </ol>
 <p>pursued by a flaming Fire, of piercing brightness.</p>
 <p>330</p>
-<ol start="11">
+<ol>
 <li>Just ask their opinion: Are they the more difficult to</li>
 </ol>
 <p>create, or the (other) beings We have created? Them have We</p>
 <p>created out of a sticky clay!</p>
-<ol start="12">
+<ol>
 <li>
 <p>Truly dost thou marvel, while they ridicule,</p>
 </li>
@@ -301,7 +352,7 @@
 </li>
 </ol>
 <p>(then) be raised up (again)?</p>
-<ol start="17">
+<ol>
 <li>
 <p>“And also our fathers of old?”</p>
 </li>
@@ -310,11 +361,11 @@
 </li>
 </ol>
 <p>of your evil).”</p>
-<ol start="19">
+<ol>
 <li>Then it will be a single (compelling) cry; and behold, they</li>
 </ol>
 <p>will begin to see!</p>
-<ol start="20">
+<ol>
 <li>
 <p>They will say, “Ah! Woe to us! This is the Day of Judgment!”</p>
 </li>
@@ -323,15 +374,15 @@
 </li>
 </ol>
 <p>Truth ye (once) denied!”</p>
-<ol start="22">
+<ol>
 <li>“Bring ye up”, It shall be said, “the wrongdoers and their</li>
 </ol>
 <p>wives, and the things they worshipped–</p>
-<ol start="23">
+<ol>
 <li>“Besides Allah, and lead them to the Way to the (Fierce)</li>
 </ol>
 <p>Fire!</p>
-<ol start="24">
+<ol>
 <li>
 <p>“But stop them, for they must be asked:</p>
 </li>
@@ -349,7 +400,7 @@
 </li>
 </ol>
 <p>right hand (of power and authority)!”</p>
-<ol start="29">
+<ol>
 <li>
 <p>They will reply: “Nay, ye yourselves had no Faith!</p>
 </li>
@@ -358,12 +409,12 @@
 </li>
 </ol>
 <p>people in obstinate rebellion!</p>
-<ol start="31">
+<ol>
 <li>“So now has been proved true, against us, the Word of our</li>
 </ol>
 <p>Lord that we shall indeed (have to) taste (the punishment of our</p>
 <p>sins).</p>
-<ol start="32">
+<ol>
 <li>
 <p>“We led you astray: For truly we were ourselves astray.”</p>
 </li>
@@ -378,15 +429,15 @@
 </li>
 </ol>
 <p>Allah, would puff themselves up with Pride,</p>
-<ol start="36">
+<ol>
 <li>And say: “What! Shall we give up our gods for the sake of a</li>
 </ol>
 <p>Poet possessed?”</p>
-<ol start="37">
+<ol>
 <li>Nay! He has come with the (very) Truth, and he confirms (the</li>
 </ol>
 <p>Message of) the apostles (before him).</p>
-<ol start="38">
+<ol>
 <li>
 <p>Ye shall indeed taste of the Grievous Penalty; —</p>
 </li>
@@ -395,7 +446,7 @@
 </li>
 </ol>
 <p>that ye have wrought; —</p>
-<ol start="40">
+<ol>
 <li>
 <p>But the sincere (and devoted) servants of Allah, —</p>
 </li>
@@ -416,19 +467,19 @@
 </li>
 </ol>
 <p>fountain,</p>
-<ol start="46">
+<ol>
 <li>Crystal white, of a taste delicious to those who drink</li>
 </ol>
 <p>(thereof),</p>
-<ol start="47">
+<ol>
 <li>Free from headiness; nor will they suffer intoxication</li>
 </ol>
 <p>therefrom.</p>
-<ol start="48">
+<ol>
 <li>And besides them will be chaste women, restraining their</li>
 </ol>
 <p>glances, with big eyes (of wonder and beauty).</p>
-<ol start="49">
+<ol>
 <li>
 <p>As if they were (delicate) eggs closely guarded.</p>
 </li>
@@ -440,15 +491,15 @@
 </li>
 </ol>
 <p>companion (on the earth),</p>
-<ol start="52">
+<ol>
 <li>“Who used to say, `What! Art thou amongst those who bear</li>
 </ol>
 <p>witness to the truth (of the Message)?</p>
-<ol start="53">
+<ol>
 <li>“`When we die and become dust and bones, shall we indeed</li>
 </ol>
 <p>receive rewards and punishments?’”</p>
-<ol start="54">
+<ol>
 <li>
 <p>(A voice) said: “Would ye like to look down?”</p>
 </li>
@@ -460,11 +511,11 @@
 </li>
 </ol>
 <p>perdition!</p>
-<ol start="57">
+<ol>
 <li>“Had it not been for the Grace of my Lord, I should</li>
 </ol>
 <p>certainly have been among those brought (there)!</p>
-<ol start="58">
+<ol>
 <li>
 <p>“Is it (the case) that we shall not die,</p>
 </li>
@@ -488,7 +539,7 @@
 </li>
 </ol>
 <p>fire:</p>
-<ol start="65">
+<ol>
 <li>
 <p>The shoots of its fruit stalks are like the heads of devils:</p>
 </li>
@@ -497,11 +548,11 @@
 </li>
 </ol>
 <p>therewith.</p>
-<ol start="67">
+<ol>
 <li>Then on top of that they will be given a mixture made of</li>
 </ol>
 <p>boiling water.</p>
-<ol start="68">
+<ol>
 <li>
 <p>Then shall their return be to the (Blazing) Fire.</p>
 </li>
@@ -519,11 +570,11 @@
 </li>
 </ol>
 <p>them; —</p>
-<ol start="73">
+<ol>
 <li>Then see what was the End of those who were admonished (but</li>
 </ol>
 <p>heeded not), —</p>
-<ol start="74">
+<ol>
 <li>
 <p>Except the sincere (and devoted) Servants of Allah.</p>
 </li>
@@ -532,7 +583,7 @@
 </li>
 </ol>
 <p>to hear prayer.</p>
-<ol start="76">
+<ol>
 <li>
 <p>And We delivered him and his people from the Great Calamity,</p>
 </li>
@@ -544,7 +595,7 @@
 </li>
 </ol>
 <p>come in later times:</p>
-<ol start="79">
+<ol>
 <li>
 <p>“Peace and salutations to Noah among the nations!”</p>
 </li>
@@ -568,7 +619,7 @@
 </li>
 </ol>
 <p>that which ye worship?</p>
-<ol start="86">
+<ol>
 <li>
 <p>“Is it a Falsehood–gods other than Allah–that ye desire?</p>
 </li>
@@ -589,19 +640,19 @@
 </li>
 </ol>
 <p>(of the offerings before you)?. ..</p>
-<ol start="92">
+<ol>
 <li>“What is the matter with you that ye speak not</li>
 </ol>
 <p>(intelligently)?”</p>
-<ol start="93">
+<ol>
 <li>Then did he turn upon them, striking (them) with the right</li>
 </ol>
 <p>hand.</p>
-<ol start="94">
+<ol>
 <li>Then came (the worshippers) with hurried steps, and faced</li>
 </ol>
 <p>(him).</p>
-<ol start="95">
+<ol>
 <li>
 <p>He said: “Worship ye that which ye have (yourselves) carved?</p>
 </li>
@@ -613,11 +664,11 @@
 </li>
 </ol>
 <p>blazing fire!”</p>
-<ol start="98">
+<ol>
 <li>(This failing), they then sought a stratagem against him,</li>
 </ol>
 <p>but We made them the ones most humiliated!</p>
-<ol start="99">
+<ol>
 <li>
 <p>He said: “I will go to my Lord! He will surely guide me!</p>
 </li>
@@ -629,18 +680,18 @@
 </li>
 </ol>
 <p>forbear.</p>
-<ol start="102">
+<ol>
 <li>Then, when (the son) reached (the age of) (serious) work</li>
 </ol>
 <p>with him, he said: “O my son! I see in vision that I offer thee</p>
 <p>in sacrifice: Now see what is thy view!” (The son) said: “O my</p>
 <p>father! Do as thou art commanded: Thou will find me, if Allah so</p>
 <p>wills one practicing Patience and Constancy!”</p>
-<ol start="103">
+<ol>
 <li>So when they had both submitted their wills (to Allah), and</li>
 </ol>
 <p>he had laid him prostrate on his forehead (for sacrifice),</p>
-<ol start="104">
+<ol>
 <li>
 <p>We called out to him, “O Abraham!</p>
 </li>
@@ -649,7 +700,7 @@
 </li>
 </ol>
 <p>We reward those who do right.</p>
-<ol start="106">
+<ol>
 <li>
 <p>For this was obviously a trial–</p>
 </li>
@@ -661,7 +712,7 @@
 </li>
 </ol>
 <p>come) in later times:</p>
-<ol start="109">
+<ol>
 <li>
 <p>“Peace and salutation to Abraham!”</p>
 </li>
@@ -676,12 +727,12 @@
 </li>
 </ol>
 <p>the Righteous.</p>
-<ol start="113">
+<ol>
 <li>We blessed him and Isaac: But of their progeny are (some)</li>
 </ol>
 <p>that do right and (some) that obviously do wrong, to their own</p>
 <p>souls.</p>
-<ol start="114">
+<ol>
 <li>
 <p>Again, (of old,) We bestowed Our favor on Moses and Aaron.</p>
 </li>
@@ -690,7 +741,7 @@
 </li>
 </ol>
 <p>Calamity:</p>
-<ol start="116">
+<ol>
 <li>
 <p>And We helped them so they overcame (their troubles);</p>
 </li>
@@ -705,7 +756,7 @@
 </li>
 </ol>
 <p>come) in later times:</p>
-<ol start="120">
+<ol>
 <li>
 <p>“Peace and salutation to Moses and Aaron!”</p>
 </li>
@@ -729,19 +780,19 @@
 </li>
 </ol>
 <p>of your fathers of old?”</p>
-<ol start="127">
+<ol>
 <li>But they rejected him, and they will certainly be called up</li>
 </ol>
 <p>(for punishment), —</p>
-<ol start="128">
+<ol>
 <li>Except the sincere and devoted Servants of Allah (among</li>
 </ol>
 <p>them).</p>
-<ol start="129">
+<ol>
 <li>And We left (this blessing) for him among generations (to</li>
 </ol>
 <p>come) in later times:</p>
-<ol start="130">
+<ol>
 <li>
 <p>“Peace and salutation to such as Elias!”</p>
 </li>
@@ -777,7 +828,7 @@
 </li>
 </ol>
 <p>(fully) laden,</p>
-<ol start="141">
+<ol>
 <li>
 <p>He (agreed to) cast lots, and he was condemned:</p>
 </li>
@@ -786,7 +837,7 @@
 </li>
 </ol>
 <p>worthy of blame.</p>
-<ol start="143">
+<ol>
 <li>
 <p>Had it not been that he (repented and) glorified Allah,</p>
 </li>
@@ -795,31 +846,31 @@
 </li>
 </ol>
 <p>Day of Resurrection.</p>
-<ol start="145">
+<ol>
 <li>But We cast him forth on the naked shore in a state of</li>
 </ol>
 <p>sickness,</p>
-<ol start="146">
+<ol>
 <li>And We caused to grow over him, a spreading plant of the</li>
 </ol>
 <p>Gourd kind.</p>
-<ol start="147">
+<ol>
 <li>And We sent him (on a mission) to a hundred thousand (men)</li>
 </ol>
 <p>or more.</p>
-<ol start="148">
+<ol>
 <li>And they believed; so We permitted them to enjoy (their</li>
 </ol>
 <p>life) for a while.</p>
-<ol start="149">
+<ol>
 <li>Now ask them their opinion: Is it that thy Lord has (only)</li>
 </ol>
 <p>daughters, and they have sons? —</p>
-<ol start="150">
+<ol>
 <li>Or that We created the angels female, and they are</li>
 </ol>
 <p>witnesses (thereto)?</p>
-<ol start="151">
+<ol>
 <li>
 <p>Is it not that they say, from their own invention,</p>
 </li>
@@ -847,11 +898,11 @@
 </ol>
 <p>the Jinns: But the Jinns know (quite well) that they have indeed</p>
 <p>to appear (before His Judgment seat)!</p>
-<ol start="159">
+<ol>
 <li>Glory to Allah! (He is free) from the things they ascribe</li>
 </ol>
 <p>(to Him)!</p>
-<ol start="160">
+<ol>
 <li>
 <p>Not (so do) the Servants of Allah, sincere and devoted.</p>
 </li>
@@ -869,7 +920,7 @@
 </li>
 </ol>
 <p>appointed;</p>
-<ol start="165">
+<ol>
 <li>
 <p>“And we are verily ranged in ranks (for service);</p>
 </li>
@@ -887,15 +938,15 @@
 </li>
 </ol>
 <p>(and devoted)!”</p>
-<ol start="170">
+<ol>
 <li>But (now that the Koran has come), they reject it: But soon</li>
 </ol>
 <p>will they know!</p>
-<ol start="171">
+<ol>
 <li>Already has Our Word been passed before (this) to Our</li>
 </ol>
 <p>Servants sent (by Us),</p>
-<ol start="172">
+<ol>
 <li>
 <p>That they would certainly be assisted,</p>
 </li>
@@ -910,7 +961,7 @@
 </li>
 </ol>
 <p>(how thou farest)!</p>
-<ol start="176">
+<ol>
 <li>
 <p>Do they wish (indeed) to hurry on Our Punishment?</p>
 </li>
@@ -919,7 +970,7 @@
 </li>
 </ol>
 <p>will be the morning for those who were warned (and heeded not)!</p>
-<ol start="178">
+<ol>
 <li>
 <p>So turn thou away from them for a little while,</p>
 </li>
@@ -928,18 +979,23 @@
 </li>
 </ol>
 <p>farest)!</p>
-<ol start="180">
+<ol>
 <li>Glory to thy Lord, the Lord of Honor and Power! (He is</li>
 </ol>
 <p>free) from what they ascribe (to Him)!</p>
-<ol start="181">
+<ol>
 <li>
 <p>And Peace on the apostles!</p>
 </li>
 <li>
 <p>And Praise to Allah, the Lord and Cherisher of the Worlds.</p>
 </li>
-</ol></div>
+</ol>
+        </article>
+        <hr>
+        <footer class='pb-12 text-center'>
+            <p style='color: #8D8273;'>Toygar Par - Quran Project</p>
+        </footer>
     </div>
 </body>
 </html>

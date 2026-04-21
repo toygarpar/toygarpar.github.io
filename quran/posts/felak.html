@@ -1,55 +1,106 @@
 
 <!DOCTYPE html>
-<html lang='en'>
+<html lang='tr'>
 <head>
     <meta charset='UTF-8'>
     <title>Felak Suresi</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link href='https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css' rel='stylesheet'>
-    <style>
-        body {
-            background-color: #111827;
-            color: #f9fafb;
-        }
-        .prose {
-            color: #f9fafb;
-        }
-        .prose h1, .prose h2, .prose h3 {
-            color: #60a5fa;
-        }
-        pre code {
-            background-color: #1f2937;
-            color: #f9fafb;
-            display: block;
-            padding: 1em;
-            overflow-x: auto;
-            border-radius: 0.5rem;
-        }
-        code {
-            background-color: #374151;
-            padding: 0.2em 0.4em;
-            border-radius: 0.25rem;
-        }
-        a {
-            color: #93c5fd;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-         p {
-            margin-top: 1em;
-            margin-bottom: 1em;
-            line-height: 1.7;
-        }
-    </style>
+    
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
+
+    body {
+        background-color: #1A1714; /* Deep Obsidian */
+        color: #F2E8CF; /* Parchment Cream */
+        font-family: 'Lora', serif;
+    }
+
+    /* --- SAFFRON GLOW BOLD FONTS --- */
+    strong, b {
+        color: #FFC107;
+        font-weight: 700;
+        text-shadow: 0 0 8px rgba(255, 193, 7, 0.4);
+    }
+    
+    .surah-card {
+        background-color: #24201D;
+        border-left: 4px solid #BC9353; /* Ottoman Gold */
+        padding: 1.5rem;
+        border-radius: 0.25rem;
+        transition: transform 0.2s;
+        margin-bottom: 1.5rem;
+    }
+
+    .surah-card:hover {
+        transform: translateX(5px);
+        background-color: #2C2723;
+    }
+
+    h1, h2, h3 {
+        font-family: 'Playfair Display', serif;
+        color: #BC9353;
+    }
+
+    .prose {
+        color: #F2E8CF;
+        max-width: none;
+        line-height: 1.8;
+    }
+
+    .tag-ottoman {
+        background-color: #38A3A5; /* Iznik Turquoise */
+        color: #1A1714;
+        font-weight: 600;
+        font-size: 0.75rem;
+        padding: 0.2rem 0.6rem;
+        border-radius: 0.25rem;
+        margin-right: 0.5rem;
+        display: inline-block;
+    }
+
+    input#searchInput {
+        background-color: #24201D;
+        border: 1px solid #BC9353;
+        color: #F2E8CF;
+        width: 100%;
+        padding: 0.75rem;
+        border-radius: 0.5rem;
+        margin-bottom: 2rem;
+    }
+
+    input#searchInput::placeholder {
+        color: #8D8273;
+    }
+
+    a {
+        color: #BC9353;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    a:hover {
+        color: #F2E8CF;
+        text-decoration: underline;
+    }
+
+    hr {
+        border-color: #3D352E;
+        margin: 2rem 0;
+    }
+</style>
+
 </head>
-<body class='font-sans p-6'>
+<body class='p-6'>
     <div class='max-w-3xl mx-auto'>
-        <a href='../index.html' class='block mb-4'>← Sure Listesine Geri Dön</a>
-        <h1 class='text-3xl font-bold mt-4'>Felak Suresi</h1>
-        <p class='text-sm text-gray-400 mb-4'>2025-04-20</p>
-        <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>kuran</span> <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>quran</span> <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>furkan</span>
-        <div class='prose max-w-none mt-4'><h2>Felak 113-20</h2>
+        <a href='../index.html' style='color: #38A3A5;'>← Listeye Dön</a>
+        <header class='mt-8 mb-12'>
+            <h1 class='text-4xl font-bold'>Felak Suresi</h1>
+            <p style='color: #8D8273;' class='mt-2 text-sm'>2025-04-20</p>
+            <div class='mt-4'><span class='tag-ottoman'>kuran</span><span class='tag-ottoman'>quran</span><span class='tag-ottoman'>furkan</span></div>
+        </header>
+        <article class='prose'>
+            <h2>Felak 113-20</h2>
 <p>(Şafak /Karanlığı Yarma/ Yarmak / Çatlatmak)</p>
 <p>SEVGİ VE MERHAMETİ SONSUZ ALLAH’IN ADIYLA</p>
 <ol>
@@ -68,23 +119,23 @@
 <p>“O andan itibaren kalpleriniz katılaştı: Kaya gibi oldular ve hatta sertlikte daha da beter oldu. Çünkü kayalar arasında içinden ırmaklar fışkıranlar vardır; başkaları da var ki, yarıldığında su fışkırır; ve bazıları vardır Allah’ın korkusundan batar. Ve Allah yaptıklarınızdan gafil/habersiz değildir.” : Bakara 74</p>
 <p>Allah’a sığınmak, O’nun gösterdiği yolda yürümek, emir ve yasaklarına uymaktır. Allah’a sığınarak kötülüğün kaynaklarından korunabilir, kötülükten sakınabiliriz. Bu surede Allah iş ve oluşun Rabbi olarak tanıtılmakta ve kötülüğün kimden neden ve nasıl kaynaklandığını açıklanmaktadır.</p>
 <p>Nas suresi ile bu sure sığındırıcı sureler olarak adlandırılmıştır.</p>
-<ol start="2">
+<ol>
 <li><strong>Yaratılmışların fitnesinden/şerrinden;</strong></li>
 </ol>
 <p>Allah’a olan tevekkülümüz, bizi korkunun, hurafenin ve kötülüğün pençesinden koruyan bir kalkan gibidir. Göklerin ve yerin nuru olan Allah, bizler için en güçlü sığınaktır. Ona olan güvenimizle, üzerimize çöken her türlü tehlike ve karanlıktan kurtuluruz. İnsanın içine sinsice yerleşen kötülük, insanın kendi nefsinin, kıskançlıklarının, bastırılmış duygularının, gizli kapaklı hesaplarının bir ürünüdür. İnsan kendi içindeki bu karanlığa yenildiğinde, kötülük oradan doğar.</p>
 <p>Ancak insanın zihnini en çok meşgul eden sorulardan biri, Allah’ın bu kötülüğe neden izin verdiğidir. Bu soru, gök kubbenin altındaki her vicdanı yaralar gibi görünür. Fakat tıpkı bir fırtınadan sonra çıkan güneş gibi, Allah’ın hikmeti de bazen görülürden çok daha derindedir. Her şer, her zorluk, insanın içindeki iyiliği sınayan, ona kendi iradesini hatırlatan adeta birer ders gibidir. Allah kötülüğe izin vermekle, aslında insanın iradesini, aklını, sabrını ve iyiliğe yönelme azmini sınar. O’na sığınanlar, kötülüğün bu geçici gölgesinden kurtulacaklardır. Allah’a güvenen için karanlık, sadece geçici bir buluttur.</p>
 <p>“Hanginizin daha güzel, daha değerli, devamlı bilinçli ameller işleyeceğini, işini daha güzel yapacağını denemek için dünyada ölümü, dünyada ve âhirette hayatı yaratanAllah’tır.O kudretlidir, hükümrandır, salih amel işleyenleri koruma kalkanına alır, çok bağışlayıcıdır.” : Mülk 2</p>
-<ol start="3">
+<ol>
 <li><strong>Yayılan/Bastıran Karanlığın fitnesinden/şerrinden;</strong></li>
 </ol>
 <p>Korkuya kapılmak bize yakışmaz. Alnımızı ak, vicdanımızı pak tutarak Allah’a güvenmeli, makul önlemleri aldıktan sonra içimizi rahatlatmalıyız. İyiliğin, güzelliğin, adaletin, vefanın, doğruluğun, dürüstlüğün ve güzel ahlakın yolunu tutan, akıl ve mantığı elden bırakmayan herkesin yoldaşı Allah’tır. Gerçek gücü elinde tutan kimdir? Doğru ve dürüst yaşayan bir insanı kim sarsabilir, kim devirebilir? İşte, Hz. Muhammed, karşısına dikilen devasa düzenleri nasıl yerle bir etti? O’nun karşısında koca koca saltanatlar/kodamanlar niçin un ufak oldu?</p>
 <p>Ama kötülüğün düzeni, kirli ilişkilerle ve tavizlerle ayakta durur. O düzenin içinde olanlar, küçük çıkar hesaplarıyla susturulmuş, zihinleri esir alınmış olanlar, asla o düzeni değiştiremezler. Oturup, derin derin düşünmemiz gerekmez mi? Mesela Türkiye’de bunca yıldır süregelen yolsuzluk düzeni neden bitmez? Doksan milyonluk bu memleketin bağrından, niye bir el-emin, bir güven timsali çıkmaz? Neden hakikate, adalete susamış o ses bir türlü yükselemez?</p>
 <p>Elimizde bir kantar, vicdanımızda bir terazi yok mu? Neden adalet yerle bir, neden iyiliğin önüne setler çekiliyor? Kendi içimizde doğruluğu bulmadan, kötülüğün önüne nasıl geçeceğiz? Bütün bu çarpıklığın, bu kargaşanın karşısına dikilecek olan, sadece maddi güce bel bağlayan değil; hakikatle yücelmiş, vicdanla donanmış, Allah’ın desteğiyle dimdik duran bir insandır.</p>
-<ol start="4">
+<ol>
 <li><strong>Nefisleri kışkırtan cazibenin şerrinden;</strong></li>
 </ol>
 <p>“Gönül okşayan nefsanî arzular, özellikle kadınlara, oğullara, yığın yığın biriktirilmiş altın ve gümüşlere, soylu, alnı akıtmalı, ayakları sekili, eğitimli, asil, nışanlı yılkı atlara, sağmal hayvanlara, ekinlere, gelire, kazanca düşkünlük, insanlara, süslenip güzel gösterildi. Bunlar dünya hayatının geçici menfaatleridir. Halbuki aydınlık bir ömürlük güzel bir yol, güzel bir hayat Allah katındadır.” : Ali İmran 14</p>
-<ol start="5">
+<ol>
 <li><strong>Ve kıskandığı zaman hased edenin fitnesinden.</strong></li>
 </ol>
 <p>İnsanoğlunun kalbine ekilen kötü niyetli kıskançlık, en tehlikeli düşmanlardan biridir. Başkasının mutluluğuna, sahip olduğu iyiliklere göz dikmek, bu kıskançlığı eyleme dökmek, hem kendine hem de çevresine zarar verir. İnsanlar, başkalarının elde ettiği maddi ya da manevi güzellikleri çekemeyince, içlerindeki karanlık büyür ve o karanlık, dedikodu, iftira ve fitneyle etrafa saçılır.</p>
@@ -99,7 +150,12 @@
 <li>From the mischief of Darkness as it overspreads;</li>
 <li>From the mischief of those who practice Secret Arts;</li>
 <li>And from the mischief of the envious one as he practices envy.</li>
-</ol></div>
+</ol>
+        </article>
+        <hr>
+        <footer class='pb-12 text-center'>
+            <p style='color: #8D8273;'>Toygar Par - Quran Project</p>
+        </footer>
     </div>
 </body>
 </html>

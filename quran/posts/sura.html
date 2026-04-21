@@ -1,55 +1,106 @@
 
 <!DOCTYPE html>
-<html lang='en'>
+<html lang='tr'>
 <head>
     <meta charset='UTF-8'>
     <title>Şura Suresi</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link href='https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css' rel='stylesheet'>
-    <style>
-        body {
-            background-color: #111827;
-            color: #f9fafb;
-        }
-        .prose {
-            color: #f9fafb;
-        }
-        .prose h1, .prose h2, .prose h3 {
-            color: #60a5fa;
-        }
-        pre code {
-            background-color: #1f2937;
-            color: #f9fafb;
-            display: block;
-            padding: 1em;
-            overflow-x: auto;
-            border-radius: 0.5rem;
-        }
-        code {
-            background-color: #374151;
-            padding: 0.2em 0.4em;
-            border-radius: 0.25rem;
-        }
-        a {
-            color: #93c5fd;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-         p {
-            margin-top: 1em;
-            margin-bottom: 1em;
-            line-height: 1.7;
-        }
-    </style>
+    
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
+
+    body {
+        background-color: #1A1714; /* Deep Obsidian */
+        color: #F2E8CF; /* Parchment Cream */
+        font-family: 'Lora', serif;
+    }
+
+    /* --- SAFFRON GLOW BOLD FONTS --- */
+    strong, b {
+        color: #FFC107;
+        font-weight: 700;
+        text-shadow: 0 0 8px rgba(255, 193, 7, 0.4);
+    }
+    
+    .surah-card {
+        background-color: #24201D;
+        border-left: 4px solid #BC9353; /* Ottoman Gold */
+        padding: 1.5rem;
+        border-radius: 0.25rem;
+        transition: transform 0.2s;
+        margin-bottom: 1.5rem;
+    }
+
+    .surah-card:hover {
+        transform: translateX(5px);
+        background-color: #2C2723;
+    }
+
+    h1, h2, h3 {
+        font-family: 'Playfair Display', serif;
+        color: #BC9353;
+    }
+
+    .prose {
+        color: #F2E8CF;
+        max-width: none;
+        line-height: 1.8;
+    }
+
+    .tag-ottoman {
+        background-color: #38A3A5; /* Iznik Turquoise */
+        color: #1A1714;
+        font-weight: 600;
+        font-size: 0.75rem;
+        padding: 0.2rem 0.6rem;
+        border-radius: 0.25rem;
+        margin-right: 0.5rem;
+        display: inline-block;
+    }
+
+    input#searchInput {
+        background-color: #24201D;
+        border: 1px solid #BC9353;
+        color: #F2E8CF;
+        width: 100%;
+        padding: 0.75rem;
+        border-radius: 0.5rem;
+        margin-bottom: 2rem;
+    }
+
+    input#searchInput::placeholder {
+        color: #8D8273;
+    }
+
+    a {
+        color: #BC9353;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    a:hover {
+        color: #F2E8CF;
+        text-decoration: underline;
+    }
+
+    hr {
+        border-color: #3D352E;
+        margin: 2rem 0;
+    }
+</style>
+
 </head>
-<body class='font-sans p-6'>
+<body class='p-6'>
     <div class='max-w-3xl mx-auto'>
-        <a href='../index.html' class='block mb-4'>← Sure Listesine Geri Dön</a>
-        <h1 class='text-3xl font-bold mt-4'>Şura Suresi</h1>
-        <p class='text-sm text-gray-400 mb-4'>2025-04-20</p>
-        <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>kuran</span> <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>quran</span> <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>furkan</span>
-        <div class='prose max-w-none mt-4'><h2>Şura Suresi 42-62</h2>
+        <a href='../index.html' style='color: #38A3A5;'>← Listeye Dön</a>
+        <header class='mt-8 mb-12'>
+            <h1 class='text-4xl font-bold'>Şura Suresi</h1>
+            <p style='color: #8D8273;' class='mt-2 text-sm'>2025-04-20</p>
+            <div class='mt-4'><span class='tag-ottoman'>kuran</span><span class='tag-ottoman'>quran</span><span class='tag-ottoman'>furkan</span></div>
+        </header>
+        <article class='prose'>
+            <h2>Şura Suresi 42-62</h2>
 <p>Şura Suresi 42-62 ( İstişare, Danışma )</p>
 <p>SEVGİ VE MERHAMETİ SONSUZ ALLAH’IN ADIYLA</p>
 <ol>
@@ -370,57 +421,57 @@
 </li>
 </ol>
 <p>before thee, –Allah, Exalted in Power, Full of wisdom.</p>
-<ol start="4">
+<ol>
 <li>To Him belongs all that is in the heavens and on earth: And</li>
 </ol>
 <p>He is Most High, Most Great.</p>
-<ol start="5">
+<ol>
 <li>The heavens are almost rent asunder from above them (by His</li>
 </ol>
 <p>Glory): And the angels celebrate the Praises of their Lord, and</p>
 <p>pray for forgiveness for (all) beings on earth: Behold! Verily</p>
 <p>Allah is He, the Oft-Forgiving, Most Merciful.</p>
-<ol start="6">
+<ol>
 <li>And those who take as protectors others besides Him, –Allah</li>
 </ol>
 <p>doth watch over them; and thou art not the disposer of their</p>
 <p>affairs.</p>
-<ol start="7">
+<ol>
 <li>Thus have We sent by inspiration to thee an Arabic Koran:</li>
 </ol>
 <p>That thou mayest warn the Mother of Cities and all around her, –</p>
 <p>-and warn (them) of the Day of Assembly, of which there is no</p>
 <p>doubt: (when) some will be in the Garden, and some in the</p>
 <p>Blazing Fire.</p>
-<ol start="8">
+<ol>
 <li>If Allah had so willed, He could have made them a single</li>
 </ol>
 <p>people; but He admits whom He will to His Mercy; and the</p>
 <p>wrongdoers will have no protector nor helper.</p>
-<ol start="9">
+<ol>
 <li>What! Have they taken (for worship) protectors besides Him?</li>
 </ol>
 <p>But it is Allah, –He is the Protector, and it is He Who gives</p>
 <p>life to the dead: It is He Who gives life to the dead: It is He</p>
 <p>Who has power over all things.</p>
-<ol start="10">
+<ol>
 <li>Whatever it be wherein ye differ, the decision thereof is</li>
 </ol>
 <p>with Allah: Such is Allah my Lord: In Him I trust, and to Him I</p>
 <p>turn.</p>
-<ol start="11">
+<ol>
 <li>(He is) the Creator of the heavens and the earth: He has</li>
 </ol>
 <p>made for you pairs from among yourselves, and pairs among</p>
 <p>cattle: By this means does He multiply you: There is nothing</p>
 <p>whatever like unto Him, and He is the One that hears and sees</p>
 <p>(all things).</p>
-<ol start="12">
+<ol>
 <li>To Him belongs the keys of the heavens and the earth: He</li>
 </ol>
 <p>enlarges and restricts the Sustenance to whom He will: For He</p>
 <p>knows full well all things.</p>
-<ol start="13">
+<ol>
 <li>The same religion has He established for you as that which</li>
 </ol>
 <p>He enjoined on Noah–the which We have sent by inspiration to</p>
@@ -430,7 +481,7 @@
 <p>hard is the (way) to which thou callest them. Allah chooses to</p>
 <p>Himself those whom He pleases, and guides to Himself those who</p>
 <p>turn (to Him).</p>
-<ol start="14">
+<ol>
 <li>And they became divided only after knowledge reached them, –</li>
 </ol>
 <p>-through selfish envy as between themselves. Had it not been for</p>
@@ -438,7 +489,7 @@
 <p>appointed, the matter would have been settled between them: But</p>
 <p>truly those who have inherited the Book after them are in</p>
 <p>suspicious (disquieting) doubt concerning it.</p>
-<ol start="15">
+<ol>
 <li>Now then, for that (reason), call (them to the Faith), and</li>
 </ol>
 <p>stand steadfast as thou art commanded nor follow thou their vain</p>
@@ -448,40 +499,40 @@
 <p>deeds, and for you for your deeds. There is no contention</p>
 <p>between us and you. Allah will bring us together, and to Him is</p>
 <p>(our) final goal.</p>
-<ol start="16">
+<ol>
 <li>But those who dispute concerning Allah after He has been</li>
 </ol>
 <p>accepted, –futile is their dispute in the sight of their Lord:</p>
 <p>On them is Wrath, and for them will be a Penalty Terrible.</p>
-<ol start="17">
+<ol>
 <li>It is Allah Who has sent down the Book in truth, and the</li>
 </ol>
 <p>Balance (by which to weigh conduct). And what will make thee</p>
 <p>realize that perhaps the Hour is close at hand?</p>
-<ol start="18">
+<ol>
 <li>Only those wish to hasten it who believe not in it: Those</li>
 </ol>
 <p>who believe hold it in awe, and know that it is the Truth.</p>
 <p>Behold, verily those that dispute concerning the Hour are far</p>
 <p>astray.</p>
-<ol start="19">
+<ol>
 <li>Gracious is Allah to His servants: He gives Sustenance to</li>
 </ol>
 <p>whom He pleases: And He has Power and can carry out His Will.</p>
-<ol start="20">
+<ol>
 <li>To any that desires the tilth of the Hereafter, We give</li>
 </ol>
 <p>increase in his tilth; and to any that desires the tilth of this</p>
 <p>world, We grant somewhat thereof, but he has no share or lot in</p>
 <p>the Hereafter.</p>
-<ol start="21">
+<ol>
 <li>What! Have they partners (in godhead), who have established</li>
 </ol>
 <p>for them some religion without the permission of Allah? Had it</p>
 <p>not been for the Decree of Judgment, the matter would have been</p>
 <p>decided between them (at once). But verily the wrongdoers will</p>
 <p>have a grievous Penalty.</p>
-<ol start="22">
+<ol>
 <li>Thou wilt see the wrongdoers in fear on account of what they</li>
 </ol>
 <p>have earned, and (the burden of) that must (necessarily) fall on</p>
@@ -489,7 +540,7 @@
 <p>the luxuriant meads of the Gardens: They shall have, before</p>
 <p>their Lord, all that they wish for. That will indeed be the</p>
 <p>magnificent Bounty (of Allah).</p>
-<ol start="23">
+<ol>
 <li>That is (the Bounty) whereof Allah gives Glad Tidings to His</li>
 </ol>
 <p>Servants who believe and do righteous deeds. Say: “No reward do</p>
@@ -497,108 +548,108 @@
 <p>if any one earns any good, We shall give him an increase of good</p>
 <p>in respect thereof: For Allah is Oft-Forgiving, Most Ready to</p>
 <p>appreciate (service).</p>
-<ol start="24">
+<ol>
 <li>What! Do they say, “He has forged a falsehood against</li>
 </ol>
 <p>Allah”? But if Allah Willed, He could seal up thy heart. And</p>
 <p>Allah blots out Vanity, and proves the Truth by His Words. For</p>
 <p>He knows well the secrets of all hearts.</p>
-<ol start="25">
+<ol>
 <li>He is the One that accepts repentance from His Servants and</li>
 </ol>
 <p>forgives sins: And He knows all that ye do.</p>
-<ol start="26">
+<ol>
 <li>And He listens to those who believe and do deeds of</li>
 </ol>
 <p>righteousness, and gives them increase of His Bounty: But for</p>
 <p>the Unbelievers there is a terrible Penalty.</p>
-<ol start="27">
+<ol>
 <li>If Allah were to enlarge the provision for His Servants,</li>
 </ol>
 <p>they would indeed transgress beyond all bounds through the</p>
 <p>earth; but He sends (it) down in due measure as He pleases. For</p>
 <p>He is with His Servants Well-acquainted, Watchful.</p>
-<ol start="28">
+<ol>
 <li>He is the One that sends down rain (even) after (men) have</li>
 </ol>
 <p>given up all hope, and scatters His Mercy (far and wide). And He</p>
 <p>is the Protector, Worthy of all Praise.</p>
-<ol start="29">
+<ol>
 <li>And among His Signs is the creation of the heavens and the</li>
 </ol>
 <p>earth and the living creatures that He has scattered through</p>
 <p>them: And He has power to gather them together when He Wills.</p>
-<ol start="30">
+<ol>
 <li>Whatever misfortune happens to you, is because of the things</li>
 </ol>
 <p>your hands have wrought, and for many (of them) He grants</p>
 <p>forgiveness.</p>
-<ol start="31">
+<ol>
 <li>Nor can ye frustrate (aught), (fleeing) through the earth;</li>
 </ol>
 <p>nor have ye, besides Allah, any one to protect or to help.</p>
-<ol start="32">
+<ol>
 <li>And among His Signs are the ships, smooth running through</li>
 </ol>
 <p>the ocean, (tall) as mountains.</p>
-<ol start="33">
+<ol>
 <li>If it be His Will, He can still the Wind: Then would they</li>
 </ol>
 <p>become motionless on the back of the (ocean). Verily in this are</p>
 <p>Signs for everyone who patiently perseveres and is grateful.</p>
-<ol start="34">
+<ol>
 <li>Or He can cause them to perish because of the (evil) which</li>
 </ol>
 <p>(the men) have earned; but much doth He forgive.</p>
-<ol start="35">
+<ol>
 <li>But let those know, who dispute about Our Signs, that there</li>
 </ol>
 <p>is for them no way of escape.</p>
-<ol start="36">
+<ol>
 <li>Whatever ye are given (here) is (but) a convenience of this</li>
 </ol>
 <p>Life: But that which is with Allah is better and more lasting:</p>
 <p>(It is) for those who believe and put their trust in their Lord;</p>
-<ol start="37">
+<ol>
 <li>Those who avoid the greater crimes and shameful deeds, and,</li>
 </ol>
 <p>when they are angry even then forgive;</p>
-<ol start="38">
+<ol>
 <li>Those who hearken to their Lord, and establish regular</li>
 </ol>
 <p>prayer; who (conduct) their affairs by mutual consultation; who</p>
 <p>spend out of what We bestow on them for Sustenance;</p>
-<ol start="39">
+<ol>
 <li>And those who, when an oppressive wrong is inflicted on</li>
 </ol>
 <p>them, (are not cowed but) help and defend themselves.</p>
-<ol start="40">
+<ol>
 <li>The recompense for an injury is an injury equal thereto (in</li>
 </ol>
 <p>degree): But if a person forgives and makes reconciliation, his</p>
 <p>reward is due from Allah: For (Allah) loveth not those who do</p>
 <p>wrong.</p>
-<ol start="41">
+<ol>
 <li>But indeed if any do help and defend themselves after a</li>
 </ol>
 <p>wrong (done) to them, against such there is no cause of blame.</p>
-<ol start="42">
+<ol>
 <li>The blame is only against those who oppress men with</li>
 </ol>
 <p>wrongdoing and insolently transgress beyond bounds through the</p>
 <p>land, defying right and justice: For such there will be a</p>
 <p>Penalty grievous.</p>
-<ol start="43">
+<ol>
 <li>But indeed if any show patience and forgive, that would</li>
 </ol>
 <p>truly be an exercise of courageous will and resolution in the</p>
 <p>conduct of affairs.</p>
-<ol start="44">
+<ol>
 <li>For any whom Allah leaves astray, there is no protector</li>
 </ol>
 <p>thereafter. And thou wilt see the wrongdoers, when in sight of</p>
 <p>the Penalty, say: “Is there any way (to effect) a return?”</p>
-<ol start="45">
+<ol>
 <li>And thou wilt see them brought forward to the (Penalty), in</li>
 </ol>
 <p>a humble frame of mind because of (their) disgrace, (and)</p>
@@ -606,18 +657,18 @@
 <p>“Those are indeed in loss who have given to perdition their own</p>
 <p>selves and those belonging to them on the Day of Judgment.</p>
 <p>Behold! Truly the wrongdoers are in a lasting Penalty!”</p>
-<ol start="46">
+<ol>
 <li>And no protectors have they to help them, other than Allah.</li>
 </ol>
 <p>And for any whom Allah leaves to stray, there is no way (to the</p>
 <p>Goal).</p>
-<ol start="47">
+<ol>
 <li>Hearken ye to your Lord, before there come a Day which there</li>
 </ol>
 <p>will be no putting back, because of (the ordainment of) Allah!</p>
 <p>That Day there will be for you no place of refuge nor will there</p>
 <p>be for you any room for denial (of your sins)!</p>
-<ol start="48">
+<ol>
 <li>If then they turn away, We have not sent thee as a guard</li>
 </ol>
 <p>over them. Thy duty is but to convey (the Message). And truly,</p>
@@ -625,33 +676,38 @@
 <p>exult thereat, but when some ill happens to him, on account of</p>
 <p>the deeds which his hands have sent forth, truly then is man</p>
 <p>ungrateful!</p>
-<ol start="49">
+<ol>
 <li>To Allah belongs the dominion of the heavens and the earth.</li>
 </ol>
 <p>He creates what He wills (and plans). He bestows (children) male</p>
 <p>or female according to His Will (and Plan),</p>
-<ol start="50">
+<ol>
 <li>Or He bestows both males and females, and He leaves barren</li>
 </ol>
 <p>whom He will: For He is full of Knowledge and power.</p>
-<ol start="51">
+<ol>
 <li>It is not fitting for a man that Allah should speak to him</li>
 </ol>
 <p>except by inspiration, or from behind a veil, or by sending of a</p>
 <p>Messenger to reveal, with Allah’s permission, what Allah wills:</p>
 <p>For He is Most High, Most Wise.</p>
-<ol start="52">
+<ol>
 <li>And thus have We, by Our Command, sent inspiration to thee:</li>
 </ol>
 <p>Thou knewest not (before) what was Revelation, and what was</p>
 <p>Faith; but We have made the (Koran) a Light, wherewith We guide</p>
 <p>such of Our servants as We will; and verily thou dost guide</p>
 <p>(men) to the Straight Way, —</p>
-<ol start="53">
+<ol>
 <li>The Way of Allah, to Whom belongs whatever is in the heavens</li>
 </ol>
 <p>and whatever is on earth. Behold (how) all affairs tend towards</p>
-<p>Allah!</p></div>
+<p>Allah!</p>
+        </article>
+        <hr>
+        <footer class='pb-12 text-center'>
+            <p style='color: #8D8273;'>Toygar Par - Quran Project</p>
+        </footer>
     </div>
 </body>
 </html>

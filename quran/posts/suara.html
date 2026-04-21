@@ -1,55 +1,106 @@
 
 <!DOCTYPE html>
-<html lang='en'>
+<html lang='tr'>
 <head>
     <meta charset='UTF-8'>
     <title>Şuara Suresi</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link href='https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css' rel='stylesheet'>
-    <style>
-        body {
-            background-color: #111827;
-            color: #f9fafb;
-        }
-        .prose {
-            color: #f9fafb;
-        }
-        .prose h1, .prose h2, .prose h3 {
-            color: #60a5fa;
-        }
-        pre code {
-            background-color: #1f2937;
-            color: #f9fafb;
-            display: block;
-            padding: 1em;
-            overflow-x: auto;
-            border-radius: 0.5rem;
-        }
-        code {
-            background-color: #374151;
-            padding: 0.2em 0.4em;
-            border-radius: 0.25rem;
-        }
-        a {
-            color: #93c5fd;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-         p {
-            margin-top: 1em;
-            margin-bottom: 1em;
-            line-height: 1.7;
-        }
-    </style>
+    
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
+
+    body {
+        background-color: #1A1714; /* Deep Obsidian */
+        color: #F2E8CF; /* Parchment Cream */
+        font-family: 'Lora', serif;
+    }
+
+    /* --- SAFFRON GLOW BOLD FONTS --- */
+    strong, b {
+        color: #FFC107;
+        font-weight: 700;
+        text-shadow: 0 0 8px rgba(255, 193, 7, 0.4);
+    }
+    
+    .surah-card {
+        background-color: #24201D;
+        border-left: 4px solid #BC9353; /* Ottoman Gold */
+        padding: 1.5rem;
+        border-radius: 0.25rem;
+        transition: transform 0.2s;
+        margin-bottom: 1.5rem;
+    }
+
+    .surah-card:hover {
+        transform: translateX(5px);
+        background-color: #2C2723;
+    }
+
+    h1, h2, h3 {
+        font-family: 'Playfair Display', serif;
+        color: #BC9353;
+    }
+
+    .prose {
+        color: #F2E8CF;
+        max-width: none;
+        line-height: 1.8;
+    }
+
+    .tag-ottoman {
+        background-color: #38A3A5; /* Iznik Turquoise */
+        color: #1A1714;
+        font-weight: 600;
+        font-size: 0.75rem;
+        padding: 0.2rem 0.6rem;
+        border-radius: 0.25rem;
+        margin-right: 0.5rem;
+        display: inline-block;
+    }
+
+    input#searchInput {
+        background-color: #24201D;
+        border: 1px solid #BC9353;
+        color: #F2E8CF;
+        width: 100%;
+        padding: 0.75rem;
+        border-radius: 0.5rem;
+        margin-bottom: 2rem;
+    }
+
+    input#searchInput::placeholder {
+        color: #8D8273;
+    }
+
+    a {
+        color: #BC9353;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    a:hover {
+        color: #F2E8CF;
+        text-decoration: underline;
+    }
+
+    hr {
+        border-color: #3D352E;
+        margin: 2rem 0;
+    }
+</style>
+
 </head>
-<body class='font-sans p-6'>
+<body class='p-6'>
     <div class='max-w-3xl mx-auto'>
-        <a href='../index.html' class='block mb-4'>← Sure Listesine Geri Dön</a>
-        <h1 class='text-3xl font-bold mt-4'>Şuara Suresi</h1>
-        <p class='text-sm text-gray-400 mb-4'>2025-04-20</p>
-        <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>kuran</span> <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>quran</span> <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>furkan</span>
-        <div class='prose max-w-none mt-4'><h2>Şuara Suresi 26-47</h2>
+        <a href='../index.html' style='color: #38A3A5;'>← Listeye Dön</a>
+        <header class='mt-8 mb-12'>
+            <h1 class='text-4xl font-bold'>Şuara Suresi</h1>
+            <p style='color: #8D8273;' class='mt-2 text-sm'>2025-04-20</p>
+            <div class='mt-4'><span class='tag-ottoman'>kuran</span><span class='tag-ottoman'>quran</span><span class='tag-ottoman'>furkan</span></div>
+        </header>
+        <article class='prose'>
+            <h2>Şuara Suresi 26-47</h2>
 <p>Şuara Suresi 26-47 (Şairler)  </p>
 <p>SEVGİ VE MERHAMETİ SONSUZ ALLAH’IN ADIYLA</p>
 <ol>
@@ -302,23 +353,23 @@
 </li>
 </ol>
 <p>become Believers.</p>
-<ol start="4">
+<ol>
 <li>If (such) were Our Will, We could send down to them from the</li>
 </ol>
 <p>sky a Sign, to which they would bend their necks in humility.</p>
-<ol start="5">
+<ol>
 <li>But there comes not to them a newly revealed Message from</li>
 </ol>
 <p>(Allah) Most Gracious, but they turn away therefrom.</p>
-<ol start="6">
+<ol>
 <li>They have indeed rejected (the Message): So they will know</li>
 </ol>
 <p>soon (enough) the truth of what they mocked at!</p>
-<ol start="7">
+<ol>
 <li>Do they not look at the earth, –how many noble things of all</li>
 </ol>
 <p>kinds We have produced therein?</p>
-<ol start="8">
+<ol>
 <li>
 <p>Verily, in this is a Sign: But most of them do not believe.</p>
 </li>
@@ -327,11 +378,11 @@
 </li>
 </ol>
 <p>merciful.</p>
-<ol start="10">
+<ol>
 <li>Behold, thy Lord called Moses: “Go to the people of</li>
 </ol>
 <p>iniquity, —</p>
-<ol start="11">
+<ol>
 <li>
 <p>“The people of Pharaoh: Will they not fear Allah?”</p>
 </li>
@@ -340,23 +391,23 @@
 </li>
 </ol>
 <p>falsehood:</p>
-<ol start="13">
+<ol>
 <li>“My breast will be straitened. And my speech may not go</li>
 </ol>
 <p>(smoothly): So send unto Aaron.</p>
-<ol start="14">
+<ol>
 <li>“And (further), they have a charge of crime against me; and</li>
 </ol>
 <p>I fear they may slay me.”</p>
-<ol start="15">
+<ol>
 <li>Allah said: “By no means! Proceed then, both of you, with</li>
 </ol>
 <p>Our Signs; We are with you, and will listen (to your call).</p>
-<ol start="16">
+<ol>
 <li>“So go forth, both of you) to Pharaoh, and say: ‘We have</li>
 </ol>
 <p>been sent by the Lord and Cherisher of the Worlds;</p>
-<ol start="17">
+<ol>
 <li>
 <p>“Send thou with us the Children of Israel.’”</p>
 </li>
@@ -365,11 +416,11 @@
 </li>
 </ol>
 <p>us, and didst thou not stay in our midst many years of thy life?</p>
-<ol start="19">
+<ol>
 <li>And thou didst a deed of thine which (thou knowest) thou</li>
 </ol>
 <p>didst, and thou art an ungrateful (wretch)!”</p>
-<ol start="20">
+<ol>
 <li>
 <p>Moses said: “I did it then, when I was in error.</p>
 </li>
@@ -379,43 +430,43 @@
 </ol>
 <p>(since) invested me with judgment (and wisdom) and appointed me</p>
 <p>as one of the apostles.</p>
-<ol start="22">
+<ol>
 <li>“And this is the favor with which thou dost reproach me, —</li>
 </ol>
 <p>that thou hast enslaved the Children of Israel!”</p>
-<ol start="23">
+<ol>
 <li>Pharaoh said: “And what is the ‘Lord and Cherisher of the</li>
 </ol>
 <p>Worlds’?”</p>
-<ol start="24">
+<ol>
 <li>(Moses said: “The Lord and Cherisher of the heavens and the</li>
 </ol>
 <p>earth, and all between, –if ye want to be quite sure.”</p>
-<ol start="25">
+<ol>
 <li>(Pharaoh) said to those around: “Do ye not listen (to what</li>
 </ol>
 <p>he says)?”</p>
-<ol start="26">
+<ol>
 <li>(Moses) said: “Your Lord and the Lord of your fathers from</li>
 </ol>
 <p>the beginning!”</p>
-<ol start="27">
+<ol>
 <li>(Pharaoh) said: “Truly your apostle who has been sent to you</li>
 </ol>
 <p>is a veritable madman!”</p>
-<ol start="28">
+<ol>
 <li>(Moses) said: “Lord of the East and the West, and all</li>
 </ol>
 <p>between! If ye only had sense!”</p>
-<ol start="29">
+<ol>
 <li>(Pharaoh) said: “If thou dost put forward any god other than</li>
 </ol>
 <p>me, I will certainly put thee in prison!”</p>
-<ol start="30">
+<ol>
 <li>(Moses) said: “Even if I showed you something clear (and)</li>
 </ol>
 <p>convincing?”</p>
-<ol start="31">
+<ol>
 <li>
 <p>(Pharaoh) said: “Show it then, if thou tellest the truth!”</p>
 </li>
@@ -424,23 +475,23 @@
 </li>
 </ol>
 <p>plain (for all to see)!</p>
-<ol start="33">
+<ol>
 <li>And he drew out his hand, and behold, it was white to all</li>
 </ol>
 <p>beholders!</p>
-<ol start="34">
+<ol>
 <li>(Pharaoh) said to the Chiefs around him: “This is indeed a</li>
 </ol>
 <p>sorcerer well-versed:</p>
-<ol start="35">
+<ol>
 <li>“His plan is to get you out of your land by his sorcery;</li>
 </ol>
 <p>then what is it ye counsel?”</p>
-<ol start="36">
+<ol>
 <li>They said: “Keep him and his brother in suspense (for a</li>
 </ol>
 <p>while), and dispatch to the Cities heralds to collect–</p>
-<ol start="37">
+<ol>
 <li>
 <p>“And bring up to thee all (our) sorcerers well-versed.”</p>
 </li>
@@ -449,7 +500,7 @@
 </li>
 </ol>
 <p>day well-known,</p>
-<ol start="39">
+<ol>
 <li>
 <p>And the people were told: “Are ye (now) assembled? —</p>
 </li>
@@ -458,27 +509,27 @@
 </li>
 </ol>
 <p>win?”</p>
-<ol start="41">
+<ol>
 <li>So when the sorcerers arrived they said to Pharaoh: “Of</li>
 </ol>
 <p>course–shall we have a (suitable) reward if we win?”</p>
-<ol start="42">
+<ol>
 <li>He said: “Yea, (and more), –for ye shall in that case be</li>
 </ol>
 <p>(raised to posts) nearest (to my person).”</p>
-<ol start="43">
+<ol>
 <li>Moses said to them: “Throw ye–that which ye are about to</li>
 </ol>
 <p>throw!”</p>
-<ol start="44">
+<ol>
 <li>So they threw their ropes and their rods, and said: “By the</li>
 </ol>
 <p>might of Pharaoh, it is we who will certainly win!”</p>
-<ol start="45">
+<ol>
 <li>Then Moses threw his rod, when, behold, it straightway</li>
 </ol>
 <p>swallows up all the falsehoods which they fake!</p>
-<ol start="46">
+<ol>
 <li>
 <p>Then did the sorcerers fall down, prostrate in adoration,</p>
 </li>
@@ -494,23 +545,23 @@
 </ol>
 <p>permission? Surely he is your leader, who has taught you</p>
 <p>sorcery! But soon shall ye know!</p>
-<ol start="50">
+<ol>
 <li>“Be sure I will cut off your hands and feet on opposite</li>
 </ol>
 <p>sides, and I will cause you all to die on the cross!”</p>
-<ol start="51">
+<ol>
 <li>They said: “No matter! For us, we shall but return to our</li>
 </ol>
 <p>Lord!</p>
-<ol start="52">
+<ol>
 <li>“Only, our desire is that our Lord will forgive us our</li>
 </ol>
 <p>faults, that we may become foremost among the Believers!”</p>
-<ol start="53">
+<ol>
 <li>By inspiration We told Moses: “Travel by night with My</li>
 </ol>
 <p>servants; for surely ye shall be pursued.”</p>
-<ol start="54">
+<ol>
 <li>
 <p>Then Pharaoh sent heralds to (all) the Cities,</p>
 </li>
@@ -534,7 +585,7 @@
 </li>
 </ol>
 <p>of such things.</p>
-<ol start="61">
+<ol>
 <li>
 <p>So they pursued them at sunrise.</p>
 </li>
@@ -543,16 +594,16 @@
 </li>
 </ol>
 <p>said: “We are sure to be overtaken.”</p>
-<ol start="63">
+<ol>
 <li>(Moses) said: “By no means! My Lord is with me! Soon will He</li>
 </ol>
 <p>guide me!”</p>
-<ol start="64">
+<ol>
 <li>Then We told Moses by inspiration: “Strike the sea with thy</li>
 </ol>
 <p>rod.” So it divided, and each separate part became like the</p>
 <p>huge, firm mass of a mountain.</p>
-<ol start="65">
+<ol>
 <li>
 <p>And We made the other party approach thither.</p>
 </li>
@@ -570,7 +621,7 @@
 </li>
 </ol>
 <p>Merciful.</p>
-<ol start="70">
+<ol>
 <li>
 <p>And rehearse to them (Something of) Abraham’s story.</p>
 </li>
@@ -579,19 +630,19 @@
 </li>
 </ol>
 <p>ye?”</p>
-<ol start="72">
+<ol>
 <li>They said: “We worship idols, and we remain constantly in</li>
 </ol>
 <p>attendance on them.”</p>
-<ol start="73">
+<ol>
 <li>He said: “Do they listen to you when ye call (on them), or</li>
 </ol>
 <p>do you good or harm?”</p>
-<ol start="74">
+<ol>
 <li>They said: “Nay, but we found our fathers doing thus (what</li>
 </ol>
 <p>we do).”</p>
-<ol start="75">
+<ol>
 <li>
 <p>He said: “Do ye then see whom ye have been worshipping, —</p>
 </li>
@@ -603,7 +654,7 @@
 </li>
 </ol>
 <p>of the Worlds;</p>
-<ol start="78">
+<ol>
 <li>
 <p>“Who created me, and it is He who guides me;</p>
 </li>
@@ -621,15 +672,15 @@
 </li>
 </ol>
 <p>Judgment.</p>
-<ol start="83">
+<ol>
 <li>“O my Lord! Bestow wisdom on me, and join me with the</li>
 </ol>
 <p>righteous;</p>
-<ol start="84">
+<ol>
 <li>“Grant me honorable mention on the tongue of truth among the</li>
 </ol>
 <p>latest (generations);</p>
-<ol start="85">
+<ol>
 <li>
 <p>“Make me one of the inheritors of the Garden of Bliss;</p>
 </li>
@@ -641,7 +692,7 @@
 </li>
 </ol>
 <p>raised up; —</p>
-<ol start="88">
+<ol>
 <li>
 <p>“The Day whereon neither wealth nor sons will avail,</p>
 </li>
@@ -650,7 +701,7 @@
 </li>
 </ol>
 <p>heart;</p>
-<ol start="90">
+<ol>
 <li>
 <p>“To the righteous, the Garden will be brought near,</p>
 </li>
@@ -659,11 +710,11 @@
 </li>
 </ol>
 <p>full view;</p>
-<ol start="92">
+<ol>
 <li>“And it shall be said to them: ‘Where are the (gods) ye</li>
 </ol>
 <p>worshipped–</p>
-<ol start="93">
+<ol>
 <li>
 <p>“‘Besides Allah? Can they help you or help themselves?’</p>
 </li>
@@ -672,7 +723,7 @@
 </li>
 </ol>
 <p>and those straying in Evil,</p>
-<ol start="95">
+<ol>
 <li>
 <p>“And the whole hosts of Iblis together.</p>
 </li>
@@ -690,7 +741,7 @@
 </li>
 </ol>
 <p>guilt.</p>
-<ol start="100">
+<ol>
 <li>
 <p>“‘Now, then, we have none to intercede (for us),</p>
 </li>
@@ -702,7 +753,7 @@
 </li>
 </ol>
 <p>of those who believe!’”</p>
-<ol start="103">
+<ol>
 <li>
 <p>Verily in this is a Sign but most of them do not believe.</p>
 </li>
@@ -711,7 +762,7 @@
 </li>
 </ol>
 <p>Merciful.</p>
-<ol start="105">
+<ol>
 <li>
 <p>The people of Noah rejected the apostles.</p>
 </li>
@@ -720,7 +771,7 @@
 </li>
 </ol>
 <p>(Allah)?</p>
-<ol start="107">
+<ol>
 <li>
 <p>“I am to you an apostle worthy of all trust:</p>
 </li>
@@ -732,7 +783,7 @@
 </li>
 </ol>
 <p>the Lord of the Worlds:</p>
-<ol start="110">
+<ol>
 <li>
 <p>“So fear Allah, and obey me.”</p>
 </li>
@@ -741,7 +792,7 @@
 </li>
 </ol>
 <p>that follow thee?”</p>
-<ol start="112">
+<ol>
 <li>
 <p>He said: “And what do I know as to what they do?</p>
 </li>
@@ -750,7 +801,7 @@
 </li>
 </ol>
 <p>understand.</p>
-<ol start="114">
+<ol>
 <li>
 <p>“I am not one to drive away those who believe.</p>
 </li>
@@ -762,7 +813,7 @@
 </li>
 </ol>
 <p>stoned (to death).”</p>
-<ol start="117">
+<ol>
 <li>
 <p>He said: “O my Lord! Truly my people have rejected me.</p>
 </li>
@@ -771,11 +822,11 @@
 </li>
 </ol>
 <p>me and those of the Believers who are with me.”</p>
-<ol start="119">
+<ol>
 <li>So We delivered him and those with him, in the Ark filled</li>
 </ol>
 <p>(with all creatures).</p>
-<ol start="120">
+<ol>
 <li>
 <p>Thereafter We drowned those Who remained behind.</p>
 </li>
@@ -794,7 +845,7 @@
 <p>destroying a symbol of justice and fair-dealing: Their</p>
 <p>repentance was too late: They were blotted out of the earth for</p>
 <p>the mischief they had made.</p>
-<ol start="123">
+<ol>
 <li>
 <p>The Ad (people) rejected the apostles.</p>
 </li>
@@ -803,7 +854,7 @@
 </li>
 </ol>
 <p>(Allah)?</p>
-<ol start="125">
+<ol>
 <li>
 <p>“I am to you an apostle worthy of all trust:</p>
 </li>
@@ -815,19 +866,19 @@
 </li>
 </ol>
 <p>my Lord of the Worlds.</p>
-<ol start="128">
+<ol>
 <li>“Do ye build a landmark on every high place to amuse</li>
 </ol>
 <p>yourselves?</p>
-<ol start="129">
+<ol>
 <li>“And do ye get for yourselves fine buildings in the hope of</li>
 </ol>
 <p>living therein (for ever)?</p>
-<ol start="130">
+<ol>
 <li>“And when ye exert your strong hand, do ye do it like men</li>
 </ol>
 <p>of absolute power?</p>
-<ol start="131">
+<ol>
 <li>
 <p>“Now fear Allah, and obey me.</p>
 </li>
@@ -836,7 +887,7 @@
 </li>
 </ol>
 <p>know.</p>
-<ol start="133">
+<ol>
 <li>
 <p>“Freely has He bestowed on you cattle and sons, —</p>
 </li>
@@ -851,7 +902,7 @@
 </li>
 </ol>
 <p>among (our) admonishers!</p>
-<ol start="137">
+<ol>
 <li>
 <p>“This is no other than a customary device of the ancients,</p>
 </li>
@@ -863,11 +914,11 @@
 </li>
 </ol>
 <p>is a Sign: But most of them do not believe.</p>
-<ol start="140">
+<ol>
 <li>And verily thy Lord is He, the Exalted in Might, Most</li>
 </ol>
 <p>Merciful.</p>
-<ol start="141">
+<ol>
 <li>
 <p>The Thamud (people) rejected the apostles.</p>
 </li>
@@ -876,7 +927,7 @@
 </li>
 </ol>
 <p>fear (Allah)?</p>
-<ol start="143">
+<ol>
 <li>
 <p>“I am to you an apostle worthy of all trust.</p>
 </li>
@@ -888,11 +939,11 @@
 </li>
 </ol>
 <p>the Lord of the Worlds.</p>
-<ol start="146">
+<ol>
 <li>“Will ye be left secure in (the enjoyment of) all that ye</li>
 </ol>
 <p>have here? —</p>
-<ol start="147">
+<ol>
 <li>
 <p>“Gardens and Springs,</p>
 </li>
@@ -901,11 +952,11 @@
 </li>
 </ol>
 <p>(with the weight of fruit)?</p>
-<ol start="149">
+<ol>
 <li>“And ye carve houses out of (rocky) mountains with great</li>
 </ol>
 <p>skill.</p>
-<ol start="150">
+<ol>
 <li>
 <p>“But fear Allah, and obey me;</p>
 </li>
@@ -914,7 +965,7 @@
 </li>
 </ol>
 <p>–</p>
-<ol start="152">
+<ol>
 <li>
 <p>“Who make mischief in the land, and mend not (their ways),”</p>
 </li>
@@ -926,27 +977,27 @@
 </li>
 </ol>
 <p>Sign, if thou tellest the truth!”</p>
-<ol start="155">
+<ol>
 <li>He said: “Here is a she camel: She has a right of watering,</li>
 </ol>
 <p>and ye have a right of watering, (severally) on a day appointed.</p>
-<ol start="156">
+<ol>
 <li>“Touch her not with harm, lest the Penalty of a Great Day</li>
 </ol>
 <p>seize you.”</p>
-<ol start="157">
+<ol>
 <li>But they hamstrung her: Then did they become full of</li>
 </ol>
 <p>regrets.</p>
-<ol start="158">
+<ol>
 <li>But the Penalty seized them. Verily in this there is a</li>
 </ol>
 <p>Sign: But most of them do not believe.</p>
-<ol start="159">
+<ol>
 <li>And verily thy lord is He, the Exalted in Might, Most</li>
 </ol>
 <p>Merciful.</p>
-<ol start="160">
+<ol>
 <li>
 <p>The people of Lut rejected the apostles.</p>
 </li>
@@ -955,7 +1006,7 @@
 </li>
 </ol>
 <p>(Allah)?</p>
-<ol start="162">
+<ol>
 <li>
 <p>“I am to you an apostle worthy of all trust.</p>
 </li>
@@ -967,7 +1018,7 @@
 </li>
 </ol>
 <p>the Lord of the Worlds.</p>
-<ol start="165">
+<ol>
 <li>
 <p>“Of all the creatures in the world, will ye approach males,</p>
 </li>
@@ -976,11 +1027,11 @@
 </li>
 </ol>
 <p>mates? Nay, ye are a people transgressing (all limits)!”</p>
-<ol start="167">
+<ol>
 <li>They said: “If thou desist not, O Lut! Thou wilt assuredly</li>
 </ol>
 <p>be cast out!”</p>
-<ol start="168">
+<ol>
 <li>
 <p>He said: “I do detest your doings.”</p>
 </li>
@@ -989,7 +1040,7 @@
 </li>
 </ol>
 <p>they do!”</p>
-<ol start="170">
+<ol>
 <li>
 <p>So We delivered him and his family, –all</p>
 </li>
@@ -1004,7 +1055,7 @@
 </li>
 </ol>
 <p>was the shower on those who were admonished (but heeded not)!</p>
-<ol start="174">
+<ol>
 <li>
 <p>Verily in this is a Sign: But most of them do not believe.</p>
 </li>
@@ -1028,7 +1079,7 @@
 </li>
 </ol>
 <p>the Lord of the Worlds.</p>
-<ol start="181">
+<ol>
 <li>
 <p>“Give just measure, and cause no loss (to others by fraud).</p>
 </li>
@@ -1040,11 +1091,11 @@
 </li>
 </ol>
 <p>the land, working mischief.</p>
-<ol start="184">
+<ol>
 <li>“And fear Him Who created you and (Who created) the</li>
 </ol>
 <p>generations before (you).”</p>
-<ol start="185">
+<ol>
 <li>
 <p>They said: “Thou art only one of those bewitched!</p>
 </li>
@@ -1053,11 +1104,11 @@
 </li>
 </ol>
 <p>think thou art a liar!</p>
-<ol start="187">
+<ol>
 <li>“Now cause a piece of the sky to fall on us, if thou art</li>
 </ol>
 <p>truthful!”</p>
-<ol start="188">
+<ol>
 <li>
 <p>He said: “My Lord knows best what ye do.”</p>
 </li>
@@ -1067,7 +1118,7 @@
 </ol>
 <p>overshadowing gloom seized them, and that was the Penalty of a</p>
 <p>Great Day.</p>
-<ol start="190">
+<ol>
 <li>
 <p>Verily in that is a Sign: But most of them do not believe.</p>
 </li>
@@ -1076,7 +1127,7 @@
 </li>
 </ol>
 <p>Merciful.</p>
-<ol start="192">
+<ol>
 <li>
 <p>Verily this is a Revelation from the Lord of the Worlds:</p>
 </li>
@@ -1094,11 +1145,11 @@
 </li>
 </ol>
 <p>former peoples.</p>
-<ol start="197">
+<ol>
 <li>Is it not a Sign to them that the Learned of the Children</li>
 </ol>
 <p>of Israel knew it (as true)?</p>
-<ol start="198">
+<ol>
 <li>
 <p>Had We revealed it to any of the non-Arabs</p>
 </li>
@@ -1107,7 +1158,7 @@
 </li>
 </ol>
 <p>in it.</p>
-<ol start="200">
+<ol>
 <li>
 <p>Thus have We caused it to enter the hearts of the Sinners.</p>
 </li>
@@ -1116,11 +1167,11 @@
 </li>
 </ol>
 <p>Penalty;</p>
-<ol start="202">
+<ol>
 <li>But the (Penalty) will come to them of a sudden, while they</li>
 </ol>
 <p>perceive it not;</p>
-<ol start="203">
+<ol>
 <li>
 <p>Then they will say: “Shall we be respited?”</p>
 </li>
@@ -1132,11 +1183,11 @@
 </li>
 </ol>
 <p>years,</p>
-<ol start="206">
+<ol>
 <li>Yet there comes to them at length the (Punishment) which</li>
 </ol>
 <p>they were promised!</p>
-<ol start="207">
+<ol>
 <li>
 <p>It will profit them not that they enjoyed (this life)!</p>
 </li>
@@ -1154,15 +1205,15 @@
 </li>
 </ol>
 <p>produce it).</p>
-<ol start="212">
+<ol>
 <li>Indeed they have been removed far from even (a chance of)</li>
 </ol>
 <p>hearing it.</p>
-<ol start="213">
+<ol>
 <li>So call not on any other god with Allah or thou wilt be</li>
 </ol>
 <p>among those under Penalty.</p>
-<ol start="214">
+<ol>
 <li>
 <p>And admonish thy nearest kinsmen,</p>
 </li>
@@ -1174,7 +1225,7 @@
 </li>
 </ol>
 <p>responsibility) for what ye do!”</p>
-<ol start="217">
+<ol>
 <li>
 <p>And put thy trust on the Exalted in Might, the Merciful, —</p>
 </li>
@@ -1192,7 +1243,7 @@
 </li>
 </ol>
 <p>evil ones descend?</p>
-<ol start="222">
+<ol>
 <li>
 <p>They descend on every lying, wicked person,</p>
 </li>
@@ -1201,15 +1252,15 @@
 </li>
 </ol>
 <p>them are liars.</p>
-<ol start="224">
+<ol>
 <li>And the Poets, –It is those straying in Evil, who follow</li>
 </ol>
 <p>them:</p>
-<ol start="225">
+<ol>
 <li>Seest thou not that they wander distracted in every valley?</li>
 </ol>
 <p>—</p>
-<ol start="226">
+<ol>
 <li>
 <p>And that they say what they practice not? —</p>
 </li>
@@ -1219,7 +1270,12 @@
 </ol>
 <p>in the remembrance of Allah, and defend themselves only after</p>
 <p>they are unjustly attacked. And soon will the unjust assailants</p>
-<p>know what vicissitudes their affairs will take!</p></div>
+<p>know what vicissitudes their affairs will take!</p>
+        </article>
+        <hr>
+        <footer class='pb-12 text-center'>
+            <p style='color: #8D8273;'>Toygar Par - Quran Project</p>
+        </footer>
     </div>
 </body>
 </html>

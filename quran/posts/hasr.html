@@ -1,55 +1,106 @@
 
 <!DOCTYPE html>
-<html lang='en'>
+<html lang='tr'>
 <head>
     <meta charset='UTF-8'>
     <title>Haşr Suresi</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link href='https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css' rel='stylesheet'>
-    <style>
-        body {
-            background-color: #111827;
-            color: #f9fafb;
-        }
-        .prose {
-            color: #f9fafb;
-        }
-        .prose h1, .prose h2, .prose h3 {
-            color: #60a5fa;
-        }
-        pre code {
-            background-color: #1f2937;
-            color: #f9fafb;
-            display: block;
-            padding: 1em;
-            overflow-x: auto;
-            border-radius: 0.5rem;
-        }
-        code {
-            background-color: #374151;
-            padding: 0.2em 0.4em;
-            border-radius: 0.25rem;
-        }
-        a {
-            color: #93c5fd;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-         p {
-            margin-top: 1em;
-            margin-bottom: 1em;
-            line-height: 1.7;
-        }
-    </style>
+    
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
+
+    body {
+        background-color: #1A1714; /* Deep Obsidian */
+        color: #F2E8CF; /* Parchment Cream */
+        font-family: 'Lora', serif;
+    }
+
+    /* --- SAFFRON GLOW BOLD FONTS --- */
+    strong, b {
+        color: #FFC107;
+        font-weight: 700;
+        text-shadow: 0 0 8px rgba(255, 193, 7, 0.4);
+    }
+    
+    .surah-card {
+        background-color: #24201D;
+        border-left: 4px solid #BC9353; /* Ottoman Gold */
+        padding: 1.5rem;
+        border-radius: 0.25rem;
+        transition: transform 0.2s;
+        margin-bottom: 1.5rem;
+    }
+
+    .surah-card:hover {
+        transform: translateX(5px);
+        background-color: #2C2723;
+    }
+
+    h1, h2, h3 {
+        font-family: 'Playfair Display', serif;
+        color: #BC9353;
+    }
+
+    .prose {
+        color: #F2E8CF;
+        max-width: none;
+        line-height: 1.8;
+    }
+
+    .tag-ottoman {
+        background-color: #38A3A5; /* Iznik Turquoise */
+        color: #1A1714;
+        font-weight: 600;
+        font-size: 0.75rem;
+        padding: 0.2rem 0.6rem;
+        border-radius: 0.25rem;
+        margin-right: 0.5rem;
+        display: inline-block;
+    }
+
+    input#searchInput {
+        background-color: #24201D;
+        border: 1px solid #BC9353;
+        color: #F2E8CF;
+        width: 100%;
+        padding: 0.75rem;
+        border-radius: 0.5rem;
+        margin-bottom: 2rem;
+    }
+
+    input#searchInput::placeholder {
+        color: #8D8273;
+    }
+
+    a {
+        color: #BC9353;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    a:hover {
+        color: #F2E8CF;
+        text-decoration: underline;
+    }
+
+    hr {
+        border-color: #3D352E;
+        margin: 2rem 0;
+    }
+</style>
+
 </head>
-<body class='font-sans p-6'>
+<body class='p-6'>
     <div class='max-w-3xl mx-auto'>
-        <a href='../index.html' class='block mb-4'>← Sure Listesine Geri Dön</a>
-        <h1 class='text-3xl font-bold mt-4'>Haşr Suresi</h1>
-        <p class='text-sm text-gray-400 mb-4'>2025-04-20</p>
-        <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>kuran</span> <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>quran</span> <span class='inline-block bg-blue-200 text-blue-900 text-xs px-2 py-1 rounded mr-1'>furkan</span>
-        <div class='prose max-w-none mt-4'><h2>Haşr Suresi 59-95</h2>
+        <a href='../index.html' style='color: #38A3A5;'>← Listeye Dön</a>
+        <header class='mt-8 mb-12'>
+            <h1 class='text-4xl font-bold'>Haşr Suresi</h1>
+            <p style='color: #8D8273;' class='mt-2 text-sm'>2025-04-20</p>
+            <div class='mt-4'><span class='tag-ottoman'>kuran</span><span class='tag-ottoman'>quran</span><span class='tag-ottoman'>furkan</span></div>
+        </header>
+        <article class='prose'>
+            <h2>Haşr Suresi 59-95</h2>
 <p>Haşr Suresi 59-95 (Toplanma, Bir Araya Toplama)</p>
 <p>SEVGİ VE MERHAMETİ SONSUZ ALLAH’IN ADIYLA</p>
 <ol>
@@ -85,7 +136,7 @@
 <li>Whatever is in the heavens and on earth, let it declare the </li>
 </ol>
 <p>Praises and Glory of Allah: For He is the Exalted in Might, the Wise.</p>
-<ol start="2">
+<ol>
 <li>It is He Who got out the Unbelievers among the People of the</li>
 </ol>
 <p>Book from their homes at the first gathering (of the forces).</p>
@@ -95,29 +146,29 @@
 <p>little expected (it), and cast terror into their hearts, so that</p>
 <p>they destroyed their dwellings by their own hands and the hands</p>
 <p>of the Believers. Take warning, then, O ye with eyes (to see)!</p>
-<ol start="3">
+<ol>
 <li>And had it not been that Allah had decreed banishment for</li>
 </ol>
 <p>them, He would certainly have punished them in this world: And</p>
 <p>in the Hereafter they (certainly) have the Punishment of the</p>
 <p>Fire.</p>
-<ol start="4">
+<ol>
 <li>That is because they resisted Allah and His Apostle: And if</li>
 </ol>
 <p>anyone resists Allah, verily Allah is severe in Punishment.</p>
-<ol start="5">
+<ol>
 <li>Whether ye cut down (O ye Muslims!) the tender palm trees, or</li>
 </ol>
 <p>ye left them standing on their roots, it was by leave of Allah,</p>
 <p>and in order that He might cover with shame the rebellious</p>
 <p>transgressors.</p>
-<ol start="6">
+<ol>
 <li>What Allah has bestowed on His Apostle (and taken away) from</li>
 </ol>
 <p>them–for this ye made no expedition with either cavalry or</p>
 <p>camelry: But Allah gives power to His apostles over any He</p>
 <p>pleases: And Allah has power over all things.</p>
-<ol start="7">
+<ol>
 <li>What Allah has bestowed on His Apostle (and taken away) from</li>
 </ol>
 <p>the people of the townships, –belongs to Allah, –to His</p>
@@ -126,13 +177,13 @@
 <p>wealthy among you. So take what the Apostle assigns to you, and</p>
 <p>deny yourselves that which he withholds from you. And fear</p>
 <p>Allah; for Allah is strict in Punishment.</p>
-<ol start="8">
+<ol>
 <li>(Some part is due) to the indigent Muhajirs, those who were</li>
 </ol>
 <p>expelled from their homes and their property, while seeking</p>
 <p>Grace from Allah and (His) Good Pleasure, and aiding Allah and</p>
 <p>His Apostle: Such are indeed the sincere ones: —</p>
-<ol start="9">
+<ol>
 <li>But those who before them, had homes (in Medina) and had</li>
 </ol>
 <p>adopted the Faith, –show their affection to such as came to</p>
@@ -141,91 +192,96 @@
 <p>themselves, even though poverty was their (own lot). And those</p>
 <p>saved from the covetousness of their own souls, –they are the</p>
 <p>ones that achieve prosperity.</p>
-<ol start="10">
+<ol>
 <li>And those who came after them say: “Our Lord! Forgive us,</li>
 </ol>
 <p>and our brethren who came before us into the Faith, and leave</p>
 <p>not, rancor (or sense of injury) against those who have</p>
 <p>believed. Our Lord! Thou art indeed Full of Kindness, Most</p>
 <p>Merciful.”</p>
-<ol start="11">
+<ol>
 <li>Hast thou not observed the Hypocrites say to their</li>
 </ol>
 <p>misbelieving brethren among the People of the Book? –“If ye are</p>
 <p>expelled, we too will go out with you, and we will never hearken</p>
 <p>to anyone in your affair; and if ye are attacked (in fight) we</p>
 <p>will help you”. But Allah is witness that they are indeed liars.</p>
-<ol start="12">
+<ol>
 <li>If they are expelled, never will they go out with them; and</li>
 </ol>
 <p>if they are attacked (in fight), they will never help them; and</p>
 <p>if they do help them, they will turn their backs; so they will</p>
 <p>receive no help.</p>
-<ol start="13">
+<ol>
 <li>Of a truth ye are stronger (than they) because of the terror</li>
 </ol>
 <p>in their hearts, (sent) by Allah. This is because they are men</p>
 <p>devoid of understanding.</p>
-<ol start="14">
+<ol>
 <li>They will not fight you (even) together, except in fortified</li>
 </ol>
 <p>townships, or from behind walls. Strong is their fighting</p>
 <p>(spirit) amongst themselves: Thou wouldst think they were</p>
 <p>united, but their hearts are divided: That is because they are a</p>
 <p>people devoid of wisdom.</p>
-<ol start="15">
+<ol>
 <li>Like those who lately preceded them, they have tasted the</li>
 </ol>
 <p>evil result of their conduct; and (in the Hereafter there is)</p>
 <p>for them a grievous Penalty; —</p>
-<ol start="16">
+<ol>
 <li>(Their allies deceived them), like the Evil One, when he</li>
 </ol>
 <p>says to man, “Deny Allah”: But when (man) denies Allah, (the</p>
 <p>Evil One) says, “I am free of thee: I do fear Allah, the Lord of</p>
 <p>the Worlds!”</p>
-<ol start="17">
+<ol>
 <li>The end of both will be that they will go into the Fire,</li>
 </ol>
 <p>dwelling therein forever. Such is the reward of the wrongdoers.</p>
-<ol start="18">
+<ol>
 <li>O ye who believe! Fear Allah, and let every soul look to</li>
 </ol>
 <p>what (provision) he has set forth for the morrow. Yea, fear</p>
 <p>Allah: For Allah is well acquainted with (all) that ye do.</p>
-<ol start="19">
+<ol>
 <li>And be ye not like those who forgot Allah; and He made them</li>
 </ol>
 <p>forget their own souls! Such are the rebellious transgressors!</p>
-<ol start="20">
+<ol>
 <li>Not equal are the Companions of the Fire and the Companions</li>
 </ol>
 <p>of the Garden: It is the Companions of the Garden, that will</p>
 <p>achieve Felicity.</p>
-<ol start="21">
+<ol>
 <li>Had we sent down this Koran on a mountain, verily, thou</li>
 </ol>
 <p>wouldst have seen it humble itself and cleave asunder for fear</p>
 <p>of Allah. Such are the similitudes which We propound to men,</p>
 <p>that they may reflect.</p>
-<ol start="22">
+<ol>
 <li>Allah is He, than Whom there is no other god; –Who knows</li>
 </ol>
 <p>(all things) both secret and open; He, Most Gracious, Most</p>
 <p>Merciful.</p>
-<ol start="23">
+<ol>
 <li>Allah is He, than Whom there is no other god; –the</li>
 </ol>
 <p>Sovereign, the Holy One, the Source of Peace (and Perfection),</p>
 <p>the Guardian of Faith, the Preserver of Safety, the Exalted in</p>
 <p>Might, the Supreme: Glory to Allah! (High is He) above the</p>
 <p>partners they attribute to Him.</p>
-<ol start="24">
+<ol>
 <li>He is Allah, the creator, the Evolver, the Bestower of Forms</li>
 </ol>
 <p>(or Colors). To Him belong the Most Beautiful Names: Whatever is</p>
 <p>in the heavens and on earth, doth declare His Praises and Glory:</p>
-<p>And He is the Exalted in Might, the Wise.</p></div>
+<p>And He is the Exalted in Might, the Wise.</p>
+        </article>
+        <hr>
+        <footer class='pb-12 text-center'>
+            <p style='color: #8D8273;'>Toygar Par - Quran Project</p>
+        </footer>
     </div>
 </body>
 </html>
