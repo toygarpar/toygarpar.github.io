@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>404 - Sayfa Bulunamadı | Toygar Par</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&family=Lora:wght@400;600&display=swap');
+
+        body {
+            background-color: #1A1714; /* Deep Obsidian */
+            color: #F2E8CF; /* Parchment Cream */
+            font-family: 'Lora', serif;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        .error-container {
+            text-align: center;
+            max-width: 600px;
+            padding: 2rem;
+            border: 1px solid #3D352E;
+            background-color: #24201D; /* Dark Walnut */
+            position: relative;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+        }
+
+        /* Ottoman Gold Accent Border */
+        .error-container::before {
+            content: "";
+            position: absolute;
+            top: 5px; left: 5px; right: 5px; bottom: 5px;
+            border: 1px solid #BC9353;
+            pointer-events: none;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 8rem;
+            color: #BC9353; /* Ottoman Gold */
+            line-height: 1;
+            margin: 0;
+            text-shadow: 4px 4px 0px #8C1D18; /* Karmen Red Pop Shadow */
+        }
+
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            color: #FFC107; /* Saffron Glow */
+            margin-top: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        p {
+            color: #8D8273;
+            margin: 1.5rem 0;
+            font-style: italic;
+        }
+
+        .btn-return {
+            display: inline-block;
+            padding: 0.75rem 2rem;
+            background-color: #38A3A5; /* Iznik Turquoise */
+            color: #1A1714;
+            font-weight: 700;
+            text-decoration: none;
+            border-radius: 2px;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .btn-return:hover {
+            background-color: #FFC107; /* Saffron Glow on hover */
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(255, 193, 7, 0.4);
+        }
+
+        /* Decorative Element */
+        .ornament {
+            font-size: 2rem;
+            color: #BC9353;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="error-container">
+        <div class="ornament">❈</div>
+        <h1>404</h1>
+        <h2>Aradığınız Sır Bulunamadı</h2>
+        <p>Gezindiğiniz yol (URL) zamanın derinliklerinde kaybolmuş olabilir veya henüz inşa edilmemiştir.</p>
+        
+        <div class="my-8">
+            <a href="/" class="btn-return">Ana Sayfaya Dön</a>
+        </div>
+        
+        <div class="text-xs mt-4" style="color: #3D352E;">
+            Toygar Par - Still Life and Moving Images | Data Science, Python and DL-ML-AI
+        </div>
+    </div>
+
+</body>
+</html>
