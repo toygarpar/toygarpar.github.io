@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Events - Portfolio | Toygar Par</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Playfair+Display:ital,wght@0,900;1,900&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --lal: #BC243C;
+            --saffron: #F4C430;
+            --fildisi: #F2E8CF;
+            --koyu: #1A1714;
+            --font-serif: 'Playfair Display', serif;
+            --font-sans: 'Montserrat', sans-serif;
+        }
+
+        body { background-color: var(--koyu); color: var(--fildisi); font-family: var(--font-sans); }
+        
+        h1 { 
+            font-family: var(--font-serif); 
+            font-style: italic; 
+            color: var(--fildisi); 
+            line-height: 0.9;
+        }
+        
+        .photo-card {
+            border: 1px solid rgba(242, 232, 207, 0.1);
+            transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+            background: #24201D;
+            overflow: hidden;
+        }
+        
+        .photo-card:hover {
+            border-color: var(--saffron);
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+        }
+
+        .photo-card img {
+            filter: contrast(110%) brightness(90%);
+            transition: 0.5s;
+        }
+
+        .photo-card:hover img {
+            filter: contrast(120%) brightness(100%);
+        }
+        
+        .tag-ottoman {
+            background-color: #38A3A5; /* Iznik Turquoise */
+            color: var(--koyu);
+            font-weight: 900;
+            letter-spacing: 1px;
+        }
+
+        .back-link {
+            color: var(--saffron);
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+<body class="p-8">
+    <div class="max-w-6xl mx-auto">
+        <header class="mb-12 border-l-8 border-red-700 pl-8 pb-2">
+            <a href="index.html" class="back-link">← Geri Dön</a>
+            <h1 class="text-6xl font-black mt-4 uppercase">Events</h1>
+            <p class="text-yellow-600 font-bold mt-2 uppercase tracking-widest text-xs">0 Koleksiyon Parçası</p>
+        </header>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+        </div>
+    </div>
+</body>
+</html>

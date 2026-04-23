@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Weddings - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body { background-color: #1A1714; color: #F2E8CF; font-family: 'Lora', serif; }
+        h1 { color: #BC9353; text-shadow: 0 0 10px rgba(188, 147, 83, 0.3); }
+        
+        /* Grid ve Image Pop Effect */
+        .photo-card {
+            border: 1px solid #3D352E;
+            transition: all 0.3s ease;
+            overflow: hidden;
+            background: #24201D;
+        }
+        .photo-card:hover {
+            border-color: #FFC107; /* Saffron Glow */
+            transform: scale(1.02);
+        }
+        .photo-card img {
+            filter: grayscale(20%);
+            transition: 0.5s;
+        }
+        .photo-card:hover img {
+            filter: grayscale(0%);
+        }
+        
+        .tag-ottoman {
+            background-color: #38A3A5; /* Iznik Turquoise */
+            color: #1A1714;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body class="p-8">
+    <div class="max-w-6xl mx-auto">
+        <header class="mb-12 border-b border-yellow-900 pb-6">
+            <a href="index.html" class="text-turquoise-500 hover:text-yellow-500">← Geri</a>
+            <h1 class="text-5xl font-bold mt-4">Weddings</h1>
+            <p class="text-gray-500 mt-2">0 Çalışma</p>
+        </header>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            
+        </div>
+    </div>
+</body>
+</html>
