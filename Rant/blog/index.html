@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Toygar's Rant | Dijital Kürsü</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&family=Lora:wght@400;600&display=swap');
+
+        body {
+            background-color: #1A1714; /* Deep Obsidian */
+            color: #F2E8CF; /* Parchment Cream */
+            font-family: 'Lora', serif;
+        }
+
+        header {
+            border-bottom: 2px solid #8C1D18; /* Karmen Red Line */
+            margin-bottom: 4rem;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            color: #BC9353; /* Ottoman Gold */
+            font-size: 3.5rem;
+            line-height: 1.2;
+        }
+
+        .rant-card {
+            background-color: #24201D; /* Dark Walnut */
+            border-left: 5px solid #8C1D18; /* Karmen Red accent */
+            transition: all 0.3s ease;
+            margin-bottom: 2rem;
+            position: relative;
+        }
+
+        .rant-card:hover {
+            transform: translateX(8px);
+            border-left-color: #FFC107; /* Saffron Glow on hover */
+            background-color: #2C2723;
+        }
+
+        .rant-title {
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
+            color: #FFC107; /* Saffron Glow */
+            font-size: 1.8rem;
+        }
+
+        .rant-date {
+            color: #8D8273;
+            font-size: 0.8rem;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+        }
+
+        .tag-turquoise {
+            background-color: #38A3A5; /* Iznik Turquoise */
+            color: #1A1714;
+            font-weight: bold;
+            font-size: 0.7rem;
+            padding: 0.1rem 0.5rem;
+            border-radius: 2px;
+        }
+
+        a.read-more {
+            color: #BC9353;
+            font-weight: bold;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 1rem;
+            transition: color 0.2s;
+        }
+
+        a.read-more:hover {
+            color: #F2E8CF;
+        }
+
+        /* Footer Decoration */
+        .footer-ornament {
+            color: #3D352E;
+            font-size: 2rem;
+            text-align: center;
+            margin-top: 5rem;
+        }
+    </style>
+</head>
+<body class="p-6 md:p-12 lg:p-24">
+
+    <div class="max-w-4xl mx-auto">
+        <header class="pb-8">
+            <a href="/" class="text-xs font-bold text-red-800 hover:text-yellow-600 tracking-widest uppercase">← ANA SAYFAYA DÖN</a>
+            <h1 class="mt-6 font-bold">Toygar's Rant</h1>
+            <p class="text-xl italic mt-2" style="color: #8D8273;">Analizler, sorgular ve yüksek sesli düşünceler.</p>
+        </header>
+
+        <div id="rants-container">
+            
+            <div class="rant-card p-8 shadow-2xl">
+                <div class="flex justify-between items-start mb-4">
+                    <span class="rant-date">22 Nisan 2026</span>
+                    <span class="tag-turquoise">ANALİZ</span>
+                </div>
+                <h2 class="rant-title">Deneme</h2>
+                <p class="mt-4 text-gray-400 line-clamp-3">
+                    Bu Bir Deneme Rantıdır
+
+Burada Ottoman Bold Pop stilinin gücünü test ediyoruz. 
+Analitik düşünce ile duygusal dışavurumun kesiştiği noktadayız.
+
+> "Hakikat, bazen en yüksek sesle bağırılan yerde...
+                </p>
+                <a href="deneme.html" class="read-more">OKUMAYA DEVAM ET →</a>
+            </div>
+            
+        </div>
+
+        <footer class="footer-ornament">
+            ❈
+            <p class="text-xs mt-4 uppercase tracking-tighter" style="color: #3D352E;">toygarpar.com.tr // 2026</p>
+        </footer>
+    </div>
+
+</body>
+</html>

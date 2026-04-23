@@ -1,0 +1,19 @@
+toygarpar_web/
+├── blog_gen.py              # Yeni blog üretim scripti
+├── rants/                   # Ham .md dosyalarını buraya atacaksın
+│   ├── ilk-feryat.md
+│   └── ekonomi-analizi.md
+├── templates/               # Jinja2 şablonlarının merkezi
+│   ├── rant_post_template.html
+│   └── blog_index_template.html
+├── blog/                    # Script çalıştığında HTML çıktılar buraya gider
+│   ├── index.html           # Rant listesi sayfası
+│   ├── ilk-feryat.html      # Bireysel yazı sayfası
+│   └── ekonomi-analizi.html
+└── assets/                  # Resimler, fontlar ve ortak CSS
+    └── blog_images/         # Blog yazılarına özel görseller (opsiyonel)
+
+
+
+
+    blog_gen.py scriptin çalışırken, önce her yazı için rant_post_template'i kullanarak bireysel sayfaları basar, sonra hepsini toplayıp blog_index_template içine dizerek ana listeyi oluşturur.

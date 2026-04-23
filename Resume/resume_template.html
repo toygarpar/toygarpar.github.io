@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{{ name }} - Resume</title>
+    <meta name="description" content="{{ name }} - {{ summary }}">
+    <meta name="author" content="{{ name }}">
+
+    <meta property="og:title" content="{{ name }}">
+
+    <meta property="og:type" content="website">
+
+    <meta property="og:url" content="{{ base_url }}/resume.html">
+
+    <meta property="og:image" content="{{ base_url }}/{{ image_path }}">
+
+    <meta property="og:image:alt" content="{{ name }} Profile Image">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="css/modern_normalize.css" />
+    <link rel="stylesheet" href="css/html5bp.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/resume.css">
+
+    <meta name="theme-color" content="#fafafa">
+
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/icon.svg" type="image/svg+xml">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/icon.png">
+
+    <link rel="manifest" href="/site.webmanifest">
+
+    </head>
+
+  <body>
+    <header class="page-header">
+      <div class="container">
+        <div class="header-top flex-responsive">
+          <div class="header-info">
+            <h1>{{ name }}</h1>
+            {% if contact.email or contact.phone or contact.location %}
+              <address>
+                <ul class="inline-list flex-responsive">
+                  {% if contact.email %}
+                    <li>
+                      <a href="mailto:{{ contact.email }}">{{ contact.email }}</a>
+                    </li>
+                  {% endif %}
+                  {% if contact.phone %}
+                    <li>
+                      <a href="tel:+{{ contact.phone | replace('-', '') }}">{{ contact.phone }}</a>
+                    </li>
+                  {% endif %}
+                  {% if contact.location %}<li>{{ contact.location }}</li>{% endif %}
+                </ul>
+              </address>
+            {% endif %}
+            {% if summary %}<p class="header-summary">{{ summary }}</p>{% endif %}
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="page-content">
+      <div class="container">
+        <main>
+          {% if work_experience %}
+            <section>
+              <h2 class="section-heading">Work Experience</h2>
+              {% for job in work_experience %}
+                <section>
+                  <h3>
+                    {% if job.url %}
+                      {{ job.position }} at <a href="{{ job.url }}">{{ job.company }}</a>
+                    {% else %}
+                      {{ job.position }} at {{ job.company }}
+                    {% endif %}
+                  </h3>
+                  {% if job.start_date and job.end_date %}
+                    <p class="section-label">{{ job.start_date }} - {{ job.end_date }}</p>
+                  {% endif %}
+                  {% if job.summary %}<p>{{ job.summary }}</p>{% endif %}
+                  {% if job.highlights %}
+                    <ul>
+                      {% for highlight in job.highlights %}<li>{{ highlight }}</li>{% endfor %}
+                    </ul>
+                  {% endif %}
+                </section>
+              {% endfor %}
+            </section>
+          {% endif %}
+
+          {% if education %}
+            <section>
+              <h2 class="section-heading">Education</h2>
+              {% for edu in education %}
+                <section>
+                  <h3>
+                    {% if edu.url %}
+                      <a href="{{ edu.url }}">{{ edu.institution }}</a>
+                    {% else %}
+                      {{ edu.institution }}
+                    {% endif %}
+                  </h3>
+                  {% if edu.location %}<p class="section-label">{{ edu.location }}</p>{% endif %}
+                  {% if edu.degrees %}
+                    <p><strong>Degrees:</strong></p>
+                    <ul>
+                      {% for deg in edu.degrees %}<li>{{ deg }}</li>{% endfor %}
+                    </ul>
+                  {% endif %}
+                  {% if edu.honors %}
+                    <p><strong>Honors:</strong></p>
+                    <ul>
+                      {% for hon in edu.honors %}<li>{{ hon }}</li>{% endfor %}
+                    </ul>
+                  {% endif %}
+                  {% if edu.gpa_major or edu.gpa_cumulative or edu.graduation_date %}
+                    <p class="section-label">
+                      {% if edu.gpa_major %}GPA in Major: {{ edu.gpa_major }}{% endif %}
+                      {% if edu.gpa_cumulative %}{% if edu.gpa_major %} | {% endif %}Cumulative GPA: {{ edu.gpa_cumulative }}{% endif %}
+                      {% if edu.graduation_date %}{% if edu.gpa_major or edu.gpa_cumulative %} | {% endif %}Graduation Date: {{ edu.graduation_date }}{% endif %}
+                    </p>
+                  {% endif %}
+                </section>
+              {% endfor %}
+            </section>
+          {% endif %}
+
+          {% if projects %}
+            <section>
+              <h2 class="section-heading">Projects</h2>
+              {% for project in projects %}
+                <section>
+                  <h3>
+                    {% if project.url %}
+                      <a href="{{ project.url }}">{{ project.title }}</a>
+                    {% else %}
+                      {{ project.title }}
+                    {% endif %}
+                  </h3>
+                  {% if project.summary %}<p>{{ project.summary }}</p>{% endif %}
+                  {% if project.highlights %}
+                    <ul>
+                      {% for highlight in project.highlights %}<li>{{ highlight }}</li>{% endfor %}
+                    </ul>
+                  {% endif %}
+                </section>
+              {% endfor %}
+            </section>
+          {% endif %}
+        </main>
+
+        <aside>
+          {% if languages %}
+            <section>
+              <h2 class="section-heading">Languages</h2>
+              <ul class="unstyled-list">
+                {% for lang in languages %}
+                  <li>
+                    <h3>{{ lang.language }}</h3>
+                    <p class="section-label">{{ lang.fluency }}</p>
+                  </li>
+                {% endfor %}
+              </ul>
+            </section>
+          {% endif %}
+
+          {% if volunteer_experience %}
+            <section>
+              <h2 class="section-heading">Volunteer Experience</h2>
+              {% for vol in volunteer_experience %}
+                <section>
+                  <h3>
+                    {% if vol.url %}
+                      {{ vol.position }} at <a href="{{ vol.url }}">{{ vol.organization }}</a>
+                    {% else %}
+                      {{ vol.position }} at {{ vol.organization }}
+                    {% endif %}
+                  </h3>
+                  {% if vol.start_date and vol.end_date %}
+                    <p class="section-label">{{ vol.start_date }} - {{ vol.end_date }}</p>
+                  {% endif %}
+                  {% if vol.summary %}<p>{{ vol.summary }}</p>{% endif %}
+                  {% if vol.highlights %}
+                    <ul>
+                      {% for highlight in vol.highlights %}<li>{{ highlight }}</li>{% endfor %}
+                    </ul>
+                  {% endif %}
+                </section>
+              {% endfor %}
+            </section>
+          {% endif %}
+        </aside>
+      </div>
+    </div>
+    <script src="js/app.js"></script>
+  </body>
+</html>

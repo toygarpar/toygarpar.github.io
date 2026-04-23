@@ -1,0 +1,198 @@
+/* ottoman_bold_pop.css */
+
+:root {
+  /* Renk Paleti */
+  --lapis-blue: #1F4E79;
+  --karmen-red: #8C1D18;
+  --emerald-green: #2E6F4E;
+  --gold-foil: #C9A24D;
+  --ivory-cream: #EFE4C8;
+  --earth-brown: #5C3A21;
+  
+  /* Modern Pop Ayarları */
+  --spacing-unit: 2rem;
+  --border-weight: 4px;
+}
+
+body {
+  background-color: var(--lapis-blue);
+  color: var(--ivory-cream);
+  font-family: "Nunito", sans-serif;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Header - Karmen Kırmızısı Blok */
+.page-header {
+  background-color: var(--karmen-red);
+  border-bottom: var(--border-weight) solid var(--gold-foil);
+  padding: calc(var(--spacing-unit) * 1.5) 0;
+  box-shadow: 0 10px 0 var(--earth-brown);
+  margin-bottom: 2rem;
+}
+
+.page-header h1 {
+  font-family: "Montserrat", sans-serif;
+  color: var(--gold-foil);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 800;
+  text-shadow: 3px 3px 0px var(--earth-brown);
+}
+
+.header-summary {
+  color: var(--ivory-cream);
+  max-width: 800px;
+  font-style: italic;
+}
+
+/* Konteynır ve Kartlar */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Ana İçerik Alanı */
+main section {
+  background-color: var(--emerald-green);
+  border: var(--border-weight) solid var(--gold-foil);
+  padding: var(--spacing-unit);
+  margin-bottom: 2.5rem;
+  box-shadow: 8px 8px 0px var(--earth-brown);
+  position: relative;
+}
+
+.section-heading {
+  background-color: var(--gold-foil);
+  color: var(--earth-brown);
+  display: inline-block;
+  padding: 0.2rem 1.5rem;
+  margin-top: -3.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  border: 2px solid var(--earth-brown);
+  transform: rotate(-1deg);
+}
+
+/* Yan Menü (Aside) */
+aside section {
+  background-color: var(--ivory-cream);
+  color: var(--earth-brown);
+  border: var(--border-weight) solid var(--karmen-red);
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 6px 6px 0px var(--gold-foil);
+}
+
+aside h2.section-heading {
+  background-color: var(--karmen-red);
+  color: var(--ivory-cream);
+  transform: rotate(1deg);
+}
+
+/* Skill Bar - Altın ve Toprak Tonları */
+.skill-bar {
+  background-color: var(--earth-brown);
+  height: 1.2rem;
+  border-radius: 0;
+  border: 2px solid var(--gold-foil);
+  overflow: hidden;
+  margin-top: 0.5rem;
+}
+
+.skill-bar-fill {
+  background: linear-gradient(90deg, var(--gold-foil), #eecd7a);
+  height: 100%;
+}
+
+/* Galeri ve Görseller */
+figure {
+  border: 5px solid var(--ivory-cream);
+  background-color: var(--ivory-cream);
+  padding: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+}
+
+figure:hover {
+  transform: scale(1.02) rotate(1deg);
+}
+
+figcaption {
+  color: var(--earth-brown);
+  font-weight: 600;
+  text-align: center;
+  padding-top: 0.5rem;
+}
+
+/* Linkler */
+a {
+  color: var(--gold-foil);
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s;
+}
+
+a:hover {
+  color: var(--ivory-cream);
+  border-bottom: 2px solid var(--karmen-red);
+}
+
+/* Footer */
+.page-footer {
+  background-color: var(--earth-brown);
+  color: var(--gold-foil);
+  text-align: center;
+  padding: 2rem 0;
+  border-top: var(--border-weight) solid var(--gold-foil);
+  margin-top: 4rem;
+}
+
+/* Responsive Düzen */
+@media (min-width: 48rem) {
+  .page-content .container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 3rem;
+  }
+}
+
+
+@media print {
+  /* Arka planları beyaz, metinleri siyah yap */
+  body, .page-header, .page-footer, main, aside, .surah-card {
+    background: #fff !important;
+    color: #000 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  /* Kırmızı header'ı ve renkli şeritleri kaldır veya sadeleştir */
+  .page-header, .page-footer {
+    background: transparent !important;
+    border-bottom: 2px solid #000;
+    color: #000 !important;
+  }
+
+  /* Linkleri siyah yap ve altını çiz (çıktıda belli olması için) */
+  a {
+    color: #000 !important;
+    text-decoration: underline !important;
+  }
+
+  /* Sidebar (aside) border'ını sadeleştir */
+  aside {
+    border-left: 1px solid #000 !important;
+  }
+
+  /* Sayfa sonu kesilmelerini önle */
+  section {
+    page-break-inside: avoid;
+  }
+
+  /* Gereksiz interaktif elementleri gizle (Scriptler, butonlar vb.) */
+  script, #searchInput, .tag-ottoman {
+    display: none !important;
+  }
+}

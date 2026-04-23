@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Deneme | Toygar's Rant</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&family=Lora:wght@400;600&display=swap');
+
+        body { 
+            background-color: #1A1714; 
+            color: #F2E8CF; 
+            font-family: 'Lora', serif; 
+            line-height: 1.8; 
+        }
+        
+        /* Rant Başlık Stili */
+        .rant-header {
+            border-bottom: 5px solid #8C1D18; /* Karmen Red */
+            padding-bottom: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 4rem;
+            color: #FFC107; /* Saffron Glow (Dokunulmadı) */
+            line-height: 1.1;
+            font-style: italic;
+            text-shadow: 2px 2px 0px rgba(0,0,0,0.5);
+        }
+
+        .prose { font-size: 1.25rem; color: #E8DCC4; }
+        
+        /* Özel Blockquote: Toygar'ın vurguları için */
+        blockquote {
+            border-left: 4px solid #38A3A5; /* Iznik Turquoise */
+            padding-left: 1.5rem;
+            font-style: italic;
+            color: #BC9353;
+            margin: 2rem 0;
+        }
+
+        strong { color: #FFC107; text-shadow: 0 0 5px rgba(255, 193, 7, 0.2); }
+
+        /* Buton ve Link Renkleri */
+        .back-btn { 
+            color: #F24B59; /* Şerbet Pembesi */
+            font-weight: bold; 
+            transition: 0.3s; 
+            text-decoration: none;
+            letter-spacing: 0.05em;
+        }
+        .back-btn:hover { 
+            color: #FFC107; /* Hover'da Saffron Glow */
+            text-shadow: 0 0 8px rgba(242, 75, 89, 0.4);
+        }
+
+        /* Yardımcı Metin Renkleri */
+        .rant-meta {
+            color: #F24B59; /* Şerbet Pembesi */
+            font-weight: 600;
+            letter-spacing: 0.15em;
+        }
+
+        .footer-text {
+            color: #F24B59; /* Şerbet Pembesi */
+            opacity: 0.8; /* Footer biraz daha naif dursun diye hafif transparan */
+        }
+    </style>
+</head>
+<body class="p-6 md:p-24">
+    <div class="max-w-3xl mx-auto">
+        <a href="../index.html" class="back-btn">← SORGULAMAYA DÖN</a>
+        
+        <header class="rant-header mt-12">
+            <p class="text-xs uppercase rant-meta mb-2">Toygar's Rant // 22 Nisan 2026</p>
+            <h1>Deneme</h1>
+        </header>
+
+        <article class="prose">
+            <h1>Bu Bir Deneme Rantıdır</h1>
+<p>Burada <strong>Ottoman Bold Pop</strong> stilinin gücünü test ediyoruz. <br />
+Analitik düşünce ile duygusal dışavurumun kesiştiği noktadayız.</p>
+<blockquote>
+<p>&ldquo;Hakikat, bazen en yüksek sesle bağırılan yerdedir.&rdquo;</p>
+</blockquote>
+        </article>
+
+        <footer class="mt-24 border-t border-gray-800 pt-8 text-center">
+            <p class="text-sm footer-text">Bu bir kişisel gözlemdir. Hakikat arayışında bir beşer kelâmı.</p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,171 @@
+@page {
+  size: letter;
+  margin: 0in;
+}
+
+html {
+  font-size: 11pt;
+}
+
+a[href]::after {
+  content: "";
+}
+
+section {
+  page-break-inside: avoid;
+}
+
+header {
+  padding: 0.5in;
+}
+
+header {
+  padding-bottom: 0.5rem;
+}
+
+.header-info {
+  margin-top: 0;
+}
+
+main,
+aside,
+footer {
+  padding: 2rem;
+}
+
+main {
+  padding-left: 0.5in;
+  padding-bottom: 0.5in;
+}
+
+aside {
+  padding-right: 0.5in;
+  padding-bottom: 0.5in;
+}
+
+.page-header,
+.page-footer {
+  background: #8C1D18;
+}
+
+.flex-responsive {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-left: 0.2rem;         /* Nokta ile metin arasındaki mesafeyi ayarlar */
+}
+
+aside {
+  border-top: none;
+  border-left: 1px solid #ccc;
+}
+
+aside h1 {
+  font-size: 1.4rem;
+}
+
+aside h2 {
+  font-size: 1.1rem;
+}
+
+aside h3 {
+  font-size: 1rem;
+}
+
+aside h4 {
+  font-size: 1rem;
+}
+
+aside h5 {
+  font-size: 1rem;
+}
+
+aside h6 {
+  font-size: 1rem;
+}
+
+.page-content .container {
+  grid-template-columns: 2fr 1fr;
+}
+
+.header-top {
+  gap: 2rem;
+}
+
+.page-header ul {
+  margin: 0.5rem 0;
+  padding: 0; /* Header içindeki listelerin sola yaslanmasını sağlar */
+}
+
+.inline-list {
+  display: flex; /* Flex yapısını koruyoruz */
+  flex-direction: row;
+  justify-content: center;
+  gap: 1.5rem; /* Gap değerini doğrudan verebilirsiniz */
+  list-style: none; /* BU SATIR EKSİK: Noktaları kaldırır */
+  padding: 0; /* Tarayıcı boşluğunu sıfırlar */
+  margin: 0.5rem 0;
+}
+
+.inline-list li:not(:last-child)::after {
+  content: "|";
+  margin-left: var(--spacing-inline);
+  color: #ccc;
+}
+
+/* Madde işaretlerinin hizasını düzeltmek için */
+main ul {
+  list-style-position: outside; /* Noktayı metnin dışında tutar */
+  padding-left: 1.2rem;         /* Metni ve noktayı içeriye doğru dengeli iter */
+  margin-left: 0;
+}
+
+main li {
+  margin-bottom: 0.25rem;       /* Maddeler arası hafif boşluk */
+  padding-left: 0.2rem;         /* Nokta ile metin arasındaki mesafeyi ayarlar */
+}
+
+main li::marker {
+  color: #FFC107; /* Saffron Glow vurgusu */
+  font-weight: bold;
+}
+
+
+@media print {
+  /* Arka planları beyaz, metinleri siyah yap */
+  body, .page-header, .page-footer, main, aside, .surah-card {
+    background: #fff !important;
+    color: #000 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  /* Kırmızı header'ı ve renkli şeritleri kaldır veya sadeleştir */
+  .page-header, .page-footer {
+    background: transparent !important;
+    border-bottom: 2px solid #000;
+    color: #000 !important;
+  }
+
+  /* Linkleri siyah yap ve altını çiz (çıktıda belli olması için) */
+  a {
+    color: #000 !important;
+    text-decoration: underline !important;
+  }
+
+  /* Sidebar (aside) border'ını sadeleştir */
+  aside {
+    border-left: 1px solid #000 !important;
+  }
+
+  /* Sayfa sonu kesilmelerini önle */
+  section {
+    page-break-inside: avoid;
+  }
+
+  /* Gereksiz interaktif elementleri gizle (Scriptler, butonlar vb.) */
+  script, #searchInput, .tag-ottoman {
+    display: none !important;
+  }
+}

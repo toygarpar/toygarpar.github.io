@@ -1,0 +1,212 @@
+{
+  "name": "Toygar Par",
+  "label": "Financial & Risk Management | Fleet & Telematics Solutions",
+  "image_path": "img/toygar-par.jpeg",
+  "contact": {
+    "email": "toygar.par@gmail.com",
+    "phone": "90-530-363-3174",
+    "location": "İzmir, Türkiye"
+  },
+  "summary": "Graduated Bachelor of Science in Business Administration with a Major in Finance in 1997. Fluent in Turkish and English. Seeking opportunities to leverage over 25 years of private sector experience. Highly proficient in Budgeting, Financial Reporting, Cash-Flow Analysis, Business Planning & Development, Project Management, Quality Management Systems, Software Conversions, Stringent Financial Workflows, and Risk & Control Management Processes.",
+  "base_url": "127.0.0.1:5500",
+  "social_links": [
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/toygar-par-644b0a28",
+      "svg_path": "img/linkedin.svg"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@toygarpar",
+      "svg_path": "img/youtube.svg"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/toygarpar",
+      "svg_path": "img/instagram.svg"
+    },
+    {
+      "label": "Github",
+      "url": "https://https://github.com/toygarpar",
+      "svg_path": "img/github.svg"
+    }
+  ],
+  "work_experience": [
+    {
+      "company": "Undisclosed (Vehicle Tracking & Telematics Software)",
+      "position": "General Coordinator",
+      "url": "",
+      "start_date": "January 2022",
+      "end_date": "March 2024",
+      "summary": "",
+      "highlights": [
+        "Spearheaded a comprehensive organizational restructuring to secure and service a major contract with Turkey’s largest international ice cream manufacturer.",
+        "Established and managed a nationwide authorized technical service organization across 72 provinces to ensure seamless field operations and client support.",
+        "Led the custom design and implementation of ERP systems tailored to specific business workflows, focusing on CRM, stock management, cost accounting, and data integrity.",
+        "Designed and deployed a robust suite of ISO compliance frameworks, including Quality Management (9001:2015), Information Security (27001:2013), Occupational Health & Safety (18001), and Customer Satisfaction (10002).",
+        "Eliminated information silos by optimizing the communication chain between technical service, planning, and field operations, resulting in measurable increases in productivity."
+      ]
+    },
+    {
+      "company": "Brandway Creative Workshop",
+      "position": "Business Manager",
+      "url": "",
+      "start_date": "February 2018",
+      "end_date": "February 2019",
+      "summary": "",
+      "highlights": [
+        "Liaised in utilizing different methods and schools of thought for content creation with various specialized developers.",
+        "Completed numerous content creation projects for private and public sectors, proving effectiveness repeatedly.",
+        "Designed financial structure for effective fiscal management. Established procedures for sales and procurement. Implemented software conversion for financial and managerial accounting."
+      ]
+    },
+    {
+      "company": "Selhas Maden Kimya Ticaret Sanayi A.Ş.",
+      "position": "Finance and Operations Manager",
+      "url": "",
+      "start_date": "September 2009",
+      "end_date": "January 2018",
+      "summary": "",
+      "highlights": [
+        "Performed duties as Assistant General Manager and Auditor for the Board.",
+        "Provided budgeting, ad-hoc and monthly financial reporting, and cash-flow analysis.",
+        "Prevented millions in losses by stopping sales, purchasing, and stock frauds.",
+        "Improved efficiency through streamlining production and workflow processes, increasing plant production capacity and doubling sales.",
+        "Became #1 supplier of pulverized agricultural lime and dominated the Black Sea market; became #1 supplier of feedstock mineral additives in its region.",
+        "Implemented routine audits to stop stock fraud and act as a deterrent for loss prevention.",
+        "Eliminated or converted loss-making operations. Started producing high-value added API drill grade pulverized barite instead of pulverized calcite.",
+        "Prevented costs associated with long payment terms. Concentrated on supplying raw materials instead of producing/selling cement-based adhesives, drastically cutting ROI times.",
+        "Implemented Workcube ERP for transparent, real-time information and improved decision-making. Acted as admin and project leader.",
+        "Reduced unnecessary workforce while gaining efficiency increases throughout operations. Cut total staff by half.",
+        "Researched and resolved billing/collection disputes, followed up on credit accounts.",
+        "Contributed substantially to reducing outstanding accounts receivable through improved collection processes.",
+        "Gained experience with ISO, BRC, and GMP Quality Management Systems."
+      ]
+    },
+    {
+      "company": "Motor Car Concepts II Inc.",
+      "position": "Director of Finance",
+      "url": "",
+      "start_date": "January 2006",
+      "end_date": "August 2008",
+      "summary": "",
+      "highlights": [
+        "Managed $7.5MM credit line for vehicle inventory through two largest floor-plan finance lenders.",
+        "Increased credit line from $4MM to $7.5MM in less than 12 months by improving auditing and business processes.",
+        "Audited Floor Plan inventory periodically and controlled leakage.",
+        "Participated in Manheim User Group to improve Dealership Management Software.",
+        "Provided effective financial modeling and reporting to facilitate executive-level decision making.",
+        "Liaised across various lenders and business partners to promote organizational success.",
+        "Supervised accounts receivable functions and successfully managed a $20M customer loan portfolio.",
+        "Developed comprehensive reports to forecast cash flow, conducted ad-hoc analysis and reporting.",
+        "Reviewed financial statements, analyzed sales revenues, costs, expenses, monthly results, and budgets."
+      ]
+    },
+    {
+      "company": "West Colonial Suzuki",
+      "position": "General Manager",
+      "url": "",
+      "start_date": "December 2004",
+      "end_date": "December 2006",
+      "summary": "",
+      "highlights": [
+        "Operated Suzuki Dealership under corporate guidelines, executing programs, promotions, procedures, and policies.",
+        "Created positive cash flow in less than 90 days for a location with over a year of losses.",
+        "Provided valuable software update recommendations for Suzuki Dealership software (Reynolds and Reynolds) as a special user group member.",
+        "Sold over 40 prior-year model cars in less than 90 days.",
+        "Implemented a used car branch within the same location, increasing non-existent used car sales profitability to 70-100 units/month.",
+        "Built solid relationships with finance institutions to improve credit approval ratings, moving to top-tier Suzuki dealers category.",
+        "Trained Sales, Finance, and Shop Managers according to corporate vision, improving employee engagement and developing leadership roles.",
+        "Spearheaded achieving crucial objective of signing finance lenders that previously only served franchise dealers.",
+        "Built a professional team with common goals to become the #1 Suzuki dealership in Florida."
+      ]
+    },
+    {
+      "company": "Motor Car Concepts II Inc.",
+      "position": "Store Manager",
+      "url": "",
+      "start_date": "August 2001",
+      "end_date": "December 2004",
+      "summary": "",
+      "highlights": [
+        "Successful in both startup and turnaround management roles.",
+        "Propelled multiple stores to success in sales and profits while maintaining customer satisfaction.",
+        "Obtained comprehensive background on retail operations: P&L management, sales, customer service, inventory, personnel, and payroll.",
+        "Provided strategic, operational, and fiscal leadership.",
+        "Designed and managed Motor Car Concept II website for Online Marketing, Campaign Management, and Retail Car Auctions. Created new marketing department for B2B sales, increasing revenue by $3M/year. Implemented new lead generation system.",
+        "Managed financial transactions and record keeping with strict attention to detail. Reconciled accounts, compiled reports, and generated monthly financial statements. Delivered high-level support to company CPA."
+      ]
+    },
+    {
+      "company": "Automotive Finance Corporation",
+      "position": "Manager in Training",
+      "url": "",
+      "start_date": "February 1999",
+      "end_date": "August 2001",
+      "summary": "",
+      "highlights": [
+        "Developed competence in loan processing, creditworthiness assessment, loan securing/monitoring, and collections.",
+        "Gained hands-on experience in budgeting, accounting, and forecasting.",
+        "Monitored branch delinquency, conducted lot audits for collateral verification, and presided over commercial collections (reached yearly quota in 2 months).",
+        "Promoted quickly from temporary hire to branch manager in training.",
+        "Participated in company-wide software conversion to 'Cosmos' (Oracle-based), acting as SOP user and liaison between HQ and Orlando branch.",
+        "Co-authored 'Fine Tuned Machine', a comprehensive guidebook to branch operations.",
+        "Performed internal branch audits to ensure corporate regulation adherence."
+      ]
+    },
+    {
+      "company": "Motor Car Concepts II Inc.",
+      "position": "Operations Manager",
+      "url": "",
+      "start_date": "August 1997",
+      "end_date": "February 1999",
+      "summary": "",
+      "highlights": [
+        "Wholly responsible for day-to-day operations: staff supervision, billing, bookkeeping, inventory, budgeting, AP/AR, payroll.",
+        "Demonstrated success in B2B relationship management, quickly building rapport with wholesalers, auctions, and dealer inventory financing companies.",
+        "Acquired skills to process title work for retail and wholesale transactions.",
+        "Eliminated ineffective wholesalers using company credit lines by focusing on turnaround time."
+      ]
+    }
+  ],
+  "projects": [],
+  "volunteer_experience": [],
+  "education": [
+    {
+      "institution": "University of Central Florida",
+      "location": "Orlando, Florida, USA",
+      "url": "https://www.ucf.edu/",
+      "degrees": ["Bachelor of Science, Business Administration; Major in Finance"],
+      "honors": [],
+      "gpa_cumulative": "3.0",
+      "gpa_major": "3.4",
+      "graduation_date": "1997"
+    },
+    {
+      "institution": "T.E.D. Ankara Koleji Vakfı Özel Lisesi",
+      "location": "Ankara, Türkiye",
+      "url": "",
+      "degrees": ["High School Diploma"],
+      "honors": [],
+      "gpa_cumulative": "",
+      "gpa_major": "",
+      "graduation_date": "1991"
+    }
+  ],
+  "skills": [
+    {"name": "Financial Management & Reporting", "proficiency": 100, "proficiency_label": "Expert"},
+    {"name": "ERP Implementation & Software Conversion", "proficiency": 90, "proficiency_label": "Advanced"},
+    {"name": "Risk & Control Management", "proficiency": 90, "proficiency_label": "Advanced"},
+    {"name": "Budgeting & Cash-Flow Analysis", "proficiency": 100, "proficiency_label": "Expert"},
+    {"name": "Quality Management Systems (ISO 9001, 27001, 18001)", "proficiency": 85, "proficiency_label": "Advanced"},
+    {"name": "Project & Operations Management", "proficiency": 95, "proficiency_label": "Expert"},
+    {"name": "Pandas & Data Analysis", "proficiency": 75, "proficiency_label": "Comfortable"},
+    {"name": "Creative Content Creation", "proficiency": 70, "proficiency_label": "Proficient"}
+  ],
+  "interests": [],
+  "languages": [
+    {"language": "Turkish", "fluency": "Native Speaker"},
+    {"language": "English", "fluency": "Fluent"}
+  ],
+  "references": []
+}
