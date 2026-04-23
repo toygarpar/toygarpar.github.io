@@ -11,18 +11,24 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 
 		<style>
-		/* Sadece alttaki form ve footer alanını hedef alır, üstteki başlığı bozmaz */
-		body #wrapper #contact, 
-		body #wrapper #footer {
-			background-color: #F2E8CF !important;
-			color: #1A1714 !important;
-		}
+			/* Üstteki ana içeriği bozmadan sadece alt kısımları fildişi yap */
+			#wrapper > #contact, 
+			#wrapper > #footer {
+				background-color: #F2E8CF !important;
+				color: #1A1714 !important;
+			}
 
-		/* Yazıların okunabilirliğini sağlar */
-		#contact h2, #contact h3, #contact label, .contact-method h3 {
-			color: #1A1714 !important;
-		}
-	</style>
+			/* İkonların ve başlıkların fildişi üzerinde görünür olması için */
+			#contact h2, #contact h3, #contact label, 
+			#contact .contact-method h3, #footer .copyright li {
+				color: #1A1714 !important;
+			}
+
+			/* İkon renklerini koyulaştır */
+			#contact .icon.alt:before {
+				color: #1A1714 !important;
+			}
+		</style>
 
 	</head>
 	
