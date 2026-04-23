@@ -10,6 +10,19 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
+	<style>
+		/* Sadece alttaki form ve footer alanını hedef alır, üstteki başlığı bozmaz */
+		body #wrapper #contact, 
+		body #wrapper #footer {
+			background-color: #F2E8CF !important;
+			color: #1A1714 !important;
+		}
+
+		/* Yazıların okunabilirliğini sağlar */
+		#contact h2, #contact h3, #contact label, .contact-method h3 {
+			color: #1A1714 !important;
+		}
+	</style>
 	<body class="is-preload">
 
 		<!-- Wrapper -->
@@ -58,7 +71,7 @@
 					</div>
 
 				<!-- Contact -->
-					<section id="contact" style="background-color: #F2E8CF !important; color: #1A1714 !important;">
+					<section id="contact">
 						<div class="inner">
 							<section>
 								<form method="post" action="https://api.web3forms.com/submit">
@@ -112,7 +125,7 @@
 					</section>
 
 				<!-- Footer -->
-					<footer id="footer" style="background-color: #F2E8CF !important; color: #1A1714 !important;">
+					<footer id="footer">
 						<div class="inner">
 							<ul class="icons">
 								<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
