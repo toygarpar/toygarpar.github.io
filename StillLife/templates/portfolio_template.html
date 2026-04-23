@@ -78,11 +78,19 @@
                 <img src="assets/photography/{{ category.slug }}/{{ img.filename }}" 
                     alt="{{ category.title }}" 
                     class="w-full h-80 object-cover">
-                <div class="p-4 flex justify-between items-center">
-                    <span class="tag-ottoman px-3 py-1 text-xs">STILL LIFE</span>
-                    <span style="color: var(--saffron); font-size: 0.7rem; font-weight: 900;">
-                        {{ img.camera }}
-                    </span>
+                <div class="p-4">
+                    <div class="flex justify-between items-center mb-2">
+                        <span style="color: var(--saffron); font-size: 0.75rem; font-weight: 900; letter-spacing: 1px;">
+                            {{ img.camera }} 
+                        </span>
+                        <span class="text-gray-500 text-xs font-bold">{{ img.focal }}</span>
+                    </div>
+
+                    <div class="flex gap-3 items-center border-t border-gray-800 pt-2">
+                        <span class="tag-ottoman px-2 py-0.5 text-[10px]">{{ img.aperture }}</span>
+                        <span class="text-gray-400 text-[10px] font-mono">{{ img.shutter }}</span>
+                        <span class="text-gray-400 text-[10px] font-mono">{{ img.iso }}</span>
+                    </div>
                 </div>
             </div>
             {% endfor %}
