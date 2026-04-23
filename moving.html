@@ -11,24 +11,29 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 
 		<style>
-			/* GitHub Pages üzerinde şablonun varsayılan koyu rengini fildişine zorla */
-			#contact, #footer {
+			/* CSS Specificity (Öncelik) artırıldı */
+			body #wrapper #contact, 
+			body #wrapper #footer {
 				background-color: #F2E8CF !important;
+				background-image: none !important; /* Varsa arka plan resmini iptal eder */
 				color: #1A1714 !important;
 			}
 
-			#contact .contact-method h3, 
-			#contact .contact-method a,
-			#contact label {
+			/* Yazı ve İkon Renklerini Sabitleme */
+			body #wrapper #contact h2,
+			body #wrapper #contact h3,
+			body #wrapper #contact label,
+			body #wrapper #contact .contact-method h3,
+			body #wrapper #footer .copyright li {
 				color: #1A1714 !important;
 			}
 
-			/* Form alanlarının içini hafif parlat ki fildişi üzerinde kaybolmasın */
-			#contact input[type="text"],
-			#contact input[type="email"],
-			#contact textarea {
-				background: rgba(0, 0, 0, 0.03) !important;
-				border-color: rgba(0, 0, 0, 0.1) !important;
+			/* Form input alanlarını fildişi üzerinde görünür yapma */
+			body #wrapper #contact input[type="text"],
+			body #wrapper #contact input[type="email"],
+			body #wrapper #contact textarea {
+				background: rgba(0, 0, 0, 0.05) !important;
+				border-color: rgba(0, 0, 0, 0.2) !important;
 				color: #1A1714 !important;
 			}
 		</style>
