@@ -1,0 +1,1412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aegis — AI Fraud Detection, Prevention & Team Education</title>
+<meta name="description" content="AI-powered fraud detection combined with practical team education. Built for modern teams, by a one-person studio.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700&family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+:root {
+  --bg: #0a0c0a;
+  --bg-2: #0f1310;
+  --surface: #131815;
+  --surface-2: #1a201c;
+  --border: rgba(212, 255, 58, 0.08);
+  --border-strong: rgba(212, 255, 58, 0.22);
+  --fg: #f4f1e8;
+  --fg-2: #c5c3b8;
+  --muted: #7d7a6f;
+  --accent: #d4ff3a;
+  --accent-dim: rgba(212, 255, 58, 0.6);
+  --accent-2: #ff7849;
+  --danger: #ff4d5e;
+  --safe: #4ade80;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: 'Space Grotesk', sans-serif;
+  background: var(--bg);
+  color: var(--fg);
+  margin: 0;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.55;
+}
+.font-display { font-family: 'Fraunces', serif; font-optical-sizing: auto; }
+.font-mono { font-family: 'JetBrains Mono', monospace; }
+
+.bg-grain {
+  position: fixed; inset: 0; pointer-events: none; z-index: 1; opacity: 0.035;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  mix-blend-mode: overlay;
+}
+.bg-glow {
+  position: fixed; inset: 0; pointer-events: none; z-index: 0;
+  background: 
+    radial-gradient(900px 700px at 85% -5%, rgba(212, 255, 58, 0.10), transparent 60%),
+    radial-gradient(700px 500px at -5% 25%, rgba(255, 120, 73, 0.05), transparent 60%),
+    radial-gradient(1200px 900px at 50% 110%, rgba(212, 255, 58, 0.03), transparent 60%);
+}
+
+/* Nav */
+.nav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+  backdrop-filter: blur(24px) saturate(180%);
+  -webkit-backdrop-filter: blur(24px) saturate(180%);
+  background: rgba(10, 12, 10, 0.72);
+  border-bottom: 1px solid var(--border);
+}
+.logo-mark {
+  width: 30px; height: 30px;
+  border: 1.5px solid var(--accent);
+  border-radius: 50%; position: relative;
+  display: inline-flex; align-items: center; justify-content: center;
+}
+.logo-mark::before {
+  content: ''; position: absolute; inset: 4px;
+  border: 1px solid var(--accent-dim); border-radius: 50%;
+}
+.logo-mark::after {
+  content: ''; width: 5px; height: 5px;
+  background: var(--accent); border-radius: 50%;
+  box-shadow: 0 0 12px var(--accent);
+}
+.nav-link {
+  color: var(--fg-2); font-size: 14px; font-weight: 400;
+  transition: color 0.2s; position: relative;
+}
+.nav-link:hover { color: var(--fg); }
+.nav-link.active { color: var(--accent); }
+
+/* Buttons */
+.btn-primary {
+  background: var(--accent); color: #0a0c0a;
+  font-weight: 600; font-size: 14px;
+  padding: 12px 22px; border-radius: 4px;
+  transition: all 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
+  display: inline-flex; align-items: center; gap: 10px;
+  border: 1px solid var(--accent); cursor: pointer;
+}
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 40px -10px rgba(212, 255, 58, 0.55);
+}
+.btn-secondary {
+  background: transparent; color: var(--fg);
+  font-weight: 500; font-size: 14px;
+  padding: 12px 22px; border-radius: 4px;
+  transition: all 0.3s;
+  border: 1px solid var(--border-strong);
+  display: inline-flex; align-items: center; gap: 10px; cursor: pointer;
+}
+.btn-secondary:hover {
+  background: rgba(212, 255, 58, 0.05);
+  border-color: var(--accent); color: var(--accent);
+}
+.btn-ghost {
+  color: var(--fg-2); font-size: 14px; font-weight: 500;
+  display: inline-flex; align-items: center; gap: 8px;
+  transition: color 0.2s; cursor: pointer;
+}
+.btn-ghost:hover { color: var(--accent); }
+
+/* Eyebrow */
+.eyebrow {
+  font-family: 'JetBrains Mono', monospace; font-size: 11px;
+  letter-spacing: 0.15em; text-transform: uppercase;
+  color: var(--accent); display: inline-flex; align-items: center; gap: 10px;
+}
+.eyebrow::before { content: ''; width: 24px; height: 1px; background: var(--accent); }
+
+/* Cards */
+.card {
+  background: linear-gradient(180deg, var(--surface) 0%, var(--bg-2) 100%);
+  border: 1px solid var(--border); border-radius: 6px;
+  padding: 26px; transition: all 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
+  position: relative; overflow: hidden;
+}
+.card:hover {
+  border-color: var(--border-strong); transform: translateY(-3px);
+}
+
+/* Hero radar (smaller, simpler) */
+.radar-wrap {
+  position: relative; width: 100%; aspect-ratio: 1;
+  max-width: 380px; margin: 0 auto;
+}
+.radar-svg { width: 100%; height: 100%; }
+.radar-sweep { transform-origin: center; animation: sweep 5s linear infinite; }
+@keyframes sweep { to { transform: rotate(360deg); } }
+.radar-blip { transform-origin: center; animation: blip-pulse 5s linear infinite; }
+@keyframes blip-pulse {
+  0%, 70% { opacity: 0; transform: scale(0.3); }
+  75% { opacity: 1; transform: scale(1.4); }
+  100% { opacity: 0; transform: scale(1); }
+}
+.radar-center { animation: center-pulse 2s ease-in-out infinite; transform-origin: center; }
+@keyframes center-pulse {
+  0%, 100% { opacity: 0.8; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.15); }
+}
+
+/* Section dividers */
+.divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--border-strong), transparent);
+}
+
+/* Hero title */
+.hero-title {
+  font-family: 'Fraunces', serif; font-weight: 400;
+  font-size: clamp(40px, 6vw, 72px);
+  line-height: 1.02; letter-spacing: -0.03em;
+  color: var(--fg);
+}
+.hero-title em { font-style: italic; font-weight: 300; color: var(--accent); }
+
+/* Tutorial cards */
+.tut-card {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: 6px; overflow: hidden;
+  transition: all 0.4s cubic-bezier(0.2, 0.8, 0.2, 1); cursor: pointer;
+}
+.tut-card:hover {
+  border-color: var(--border-strong); transform: translateY(-4px);
+}
+.tut-thumb {
+  position: relative; aspect-ratio: 16/9; overflow: hidden;
+}
+.tut-thumb::after {
+  content: ''; position: absolute; inset: 0;
+  background: linear-gradient(180deg, transparent 60%, rgba(10, 12, 10, 0.8) 100%);
+}
+.tut-play {
+  position: absolute; inset: 0; display: flex;
+  align-items: center; justify-content: center; z-index: 2;
+  transition: transform 0.4s;
+}
+.tut-card:hover .tut-play { transform: scale(1.1); }
+.tut-play-icon {
+  width: 44px; height: 44px;
+  background: rgba(10, 12, 10, 0.85); backdrop-filter: blur(8px);
+  border: 1px solid var(--accent); border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  color: var(--accent);
+}
+
+/* Written material cards */
+.doc-card {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: 6px; padding: 22px;
+  transition: all 0.3s; cursor: pointer;
+  display: flex; gap: 16px; align-items: flex-start;
+}
+.doc-card:hover {
+  border-color: var(--border-strong); background: var(--surface-2);
+}
+.doc-icon {
+  width: 40px; height: 40px; flex-shrink: 0;
+  border: 1px solid var(--border-strong); border-radius: 4px;
+  display: flex; align-items: center; justify-content: center;
+  color: var(--accent); font-size: 16px;
+}
+
+/* Learning path cards */
+.path-card {
+  background: linear-gradient(180deg, var(--surface) 0%, var(--bg-2) 100%);
+  border: 1px solid var(--border); border-radius: 6px;
+  padding: 24px; transition: all 0.3s;
+  position: relative; overflow: hidden;
+}
+.path-card::before {
+  content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px;
+  background: var(--accent); transform: scaleX(0); transform-origin: left;
+  transition: transform 0.4s;
+}
+.path-card:hover { border-color: var(--border-strong); }
+.path-card:hover::before { transform: scaleX(1); }
+
+/* Process steps */
+.step-num {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px; color: var(--accent);
+  letter-spacing: 0.1em;
+}
+
+/* Roadmap */
+.phase-card {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: 6px; padding: 28px; transition: all 0.3s;
+  position: relative;
+}
+.phase-card:hover { border-color: var(--border-strong); }
+.phase-tag {
+  display: inline-block; font-family: 'JetBrains Mono', monospace;
+  font-size: 10px; padding: 4px 10px;
+  border: 1px solid var(--border-strong); border-radius: 100px;
+  color: var(--accent); margin-bottom: 16px;
+}
+
+/* Metric */
+.metric-num {
+  font-family: 'Fraunces', serif; font-weight: 400;
+  font-size: 42px; line-height: 1;
+  letter-spacing: -0.02em; color: var(--fg);
+}
+
+/* Reveal */
+.reveal {
+  opacity: 0; transform: translateY(24px);
+  transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1),
+              transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.reveal.in { opacity: 1; transform: translateY(0); }
+
+/* Status dot */
+.status-dot {
+  width: 8px; height: 8px; border-radius: 50%;
+  background: var(--safe); box-shadow: 0 0 10px var(--safe);
+  animation: pulse-dot 2s ease-in-out infinite;
+}
+@keyframes pulse-dot { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+
+/* Toast */
+.toast {
+  position: fixed; bottom: 24px; left: 50%;
+  transform: translateX(-50%) translateY(100px);
+  background: var(--surface); border: 1px solid var(--border-strong);
+  border-radius: 6px; padding: 14px 22px;
+  display: flex; align-items: center; gap: 12px;
+  z-index: 200; transition: transform 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
+  font-size: 14px; box-shadow: 0 20px 60px -10px rgba(0,0,0,0.5);
+}
+.toast.show { transform: translateX(-50%) translateY(0); }
+.toast i { color: var(--accent); }
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 10px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--surface-2); border-radius: 5px; }
+::-webkit-scrollbar-thumb:hover { background: var(--accent-dim); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Mobile menu */
+.mobile-menu {
+  position: fixed; top: 60px; left: 0; right: 0;
+  background: rgba(10, 12, 10, 0.96); backdrop-filter: blur(20px);
+  border-bottom: 1px solid var(--border); padding: 20px;
+  z-index: 99; transform: translateY(-100%); opacity: 0;
+  transition: all 0.3s;
+}
+.mobile-menu.open { transform: translateY(0); opacity: 1; }
+
+/* Check list */
+.check-list li {
+  display: flex; align-items: flex-start; gap: 12px;
+  margin-bottom: 12px; font-size: 14px; color: var(--fg-2);
+}
+.check-list i {
+  color: var(--accent); font-size: 12px; margin-top: 4px; flex-shrink: 0;
+}
+
+/* Problem challenge list */
+.challenge-item {
+  display: flex; align-items: flex-start; gap: 14px;
+  padding: 14px 0; border-bottom: 1px solid var(--border);
+}
+.challenge-item:last-child { border-bottom: none; }
+.challenge-item .dot {
+  width: 6px; height: 6px; border-radius: 50%;
+  background: var(--accent-2); margin-top: 8px; flex-shrink: 0;
+}
+</style>
+</head>
+<body>
+
+<div class="bg-glow"></div>
+<div class="bg-grain"></div>
+
+<!-- Nav -->
+<nav class="nav">
+  <div class="max-w-6xl mx-auto px-5 lg:px-8 h-16 flex items-center justify-between">
+    <a href="#top" class="flex items-center gap-3">
+      <span class="logo-mark"></span>
+      <span class="font-display text-lg tracking-tight">Aegis</span>
+      <span class="font-mono text-[9px] text-[var(--muted)] hidden sm:inline px-1.5 py-0.5 border border-[var(--border)] rounded">Toygar Par</span>
+    </a>
+    <div class="hidden md:flex items-center gap-7">
+      <a href="#solution" class="nav-link">Solution</a>
+      <a href="#education" class="nav-link">Education</a>
+      <a href="#features" class="nav-link">Features</a>
+      <a href="#operations" class="nav-link">Operations</a>
+      <a href="#roadmap" class="nav-link">Roadmap</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </div>
+    <div class="flex items-center gap-3">
+      <a href="#contact" class="btn-primary hidden sm:inline-flex">
+        Request a Demo
+        <i class="fa-solid fa-arrow-right text-[10px]"></i>
+      </a>
+      <button id="menuBtn" class="md:hidden text-[var(--fg)] w-10 h-10 flex items-center justify-center">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<div id="mobileMenu" class="mobile-menu md:hidden">
+  <div class="flex flex-col gap-4">
+    <a href="#solution" class="nav-link">Solution</a>
+    <a href="#education" class="nav-link">Education</a>
+    <a href="#features" class="nav-link">Features</a>
+    <a href="#operations" class="nav-link">Operations</a>
+    <a href="#roadmap" class="nav-link">Roadmap</a>
+    <a href="#contact" class="nav-link">Contact</a>
+    <a href="#contact" class="btn-primary mt-2 justify-center">Request a Demo</a>
+  </div>
+</div>
+
+<!-- HERO -->
+<section id="top" class="relative pt-28 pb-16 lg:pt-36 lg:pb-24">
+  <div class="max-w-6xl mx-auto px-5 lg:px-8">
+    <div class="grid lg:grid-cols-12 gap-10 lg:gap-12 items-center">
+      <div class="lg:col-span-7 reveal">
+        <div class="flex items-center gap-3 mb-6">
+          <span class="status-dot"></span>
+          <span class="font-mono text-[10px] tracking-widest text-[var(--fg-2)] uppercase">One-person studio · Building in the open</span>
+        </div>
+        <h1 class="hero-title mb-7">
+          AI Fraud Detection,<br>
+          Prevention, and<br>
+          <em>Practical Education</em><br>
+          for Modern Teams
+        </h1>
+        <p class="text-base lg:text-lg text-[var(--fg-2)] max-w-xl mb-8 leading-relaxed">
+          Our startup helps businesses detect and prevent fraud in real time while educating teams through tutorial videos, written guides, and practical operational resources.
+        </p>
+        <div class="flex flex-wrap items-center gap-3 mb-10">
+          <a href="#contact" class="btn-primary">
+            Request a Demo
+            <i class="fa-solid fa-arrow-right text-[10px]"></i>
+          </a>
+          <a href="#education" class="btn-secondary">
+            <i class="fa-solid fa-graduation-cap text-xs"></i>
+            Explore Learning Resources
+          </a>
+        </div>
+        <div class="flex flex-wrap items-center gap-x-6 gap-y-2 text-xs text-[var(--muted)]">
+          <div class="flex items-center gap-2"><i class="fa-solid fa-bolt text-[var(--accent)]"></i> Real-time detection</div>
+          <div class="flex items-center gap-2"><i class="fa-solid fa-book-open text-[var(--accent)]"></i> Built-in education</div>
+          <div class="flex items-center gap-2"><i class="fa-solid fa-lock text-[var(--accent)]"></i> Privacy-conscious</div>
+        </div>
+      </div>
+      <div class="lg:col-span-5 reveal">
+        <div class="radar-wrap">
+          <svg class="radar-svg" viewBox="0 0 400 400" fill="none">
+            <circle cx="200" cy="200" r="195" stroke="rgba(212,255,58,0.08)" stroke-width="1"/>
+            <circle cx="200" cy="200" r="150" stroke="rgba(212,255,58,0.12)" stroke-width="1"/>
+            <circle cx="200" cy="200" r="105" stroke="rgba(212,255,58,0.18)" stroke-width="1"/>
+            <circle cx="200" cy="200" r="60" stroke="rgba(212,255,58,0.25)" stroke-width="1"/>
+            <line x1="5" y1="200" x2="395" y2="200" stroke="rgba(212,255,58,0.08)" stroke-width="1"/>
+            <line x1="200" y1="5" x2="200" y2="395" stroke="rgba(212,255,58,0.08)" stroke-width="1"/>
+            <defs>
+              <linearGradient id="sweepGrad" x1="200" y1="200" x2="395" y2="200" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="rgba(212,255,58,0)"/>
+                <stop offset="0.7" stop-color="rgba(212,255,58,0.15)"/>
+                <stop offset="1" stop-color="rgba(212,255,58,0.55)"/>
+              </linearGradient>
+              <radialGradient id="centerGlow" cx="0.5" cy="0.5" r="0.5">
+                <stop offset="0" stop-color="rgba(212,255,58,0.4)"/>
+                <stop offset="1" stop-color="rgba(212,255,58,0)"/>
+              </radialGradient>
+            </defs>
+            <g class="radar-sweep">
+              <path d="M 200 200 L 395 200 A 195 195 0 0 0 200 5 Z" fill="url(#sweepGrad)" opacity="0.6"/>
+              <line x1="200" y1="200" x2="395" y2="200" stroke="var(--accent)" stroke-width="1.5"/>
+            </g>
+            <g class="radar-blip" style="animation-delay: 0.5s">
+              <circle cx="290" cy="130" r="4" fill="var(--accent)"/>
+              <circle cx="290" cy="130" r="10" fill="none" stroke="var(--accent)" stroke-width="1" opacity="0.4"/>
+            </g>
+            <g class="radar-blip" style="animation-delay: 1.4s">
+              <circle cx="120" cy="280" r="4" fill="var(--accent)"/>
+              <circle cx="120" cy="280" r="10" fill="none" stroke="var(--accent)" stroke-width="1" opacity="0.4"/>
+            </g>
+            <g class="radar-blip" style="animation-delay: 2.3s">
+              <circle cx="320" cy="270" r="4" fill="var(--accent-2)"/>
+              <circle cx="320" cy="270" r="10" fill="none" stroke="var(--accent-2)" stroke-width="1" opacity="0.4"/>
+            </g>
+            <g class="radar-blip" style="animation-delay: 3.5s">
+              <circle cx="80" cy="160" r="4" fill="var(--accent)"/>
+              <circle cx="80" cy="160" r="10" fill="none" stroke="var(--accent)" stroke-width="1" opacity="0.4"/>
+            </g>
+            <circle cx="200" cy="200" r="40" fill="url(#centerGlow)"/>
+            <g class="radar-center">
+              <circle cx="200" cy="200" r="6" fill="var(--accent)"/>
+              <circle cx="200" cy="200" r="14" fill="none" stroke="var(--accent)" stroke-width="1" opacity="0.6"/>
+            </g>
+          </svg>
+          <div class="absolute top-[18%] right-[8%] font-mono text-[10px] text-[var(--accent)] opacity-70">DETECT</div>
+          <div class="absolute bottom-[22%] left-[10%] font-mono text-[10px] text-[var(--accent-2)] opacity-70">ALERT</div>
+          <div class="absolute top-[60%] right-[14%] font-mono text-[10px] text-[var(--accent)] opacity-70">EDUCATE</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROBLEM -->
+<section id="problem" class="py-20 lg:py-24 border-t border-[var(--border)]">
+  <div class="max-w-6xl mx-auto px-5 lg:px-8">
+    <div class="grid lg:grid-cols-12 gap-10">
+      <div class="lg:col-span-5 reveal">
+        <div class="eyebrow mb-4">Problem</div>
+        <h2 class="font-display text-3xl lg:text-5xl font-light tracking-tight leading-[1.08] mb-6">
+          Fraud Is Growing.<br>
+          <em class="text-[var(--accent)] italic font-light">Team Readiness Is Not.</em>
+        </h2>
+        <p class="text-base text-[var(--fg-2)] leading-relaxed">
+          Fraud is becoming more complex and more damaging, but many businesses still rely on slow manual reviews and inconsistent processes. At the same time, teams often lack clear training materials and practical guidance to respond effectively.
+        </p>
+      </div>
+      <div class="lg:col-span-7 reveal">
+        <div class="card">
+          <div class="font-mono text-[10px] text-[var(--muted)] tracking-widest mb-3">COMMON CHALLENGES</div>
+          <div>
+            <div class="challenge-item">
+              <span class="dot"></span>
+              <div>
+                <div class="text-[var(--fg)] text-sm font-medium mb-1">Rising fraud attempts across digital transactions and accounts</div>
+              </div>
+            </div>
+            <div class="challenge-item">
+              <span class="dot"></span>
+              <div>
+                <div class="text-[var(--fg)] text-sm font-medium mb-1">Slow detection and response times</div>
+              </div>
+            </div>
+            <div class="challenge-item">
+              <span class="dot"></span>
+              <div>
+                <div class="text-[var(--fg)] text-sm font-medium mb-1">High false-positive rates that disrupt operations</div>
+              </div>
+            </div>
+            <div class="challenge-item">
+              <span class="dot"></span>
+              <div>
+                <div class="text-[var(--fg)] text-sm font-medium mb-1">Limited visibility into suspicious behavior</div>
+              </div>
+            </div>
+            <div class="challenge-item">
+              <span class="dot"></span>
+              <div>
+                <div class="text-[var(--fg)] text-sm font-medium mb-1">Teams not fully trained on fraud workflows</div>
+              </div>
+            </div>
+            <div class="challenge-item">
+              <span class="dot"></span>
+              <div>
+                <div class="text-[var(--fg)] text-sm font-medium mb-1">Inconsistent decision-making across reviewers</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SOLUTION -->
+<section id="solution" class="py-20 lg:py-24 bg-[var(--bg-2)] border-y border-[var(--border)]">
+  <div class="max-w-6xl mx-auto px-5 lg:px-8">
+    <div class="max-w-3xl mb-12 reveal">
+      <div class="eyebrow mb-4">Solution</div>
+      <h2 class="font-display text-3xl lg:text-5xl font-light tracking-tight leading-[1.08] mb-6">
+        A Smarter Way to<br>
+        <em class="text-[var(--accent)] italic font-light">Detect, Prevent, and Learn</em>
+      </h2>
+      <p class="text-base lg:text-lg text-[var(--fg-2)] leading-relaxed">
+        Our solution combines AI-driven fraud detection with a practical education layer. The system helps identify suspicious activity, while tutorial videos and written materials help teams understand alerts, follow best practices, and respond consistently.
+      </p>
+    </div>
+    
+    <div class="font-mono text-[10px] text-[var(--muted)] tracking-widest mb-5 reveal">WHAT WE PROVIDE</div>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div class="card reveal">
+        <div class="text-[var(--accent)] mb-4"><i class="fa-solid fa-magnifying-glass-chart text-lg"></i></div>
+        <h3 class="font-display text-lg font-light mb-2">AI-Assisted Detection</h3>
+        <p class="text-xs text-[var(--muted)] leading-relaxed">Fraud detection and risk scoring that surfaces suspicious activity in real time.</p>
+      </div>
+      <div class="card reveal">
+        <div class="text-[var(--accent)] mb-4"><i class="fa-solid fa-bell text-lg"></i></div>
+        <h3 class="font-display text-lg font-light mb-2">Real-Time Alerts</h3>
+        <p class="text-xs text-[var(--muted)] leading-relaxed">Prevention workflows that route the right cases to the right people quickly.</p>
+      </div>
+      <div class="card reveal">
+        <div class="text-[var(--accent)] mb-4"><i class="fa-solid fa-video text-lg"></i></div>
+        <h3 class="font-display text-lg font-light mb-2">Tutorial Videos</h3>
+        <p class="text-xs text-[var(--muted)] leading-relaxed">Practical video lessons for onboarding and daily operations.</p>
+      </div>
+      <div class="card reveal">
+        <div class="text-[var(--accent)] mb-4"><i class="fa-solid fa-file-lines text-lg"></i></div>
+        <h3 class="font-display text-lg font-light mb-2">Written Guides</h3>
+        <p class="text-xs text-[var(--muted)] leading-relaxed">Checklists, process documentation, and playbooks for consistent reviews.</p>
+      </div>
+      <div class="card reveal">
+        <div class="text-[var(--accent)] mb-4"><i class="fa-solid fa-rotate text-lg"></i></div>
+        <h3 class="font-display text-lg font-light mb-2">Continuous Learning</h3>
+        <p class="text-xs text-[var(--muted)] leading-relaxed">Ongoing education for operations and compliance teams as threats evolve.</p>
+      </div>
+      <div class="card reveal">
+        <div class="text-[var(--accent)] mb-4"><i class="fa-solid fa-people-arrows text-lg"></i></div>
+        <h3 class="font-display text-lg font-light mb-2">Human-in-the-Loop</h3>
+        <p class="text-xs text-[var(--muted)] leading-relaxed">Transparent risk logic that supports reviewer judgment, not replaces it.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION HUB -->
+<section id="education" class="py-20 lg:py-24">
+  <div class="max-w-6xl mx-auto px-5 lg:px-8">
+    <div class="grid lg:grid-cols-12 gap-10 mb-14">
+      <div class="lg:col-span-6 reveal">
+        <div class="eyebrow mb-4">Education Hub</div>
+        <h2 class="font-display text-3xl lg:text-5xl font-light tracking-tight leading-[1.08] mb-6">
+          Built-In Education<br>
+          for <em class="text-[var(--accent)] italic font-light">Better Fraud Operations</em>
+        </h2>
+        <p class="text-base text-[var(--fg-2)] leading-relaxed mb-6">
+          Effective fraud prevention requires more than alerts. It requires trained people, clear procedures, and accessible knowledge. Our education hub helps teams understand fraud risks, use the platform effectively, and make better operational decisions.
+        </p>
+        <div class="font-mono text-[10px] text-[var(--muted)] tracking-widest mb-3">THE HUB INCLUDES</div>
+        <ul class="check-list">
+          <li><i class="fa-solid fa-check"></i> Short tutorial videos</li>
+          <li><i class="fa-solid fa-check"></i> Step-by-step written guides</li>
+          <li><i class="fa-solid fa-check"></i> Operational checklists</li>
+          <li><i class="fa-solid fa-check"></i> Best-practice articles</li>
+          <li><i class="fa-solid fa-check"></i> Onboarding materials</li>
+          <li><i class="fa-solid fa-check"></i> Fraud awareness resources</li>
+        </ul>
+      </div>
+      <div class="lg:col-span-6 reveal">
+        <div class="font-mono text-[10px] text-[var(--muted)] tracking-widest mb-3">BENEFITS</div>
+        <div class="space-y-3">
+          <div class="card flex items-center gap-4" style="padding: 18px 22px;">
+            <div class="w-10 h-10 rounded border border-[var(--border-strong)] flex items-center justify-center text-[var(--accent)]"><i class="fa-solid fa-rocket text-sm"></i></div>
+            <div>
+              <div class="text-[var(--fg)] text-sm font-medium">Faster team onboarding</div>
+              <div class="text-xs text-[var(--muted)]">New analysts productive in days, not weeks.</div>
+            </div>
+          </div>
+          <div class="card flex items-center gap-4" style="padding: 18px 22px;">
+            <div class="w-10 h-10 rounded border border-[var(--border-strong)] flex items-center justify-center text-[var(--accent)]"><i class="fa-solid fa-check-double text-sm"></i></div>
+            <div>
+              <div class="text-[var(--fg)] text-sm font-medium">More consistent alert reviews</div>
+              <div class="text-xs text-[var(--muted)]">Shared standards across reviewers and shifts.</div>
+            </div>
+          </div>
+          <div class="card flex items-center gap-4" style="padding: 18px 22px;">
+            <div class="w-10 h-10 rounded border border-[var(--border-strong)] flex items-center justify-center text-[var(--accent)]"><i class="fa-solid fa-triangle-exclamation text-sm"></i></div>
+            <div>
+              <div class="text-[var(--fg)] text-sm font-medium">Fewer operational mistakes</div>
+              <div class="text-xs text-[var(--muted)]">Checklists catch what memory doesn't.</div>
+            </div>
+          </div>
+          <div class="card flex items-center gap-4" style="padding: 18px 22px;">
+            <div class="w-10 h-10 rounded border border-[var(--border-strong)] flex items-center justify-center text-[var(--accent)]"><i class="fa-solid fa-chart-line text-sm"></i></div>
+            <div>
+              <div class="text-[var(--fg)] text-sm font-medium">Better understanding of fraud patterns</div>
+              <div class="text-xs text-[var(--muted)]">Analysts learn to read signals, not just labels.</div>
+            </div>
+          </div>
+          <div class="card flex items-center gap-4" style="padding: 18px 22px;">
+            <div class="w-10 h-10 rounded border border-[var(--border-strong)] flex items-center justify-center text-[var(--accent)]"><i class="fa-solid fa-shield-halved text-sm"></i></div>
+            <div>
+              <div class="text-[var(--fg)] text-sm font-medium">Stronger compliance readiness</div>
+              <div class="text-xs text-[var(--muted)]">Audit-ready documentation built in.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TUTORIAL VIDEOS -->
+<section id="videos" class="py-20 lg:py-24 bg-[var(--bg-2)] border-y border-[var(--border)]">
+  <div class="max-w-6xl mx-auto px-5 lg:px-8">
+    <div class="max-w-3xl mb-10 reveal">
+      <div class="eyebrow mb-4">Tutorial Videos</div>
+      <h2 class="font-display text-3xl lg:text-5xl font-light tracking-tight leading-[1.08] mb-5">
+        Tutorial Videos for<br>
+        <em class="text-[var(--accent)] italic font-light">Practical Learning</em>
+      </h2>
+      <p class="text-base text-[var(--fg-2)] leading-relaxed">
+        Our video tutorials explain key concepts and workflows in a simple, practical way. Each video is short, focused, and built for daily reference.
+      </p>
+    </div>
+    
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      
+      <div class="tut-card reveal">
+        <div class="tut-thumb" style="background: linear-gradient(135deg, #1a2e0a 0%, #0a0c0a 70%);">
+          <div class="absolute inset-0 opacity-25" style="background-image: radial-gradient(circle at 30% 40%, var(--accent) 0%, transparent 50%);"></div>
+          <div class="tut-play"><div class="tut-play-icon"><i class="fa-solid fa-play text-xs ml-0.5"></i></div></div>
+          <div class="absolute top-3 left-3 z-10"><span class="font-mono text-[9px] px-2 py-0.5 border border-[var(--border-strong)] text-[var(--fg-2)] rounded">BASICS</span></div>
+          <div class="absolute bottom-3 right-3 z-10 font-mono text-[10px] text-[var(--fg-2)]">6 min</div>
+        </div>
+        <div class="p-4">
+          <div class="font-mono text-[10px] text-[var(--accent)] mb-1">TUTORIAL</div>
+          <h3 class="font-display text-base font-light leading-tight">Fraud Detection Basics</h3>
+          <p class="text-xs text-[var(--muted)] mt-1">What fraud looks like, where it hides, and how to start spotting it.</p>
+        </div>
+      </div>
+      
+      <div class="tut-card reveal">
+        <div class="tut-thumb" style="background: linear-gradient(135deg, #0f1a1a 0%, #0a0c0a 70%);">
+          <div class="absolute inset-0 opacity-25" style="background-image: radial-gradient(circle at 70% 30%, var(--accent) 0%, transparent 50%);"></div>
+          <div class="tut-play"><div class="tut-play-icon"><i class="fa-solid fa-play text-xs ml-0.5"></i></div></div>
+          <div class="absolute top-3 left-3 z-10"><span class="font-mono text-[9px] px-2 py-0.5 border border-[var(--border-strong)] text-[var(--fg-2)] rounded">OPERATIONS</span></div>
+          <div class="absolute bottom-3 right-3 z-10 font-mono text-[10px] text-[var(--fg-2)]">4 min</div>
+        </div>
+        <div class="p-4">
+          <div class="font-mono text-[10px] text-[var(--accent)] mb-1">TUTORIAL</div>
+          <h3 class="font-display text-base font-light leading-tight">How to Review an Alert</h3>
+          <p class="text-xs text-[var(--muted)] mt-1">A repeatable, four-step review process for any alert type.</p>
+        </div>
+      </div>
+      
+      <div class="tut-card reveal">
+        <div class="tut-thumb" style="background: linear-gradient(135deg, #1a0f0a 0%, #0a0c0a 70%);">
+          <div class="absolute inset-0 opacity-25" style="background-image: radial-gradient(circle at 40% 70%, var(--accent-2) 0%, transparent 50%);"></div>
+          <div class="tut-play"><div class="tut-play-icon"><i class="fa-solid fa-play text-xs ml-0.5"></i></div></div>
+          <div class="absolute top-3 left-3 z-10"><span class="font-mono text-[9px] px-2 py-0.5 border border-[var(--border-strong)] text-[var(--fg-2)] rounded">INTERMEDIATE</span></div>
+          <div class="absolute bottom-3 right-3 z-10 font-mono text-[10px] text-[var(--fg-2)]">3 min</div>
+        </div>
+        <div class="p-4">
+          <div class="font-mono text-[10px] text-[var(--accent)] mb-1">TUTORIAL</div>
+          <h3 class="font-display text-base font-light leading-tight">Understanding Risk Scores</h3>
+          <p class="text-xs text-[var(--muted)] mt-1">What the numbers mean and how to act on them.</p>
+        </div>
+      </div>
+      
+      <div class="tut-card reveal">
+        <div class="tut-thumb" style="background: linear-gradient(135deg, #14140a 0%, #0a0c0a 70%);">
+          <div class="absolute inset-0 opacity-25" style="background-image: radial-gradient(circle at 50% 50%, var(--accent) 0%, transparent 50%);"></div>
+          <div class="tut-play"><div class="tut-play-icon"><i class="fa-solid fa-play text-xs ml-0.5"></i></div></div>
+          <div class="absolute top-3 left-3 z-10"><span class="font-mono text-[9px] px-2 py-0.5 border border-[var(--border-strong)] text-[var(--fg-2)] rounded">OPERATIONS</span></div>
+          <div class="absolute bottom-3 right-3 z-10 font-mono text-[10px] text-[var(--fg-2)]">5 min</div>
+        </div>
+        <div class="p-4">
+          <div class="font-mono text-[10px] text-[var(--accent)] mb-1">TUTORIAL</div>
+          <h3 class="font-display text-base font-light leading-tight">Reducing False Positives</h3>
+          <p class="text-xs text-[var(--muted)] mt-1">Tuning rules and reading context to cut noise without missing real threats.</p>
+        </div>
+      </div>
+      
+      <div class="tut-card reveal">
+        <div class="tut-thumb" style="background: linear-gradient(135deg, #0a1a14 0%, #0a0c0a 70%);">
+          <div class="absolute inset-0 opacity-25" style="background-image: radial-gradient(circle at 30% 50%, var(--accent) 0%, transparent 50%);"></div>
+          <div class="tut-play"><div class="tut-play-icon"><i class="fa-solid fa-play text-xs ml-0.5"></i></div></div>
+          <div class="absolute top-3 left-3 z-10"><span class="font-mono text-[9px] px-2 py-0.5 border border-[var(--border-strong)] text-[var(--fg-2)] rounded">WORKFLOW</span></div>
+          <div class="absolute bottom-3 right-3 z-10 font-mono text-[10px] text-[var(--fg-2)]">7 min</div>
+        </div>
+        <div class="p-4">
+          <div class="font-mono text-[10px] text-[var(--accent)] mb-1">TUTORIAL</div>
+          <h3 class="font-display text-base font-light leading-tight">Operational Response Workflow</h3>
+          <p class="text-xs text-[var(--muted)] mt-1">From alert to resolution: the full case handling journey.</p>
+        </div>
+      </div>
+      
+      <div class="tut-card reveal">
+        <div class="tut-thumb" style="background: linear-gradient(135deg, #1a140a 0%, #0a0c0a 70%);">
+          <div class="absolute inset-0 opacity-25" style="background-image: radial-gradient(circle at 60% 40%, var(--accent) 0%, transparent 50%);"></div>
+          <div class="tut-play"><div class="tut-play-icon"><i class="fa-solid fa-play text-xs ml-0.5"></i></div></div>
+          <div class="absolute top-3 left-3 z-10"><span class="font-mono text-[9px] px-2 py-0.5 border border-[var(--border-strong)] text-[var(--fg-2)] rounded">BEST PRACTICE</span></div>
+          <div class="absolute bottom-3 right-3 z-10 font-mono text-[10px] text-[var(--fg-2)]">5 min</div>
+        </div>
+        <div class="p-4">
+          <div class="font-mono text-[10px] text-[var(--accent)] mb-1">TUTORIAL</div>
+          <h3 class="font-display text-base font-light leading-tight">Best Practices for Fraud Prevention</h3>
+          <p class="text-xs text-[var(--muted)] mt-1">Daily habits that compound into stronger defenses.</p>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+<!-- WRITTEN MATERIALS -->
+<section id="resources" class="py-20 lg:py-24">
+  <div class="max-w-6xl mx-auto px-5 lg:px-8">
+    <div class="max-w-3xl mb-10 reveal">
+      <div class="eyebrow mb-4">Written Materials</div>
+      <h2 class="font-display text-3xl lg:text-5xl font-light tracking-tight leading-[1.08] mb-5">
+        Written Guides for<br>
+        <em class="text-[var(--accent)] italic font-light">Clear and Consistent Operations</em>
+      </h2>
+      <p class="text-base text-[var(--fg-2)] leading-relaxed">
+        In addition to video content, we provide written materials that teams can reference anytime — at their desk, during a review, or while onboarding a new analyst.
+      </p>
+    </div>
+    
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div class="doc-card reveal">
+        <div class="doc-icon"><i class="fa-solid fa-flag"></i></div>
+        <div>
+          <div class="font-mono text-[9px] text-[var(--accent)] mb-1">QUICK-START</div>
+          <div class="text-[var(--fg)] text-sm font-medium mb-1">Getting Started Guide</div>
+          <div class="text-xs text-[var(--muted)]">From sign-up to first alert in under 15 minutes.</div>
+        </div>
+      </div>
+      <div class="doc-card reveal">
+        <div class="doc-icon"><i class="fa-solid fa-list-check"></i></div>
+        <div>
+          <div class="font-mono text-[9px] text-[var(--accent)] mb-1">CHECKLIST</div>
+          <div class="text-[var(--fg)] text-sm font-medium mb-1">Alert Review Checklist</div>
+          <div class="text-xs text-[var(--muted)]">A printable checklist for every alert type.</div>
+        </div>
+      </div>
+      <div class="doc-card reveal">
+        <div class="doc-icon"><i class="fa-solid fa-book"></i></div>
+        <div>
+          <div class="font-mono text-[9px] text-[var(--accent)] mb-1">GUIDE</div>
+          <div class="text-[var(--fg)] text-sm font-medium mb-1">Fraud Prevention Guide</div>
+          <div class="text-xs text-[var(--muted)]">Principles, patterns, and operational anti-patterns.</div>
+        </div>
+      </div>
+      <div class="doc-card reveal">
+        <div class="doc-icon"><i class="fa-solid fa-clipboard-list"></i></div>
+        <div>
+          <div class="font-mono text-[9px] text-[var(--accent)] mb-1">CHECKLIST</div>
+          <div class="text-[var(--fg)] text-sm font-medium mb-1">Daily Operations Checklist</div>
+          <div class="text-xs text-[var(--muted)]">Open-of-day and close-of-day routines for ops teams.</div>
+        </div>
+      </div>
+      <div class="doc-card reveal">
+        <div class="doc-icon"><i class="fa-solid fa-book-bookmark"></i></div>
+        <div>
+          <div class="font-mono text-[9px] text-[var(--accent)] mb-1">PLAYBOOK</div>
+          <div class="text-[var(--fg)] text-sm font-medium mb-1">Fraud Response Playbook</div>
+          <div class="text-xs text-[var(--muted)]">Decision trees for high-pressure scenarios.</div>
+        </div>
+      </div>
+      <div class="doc-card reveal">
+        <div class="doc-icon"><i class="fa-solid fa-triangle-exclamation"></i></div>
+        <div>
+          <div class="font-mono text-[9px] text-[var(--accent)] mb-1">PLAYBOOK</div>
+          <div class="text-[var(--fg)] text-sm font-medium mb-1">High-Risk Case Playbook</div>
+          <div class="text-xs text-[var(--muted)]">When to escalate, who to involve, and how fast.</div>
+        </div>
+      </div>
+      <div class="doc-card reveal">
+        <div class="doc-icon"><i class="fa-solid fa-people-group"></i></div>
+        <div>
+          <div class="font-mono text-[9px] text-[var(--accent)] mb-1">PLAYBOOK</div>
+          <div class="text-[var(--fg)] text-sm font-medium mb-1">Team Onboarding Playbook</div>
+          <div class="text-xs text-[var(--muted)]">A 5-day plan for new fraud analysts.</div>
+        </div>
+      </div>
+      <div class="doc-card reveal">
+        <div class="doc-icon"><i class="fa-solid fa-book-open"></i></div>
+        <div>
+          <div class="font-mono text-[9px] text-[var(--accent)] mb-1">REFERENCE</div>
+          <div class="text-[var(--fg)] text-sm font-medium mb-1">Glossary of Fraud Terms</div>
+          <div class="text-xs text-[var(--muted)]">From ATO to synthetic identity — defined plainly.</div>
+        </div>
+      </div>
+      <div class="doc-card reveal">
+        <div class="doc-icon"><i class="fa-solid fa-circle-question"></i></div>
+        <div>
+          <div class="font-mono text-[9px] text-[var(--accent)] mb-1">REFERENCE</div>
+          <div class="text-[var(--fg)] text-sm font-medium mb-1">FAQ for Operations Teams</div>
+          <div class="text-xs text-[var(--muted)]">Answers to the questions reviewers actually ask.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LEARNING PATHS -->
+<section id="paths" class="py-20 lg:py-24 bg-[var(--bg-2)] border-y border-[var(--border)]">
+  <div class="max-w-6xl mx-auto px-5 lg:px-8">
+    <div class="max-w-3xl mb-12 reveal">
+      <div class="eyebrow mb-4">Learning Paths</div>
+      <h2 class="font-display text-3xl lg:text-5xl font-light tracking-tight leading-[1.08] mb-5">
+        Learning Paths for<br>
+        <em class="text-[var(--accent)] italic font-light">Different Roles</em>
+      </h2>
+      <p class="text-base text-[var(--fg-2)] leading-relaxed">
+        We organize educational content into practical learning paths for different users — so every person gets the right knowledge for their job, not a one-size-fits-all course.
+      </p>
+    </div>
+    
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      <div class="path-card reveal">
+        <div class="flex items-center gap-3 mb-5">
+          <div class="w-10 h-10 rounded border border-[var(--border-strong)] flex items-center justify-center text-[var(--accent)]"><i class="fa-solid fa-seedling"></i></div>
+          <div>
+            <div class="font-mono text-[10px] text-[var(--muted)]">PATH 01</div>
+            <div class="font-display text-lg font-light">For Beginners</div>
+          </div>
+        </div>
+        <ul class="space-y-3 text-sm text-[var(--fg-2)]">
+          <li class="flex items-start gap-2"><i class="fa-solid fa-circle text-[4px] text-[var(--accent)] mt-2"></i><span>Fraud detection basics</span></li>
+          <li class="flex items-start gap-2"><i class="fa-solid fa-circle text-[4px] text-[var(--accent)] mt-2"></i><span>Common warning signs</span></li>
+          <li class="flex items-start gap-2"><i class="fa-solid fa-circle text-[4px] text-[var(--accent)] mt-2"></i><span>Prevention principles</span></li>
+        </ul>
+      </div>
+      
+      <div class="path-card reveal">
+        <div class="flex items-center gap-3 mb-5">
+          <div class="w-10 h-10 rounded border border-[var(--border-strong)] flex items-center justify-center text-[var(--accent)]"><i class="fa-solid fa-users-gear"></i></div>
+          <div>
+            <div class="font-mono text-[10px] text-[var(--muted)]">PATH 02</div>
+            <div class="font-display text-lg font-light">For Operations</div>
+          </div>
+        </div>
+        <ul class="space-y-3 text-sm text-[var(--fg-2)]">
+          <li class="flex items-start gap-2"><i class="fa-solid fa-circle text-[4px] text-[var(--accent)] mt-2"></i><span>Alert review procedures</span></li>
+          <li class="flex items-start gap-2"><i class="fa-solid fa-circle text-[4px] text-[var(--accent)] mt-2"></i><span>Case handling workflows</span></li>
+          <li class="flex items-start gap-2"><i class="fa-solid fa-circle text-[4px] text-[var(--accent)] mt-2"></i><span>Reducing false positives</span></li>
+        </ul>
+      </div>
+      
+      <div class="path-card reveal">
+        <div class="flex items-center gap-3 mb-5">
+          <div class="w-10 h-10 rounded border border-[var(--border-strong)] flex items-center justify-center text-[var(--accent)]"><i class="fa-solid fa-chart-pie"></i></div>
+          <div>
+            <div class="font-mono text-[10px] text-[var(--muted)]">PATH 03</div>
+            <div class="font-display text-lg font-light">For Managers</div>
+          </div>
+        </div>
+        <ul class="space-y-3 text-sm text-[var(--fg-2)]">
+          <li class="flex items-start gap-2"><i class="fa-solid fa-circle text-[4px] text-[var(--accent)] mt-2"></i><span>Performance monitoring</span></li>
+          <li class="flex items-start gap-2"><i class="fa-solid fa-circle text-[4px] text-[var(--accent)] mt-2"></i><span>Reporting and insights</span></li>
+          <li class="flex items-start gap-2"><i class="fa-solid fa-circle text-[4px] text-[var(--accent)] mt-2"></i><span>Process improvement</span></li>
+        </ul>
+      </div>
+      
+      <div class="path-card reveal">
+        <div class="flex items-center gap-3 mb-5">
+          <div class="w-10 h-10 rounded border border-[var(--border-strong)] flex items-center justify-center text-[var(--accent)]"><i class="fa-solid fa-scale-balanced"></i></div>
+          <div>
+            <div class="font-mono text-[10px] text-[var(--muted)]">PATH 04</div>
+            <div class="font-display text-lg font-light">For Compliance / Risk</div>
+          </div>
+        </div>
+        <ul class="space-y-3 text-sm text-[var(--fg-2)]">
+          <li class="flex items-start gap-2"><i class="fa-solid fa-circle text-[4px] text-[var(--accent)] mt-2"></i><span>Governance basics</span></li>
+          <li class="flex items-start gap-2"><i class="fa-solid fa-circle text-[4px] text-[var(--accent)] mt-2"></i><span>Transparent practices</span></li>
+          <li class="flex items-start gap-2"><i class="fa-solid fa-circle text-[4px] text-[var(--accent)] mt-2"></i><span>Audit-ready documentation</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCT FEATURES -->
+<section id="features" class="py-20 lg:py-24">
+  <div class="max-w-6xl mx-auto px-5 lg:px-8">
+    <div class="max-w-3xl mb-12 reveal">
+      <div class="eyebrow mb-4">Product Features</div>
+      <h2 class="font-display text-3xl lg:text-5xl font-light tracking-tight leading-[1.08] mb-5">
+        Core <em class="text-[var(--accent)] italic font-light">Platform</em> Features
+      </h2>
+      <p class="text-base text-[var(--fg-2)] leading-relaxed">
+        Six capabilities that cover the full fraud operations lifecycle — from raw signal to trained team.
+      </p>
+    </div>
+    
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div class="card reveal">
+        <div class="flex items-start justify-between mb-5">
+          <div class="w-11 h-11 rounded border border-[var(--border-strong)] flex items-center justify-center text-[var(--accent)]"><i class="fa-solid fa-gauge-high"></i></div>
+          <span class="font-mono text-[10px] text-[var(--muted)]">01</span>
+        </div>
+        <h3 class="font-display text-xl font-light mb-2">Real-Time Risk Scoring</h3>
+        <p class="text-sm text-[var(--fg-2)] leading-relaxed">Identify potential fraud as transactions and activities occur.</p>
+      </div>
+      
+      <div class="card reveal">
+        <div class="flex items-start justify-between mb-5">
+          <div class="w-11 h-11 rounded border border-[var(--border-strong)] flex items-center justify-center text-[var(--accent)]"><i class="fa-solid fa-bell"></i></div>
+          <span class="font-mono text-[10px] text-[var(--muted)]">02</span>
+        </div>
+        <h3 class="font-display text-xl font-light mb-2">Alert Detection & Routing</h3>
+        <p class="text-sm text-[var(--fg-2)] leading-relaxed">Flag suspicious activity and direct it to the right team.</p>
+      </div>
+      
+      <div class="card reveal">
+        <div class="flex items-start justify-between mb-5">
+          <div class="w-11 h-11 rounded border border-[var(--border-strong)] flex items-center justify-center text-[var(--accent)]"><i class="fa-solid fa-folder-tree"></i></div>
+          <span class="font-mono text-[10px] text-[var(--muted)]">03</span>
+        </div>
+        <h3 class="font-display text-xl font-light mb-2">Case Review Workflow</h3>
+        <p class="text-sm text-[var(--fg-2)] leading-relaxed">Support structured investigations and consistent decisions.</p>
+      </div>
+      
+      <div class="card reveal">
+        <div class="flex items-start justify-between mb-5">
+          <div class="w-11 h-11 rounded border border-[var(--border-strong)] flex items-center justify-center text-[var(--accent)]"><i class="fa-solid fa-chart-line"></i></div>
+          <span class="font-mono text-[10px] text-[var(--muted)]">04</span>
+        </div>
+        <h3 class="font-display text-xl font-light mb-2">Reporting & Insights</h3>
+        <p class="text-sm text-[var(--fg-2)] leading-relaxed">Track fraud trends, response times, and operational performance.</p>
+      </div>
+      
+      <div class="card reveal">
+        <div class="flex items-start justify-between mb-5">
+          <div class="w-11 h-11 rounded border border-[var(--border-strong)] flex items-center justify-center text-[var(--accent)]"><i class="fa-solid fa-video"></i></div>
+          <span class="font-mono text-[10px] text-[var(--muted)]">05</span>
+        </div>
+        <h3 class="font-display text-xl font-light mb-2">Tutorial Video Library</h3>
+        <p class="text-sm text-[var(--fg-2)] leading-relaxed">Access practical video lessons for onboarding and daily use.</p>
+      </div>
+      
+      <div class="card reveal">
+        <div class="flex items-start justify-between mb-5">
+          <div class="w-11 h-11 rounded border border-[var(--border-strong)] flex items-center justify-center text-[var(--accent)]"><i class="fa-solid fa-book-open"></i></div>
+          <span class="font-mono text-[10px] text-[var(--muted)]">06</span>
+        </div>
+        <h3 class="font-display text-xl font-light mb-2">Written Resource Center</h3>
+        <p class="text-sm text-[var(--fg-2)] leading-relaxed">Use guides, checklists, and documentation whenever needed.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BUSINESS PRACTICES -->
+<section id="practices" class="py-20 lg:py-24 bg-[var(--bg-2)] border-y border-[var(--border)]">
+  <div class="max-w-6xl mx-auto px-5 lg:px-8">
+    <div class="grid lg:grid-cols-12 gap-10">
+      <div class="lg:col-span-5 reveal">
+        <div class="eyebrow mb-4">Business Practices</div>
+        <h2 class="font-display text-3xl lg:text-5xl font-light tracking-tight leading-[1.08] mb-6">
+          Responsible<br>
+          <em class="text-[var(--accent)] italic font-light">Business Practices</em>
+        </h2>
+        <p class="text-base text-[var(--fg-2)] leading-relaxed">
+          Fraud prevention must be effective, ethical, and easy to understand. Our project combines responsible AI practices with clear educational content so teams can use the system with confidence.
+        </p>
+      </div>
+      <div class="lg:col-span-7 reveal">
+        <div class="grid sm:grid-cols-2 gap-3">
+          <div class="card" style="padding: 20px;">
+            <div class="text-[var(--accent)] mb-3"><i class="fa-solid fa-user-check"></i></div>
+            <div class="text-[var(--fg)] text-sm font-medium mb-1">Human-in-the-loop</div>
+            <div class="text-xs text-[var(--muted)]">AI suggests, humans decide. Always.</div>
+          </div>
+          <div class="card" style="padding: 20px;">
+            <div class="text-[var(--accent)] mb-3"><i class="fa-solid fa-eye"></i></div>
+            <div class="text-[var(--fg)] text-sm font-medium mb-1">Transparent risk logic</div>
+            <div class="text-xs text-[var(--muted)]">Explainable scores, not black boxes.</div>
+          </div>
+          <div class="card" style="padding: 20px;">
+            <div class="text-[var(--accent)] mb-3"><i class="fa-solid fa-shield-halved"></i></div>
+            <div class="text-[var(--fg)] text-sm font-medium mb-1">Privacy-conscious data</div>
+            <div class="text-xs text-[var(--muted)]">Minimal collection, careful handling.</div>
+          </div>
+          <div class="card" style="padding: 20px;">
+            <div class="text-[var(--accent)] mb-3"><i class="fa-solid fa-arrow-up-right-dots"></i></div>
+            <div class="text-[var(--fg)] text-sm font-medium mb-1">Clear escalation</div>
+            <div class="text-xs text-[var(--muted)]">Standards for review and handoff.</div>
+          </div>
+          <div class="card" style="padding: 20px;">
+            <div class="text-[var(--accent)] mb-3"><i class="fa-solid fa-graduation-cap"></i></div>
+            <div class="text-[var(--fg)] text-sm font-medium mb-1">Ongoing education</div>
+            <div class="text-xs text-[var(--muted)]">Teams learn continuously, not once.</div>
+          </div>
+          <div class="card" style="padding: 20px;">
+            <div class="text-[var(--accent)] mb-3"><i class="fa-solid fa-arrows-rotate"></i></div>
+            <div class="text-[var(--fg)] text-sm font-medium mb-1">Continuous monitoring</div>
+            <div class="text-xs text-[var(--muted)]">We watch the system as it watches fraud.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- OPERATIONS -->
+<section id="operations" class="py-20 lg:py-24">
+  <div class="max-w-6xl mx-auto px-5 lg:px-8">
+    <div class="max-w-3xl mb-14 reveal">
+      <div class="eyebrow mb-4">Operations</div>
+      <h2 class="font-display text-3xl lg:text-5xl font-light tracking-tight leading-[1.08] mb-5">
+        How Detection and<br>
+        <em class="text-[var(--accent)] italic font-light">Education Work Together</em>
+      </h2>
+    </div>
+    
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+      
+      <div class="card reveal">
+        <div class="step-num mb-3">STEP 01</div>
+        <div class="text-[var(--accent)] mb-3"><i class="fa-solid fa-database"></i></div>
+        <h3 class="font-display text-lg font-light mb-2">Data Collection</h3>
+        <p class="text-sm text-[var(--fg-2)] leading-relaxed">Transaction, user, and event data are securely collected.</p>
+      </div>
+      
+      <div class="card reveal">
+        <div class="step-num mb-3">STEP 02</div>
+        <div class="text-[var(--accent)] mb-3"><i class="fa-solid fa-brain"></i></div>
+        <h3 class="font-display text-lg font-light mb-2">AI Analysis</h3>
+        <p class="text-sm text-[var(--fg-2)] leading-relaxed">The system identifies unusual patterns and assigns risk scores.</p>
+      </div>
+      
+      <div class="card reveal">
+        <div class="step-num mb-3">STEP 03</div>
+        <div class="text-[var(--accent)] mb-3"><i class="fa-solid fa-bell"></i></div>
+        <h3 class="font-display text-lg font-light mb-2">Alert Generation</h3>
+        <p class="text-sm text-[var(--fg-2)] leading-relaxed">High-risk cases are flagged for review.</p>
+      </div>
+      
+      <div class="card reveal">
+        <div class="step-num mb-3">STEP 04</div>
+        <div class="text-[var(--accent)] mb-3"><i class="fa-solid fa-graduation-cap"></i></div>
+        <h3 class="font-display text-lg font-light mb-2">Team Education</h3>
+        <p class="text-sm text-[var(--fg-2)] leading-relaxed">Users access tutorials and guides to understand how to respond.</p>
+      </div>
+      
+      <div class="card reveal">
+        <div class="step-num mb-3">STEP 05</div>
+        <div class="text-[var(--accent)] mb-3"><i class="fa-solid fa-folder-tree"></i></div>
+        <h3 class="font-display text-lg font-light mb-2">Case Review</h3>
+        <p class="text-sm text-[var(--fg-2)] leading-relaxed">Operations teams investigate using structured workflows.</p>
+      </div>
+      
+      <div class="card reveal">
+        <div class="step-num mb-3">STEP 06</div>
+        <div class="text-[var(--accent)] mb-3"><i class="fa-solid fa-arrows-rotate"></i></div>
+        <h3 class="font-display text-lg font-light mb-2">Feedback & Improvement</h3>
+        <p class="text-sm text-[var(--fg-2)] leading-relaxed">Review outcomes improve both the system and educational content.</p>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+<!-- METRICS -->
+<section id="metrics" class="py-20 lg:py-24 bg-[var(--bg-2)] border-y border-[var(--border)]">
+  <div class="max-w-6xl mx-auto px-5 lg:px-8">
+    <div class="max-w-3xl mb-12 reveal">
+      <div class="eyebrow mb-4">Success Metrics</div>
+      <h2 class="font-display text-3xl lg:text-5xl font-light tracking-tight leading-[1.08] mb-5">
+        How We Measure<br>
+        <em class="text-[var(--accent)] italic font-light">Progress</em>
+      </h2>
+      <p class="text-base text-[var(--fg-2)] leading-relaxed">
+        As a startup-stage project, we track both operational impact and educational outcomes — because both matter.
+      </p>
+    </div>
+    
+    <div class="grid lg:grid-cols-2 gap-6">
+      
+      <!-- Operational -->
+      <div class="reveal">
+        <div class="font-mono text-[10px] text-[var(--accent)] tracking-widest mb-4 flex items-center gap-3">
+          <i class="fa-solid fa-chart-line"></i> OPERATIONAL METRICS
+        </div>
+        <div class="grid grid-cols-2 gap-3">
+          <div class="card" style="padding: 22px;">
+            <div class="metric-num mb-1"><span data-counter="98.2">0</span>%</div>
+            <div class="text-xs text-[var(--muted)] mb-2">Detection rate</div>
+            <div class="text-[10px] text-[var(--fg-2)] font-mono">Target: 99% by Q3</div>
+          </div>
+          <div class="card" style="padding: 22px;">
+            <div class="metric-num mb-1"><span data-counter="1.8">0</span>%</div>
+            <div class="text-xs text-[var(--muted)] mb-2">False-positive rate</div>
+            <div class="text-[10px] text-[var(--fg-2)] font-mono">Target: &lt; 1.5%</div>
+          </div>
+          <div class="card" style="padding: 22px;">
+            <div class="metric-num mb-1"><span data-counter="4">0</span>m</div>
+            <div class="text-xs text-[var(--muted)] mb-2">Avg. review time</div>
+            <div class="text-[10px] text-[var(--fg-2)] font-mono">Target: &lt; 3 min</div>
+          </div>
+          <div class="card" style="padding: 22px;">
+            <div class="metric-num mb-1"><span data-counter="12">0</span>%</div>
+            <div class="text-xs text-[var(--muted)] mb-2">Escalation rate</div>
+            <div class="text-[10px] text-[var(--fg-2)] font-mono">Target: 10–15%</div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Educational -->
+      <div class="reveal">
+        <div class="font-mono text-[10px] text-[var(--accent)] tracking-widest mb-4 flex items-center gap-3">
+          <i class="fa-solid fa-graduation-cap"></i> EDUCATION METRICS
+        </div>
+        <div class="grid grid-cols-2 gap-3">
+          <div class="card" style="padding: 22px;">
+            <div class="metric-num mb-1"><span data-counter="74">0</span>%</div>
+            <div class="text-xs text-[var(--muted)] mb-2">Video completion</div>
+            <div class="text-[10px] text-[var(--fg-2)] font-mono">Target: 80%</div>
+          </div>
+          <div class="card" style="padding: 22px;">
+            <div class="metric-num mb-1"><span data-counter="320">0</span>+</div>
+            <div class="text-xs text-[var(--muted)] mb-2">Guide downloads</div>
+            <div class="text-[10px] text-[var(--fg-2)] font-mono">Since launch</div>
+          </div>
+          <div class="card" style="padding: 22px;">
+            <div class="metric-num mb-1"><span data-counter="3">0</span>d</div>
+            <div class="text-xs text-[var(--muted)] mb-2">Time to onboard</div>
+            <div class="text-[10px] text-[var(--fg-2)] font-mono">Target: &lt; 2 days</div>
+          </div>
+          <div class="card" style="padding: 22px;">
+            <div class="metric-num mb-1"><span data-counter="68">0</span>%</div>
+            <div class="text-xs text-[var(--muted)] mb-2">Training completion</div>
+            <div class="text-[10px] text-[var(--fg-2)] font-mono">Target: 85%</div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    
+    <div class="mt-10 reveal">
+      <div class="card" style="padding: 26px 30px;">
+        <div class="flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-6">
+          <div class="flex-1">
+            <div class="font-mono text-[10px] text-[var(--accent)] tracking-widest mb-2">LOSS PREVENTION IMPACT</div>
+            <div class="text-[var(--fg)] text-sm">Estimated value of fraud prevented across pilot customers during the beta phase.</div>
+          </div>
+          <div class="font-display text-4xl lg:text-5xl font-light text-[var(--accent)]">$<span data-counter="1.4">0</span>M</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ROADMAP -->
+<section id="roadmap" class="py-20 lg:py-24">
+  <div class="max-w-6xl mx-auto px-5 lg:px-8">
+    <div class="max-w-3xl mb-12 reveal">
+      <div class="eyebrow mb-4">Startup Roadmap</div>
+      <h2 class="font-display text-3xl lg:text-5xl font-light tracking-tight leading-[1.08] mb-5">
+        Where We Are, and<br>
+        <em class="text-[var(--accent)] italic font-light">Where We're Going</em>
+      </h2>
+      <p class="text-base text-[var(--fg-2)] leading-relaxed">
+        Building in the open. Honest about where the product stands today and where it heads next.
+      </p>
+    </div>
+    
+    <div class="grid md:grid-cols-3 gap-4">
+      
+      <div class="phase-card reveal">
+        <div class="phase-tag">PHASE 01 · CURRENT</div>
+        <h3 class="font-display text-2xl font-light mb-4">MVP</h3>
+        <div class="divider mb-4"></div>
+        <ul class="space-y-3 text-sm text-[var(--fg-2)]">
+          <li class="flex items-start gap-2"><i class="fa-solid fa-check text-[var(--accent)] mt-1 text-xs"></i><span>Core fraud detection engine</span></li>
+          <li class="flex items-start gap-2"><i class="fa-solid fa-check text-[var(--accent)] mt-1 text-xs"></i><span>Basic alerting and dashboard</span></li>
+          <li class="flex items-start gap-2"><i class="fa-solid fa-check text-[var(--accent)] mt-1 text-xs"></i><span>First set of tutorial videos</span></li>
+          <li class="flex items-start gap-2"><i class="fa-solid fa-check text-[var(--accent)] mt-1 text-xs"></i><span>Foundational written guides</span></li>
+        </ul>
+      </div>
+      
+      <div class="phase-card reveal" style="border-color: var(--border-strong); background: linear-gradient(180deg, rgba(212,255,58,0.04) 0%, var(--bg-2) 100%);">
+        <div class="phase-tag" style="background: var(--accent); color: #0a0c0a; border-color: var(--accent);">PHASE 02 · NEXT</div>
+        <h3 class="font-display text-2xl font-light mb-4">Pilot</h3>
+        <div class="divider mb-4"></div>
+        <ul class="space-y-3 text-sm text-[var(--fg-2)]">
+          <li class="flex items-start gap-2"><i class="fa-solid fa-arrow-right text-[var(--accent)] mt-1 text-xs"></i><span>Test platform with early users</span></li>
+          <li class="flex items-start gap-2"><i class="fa-solid fa-arrow-right text-[var(--accent)] mt-1 text-xs"></i><span>Improve alert workflows</span></li>
+          <li class="flex items-start gap-2"><i class="fa-solid fa-arrow-right text-[var(--accent)] mt-1 text-xs"></i><span>Expand educational content</span></li>
+          <li class="flex items-start gap-2"><i class="fa-solid fa-arrow-right text-[var(--accent)] mt-1 text-xs"></i><span>Gather operational feedback</span></li>
+        </ul>
+      </div>
+      
+      <div class="phase-card reveal">
+        <div class="phase-tag">PHASE 03 · LATER</div>
+        <h3 class="font-display text-2xl font-light mb-4">Growth</h3>
+        <div class="divider mb-4"></div>
+        <ul class="space-y-3 text-sm text-[var(--fg-2)]">
+          <li class="flex items-start gap-2"><i class="fa-regular fa-circle text-[var(--muted)] mt-1 text-xs"></i><span>Add advanced analytics</span></li>
+          <li class="flex items-start gap-2"><i class="fa-regular fa-circle text-[var(--muted)] mt-1 text-xs"></i><span>Expand resource library</span></li>
+          <li class="flex items-start gap-2"><i class="fa-regular fa-circle text-[var(--muted)] mt-1 text-xs"></i><span>Introduce role-based learning paths</span></li>
+          <li class="flex items-start gap-2"><i class="fa-regular fa-circle text-[var(--muted)] mt-1 text-xs"></i><span>Scale for broader business use</span></li>
+        </ul>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section id="contact" class="py-24 lg:py-32 relative overflow-hidden border-t border-[var(--border)]">
+  <div class="absolute inset-0 opacity-25" style="background: radial-gradient(700px 400px at 50% 50%, var(--accent), transparent 70%);"></div>
+  <div class="max-w-4xl mx-auto px-5 lg:px-8 text-center relative reveal">
+    <div class="eyebrow justify-center mb-6" style="display:inline-flex;">Ready when you are</div>
+    <h2 class="font-display text-4xl lg:text-6xl font-light tracking-tight leading-[1.05] mb-7">
+      Build Stronger Fraud Prevention<br>
+      Through <em class="text-[var(--accent)] italic font-light">Technology and Education</em>
+    </h2>
+    <p class="text-base lg:text-lg text-[var(--fg-2)] mb-9 max-w-2xl mx-auto">
+      Whether you want to improve fraud detection, train your team more effectively, or build stronger operational processes, our platform is designed to help.
+    </p>
+    <div class="flex flex-wrap justify-center gap-3 mb-9">
+      <a href="#" class="btn-primary" onclick="event.preventDefault(); showToast('Demo request received — I\\'ll be in touch within 24 hours.');">
+        Request a Demo
+        <i class="fa-solid fa-arrow-right text-[10px]"></i>
+      </a>
+      <a href="#education" class="btn-secondary">
+        <i class="fa-solid fa-graduation-cap text-xs"></i>
+        Explore the Learning Hub
+      </a>
+    </div>
+    
+    <form class="max-w-md mx-auto flex flex-col sm:flex-row gap-3" onsubmit="event.preventDefault(); showToast('Thanks — I\\'ll reach out personally.'); this.reset();">
+      <input type="email" required placeholder="you@company.com" class="flex-1 bg-[var(--surface)] border border-[var(--border-strong)] rounded px-4 py-3 text-sm text-[var(--fg)] placeholder:text-[var(--muted)] focus:outline-none focus:border-[var(--accent)] transition">
+      <button type="submit" class="btn-primary justify-center">
+        Get in touch
+        <i class="fa-solid fa-arrow-right text-[10px]"></i>
+      </button>
+    </form>
+    <p class="text-xs text-[var(--muted)] mt-4">A real person reads every email. No sales sequences, no automated nurture.</p>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="border-t border-[var(--border)] py-12 bg-[var(--bg-2)]">
+  <div class="max-w-6xl mx-auto px-5 lg:px-8">
+    <div class="grid md:grid-cols-4 gap-8 mb-10">
+      <div class="md:col-span-2">
+        <div class="flex items-center gap-3 mb-4">
+          <span class="logo-mark"></span>
+          <span class="font-display text-lg">Aegis</span>
+        </div>
+        <p class="text-sm text-[var(--muted)] max-w-xs leading-relaxed mb-4">
+          AI fraud detection, prevention, and team education. Built solo, in the open, with care.
+        </p>
+        <div class="flex gap-4 text-[var(--muted)]">
+          <a href="#" class="hover:text-[var(--accent)] transition"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#" class="hover:text-[var(--accent)] transition"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#" class="hover:text-[var(--accent)] transition"><i class="fa-brands fa-github"></i></a>
+          <a href="#" class="hover:text-[var(--accent)] transition"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+      <div>
+        <div class="font-mono text-[10px] text-[var(--muted)] tracking-widest mb-4">PLATFORM</div>
+        <div class="flex flex-col gap-2 text-sm">
+          <a href="#solution" class="text-[var(--fg-2)] hover:text-[var(--accent)] transition">Solution</a>
+          <a href="#features" class="text-[var(--fg-2)] hover:text-[var(--accent)] transition">Features</a>
+          <a href="#operations" class="text-[var(--fg-2)] hover:text-[var(--accent)] transition">Operations</a>
+          <a href="#roadmap" class="text-[var(--fg-2)] hover:text-[var(--accent)] transition">Roadmap</a>
+        </div>
+      </div>
+      <div>
+        <div class="font-mono text-[10px] text-[var(--muted)] tracking-widest mb-4">LEARN</div>
+        <div class="flex flex-col gap-2 text-sm">
+          <a href="#videos" class="text-[var(--fg-2)] hover:text-[var(--accent)] transition">Tutorial Videos</a>
+          <a href="#resources" class="text-[var(--fg-2)] hover:text-[var(--accent)] transition">Written Materials</a>
+          <a href="#paths" class="text-[var(--fg-2)] hover:text-[var(--accent)] transition">Learning Paths</a>
+          <a href="#contact" class="text-[var(--fg-2)] hover:text-[var(--accent)] transition">Contact</a>
+        </div>
+      </div>
+    </div>
+    <div class="border-t border-[var(--border)] pt-6 flex flex-col md:flex-row justify-between items-center gap-4">
+      <div class="font-mono text-[10px] text-[var(--muted)]">© 2025 AEGIS · Toygar Par · v0.3.1</div>
+      <div class="font-mono text-[10px] text-[var(--muted)]">Built by one person, with care and a lot of coffee.</div>
+    </div>
+  </div>
+</footer>
+
+<!-- Toast -->
+<div id="toast" class="toast">
+  <i class="fa-solid fa-circle-check"></i>
+  <span id="toastMsg">Action received</span>
+</div>
+
+<script>
+// === Reveal on scroll ===
+const revealEls = document.querySelectorAll('.reveal');
+const io = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      e.target.classList.add('in');
+      io.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.12 });
+revealEls.forEach(el => io.observe(el));
+
+// === Counter animation ===
+const counters = document.querySelectorAll('[data-counter]');
+const counterIO = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      const el = e.target;
+      const target = parseFloat(el.dataset.counter);
+      const isFloat = target % 1 !== 0;
+      const dur = 1500;
+      const start = performance.now();
+      const tick = (now) => {
+        const t = Math.min(1, (now - start) / dur);
+        const eased = 1 - Math.pow(1 - t, 3);
+        const cur = target * eased;
+        el.textContent = isFloat ? cur.toFixed(1) : Math.round(cur);
+        if (t < 1) requestAnimationFrame(tick);
+      };
+      requestAnimationFrame(tick);
+      counterIO.unobserve(el);
+    }
+  });
+}, { threshold: 0.4 });
+counters.forEach(c => counterIO.observe(c));
+
+// === Mobile menu ===
+const menuBtn = document.getElementById('menuBtn');
+const mobileMenu = document.getElementById('mobileMenu');
+menuBtn.addEventListener('click', () => {
+  mobileMenu.classList.toggle('open');
+  const icon = menuBtn.querySelector('i');
+  icon.className = mobileMenu.classList.contains('open') ? 'fa-solid fa-xmark' : 'fa-solid fa-bars';
+});
+mobileMenu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+  mobileMenu.classList.remove('open');
+  menuBtn.querySelector('i').className = 'fa-solid fa-bars';
+}));
+
+// === Toast ===
+const toast = document.getElementById('toast');
+const toastMsg = document.getElementById('toastMsg');
+let toastTimer;
+function showToast(msg) {
+  toastMsg.textContent = msg;
+  toast.classList.add('show');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => toast.classList.remove('show'), 3000);
+}
+
+// === Nav scroll spy ===
+const sections = document.querySelectorAll('section[id]');
+const navLinks = document.querySelectorAll('.nav-link');
+const spyIO = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      const id = e.target.id;
+      navLinks.forEach(l => {
+        l.classList.toggle('active', l.getAttribute('href') === '#' + id);
+      });
+    }
+  });
+}, { rootMargin: '-40% 0px -55% 0px' });
+sections.forEach(s => spyIO.observe(s));
+</script>
+
+</body>
+</html>
